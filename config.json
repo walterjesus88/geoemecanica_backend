@@ -1,0 +1,15 @@
+{
+    "express"  : {
+      "host": "api.geomecanica.local",
+      "port": "3000",
+      "url": "https://api.geomecanica.local:3000",
+      "serverName": "api.geomecanica.local",
+      "keyJWT": "no-sabe"
+    },
+    "postgres": {
+        "db"       : "geomecanica",
+        "user"     : "postgres",
+        "password" : "postgres",
+        "host"     : "localhost"
+    }
+}

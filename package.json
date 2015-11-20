@@ -1,0 +1,25 @@
+{
+  "name": "geomecanica-server",
+  "version": "0.0.1",
+  "description": "API REST de la oficina de geomecanica",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/theosysconsulting/geomecanica-backend.git"
+  },
+  "author": "Theosys Consulting",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.12.1",
+    "body-parser": "~1.12.0",
+    "cookie-parser": "~1.3.4",
+    "debug": "~2.1.1",
+    "morgan": "~1.5.1",
+    "serve-favicon": "~2.2.0",
+    "jsonwebtoken": "~5.4.0",
+    "sequelize": "~3.14.1"
+  }
+}
