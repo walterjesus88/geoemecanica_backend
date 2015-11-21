@@ -8,8 +8,18 @@ var User = client.define('user', {
     type: Sequelize.STRING(30),
     primaryKey: true
   },
-  dni: Sequelize.STRING(8),
-  nombre : Sequelize.STRING(50),
+  dni: {
+    type: Sequelize.STRING(8),
+    validate: {
+        isNumeric: true
+    }
+  },
+  nombre : {
+    type: Sequelize.STRING(50),
+    validate: {
+      isAlpha: true
+    }
+  },
   password: {
     type: Sequelize.STRING,
     set: function(val) {

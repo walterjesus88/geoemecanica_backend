@@ -11,7 +11,12 @@ var Labor = client.define('labor', {
   nivel: Sequelize.DECIMAL(10, 2),
   ancho_pro: Sequelize.DECIMAL(10, 2),
   alto_pro: Sequelize.DECIMAL(10, 2),
-  tipo: Sequelize.STRING(1),
+  tipo: {
+    type: Sequelize.STRING(1),
+    validate: {
+      isIn: [['E', 'A']]
+    }
+  },
   mfr: Sequelize.STRING(20)
 });
 

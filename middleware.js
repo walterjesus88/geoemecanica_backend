@@ -8,7 +8,7 @@ exports.ensureAuthorized = function(req, res, next) {
     var bearer = bearerHeader.split(" ");
     bearerToken = bearer[1];
     req.token = bearerToken;
-    User.findOne({token: req.token})
+    User.findOne({where: {token: req.token} })
     .then(function(user) {
       if(user == null) return res.sendStatus(403);
       req.user = user;

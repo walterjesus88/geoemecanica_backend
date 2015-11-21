@@ -23,9 +23,11 @@ app.use(cookieParser());
 
 //definicion de las rutas accesibles
 var authRoutes = require('./routes/auth');
+var usersRoutes = require('./routes/users');
 var laboresRoutes = require('./routes/labores');
 
 app.use('/auth', authRoutes);
+app.use('/users', usersRoutes);
 app.use('/labores', laboresRoutes);
 
 //archivos de cifrado ssl

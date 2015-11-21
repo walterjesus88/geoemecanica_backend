@@ -2,11 +2,17 @@ var User = require('../models/User');
 var jwt = require('jsonwebtoken');
 
 exports.index = function(req, res, next) {
-
+  User.findAll({attributes: ['uid', 'dni', 'nombre', 'estado']})
+  .then(function(users) {
+    res.status(200).jsonp(users);
+  });
 }
 
 exports.show = function(req, res, next) {
-
+  User.findById(req.params.id)
+  .then(function(user) {
+    res.status(200).jsonp(user);
+  });
 }
 
 exports.store = function(req, res, next) {
@@ -32,7 +38,7 @@ exports.store = function(req, res, next) {
 }
 
 exports.update = function(req, res, next) {
-  User.findOne({ where: {uid: req.body.uid} })
+  User.findById(req.params.id)
   .then(function(user) {
     if(!user) return res.send(500, 'usuario no existe');
     user.update(req.data).then(function() {
@@ -42,7 +48,7 @@ exports.update = function(req, res, next) {
 }
 
 exports.destroy = function(req, res, next) {
-  User.findOne({ where: {uid: req.body.uid} })
+  User.findById(req.params.id)
   .then(function(user) {
     if(!user) return res.send(500, 'usuario no existe');
     user.destroy().then(function() {
