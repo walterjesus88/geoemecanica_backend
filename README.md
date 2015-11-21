@@ -19,6 +19,7 @@ Esta versión esta contruida en [Node.js]() y [Express]().
   ```
   npm install
   ```
+
 5. Configure el archivo config.json con los datos de su servidor local.
 
 6. Ejecute el servidor:
