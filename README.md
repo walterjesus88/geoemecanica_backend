@@ -1,4 +1,3 @@
-
 # API REST para la oficina de Geomecánica de Chicrin
 
 El servidor para la oficina de Geomecánica de la empresa minera Chicrin se encargará
@@ -21,10 +20,12 @@ Esta versión esta contruida en [Node.js]() y [Express]().
   npm install
   ```
 
-5. Ejecute el servidor:
+5. Configure el archivo config.json con los datos de su servidor local.
+
+6. Ejecute el servidor:
 
   ```
   npm start
   ```
 
-6. Abra el navegador e ingrese a: [https://localhost:3000](https://localhost:3000)
+7. Abra el navegador e ingrese a: [https://localhost:3000](https://localhost:3000)
