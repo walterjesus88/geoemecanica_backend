@@ -18,3 +18,11 @@ exports.ensureAuthorized = function(req, res, next) {
     res.sendStatus(401);
   }
 }
+
+//funcion para agregar datos al header
+exports.accessControlAllowOrigin = function(req, res, next) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type, Authorization');
+  next();
+}

@@ -32,7 +32,7 @@ exports.store = function(req, res, next) {
   })
   .catch(function(err) {
     res.send(500, err);
-  })
+  });
 }
 
 exports.update = function(req, res, next) {
@@ -45,5 +45,5 @@ exports.destroy = function(req, res, next) {
     labor.destroy().then(function() {
       res.send('eliminado');
     });
-  })
+  });
 }
