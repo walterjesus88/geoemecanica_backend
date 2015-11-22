@@ -22,8 +22,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 //permitiendo el acceso desde cualquier origen
-var accessControlAllowOrigin = require('./middleware').accessControlAllowOrigin;
-app.use(accessControlAllowOrigin);
+var allowCrossDomain = require('./middleware').allowCrossDomain;
+app.use(allowCrossDomain);
 
 //definicion de las rutas accesibles
 var authRoutes = require('./routes/auth');

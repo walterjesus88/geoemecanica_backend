@@ -3,7 +3,7 @@ var routes = express.Router();
 var ensureAuthorized = require('../middleware').ensureAuthorized;
 var laboresCtrl  = require('../controllers/laboresController');
 
- //restriccion de acceso por medio del middleware
+//restriccion de acceso por medio del middleware
 routes.use(ensureAuthorized);
 routes.get('/', laboresCtrl.index);
 routes.post('/', laboresCtrl.store);

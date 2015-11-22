@@ -29,18 +29,18 @@ exports.store = function(req, res, next) {
     user.save().then(function() {
       res.status(200).jsonp({type: true, data: user, token: user.token});
     }).catch(function(err) {
-      res.send(500, err);
+      res.send(400, err);
     });
   })
   .catch(function(err) {
-      res.send(500, err);
+      res.send(400, err);
   });
 }
 
 exports.update = function(req, res, next) {
   User.findById(req.params.id)
   .then(function(user) {
-    if(!user) return res.send(500, 'usuario no existe');
+    if(!user) return res.send(400, 'usuario no existe');
     user.update(req.data).then(function() {
       res.send('actualizado');
     });
@@ -50,7 +50,7 @@ exports.update = function(req, res, next) {
 exports.destroy = function(req, res, next) {
   User.findById(req.params.id)
   .then(function(user) {
-    if(!user) return res.send(500, 'usuario no existe');
+    if(!user) return res.send(400, 'usuario no existe');
     user.destroy().then(function() {
       res.send('eliminado');
     });
@@ -60,11 +60,11 @@ exports.destroy = function(req, res, next) {
 exports.authenticate = function(req, res, next) {
   User.findById(req.body.uid)
   .then(function(user) {
-    if(!user) return res.send(500, 'usuario no existe');
-    if(!user.authenticate(req.body.password)) return res.send(500, 'contraseña incorrecta');
+    if(!user) return res.send(400, 'usuario no existe');
+    if(!user.authenticate(req.body.password)) return res.send(400, 'contraseña incorrecta');
     res.status(200).jsonp({type: true, data: user, token: user.token});
   })
   .catch(function(err) {
-    res.send(500, err);
+    res.send(400, err);
   });
 }
