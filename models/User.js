@@ -2,6 +2,7 @@ var dbConnection = require('../dbConnection');
 var client = dbConnection.getInstance().getClient();
 var Sequelize = require('sequelize');
 var crypto = require('crypto');
+var Rol = require('./Rol');
 
 var User = client.define('user', {
   uid: {
@@ -15,10 +16,7 @@ var User = client.define('user', {
     }
   },
   nombre : {
-    type: Sequelize.STRING(50),
-    validate: {
-      isAlpha: true
-    }
+    type: Sequelize.STRING(50)
   },
   password: {
     type: Sequelize.STRING,
@@ -53,5 +51,7 @@ var User = client.define('user', {
     }
   }
 });
+
+User.belongsTo(Rol);
 
 module.exports = User;
