@@ -21,8 +21,8 @@ exports.store = function(req, res, next) {
     dni: req.body.dni,
     nombre: req.body.nombre,
     password: req.body.password,
-    estado: req.body.estado,
-    uid_registro: req.body.uid_registro
+    estado: 'Activo',
+    uid_registro: req.user.uid
   })
   .then(function(user){
     user.token = jwt.sign(user, process.env.JWT_SECRET);
