@@ -3,16 +3,11 @@ var Rol = require('../models/Rol');
 var jwt = require('jsonwebtoken');
 
 exports.index = function(req, res, next) {
-  if (req.user.rolRolId === '001') {
     User.findAll({attributes: ['uid', 'dni', 'nombre', 'estado', 'rolRolId'],
     include: [{model: Rol, attributes: ['nombre_rol']}]})
     .then(function(users) {
       res.status(200).jsonp(users);
     });
-  } else {
-    res.sendStatus(401);
-  }
-
 }
 
 exports.show = function(req, res, next) {
@@ -23,7 +18,6 @@ exports.show = function(req, res, next) {
 }
 
 exports.store = function(req, res, next) {
-  if (req.user.rolRolId === '001') {
     User.create({
       uid: req.body.uid,
       dni: req.body.dni,
@@ -44,13 +38,9 @@ exports.store = function(req, res, next) {
     .catch(function(err) {
         res.send(400, err);
     });
-  } else {
-    res.sendStatus(401);
-  }
 }
 
 exports.update = function(req, res, next) {
-  if (req.user.rolRolId === '001') {
     User.findById(req.params.id)
     .then(function(user) {
       if(!user) return res.send(400, 'usuario no existe');
@@ -58,14 +48,9 @@ exports.update = function(req, res, next) {
         res.send('actualizado');
       });
     });
-  } else {
-    res.sendStatus(401);
-  }
-
 }
 
 exports.destroy = function(req, res, next) {
-  if (req.user.rolRolId === '001') {
     User.findById(req.params.id)
     .then(function(user) {
       if(!user) return res.send(400, 'usuario no existe');
@@ -73,10 +58,6 @@ exports.destroy = function(req, res, next) {
         res.send('eliminado');
       });
     });
-  } else {
-    res.sendStatus(401);
-  }
-
 }
 
 exports.authenticate = function(req, res, next) {
