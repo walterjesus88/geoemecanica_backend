@@ -3,7 +3,7 @@ var Rol = require('../models/Rol');
 var jwt = require('jsonwebtoken');
 
 exports.index = function(req, res, next) {
-    User.findAll({attributes: ['uid', 'dni', 'nombre', 'estado', 'rolRolId'],
+    User.findAll({attributes: ['uid', 'dni', 'nombre', 'estado', 'rolRolId', 'correo'],
     include: [{model: Rol, attributes: ['nombre_rol']}]})
     .then(function(users) {
       res.status(200).jsonp(users);
@@ -25,7 +25,8 @@ exports.store = function(req, res, next) {
       password: req.body.password,
       rolRolId: req.body.rol_id,
       estado: 'Activo',
-      uid_registro: req.user.uid
+      uid_registro: req.user.uid,
+      correo: req.body.correo
     })
     .then(function(user){
       user.token = jwt.sign(user, process.env.JWT_SECRET);
@@ -44,7 +45,12 @@ exports.update = function(req, res, next) {
     User.findById(req.params.id)
     .then(function(user) {
       if(!user) return res.send(400, 'usuario no existe');
-      user.update(req.data).then(function() {
+      user.nombre = req.body.nombre;
+      user.dni = req.body.dni;
+      user.estado = req.body.estado;
+      user.rolRolId = req.body.rolRolId;
+      user.correo = req.body.correo;
+      user.save().then(function() {
         res.send('actualizado');
       });
     });

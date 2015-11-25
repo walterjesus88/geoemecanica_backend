@@ -25,9 +25,20 @@ var User = client.define('user', {
       this.setDataValue('password', this.encryptPassword(val));
     }
   },
+  correo: {
+    type: Sequelize.STRING(40),
+    validate: {
+      isEmail: true
+    }
+  },
   salt: Sequelize.STRING,
   token: Sequelize.STRING,
-  estado: Sequelize.STRING(20),
+  estado: {
+    type: Sequelize.STRING(20),
+    validate: {
+      isIn: [['Activo', 'Inactivo']]
+    }
+  },
   uid_registro: Sequelize.STRING(30)
 }, {
   classMethods: {
