@@ -27,7 +27,7 @@ exports.store = function(req, res, next) {
     tipo: req.body.tipo,
     mfr: req.body.mfr
   })
-  .then(function(labor){
+  .then(function(labor) {
     res.status(201).jsonp(labor);
   })
   .catch(function(err) {

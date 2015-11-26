@@ -1,6 +1,7 @@
 var dbConnection = require('../dbConnection');
 var client = dbConnection.getInstance().getClient();
 var Sequelize = require('sequelize');
+var Tipo = require('./Tipo');
 
 var Labor = client.define('labor', {
   codigo: {
@@ -11,13 +12,9 @@ var Labor = client.define('labor', {
   nivel: Sequelize.DECIMAL(10, 2),
   ancho_pro: Sequelize.DECIMAL(10, 2),
   alto_pro: Sequelize.DECIMAL(10, 2),
-  tipo: {
-    type: Sequelize.STRING(1),
-    validate: {
-      isIn: [['E', 'A']]
-    }
-  },
   mfr: Sequelize.STRING(20)
 });
+
+Labor.belongsTo(Tipo);
 
 module.exports = Labor;
