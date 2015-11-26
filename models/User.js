@@ -2,6 +2,7 @@ var dbConnection = require('../dbConnection');
 var client = dbConnection.getInstance().getClient();
 var Sequelize = require('sequelize');
 var crypto = require('crypto');
+var Rol = require('./Rol');
 
 var User = client.define('user', {
   uid: {
@@ -15,10 +16,7 @@ var User = client.define('user', {
     }
   },
   nombre : {
-    type: Sequelize.STRING(50),
-    validate: {
-      isAlpha: true
-    }
+    type: Sequelize.STRING(50)
   },
   password: {
     type: Sequelize.STRING,
@@ -27,9 +25,20 @@ var User = client.define('user', {
       this.setDataValue('password', this.encryptPassword(val));
     }
   },
+  correo: {
+    type: Sequelize.STRING(40),
+    validate: {
+      isEmail: true
+    }
+  },
   salt: Sequelize.STRING,
   token: Sequelize.STRING,
-  estado: Sequelize.STRING(20),
+  estado: {
+    type: Sequelize.STRING(20),
+    validate: {
+      isIn: [['Activo', 'Inactivo']]
+    }
+  },
   uid_registro: Sequelize.STRING(30)
 }, {
   classMethods: {
@@ -53,5 +62,7 @@ var User = client.define('user', {
     }
   }
 });
+
+User.belongsTo(Rol);
 
 module.exports = User;
