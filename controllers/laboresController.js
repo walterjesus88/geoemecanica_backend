@@ -1,7 +1,8 @@
 var Labor = require('../models/Labor');
+var Tipo = require('../models/Tipo');
 
 exports.index = function(req, res, next) {
-  Labor.findAll()
+  Labor.findAll({include: [{model: Tipo, attributes: ['nombre']}]})
   .then(function(labores) {
     res.status(200).jsonp(labores);
   });

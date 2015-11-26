@@ -22,10 +22,6 @@ var dbConnection = (function() {
       }
     );
 
-    client.sync().then(function() {
-      console.log('tablas creadas');
-    });
-
     this.getClient = function() {
       return client;
     }
