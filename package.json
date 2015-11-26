@@ -4,7 +4,8 @@
   "description": "API REST de la oficina de geomecanica",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "node syncDB.js"
   },
   "repository": {
     "type": "git",
