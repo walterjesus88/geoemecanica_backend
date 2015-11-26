@@ -30,11 +30,13 @@ var authRoutes = require('./routes/auth');
 var usersRoutes = require('./routes/users');
 var laboresRoutes = require('./routes/labores');
 var rolesRoutes = require('./routes/roles');
+var inspeccionesRoutes = require('./routes/inspecciones');
 
 app.use('/auth', authRoutes);
 app.use('/users', usersRoutes);
 app.use('/labores', laboresRoutes);
 app.use('/roles', rolesRoutes);
+app.use('/inspecciones', inspeccionesRoutes);
 
 //archivos de cifrado ssl
 var options = {
