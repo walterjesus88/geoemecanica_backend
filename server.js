@@ -29,10 +29,12 @@ app.use(allowCrossDomain);
 var authRoutes = require('./routes/auth');
 var usersRoutes = require('./routes/users');
 var laboresRoutes = require('./routes/labores');
+var questionsRoutes = require('./routes/questions');
 
 app.use('/auth', authRoutes);
 app.use('/users', usersRoutes);
 app.use('/labores', laboresRoutes);
+app.use('/questions', questionsRoutes);
 
 //archivos de cifrado ssl
 var options = {
