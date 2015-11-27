@@ -15,8 +15,8 @@ exports.show = function(req, res, next) {
 }
 
 exports.store = function(req, res, next) {
-  Inspeccion.create({
-    //inspeccion_id: req.body.inspeccion_id,
+  Inspeccion.create({    
+    inspeccion_id: req.body.inspeccion_id,
     fecha: req.body.fecha,
     periodo: req.body.periodo,
     tipo: req.body.tipo,
