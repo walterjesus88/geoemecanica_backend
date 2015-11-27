@@ -7,9 +7,9 @@
       "keyJWT": "no-sabe"
     },
     "postgres": {
-        "db"       : "geomecanica",
+        "db"       : "geomecanica1",
         "user"     : "postgres",
-        "password" : "postgres",
+        "password" : "123456",
         "host"     : "localhost"
     }
 }

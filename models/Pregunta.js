@@ -2,14 +2,14 @@ var dbConnection = require('../dbConnection');
 var client = dbConnection.getInstance().getClient();
 var Sequelize = require('sequelize');
 
-var Question = client.define('question', {
-	codigo: {
+var Pregunta = client.define('pregunta', {
+	preguntaid: {
 	    type: Sequelize.INTEGER,
 	    primaryKey: true
 	},
-	description: Sequelize.TEXT,
-	state: Sequelize.STRING(1),
-	position: Sequelize.INTEGER
+	descripcion: Sequelize.TEXT,
+	estado: Sequelize.STRING(1),
+	posicion: Sequelize.INTEGER
  });
 
-module.exports = Question;
+module.exports = Pregunta;

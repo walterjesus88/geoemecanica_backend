@@ -29,8 +29,7 @@ app.use(allowCrossDomain);
 var authRoutes = require('./routes/auth');
 var usersRoutes = require('./routes/users');
 var laboresRoutes = require('./routes/labores');
-
-var questionsRoutes = require('./routes/questions');
+var preguntasRoutes = require('./routes/preguntas');
 
 var rolesRoutes = require('./routes/roles');
 var inspeccionesRoutes = require('./routes/inspecciones');
@@ -39,9 +38,7 @@ var inspeccionesRoutes = require('./routes/inspecciones');
 app.use('/auth', authRoutes);
 app.use('/users', usersRoutes);
 app.use('/labores', laboresRoutes);
-
-app.use('/questions', questionsRoutes);
-
+app.use('/preguntas', preguntasRoutes);
 app.use('/roles', rolesRoutes);
 app.use('/inspecciones', inspeccionesRoutes);
 
