@@ -1,5 +1,5 @@
 /*conexion a la base de datos con los parametros del archivo config.json y
-utilizando el modulo sequeliza*/ 
+utilizando el modulo sequeliza*/
 
 var config = require('./config.json');
 var host = config.postgres.host;

@@ -45,11 +45,24 @@ exports.update = function(req, res, next) {
     User.findById(req.params.id)
     .then(function(user) {
       if(!user) return res.send(400, 'usuario no existe');
-      user.nombre = req.body.nombre;
-      user.dni = req.body.dni;
-      user.estado = req.body.estado;
-      user.rolRolId = req.body.rolRolId;
-      user.correo = req.body.correo;
+      if (req.body.nombre) {
+        user.nombre = req.body.nombre;
+      }
+      if (req.body.dni) {
+        user.dni = req.body.dni;
+      }
+      if (req.body.estado) {
+        user.estado = req.body.estado;
+      }
+      if (req.body.rolRolId) {
+        user.rolRolId = req.body.rolRolId;
+      }
+      if (req.body.correo) {
+        user.correo = req.body.correo;
+      }
+      if (req.body.password) {
+        user.password = req.body.password;
+      }
       user.save().then(function() {
         res.send('actualizado');
       });
@@ -70,6 +83,7 @@ exports.authenticate = function(req, res, next) {
   User.findById(req.body.uid)
   .then(function(user) {
     if(!user) return res.send(400, 'usuario no existe');
+    if(user.estado === 'Inactivo') return res.send(400, 'usuario inactivo');
     if(!user.authenticate(req.body.password)) return res.send(400, 'contraseña incorrecta');
     res.status(200).jsonp({type: true, data: user, token: user.token});
   })
