@@ -1,4 +1,6 @@
 var Inspeccion = require('../models/Inspeccion');
+var Roca = require('../models/Roca');
+var Sostenimiento = require('../models/Sostenimiento');
 
 exports.index = function(req, res, next) {
   Inspeccion.findAll()
@@ -27,9 +29,9 @@ exports.store = function(req, res, next) {
     ancho_real: req.body.ancho_real,
     alto_real: req.body.alto_real,
     nivel_riesgo: req.body.nivel_riesgo,
-    comentario: req.body.comentario  
+    comentario: req.body.comentario
   })
-  
+
   .then(function(inspeccion) {
     res.status(201).jsonp(inspeccion);
   })
