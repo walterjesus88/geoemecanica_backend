@@ -5,5 +5,5 @@ var inspeccionesCtrl = require('../controllers/inspeccionesController');
 
 //routes.use(ensureAuthorized);
 routes.get('/', inspeccionesCtrl.index);
-routes.post('/', inspeccionesCtrl.store);
+routes.post('/grabarinspeccion', inspeccionesCtrl.store);
 module.exports = routes;
