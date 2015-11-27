@@ -11,8 +11,7 @@ var Labor = client.define('labor', {
   nombre: Sequelize.STRING(20),
   nivel: Sequelize.DECIMAL(10, 2),
   ancho_pro: Sequelize.DECIMAL(10, 2),
-  alto_pro: Sequelize.DECIMAL(10, 2),
-  mfr: Sequelize.STRING(20)
+  alto_pro: Sequelize.DECIMAL(10, 2)
 });
 
 Labor.belongsTo(Tipo);
