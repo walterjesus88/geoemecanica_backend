@@ -25,8 +25,7 @@ exports.store = function(req, res, next) {
     nivel: req.body.nivel,
     ancho_pro: req.body.ancho_pro,
     alto_pro: req.body.alto_pro,
-    tipo: req.body.tipo,
-    mfr: req.body.mfr
+    tipoTipoId: req.body.tipoTipoId
   })
   .then(function(labor) {
     res.status(201).jsonp(labor);
@@ -37,6 +36,31 @@ exports.store = function(req, res, next) {
 }
 
 exports.update = function(req, res, next) {
+  Labor.findById(req.params.id)
+  .then(function(labor) {
+    if(!labor) return res.send(400, 'usuario no existe');
+    if (req.body.nombre) {
+      labor.nombre = req.body.nombre;
+    }
+    if (req.body.nivel) {
+      labor.nivel = req.body.nivel;
+    }
+    if (req.body.alto_pro) {
+      labor.alto_pro = req.body.alto_pro;
+    }
+    if (req.body.ancho_pro) {
+      labor.ancho_pro = req.body.ancho_pro;
+    }
+    if (req.body.tipoTipoId) {
+      labor.tipoTipoId = req.body.tipoTipoId;
+    }
+    labor.save().then(function() {
+      res.send('actualizado');
+    });
+  })
+  .catch(function(err) {
+    res.status(500).send(err);
+  })
 
 }
 
