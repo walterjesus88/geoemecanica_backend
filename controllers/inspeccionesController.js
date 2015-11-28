@@ -23,7 +23,6 @@ exports.store = function(req, res, next) {
     periodo: req.body.periodo,
     tipo: req.body.tipo,
     estado: req.body.estado,
-    tipo: req.body.tipo,
     recomendacion: req.body.recomendacion,
     instalacion: req.body.instalacion,
     ancho_real: req.body.ancho_real,
@@ -36,8 +35,10 @@ exports.store = function(req, res, next) {
     res.status(201).jsonp(inspeccion);
   })
   .catch(function(err) {
+    console.log('500');
     res.send(500, err);
   });
+
 }
 
 exports.update = function(req, res, next) {
