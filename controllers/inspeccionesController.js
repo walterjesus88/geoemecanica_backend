@@ -27,16 +27,13 @@ exports.store = function(req, res, next) {
     ancho_real: req.body.ancho_real,
     alto_real: req.body.alto_real,
     nivel_riesgo: req.body.nivel_riesgo,
-    comentario: req.body.comentario,
-    createdAt: req.body.createdAt,
-    updatedAt: req.body.updatedAt
+    comentario: req.body.comentario
   })
 
   .then(function(inspeccion) {
     res.status(201).jsonp(inspeccion);
   })
-  .catch(function(err) {
-    console.log('500');
+  .catch(function(err) {  
     res.send(500, err);
   });
 
