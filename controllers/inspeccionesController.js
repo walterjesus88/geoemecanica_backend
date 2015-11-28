@@ -1,4 +1,6 @@
 var Inspeccion = require('../models/Inspeccion');
+var Roca = require('../models/Roca');
+var Sostenimiento = require('../models/Sostenimiento');
 
 exports.index = function(req, res, next) {
   Inspeccion.findAll()
@@ -15,13 +17,12 @@ exports.show = function(req, res, next) {
 }
 
 exports.store = function(req, res, next) {
-  Inspeccion.create({    
+  Inspeccion.create({
     inspeccion_id: req.body.inspeccion_id,
     fecha: req.body.fecha,
     periodo: req.body.periodo,
     tipo: req.body.tipo,
     estado: req.body.estado,
-    tipo: req.body.tipo,
     recomendacion: req.body.recomendacion,
     instalacion: req.body.instalacion,
     ancho_real: req.body.ancho_real,
