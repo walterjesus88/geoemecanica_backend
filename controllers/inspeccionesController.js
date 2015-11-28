@@ -34,8 +34,7 @@ exports.store = function(req, res, next) {
   .then(function(inspeccion) {
     res.status(201).jsonp(inspeccion);
   })
-  .catch(function(err) {
-    console.log('500');
+  .catch(function(err) {  
     res.send(500, err);
   });
 
