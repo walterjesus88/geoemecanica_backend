@@ -29,12 +29,7 @@ exports.store = function(req, res, next) {
       correo: req.body.correo
     })
     .then(function(user){
-      user.token = jwt.sign(user, process.env.JWT_SECRET);
-      user.save().then(function() {
-        res.status(200).jsonp({type: true, data: user, token: user.token});
-      }).catch(function(err) {
-        res.send(400, err);
-      });
+      res.status(200).jsonp({type: true, data: user, token: user.token});
     })
     .catch(function(err) {
         res.send(400, err);

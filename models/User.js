@@ -24,6 +24,7 @@ var User = client.define('user', {
     set: function(val) {
       this.setDataValue('salt', User.makeSalt());
       this.setDataValue('password', this.encryptPassword(val));
+      this.setDataValue('token', this.generateToken());
     }
   },
   correo: {
@@ -60,71 +61,13 @@ var User = client.define('user', {
     },
     authenticate: function(pwd) {
       return (this.encryptPassword(pwd) === this.password);
+    },
+    generateToken: function() {
+      return jwt.sign(this, process.env.JWT_SECRET);
     }
   }
 });
 
 User.belongsTo(Rol);
-
-/*script de creacion de tablas, creacion de los roles mas importantes y
-creacion del superusuario*/
-client.sync().then(function() {
-  console.log('Tablas Creadas');
-
-  Rol.create({
-    rol_id: '001',
-    nombre_rol: 'Administrador'
-  })
-  .then(function() {
-    console.log('Rol Administrador creado');
-    User.create({
-      uid: 'administrador',
-      dni: '0000000',
-      nombre: 'Root',
-      password: 'root',
-      rolRolId: '001',
-      estado: 'Activo',
-      uid_registro: 'administrador',
-      correo: 'administrador@atacocha.com.pe'
-    })
-    .then(function(user){
-      user.token = jwt.sign(user, process.env.JWT_SECRET);
-      user.save().then(function() {
-        console.log('Super Usuario creado, cambie el password en el primer accesso');
-        console.log('Usuario: administrador');
-        console.log('Password: root');
-      }).catch(function(err) {
-        console.log(err);
-      });
-    })
-    .catch(function(err) {
-        console.log(err);
-    });
-  })
-  .catch(function(err) {
-    console.log(err);
-  });
-
-  Rol.create({
-    rol_id: '101',
-    nombre_rol: 'Inspector'
-  })
-  .then(function() {
-    console.log('Rol Inspector creado');
-    Rol.create({
-      rol_id: '102',
-      nombre_rol: 'Responsable'
-    })
-    .then(function() {
-      console.log('Rol responsable creado');
-    })
-    .catch(function(err) {
-      console.log(err);
-    });
-  })
-  .catch(function(err) {
-    console.log(err);
-  });
-});
 
 module.exports = User;

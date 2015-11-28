@@ -18,7 +18,7 @@ var Sostenimiento = client.define('sostenimiento', {
   color: {
     type: Sequelize.STRING(10),
     validate: {
-      isIn: [['AMARILLO', 'VERDE', 'CELESTE', 'AZUL', 'MORADO', 'ROJO']]
+      isIn: [['YELLOW', 'GREEN', 'CYAN', 'BLUE', 'PURPLE', 'RED']]
     }
   },
   descripcion: {
