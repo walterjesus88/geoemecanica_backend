@@ -28,7 +28,14 @@ exports.store = function(req, res, next) {
     ancho_real: req.body.ancho_real,
     alto_real: req.body.alto_real,
     nivel_riesgo: req.body.nivel_riesgo,
-    comentario: req.body.comentario
+    comentario: req.body.comentario,
+    empresaEmpresaid: req.body.empresaEmpresaid,
+    laborCodigo: req.body.laborCodigo,
+    ResponsableUid: req.body.ResponsableUid,
+    SeguridadUid: req.body.SeguridadUid,
+    GeomecanicoUid: req.body.GeomecanicoUid,
+    OperacionesUid: req.body.OperacionesUid,
+    RegistroUid: req.body.RegistroUid
   })
 
   .then(function(inspeccion) {
