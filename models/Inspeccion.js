@@ -15,6 +15,7 @@ var Inspeccion = client.define('inspeccion', {
     type: Sequelize.DATE,
     defaultValue: Sequelize.now
   },
+
   periodo: {
     type: Sequelize.STRING(5),
     validate: {
@@ -30,8 +31,7 @@ var Inspeccion = client.define('inspeccion', {
   estado: Sequelize.BOOLEAN,
   recomendacion: Sequelize.BOOLEAN,
   instalacion: Sequelize.BOOLEAN,
-  ancho_prog: Sequelize.DECIMAL(10, 2),
-  alto_prog: Sequelize.DECIMAL(10, 2),
+
   ancho_real: Sequelize.DECIMAL(10, 2),
   alto_real: Sequelize.DECIMAL(10, 2),
   nivel_riesgo: {
