@@ -13,7 +13,7 @@ var Propiedad = client.define('propiedad', {
     type: Sequelize.STRING(2),
     unique: true,
     validate: {
-      isIn: [['F', 'MF', 'IF', 'B', 'R', 'MP']]
+      isIn: [['F', 'MF', 'IF', 'B', 'R', 'P', 'MP']]
     }
   },
   tipo: {
@@ -26,7 +26,7 @@ var Propiedad = client.define('propiedad', {
     type: Sequelize.STRING(50)
   },
   descripcion: {
-    type: Sequelize.STRING(100)
+    type: Sequelize.STRING(200)
   }
 });
 
