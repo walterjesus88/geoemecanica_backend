@@ -1,6 +1,5 @@
 var User = require('../models/User');
 var Rol = require('../models/Rol');
-var jwt = require('jsonwebtoken');
 
 exports.index = function(req, res, next) {
     User.findAll({attributes: ['uid', 'dni', 'nombre', 'estado', 'rolRolId', 'correo'],
