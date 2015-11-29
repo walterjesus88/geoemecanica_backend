@@ -5,11 +5,11 @@ var ensureSuperAuthorized = require('../middleware').ensureSuperAuthorized;
 var usersCtrl  = require('../controllers/usersController');
 
 routes.use(ensureAuthorized);
+routes.get('/', usersCtrl.index);
 routes.get('/:id', usersCtrl.show);
 routes.put('/:id', usersCtrl.update);
 
 routes.use(ensureSuperAuthorized);
-routes.get('/', usersCtrl.index);
 routes.post('/', usersCtrl.store);
 routes.delete('/:id', usersCtrl.destroy);
 
