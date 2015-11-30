@@ -13,7 +13,7 @@ client.sync().then(function() {
       nombre: 'IESA SA'
     },
     {
-      id: 'COPSEM'
+      id: 'COPSEM',
       nombre: 'COPSEM'
     }
   ];
