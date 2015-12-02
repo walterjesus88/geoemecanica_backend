@@ -2,6 +2,7 @@ var client = require('../dbConnection').getInstance().getClient();
 var Propiedad = require('../models/Propiedad');
 var Roca = require('../models/Roca');
 var Sostenimiento = require('../models/Sostenimiento');
+var Inspeccion = require('../models/Inspeccion');
 
 client.sync().then(function() {
 
@@ -59,17 +60,25 @@ client.sync().then(function() {
 
   propiedades.forEach(function(item) {
 
-    Propiedad.create({
-      codigo: item.codigo,
-      tipo: item.tipo,
-      condicion: item.condicion,
-      descripcion: item.descripcion
-    })
-    .then(function(prop){
-        console.log(prop.codigo + ' insertada en la tabla propiedads');
+    Propiedad.findOne({where: {codigo: item.codigo}})
+    .then(function(propiedad) {
+      if (!propiedad) {
+        Propiedad.create({
+          codigo: item.codigo,
+          tipo: item.tipo,
+          condicion: item.condicion,
+          descripcion: item.descripcion
+        })
+        .then(function(prop){
+            console.log(prop.codigo + ' insertada en la tabla propiedads');
+        })
+        .catch(function(err) {
+            console.log(err);
+        });
+      }
     })
     .catch(function(err) {
-        console.log(err);
+      console.log(err);
     });
   });
 
@@ -79,17 +88,25 @@ client.sync().then(function() {
         if (superficie.tipo === 'CONDICION SUPERFICIAL') {
           Propiedad.findOne({where: {codigo: estructura.codigo}}).then(function(est) {
             Propiedad.findOne({where: {codigo: superficie.codigo}}).then(function(sup) {
-              Roca.create({
-                codigo: est.codigo + '/' + sup.codigo,
-                EstructuraId: est.id,
-                SuperficieId: sup.id
-              })
+              Roca.findOne({where: {codigo: est.codigo + '/' + sup.codigo}})
               .then(function(roca) {
-                console.log(roca.codigo + ' insertado en la tabla rocas');
+                if (!roca) {
+                  Roca.create({
+                    codigo: est.codigo + '/' + sup.codigo,
+                    EstructuraId: est.id,
+                    SuperficieId: sup.id
+                  })
+                  .then(function(roca) {
+                    console.log(roca.codigo + ' insertado en la tabla rocas');
+                  })
+                  .catch(function(err) {
+                    console.log(err);
+                  });
+                }
               })
               .catch(function(err) {
                 console.log(err);
-              })
+              });
             }).catch(function(err) {
               console.log(err);
             });
@@ -182,15 +199,23 @@ client.sync().then(function() {
   ];
 
   sostenimientos.forEach(function(item) {
-    Sostenimiento.create({
-      codigo: item.codigo,
-      color: item.color,
-      descripcion: item.descripcion,
-      tiempo_colocacion: item.tiempo_colocacion,
-      tipoTipoId: item.tipo
-    })
-    .then(function() {
-      console.log('sostenimiento ' + item.codigo + ' tipo ' + item.tipo + ' creado');
+    Sostenimiento.findOne({where: {codigo: item.codigo, tipoTipoId: item.tipo}})
+    .then(function(sostenimiento) {
+      if (!sostenimiento) {
+        Sostenimiento.create({
+          codigo: item.codigo,
+          color: item.color,
+          descripcion: item.descripcion,
+          tiempo_colocacion: item.tiempo_colocacion,
+          tipoTipoId: item.tipo
+        })
+        .then(function() {
+          console.log('sostenimiento ' + item.codigo + ' tipo ' + item.tipo + ' creado');
+        })
+        .catch(function(err) {
+          console.log(err);
+        });
+      }
     })
     .catch(function(err) {
       console.log(err);

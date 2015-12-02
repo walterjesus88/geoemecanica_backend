@@ -1,6 +1,4 @@
 var Inspeccion = require('../models/Inspeccion');
-var Roca = require('../models/Roca');
-var Sostenimiento = require('../models/Sostenimiento');
 
 exports.index = function(req, res, next) {
   Inspeccion.findAll()
@@ -21,7 +19,7 @@ exports.store = function(req, res, next) {
     inspeccion_id: req.body.inspeccion_id,
     fecha: req.body.fecha,
     periodo: req.body.periodo,
-    tipo: req.body.tipo,
+    tipoTipoId: req.body.tipo,
     estado: req.body.estado,
     recomendacion: req.body.recomendacion,
     instalacion: req.body.instalacion,
@@ -35,13 +33,15 @@ exports.store = function(req, res, next) {
     SeguridadUid: req.body.SeguridadUid,
     GeomecanicoUid: req.body.GeomecanicoUid,
     OperacionesUid: req.body.OperacionesUid,
-    RegistroUid: req.body.RegistroUid
+    RegistroUid: req.body.RegistroUid,
+    rocaRocaid: req.body.RocaId,
+    sostenimientoSostenimientoid: req.body.SostenimientoId
   })
 
   .then(function(inspeccion) {
     res.status(201).jsonp(inspeccion);
   })
-  .catch(function(err) {  
+  .catch(function(err) {
     res.send(500, err);
   });
 
