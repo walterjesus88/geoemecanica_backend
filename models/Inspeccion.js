@@ -4,6 +4,9 @@ var Sequelize = require('sequelize');
 var Labor = require('./Labor');
 var User = require('./User');
 var Empresa = require('./Empresa');
+var Tipo = require('./Tipo');
+var Roca = require('./Roca');
+var Sostenimiento = require('./Sostenimiento');
 
 var Inspeccion = client.define('inspeccion', {
   inspeccion_id: {
@@ -20,12 +23,6 @@ var Inspeccion = client.define('inspeccion', {
     type: Sequelize.STRING(5),
     validate: {
       isIn: [['DIA', 'NOCHE']]
-    }
-  },
-  tipo: {
-    type: Sequelize.STRING(15),
-    validate: {
-      isIn: [['AVANCE', 'EXPLOTACION']]
     }
   },
   estado: Sequelize.BOOLEAN,
@@ -45,6 +42,9 @@ var Inspeccion = client.define('inspeccion', {
 
 Inspeccion.belongsTo(Labor);
 Inspeccion.belongsTo(Empresa);
+Inspeccion.belongsTo(Tipo);
+Inspeccion.belongsTo(Roca);
+Inspeccion.belongsTo(Sostenimiento);
 Inspeccion.belongsTo(User, {as: 'Responsable'});
 Inspeccion.belongsTo(User, {as: 'Geomecanico'});
 Inspeccion.belongsTo(User, {as: 'Seguridad'});
