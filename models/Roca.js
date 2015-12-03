@@ -11,6 +11,9 @@ var Roca = client.define('roca', {
   },
   codigo: {
     type: Sequelize.STRING(5)
+  },
+  porcentaje: {
+    type: Sequelize.INTEGER
   }
 });
 

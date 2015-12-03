@@ -45,7 +45,7 @@ client.sync().then(function() {
     {
       codigo: 'P',
       tipo: 'CONDICION SUPERFICIAL',
-      condicion: 'POBRE (MODERADAMENTE RESIST. MODERADAM. ALTER.)',
+      condicion: 'POBRE (MODERADAM. RESIST. MODERADAM. ALTER.)',
       descripcion: 'SUPERFICIE PULIDA O CON ESTRIACIONES, MUY ALTERADA, RELLENO ' +
       'BITUMINOSO O CON FRAGMENTOS DE ROCA. (RC 25 A 50 MPA) (SE INDENTA SUPERFICIALMENTE)'
     },
@@ -82,6 +82,30 @@ client.sync().then(function() {
     });
   });
 
+  function findPorcentaje(codigo) {
+    var porcent;
+    var porcentajes = [
+      {codigo: 'F/B', porcentaje: 10},
+      {codigo: 'F/R', porcentaje: 9},
+      {codigo: 'F/P', porcentaje: 8},
+      {codigo: 'F/MP', porcentaje: 3},
+      {codigo: 'MF/B', porcentaje: 7},
+      {codigo: 'MF/R', porcentaje: 6},
+      {codigo: 'MF/P', porcentaje: 3},
+      {codigo: 'MF/MP', porcentaje: 0},
+      {codigo: 'IF/B', porcentaje: 2},
+      {codigo: 'IF/R', porcentaje: 0},
+      {codigo: 'IF/P', porcentaje: 0},
+      {codigo: 'IF/MP', porcentaje: 0}
+    ];
+    porcentajes.forEach(function(item) {
+      if (item.codigo === codigo) {
+        porcent = item.porcentaje;
+      }
+    });
+    return porcent;
+  }
+
   propiedades.forEach(function(estructura) {
     if (estructura.tipo === 'ESTRUCTURA') {
       propiedades.forEach(function(superficie) {
@@ -93,11 +117,12 @@ client.sync().then(function() {
                 if (!roca) {
                   Roca.create({
                     codigo: est.codigo + '/' + sup.codigo,
+                    porcentaje: findPorcentaje(est.codigo + '/' + sup.codigo),
                     EstructuraId: est.id,
                     SuperficieId: sup.id
                   })
                   .then(function(roca) {
-                    console.log(roca.codigo + ' insertado en la tabla rocas');
+                    console.log(roca.porcentaje + ' insertado en la tabla rocas');
                   })
                   .catch(function(err) {
                     console.log(err);
