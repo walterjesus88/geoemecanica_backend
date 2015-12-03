@@ -12,7 +12,8 @@ var Pregunta = client.define('pregunta', {
 	estado: Sequelize.STRING(1),
 	posicion: {
 		type: Sequelize.INTEGER,	    	
-	} 
+	},
+	checked: Sequelize.BOOLEAN,	
  });
 
 module.exports = Pregunta;
