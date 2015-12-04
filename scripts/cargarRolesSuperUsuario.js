@@ -14,11 +14,27 @@ client.sync().then(function() {
     },
     {
       id: '101',
-      nombre: 'Inspector'
+      nombre: 'Operaciones'
     },
     {
       id: '102',
+      nombre: 'Seguridad'
+    },
+    {
+      id: '103',
+      nombre: 'Geomecanica'
+    },
+    {
+      id: '104',
       nombre: 'Responsable'
+    },
+    {
+      id: '105',
+      nombre: 'Super Intendencia'
+    },
+    {
+      id: '106',
+      nombre: 'Gerencia General'
     }
   ];
 

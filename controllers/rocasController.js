@@ -4,7 +4,7 @@ var Propiedad = require('../models/Propiedad');
 exports.index = function(req, res, next) {
   Roca.findAll(
     {
-      attributes: ['rocaid', 'codigo'],
+      attributes: ['rocaid', 'codigo', 'porcentaje'],
       include: [
         {model: Propiedad, as: 'Estructura', attributes: ['codigo', 'tipo', 'condicion', 'descripcion']},
         {model: Propiedad, as: 'Superficie', attributes: ['codigo', 'tipo', 'condicion', 'descripcion']}
