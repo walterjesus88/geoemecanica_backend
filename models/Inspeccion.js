@@ -3,7 +3,7 @@ var client = dbConnection.getInstance().getClient();
 var Sequelize = require('sequelize');
 var Labor = require('./Labor');
 var User = require('./User');
-var Empresa = require('./Empresa');
+
 var Tipo = require('./Tipo');
 var Roca = require('./Roca');
 var Sostenimiento = require('./Sostenimiento');
@@ -41,8 +41,8 @@ var Inspeccion = client.define('inspeccion', {
 });
 
 Inspeccion.belongsTo(Labor);
-Inspeccion.belongsTo(Empresa);
-Inspeccion.belongsTo(Tipo);
+// Inspeccion.belongsTo(Empresa);
+// Inspeccion.belongsTo(Tipo);
 Inspeccion.belongsTo(Roca);
 Inspeccion.belongsTo(Sostenimiento);
 Inspeccion.belongsTo(User, {as: 'Responsable'});

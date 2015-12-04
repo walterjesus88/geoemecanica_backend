@@ -2,6 +2,7 @@ var dbConnection = require('../dbConnection');
 var client = dbConnection.getInstance().getClient();
 var Sequelize = require('sequelize');
 var Tipo = require('./Tipo');
+var Empresa = require('./Empresa');
 
 var Labor = client.define('labor', {
   codigo: {
@@ -15,5 +16,6 @@ var Labor = client.define('labor', {
 });
 
 Labor.belongsTo(Tipo);
+Labor.belongsTo(Empresa);
 
 module.exports = Labor;

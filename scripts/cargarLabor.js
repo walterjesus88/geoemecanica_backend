@@ -6,7 +6,7 @@ client.sync().then(function() {
 	var labores = [
 		{
 			id: 'LAB-1506',
-      		nombre: 'AVANCE'
+      nombre: 'AVANCE'
 		}
 	];
 
