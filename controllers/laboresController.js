@@ -25,7 +25,7 @@ exports.store = function(req, res, next) {
     nivel: req.body.nivel,
     ancho_pro: req.body.ancho_pro,
     alto_pro: req.body.alto_pro,
-    //tipoTipoId: req.body.tipoTipoId
+    tipoTipoId: req.body.tipoTipoId
   })
   .then(function(labor) {
     res.status(201).jsonp(labor);
@@ -51,9 +51,9 @@ exports.update = function(req, res, next) {
     if (req.body.ancho_pro) {
       labor.ancho_pro = req.body.ancho_pro;
     }
-    // if (req.body.tipoTipoId) {
-    //   labor.tipoTipoId = req.body.tipoTipoId;
-    // }
+    if (req.body.tipoTipoId) {
+      labor.tipoTipoId = req.body.tipoTipoId;
+    }
     labor.save().then(function() {
       res.send('actualizado');
     });

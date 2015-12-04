@@ -15,11 +15,11 @@ exports.show = function(req, res, next) {
 }
 
 exports.store = function(req, res, next) {
-  Inspeccion.create({
+  var ins = Inspeccion.build({
     inspeccion_id: req.body.inspeccion_id,
     fecha: req.body.fecha,
     periodo: req.body.periodo,
-    tipoTipoId: req.body.tipo,
+    //tipoTipoId: req.body.tipo,
     estado: req.body.estado,
     recomendacion: req.body.recomendacion,
     instalacion: req.body.instalacion,
@@ -27,7 +27,7 @@ exports.store = function(req, res, next) {
     alto_real: req.body.alto_real,
     nivel_riesgo: req.body.nivel_riesgo,
     comentario: req.body.comentario,
-    empresaEmpresaid: req.body.empresaEmpresaid,
+    //empresaEmpresaid: req.body.empresaEmpresaid,
     laborCodigo: req.body.laborCodigo,
     ResponsableUid: req.body.ResponsableUid,
     SeguridadUid: req.body.SeguridadUid,
@@ -36,13 +36,17 @@ exports.store = function(req, res, next) {
     RegistroUid: req.body.RegistroUid,
     rocaRocaid: req.body.RocaId,
     sostenimientoSostenimientoid: req.body.SostenimientoId
-  })
+  });
 
-  .then(function(inspeccion) {
-    res.status(201).jsonp(inspeccion);
-  })
-  .catch(function(err) {
-    res.send(500, err);
+  ins.validarPorcentajes().then(function(valido) {
+    ins.save().then(function(inspeccion) {
+      res.status(201).jsonp(inspeccion);
+    })
+    .catch(function(err) {
+      res.send(500, err);
+    });
+  }).catch(function(err) {
+    res.status(500).send(err);
   });
 
 }
