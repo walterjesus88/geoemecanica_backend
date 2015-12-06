@@ -37,6 +37,7 @@ var rolesRoutes = require('./routes/roles');
 var inspeccionesRoutes = require('./routes/inspecciones');
 var sostenimientosRoutes = require('./routes/sostenimientos');
 var rocasRoutes = require('./routes/rocas');
+var porcentajesRoutes = require('./routes/porcentajes');
 
 
 app.use('/auth', authRoutes);
@@ -49,6 +50,7 @@ app.use('/empresas', empresasRoutes);
 app.use('/tipos', tiposRoutes);
 app.use('/sostenimientos', sostenimientosRoutes);
 app.use('/rocas', rocasRoutes);
+app.use('/porcentajes', porcentajesRoutes);
 
 
 //archivos de cifrado ssl
