@@ -18,10 +18,8 @@ exports.show = function(req, res, next) {
 
 exports.store = function(req, res, next) {
   var ins = Inspeccion.build({
-    inspeccion_id: req.body.inspeccion_id,
     fecha: req.body.fecha,
     periodo: req.body.periodo,
-    //tipoTipoId: req.body.tipo,
     estado: req.body.estado,
     recomendacion: req.body.recomendacion,
     instalacion: req.body.instalacion,
@@ -29,7 +27,6 @@ exports.store = function(req, res, next) {
     alto_real: req.body.alto_real,
     nivel_riesgo: req.body.nivel_riesgo,
     comentario: req.body.comentario,
-    //empresaEmpresaid: req.body.empresaEmpresaid,
     laborCodigo: req.body.laborCodigo,
     ResponsableUid: req.body.ResponsableUid,
     SeguridadUid: req.body.SeguridadUid,
@@ -41,37 +38,38 @@ exports.store = function(req, res, next) {
   });
 
   ins.validarPorcentajes().then(function(valido) {
-    ins.validarRespuestas().then(function(respuesta_valida) {
+    ins.validarRespuestas(req.body.respuestas).then(function(respuesta_valida) {
       ins.save().then(function(inspeccion) {
         var respuestas = req.body.respuestas;
         var array = [];
-        respuestas.forEach(function(item) {
+        for (var i = 1; i < respuestas.length; i++) {
           var json = {
-            inspeccionInspeccionId: req.body.inspeccion_id,
-            preguntumPreguntaid: item.preguntaid
+            inspeccionInspeccionId: inspeccion.inspeccion_id,
+            preguntumPreguntaid: respuestas[i].preguntaid
           };
-          Pregunta.findById(item.preguntaid).then(function(pregunta) {
-            if (pregunta.tipo === 'Check') {
-              json.respuesta = {check: item.respuesta};
-            } else if (pregunta.tipo === 'Opciones') {
-              json.respuesta = {opcion: item.respuesta};
-            } else if (pregunta.tipo === 'compuesto') {
-              json.respuesta = {};
-            }
-            array.push(json);
-          });
-        });
+          if (respuestas[i].tipo === 'Check') {
+            json.respuesta = {check: respuestas[i].value};
+          } else if (respuestas[i].tipo === 'Opciones') {
+            json.respuesta = {opcion: respuestas[i].value};
+          } else if (respuestas[i].tipo === 'compuesto') {
+            json.respuesta = {hastialDerecho: 12, hastialIzquierdo: 23};
+          }
+          array.push(json);
+        }
         Respuesta.bulkCreate(array)
         .then(function() {
           res.status(201).jsonp(inspeccion);
         })
         .catch(function(err) {
           res.status(500).send(err);
-        })
+        });
       })
       .catch(function(err) {
         res.status(500).send(err);
       });
+    })
+    .catch(function(err) {
+      res.status(500).send(err);
     });
   }).catch(function(err) {
     res.status(500).send(err);

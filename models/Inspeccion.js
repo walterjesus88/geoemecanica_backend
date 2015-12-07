@@ -68,14 +68,16 @@ var Inspeccion = client.define('inspeccion', {
       });
       return respuesta;
     },
-    validarRespuestas: function() {
+    validarRespuestas: function(respuestas) {
       var nivel_riesgo = this.nivel_riesgo;
-      var pregunta_ocho = this.respuestas['8'];
+      console.log(respuestas);
       var respuesta = new Promise(function(resolve, reject) {
-        if (!pregunta_ocho && nivel_riesgo !== 'CRITICO') {
-          reject('Nivel de riesgo deberia ser critico');
-        } else {
-          resolve(true);
+        for (var i = 1; i < respuestas.length; i++) {
+          if (i === 8 && !respuestas[i].value && nivel_riesgo !== 'CRITICO') {
+            reject('Nivel de riesgo deberia ser critico');
+          } else {
+            resolve(true);
+          }
         }
       });
       return respuesta;

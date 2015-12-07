@@ -31,7 +31,7 @@ var Porcentaje = client.define('porcentaje', {
           if (porcentajes) {
             var cont = 0;
             porcentajes.forEach(function(item) {
-              if (item.porcentaje >= por && cont === 0) {
+              if (parseFloat(item.porcentaje) >= por && cont === 0) {
                 nivel = item.nivel;
                 cont = 1;
               }

@@ -16,7 +16,7 @@ exports.index = function(req, res, next) {
     if (porcentajes) {
       var cont = 0;
       porcentajes.forEach(function(item) {
-        if (item.porcentaje >= por && cont === 0) {
+        if (parseFloat(item.porcentaje) >= por && cont === 0) {
           respuesta = item;
           cont = 1;
         }
