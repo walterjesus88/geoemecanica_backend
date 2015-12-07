@@ -50,8 +50,8 @@ var Inspeccion = client.define('inspeccion', {
       var respuesta = new Promise(function(resolve, reject) {
         Labor.findById(codigo)
         .then(function(labor) {
-          var por_alto = ((alto_real * 100) / labor.alto_pro) - 100;
-          var por_ancho = ((ancho_real * 100) / labor.ancho_pro) - 100;
+          var por_alto = ((parseFloat(alto_real) * 100) / parseFloat(labor.alto_pro)) - 100;
+          var por_ancho = ((parseFloat(ancho_real) * 100) / parseFloat(labor.ancho_pro)) - 100;
           Porcentaje.getNivelRiesgo(roca, por_alto, por_ancho).then(function(nivel) {
             if (nivel_riesgo !== nivel) {
               reject('Nivel de riesgo no corresponde a los porcentajes de sobreexcavacion');
@@ -65,6 +65,18 @@ var Inspeccion = client.define('inspeccion', {
         .catch(function (err) {
           console.log(err);
         });
+      });
+      return respuesta;
+    },
+    validarRespuestas: function() {
+      var nivel_riesgo = this.nivel_riesgo;
+      var pregunta_ocho = this.respuestas['8'];
+      var respuesta = new Promise(function(resolve, reject) {
+        if (!pregunta_ocho && nivel_riesgo !== 'CRITICO') {
+          reject('Nivel de riesgo deberia ser critico');
+        } else {
+          resolve(true);
+        }
       });
       return respuesta;
     }

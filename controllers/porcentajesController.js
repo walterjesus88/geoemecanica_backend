@@ -6,11 +6,12 @@ exports.index = function(req, res, next) {
   var por_ancho = req.query.porAncho;
   var por = 0;
   var respuesta = {};
-  if (por_alto > por_ancho) {
+  if (parseFloat(por_alto) > parseFloat(por_ancho)) {
     por = por_alto;
   } else {
     por = por_ancho;
   }
+  console.log(por);
   Porcentaje.findAll({where: {rocaRocaid: roca}, order: 'porcentaje'}).then(function(porcentajes) {
     if (porcentajes) {
       var cont = 0;

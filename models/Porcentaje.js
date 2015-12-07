@@ -21,7 +21,7 @@ var Porcentaje = client.define('porcentaje', {
     getNivelRiesgo: function(roca, por_alto, por_ancho) {
       var nivel = 'CRITICO';
       var por = 0;
-      if (por_alto > por_ancho) {
+      if (parseFloat(por_alto) > parseFloat(por_ancho)) {
         por = por_alto;
       } else {
         por = por_ancho;

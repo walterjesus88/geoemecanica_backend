@@ -1,4 +1,6 @@
 var Inspeccion = require('../models/Inspeccion');
+var Respuesta = require('../models/Respuesta');
+var Pregunta = require('../models/Pregunta');
 
 exports.index = function(req, res, next) {
   Inspeccion.findAll()
@@ -39,11 +41,37 @@ exports.store = function(req, res, next) {
   });
 
   ins.validarPorcentajes().then(function(valido) {
-    ins.save().then(function(inspeccion) {
-      res.status(201).jsonp(inspeccion);
-    })
-    .catch(function(err) {
-      res.send(500, err);
+    ins.validarRespuestas().then(function(respuesta_valida) {
+      ins.save().then(function(inspeccion) {
+        var respuestas = req.body.respuestas;
+        var array = [];
+        respuestas.forEach(function(item) {
+          var json = {
+            inspeccionInspeccionId: req.body.inspeccion_id,
+            preguntumPreguntaid: item.preguntaid
+          };
+          Pregunta.findById(item.preguntaid).then(function(pregunta) {
+            if (pregunta.tipo === 'Check') {
+              json.respuesta = {check: item.respuesta};
+            } else if (pregunta.tipo === 'Opciones') {
+              json.respuesta = {opcion: item.respuesta};
+            } else if (pregunta.tipo === 'compuesto') {
+              json.respuesta = {};
+            }
+            array.push(json);
+          });
+        });
+        Respuesta.bulkCreate(array)
+        .then(function() {
+          res.status(201).jsonp(inspeccion);
+        })
+        .catch(function(err) {
+          res.status(500).send(err);
+        })
+      })
+      .catch(function(err) {
+        res.status(500).send(err);
+      });
     });
   }).catch(function(err) {
     res.status(500).send(err);
