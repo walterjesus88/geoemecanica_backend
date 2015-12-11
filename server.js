@@ -25,8 +25,10 @@ app.use(cookieParser());
 var allowCrossDomain = require('./middleware').allowCrossDomain;
 app.use(allowCrossDomain);
 
+var ensureAuthorized = require('./middleware').ensureAuthorized;
+
 //definicion de las rutas accesibles
-var authRoutes = require('./routes/auth');
+var indexRoutes = require('./routes/index');
 var usersRoutes = require('./routes/users');
 var laboresRoutes = require('./routes/labores');
 var preguntasRoutes = require('./routes/preguntas');
@@ -40,7 +42,9 @@ var rocasRoutes = require('./routes/rocas');
 var porcentajesRoutes = require('./routes/porcentajes');
 
 
-app.use('/auth', authRoutes);
+app.use('/', indexRoutes);
+//uso de middleware para verificar token de usuario
+app.use(ensureAuthorized);
 app.use('/users', usersRoutes);
 app.use('/labores', laboresRoutes);
 app.use('/preguntas', preguntasRoutes);
