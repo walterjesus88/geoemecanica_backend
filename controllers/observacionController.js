@@ -1,9 +1,24 @@
 var Observacion = require('../models/Observacion.js');
+var Inspeccion = require('../models/Inspeccion.js');
+var User = require('../models/User.js');
 
 exports.index = function(req,res,next){
-	Observacion.findAll()
+	Observacion.findAll({
+		include: [
+			{ model: Inspeccion, attributes: ['nivel_riesgo','comentario'] }
+		],
+		where: { userUid: req.user.uid }
+			//{ model: User, attributes: ['uid'] }
+
+		
+
+	})
 	.then(function(observaciones){
 		res.status(200).jsonp(observaciones);
+	})
+	.catch(function(err){
+		console.log('500');
+		res.send(500, err)
 	})
 }
 
@@ -18,10 +33,12 @@ exports.store = function(req,res,next){
 	Observacion.create({
 		observacion_id: req.body.observacion_id,
 		nivel_riesgo: req.body.nivel_riesgo,
-		estado: req.body.estado,
-		estado_observacion: req.body.estado_observacion
+		estado_leido: req.body.estado,
+		estado_observacion: req.body.estado_observacion,
+		inspeccionInspeccionId: req.body.inspeccionInspeccionId,
+		userUid: req.body.userUid
 	})
-	then(function(observacion) {
+	.then(function(observacion) {
 		res.status(201).jsonp(observacion);
 	})
 	.catch(function(err){
