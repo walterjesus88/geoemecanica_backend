@@ -51,8 +51,8 @@ exports.store = function(req, res, next) {
             json.respuesta = {check: respuestas[i].value};
           } else if (respuestas[i].tipo === 'Opciones') {
             json.respuesta = {opcion: respuestas[i].value};
-          } else if (respuestas[i].tipo === 'compuesto') {
-            json.respuesta = {hastialDerecho: 12, hastialIzquierdo: 23};
+          } else {
+            json.respuesta = respuestas[i].value;
           }
           array.push(json);
         }
