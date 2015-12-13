@@ -42,7 +42,12 @@ client.sync().then(function() {
     {rolRolId: '101', RecursoId: '/sostenimientos', metodo: 'GET', acceso: true},
     {rolRolId: '101', RecursoId: '/empresas', metodo: 'GET', acceso: true},
     {rolRolId: '101', RecursoId: '/porcentajes', metodo: 'GET', acceso: true},
-    {rolRolId: '101', RecursoId: '/preguntas', metodo: 'GET', acceso: true}
+    {rolRolId: '101', RecursoId: '/preguntas', metodo: 'GET', acceso: true},
+
+    {rolRolId: '001', RecursoId: '/observaciones', metodo: 'GET', acceso: true},
+    {rolRolId: '001', RecursoId: '/observaciones', metodo: 'POST', acceso: true},
+    {rolRolId: '001', RecursoId: '/observaciones', metodo: 'PUT', acceso: true}
+
   ];
 
   Recurso.bulkCreate(recursos).then(function() {

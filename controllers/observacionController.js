@@ -1,17 +1,17 @@
 var Observacion = require('../models/Observacion.js');
 var Inspeccion = require('../models/Inspeccion.js');
 var User = require('../models/User.js');
+var Labor = require('../models/Labor.js');
 
 exports.index = function(req,res,next){
 	Observacion.findAll({
 		include: [
-			{ model: Inspeccion, attributes: ['nivel_riesgo','comentario'] }
+			{ model: Inspeccion, 
+				include : [ { model: Labor, attributes: ['nivel']},
+				{ model: User, as: 'Responsable', attributes: ['nombre']}],
+			attributes: ['nivel_riesgo','comentario','laborCodigo'] }
 		],
 		where: { userUid: req.user.uid }
-			//{ model: User, attributes: ['uid'] }
-
-		
-
 	})
 	.then(function(observaciones){
 		res.status(200).jsonp(observaciones);
@@ -55,8 +55,8 @@ exports.update = function(req,res,next){
 		if(req.body.nivel_riesgo){
 			observacion.nivel_riesgo = req.body.nivel_riesgo;
 		}
-		if(req.body.estado){
-			observacion.estado = req.body.estado;
+		if(req.body.estado_leido){
+			observacion.estado_leido = req.body.estado_leido;
 		}
 		if(req.body.estado_observacion){
 			observacion.estado_observacion = req.body.estado_observacion;
