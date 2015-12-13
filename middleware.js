@@ -17,7 +17,7 @@ exports.ensureAuthorized = function(req, res, next) {
       .then(function(user) {
         if(user == null) return res.sendStatus(403);
         var rol = user.rolRolId;
-        var recurso = req.path;
+        var recurso = getRecurso(req.path);
         var metodo = req.method;
         accesoByRol(rol, recurso, metodo).then(function(acceso) {
           if (!acceso) return res.sendStatus(403);
@@ -35,6 +35,10 @@ exports.ensureAuthorized = function(req, res, next) {
       res.sendStatus(401);
     }
   }
+}
+
+function getRecurso(ruta) {
+  return '/' + ruta.split('/')[1];
 }
 
 function accesoByRol(rol, recurso, metodo) {
