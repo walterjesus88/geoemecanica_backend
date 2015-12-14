@@ -46,50 +46,52 @@ exports.index = function(req, res) {
 	
 	// });
 
-	// email.send({
-	//     host : "smtp.gmail.com",
-	//     port : "465",
-	//     ssl : true,
-	//     domain : "i-visionblog.com",
-	//     to : "wjesus88@gmail.com",
-	//     from : "wjesus88@gmail.com",
-	//     subject : "Mailer library Mail node.js",
-	//     text: "Mail by Mailer library",
-	//     html: "<span> Hello World Mail sent from  mailer library" ,
-	//     authentication : "login",        // auth login is supported; anything else $
-	//     username : 'wjesus88@gmail.com',
-	//     password : "informaticos"
-	//     },
-	//     function(err, result){
-	//       if(err){ console.log(err); res.send("error occured"); }
-	//       else { console.log('hurray! Email Sent'); 
-	//       res.send("Email Sent")}
-	// });
 
 }
 
 exports.store = function(req, res, next) {
-	var smtpTransport = nodemailer.createTransport("SMTP",{
-	   service: "Gmail",
-	   auth: {
-	       user: "theosys.pe@gmail.com",
-	       pass: "5Y5T3MCR4FT"
-	   }
+
+	email.send({
+	    host : "smtp.gmail.com",
+	    port : "465",
+	    ssl : true,
+	    domain : "i-visionblog.com",
+	    to : "wjesus88@gmail.com",
+	    from : "walter_js56@gmail.com",
+	    subject : "Mailer library Mail node.js",
+	    text: "Mail by Mailer library",
+	    html: "<span> Hello World Mail sent from  mailer library" ,
+	    authentication : "login",        // auth login is supported; anything else $
+	    username : 'theosys.pe@gmail.com',
+	    password : "5Y5T3MCR4FT"
+	    },
+	    function(err, result){
+	      if(err){ console.log(err); res.send("error occured"); }
+	      else { console.log('hurray! Email Sent'); 
+	      res.send("Email Sent")}
 	});
 
-	smtpTransport.sendMail({
-	    from: req.body.from, // sender address
-	    to: req.body.email, // comma separated list of receivers
-	    subject: req.body.asunto, // Subject line
-	    text: req.body.texto // plaintext body   
-	    // html:'<p><b>Hello</b> to myself <img src="cid:note@node"/></p>'+text+
-	    //      '<p>Here\'s a nyan cat for you as an embedded attachment:<br/></p>'
+	// var smtpTransport = nodemailer.createTransport("SMTP",{
+	//    service: "Gmail",
+	//    auth: {
+	//        user: "theosys.pe@gmail.com",
+	//        pass: "5Y5T3MCR4FT"
+	//    }
+	// });
 
-	}, function(error, response){
-	   if(error){
-	       console.log(error);
-	   }else{
-	       console.log("Mail sent: " + response.message);
-	   }
-	});
+	// smtpTransport.sendMail({
+	//     from: req.body.from, // sender address
+	//     to: req.body.email, // comma separated list of receivers
+	//     subject: req.body.asunto, // Subject line
+	//     text: req.body.texto // plaintext body   
+	//     // html:'<p><b>Hello</b> to myself <img src="cid:note@node"/></p>'+text+
+	//     //      '<p>Here\'s a nyan cat for you as an embedded attachment:<br/></p>'
+
+	// }, function(error, response){
+	//    if(error){
+	//        console.log(error);
+	//    }else{
+	//        console.log("Mail sent: " + response.message);
+	//    }
+	// });
 }
