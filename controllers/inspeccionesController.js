@@ -1,6 +1,7 @@
 var Inspeccion = require('../models/Inspeccion');
 var Respuesta = require('../models/Respuesta');
 var Pregunta = require('../models/Pregunta');
+var Observaciones = require('../models/Observacion');
 
 exports.index = function(req, res, next) {
   Inspeccion.findAll()
@@ -58,7 +59,21 @@ exports.store = function(req, res, next) {
         }
         Respuesta.bulkCreate(array)
         .then(function() {
-          res.status(201).jsonp(inspeccion);
+          //res.status(201).jsonp(inspeccion);
+
+          Observacion.create({
+            inspeccionInspeccionId: inspeccion.inspeccion_id,
+            userUid: req.user.uid
+          })
+          .then(function(observacion) {
+            res.status(201).jsonp(inspeccion);
+          })
+          .catch(function(err){
+            console.log('500');
+            res.send(500, err)
+          })
+
+
         })
         .catch(function(err) {
           res.status(500).send(err);
