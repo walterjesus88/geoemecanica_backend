@@ -41,11 +41,12 @@ var sostenimientosRoutes = require('./routes/sostenimientos');
 var rocasRoutes = require('./routes/rocas');
 var porcentajesRoutes = require('./routes/porcentajes');
 var	observacionesRoutes = require('./routes/observaciones');
+var	enviarRoutes = require('./routes/enviars');
 
 
 app.use('/', indexRoutes);
 //uso de middleware para verificar token de usuario
-app.use(ensureAuthorized);
+//app.use(ensureAuthorized);
 app.use('/users', usersRoutes);
 app.use('/labores', laboresRoutes);
 app.use('/preguntas', preguntasRoutes);
@@ -57,6 +58,7 @@ app.use('/sostenimientos', sostenimientosRoutes);
 app.use('/rocas', rocasRoutes);
 app.use('/porcentajes', porcentajesRoutes);
 app.use('/observaciones', observacionesRoutes);
+app.use('/enviar', enviarRoutes);
 
 
 //archivos de cifrado ssl

@@ -8,9 +8,7 @@ exports.index = function(req,res,next){
 			{ model: Inspeccion, attributes: ['nivel_riesgo','comentario'] }
 		],
 		where: { userUid: req.user.uid }
-			//{ model: User, attributes: ['uid'] }
-
-		
+			//{ model: User, attributes: ['uid'] }		
 
 	})
 	.then(function(observaciones){
