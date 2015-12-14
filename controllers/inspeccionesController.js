@@ -37,32 +37,27 @@ exports.store = function(req, res, next) {
     sostenimientoSostenimientoid: req.body.SostenimientoId
   });
 
-  ins.validarPorcentajes().then(function(valido) {
-    ins.validarRespuestas(req.body.respuestas).then(function(respuesta_valida) {
-      ins.save().then(function(inspeccion) {
-        var respuestas = req.body.respuestas;
-        var array = [];
-        for (var i = 1; i < respuestas.length; i++) {
-          var json = {
-            inspeccionInspeccionId: inspeccion.inspeccion_id,
-            preguntumPreguntaid: respuestas[i].preguntaid
-          };
-          if (respuestas[i].tipo === 'Check') {
-            json.respuesta = {check: respuestas[i].value};
-          } else if (respuestas[i].tipo === 'Opciones') {
-            json.respuesta = {opcion: respuestas[i].value};
-          } else {
-            json.respuesta = respuestas[i].value;
-          }
-          array.push(json);
+  ins.validarRiesgo(req.body.respuestas).then(function(valido){
+    ins.save().then(function(inspeccion) {
+      var respuestas = req.body.respuestas;
+      var array = [];
+      for (var i = 1; i < respuestas.length; i++) {
+        var json = {
+          inspeccionInspeccionId: inspeccion.inspeccion_id,
+          preguntumPreguntaid: respuestas[i].preguntaid
+        };
+        if (respuestas[i].tipo === 'Check') {
+          json.respuesta = {check: respuestas[i].value};
+        } else if (respuestas[i].tipo === 'Opciones') {
+          json.respuesta = {opcion: respuestas[i].value};
+        } else {
+          json.respuesta = respuestas[i].value || [];
         }
-        Respuesta.bulkCreate(array)
-        .then(function() {
-          res.status(201).jsonp(inspeccion);
-        })
-        .catch(function(err) {
-          res.status(500).send(err);
-        });
+        array.push(json);
+      }
+      Respuesta.bulkCreate(array)
+      .then(function() {
+        res.status(201).jsonp(inspeccion);
       })
       .catch(function(err) {
         res.status(500).send(err);
@@ -71,7 +66,8 @@ exports.store = function(req, res, next) {
     .catch(function(err) {
       res.status(500).send(err);
     });
-  }).catch(function(err) {
+  })
+  .catch(function(err) {
     res.status(500).send(err);
   });
 
