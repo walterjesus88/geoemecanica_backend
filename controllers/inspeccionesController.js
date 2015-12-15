@@ -4,6 +4,7 @@ var Pregunta = require('../models/Pregunta');
 var Labor = require('../models/Labor');
 var Roca = require('../models/Roca');
 var Sostenimiento = require('../models/Sostenimiento');
+var Respuesta = require('../models/Respuesta');
 
 exports.index = function(req, res, next) {
   Inspeccion.findAll(
@@ -12,7 +13,8 @@ exports.index = function(req, res, next) {
       include: [
         {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro']},
         {model: Roca, attributes: ['codigo', 'porcentaje']},
-        {model: Sostenimiento, attributes: ['codigo', 'descripcion']}
+        {model: Sostenimiento, attributes: ['codigo', 'descripcion']},
+        {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta']}
       ]
     }
   )
