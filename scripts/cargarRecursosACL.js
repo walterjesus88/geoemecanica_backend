@@ -28,6 +28,7 @@ client.sync().then(function() {
     {rolRolId: '001', RecursoId: '/users', metodo: 'PUT', acceso: true},
     {rolRolId: '001', RecursoId: '/users', metodo: 'DELETE', acceso: true},
 		{rolRolId: '001', RecursoId: '/roles', metodo: 'GET', acceso: true},
+		{rolRolId: '001', RecursoId: '/inspecciones', metodo: 'GET', acceso: true},
     {rolRolId: '001', RecursoId: '/inspecciones', metodo: 'POST', acceso: true},
     {rolRolId: '001', RecursoId: '/tipos', metodo: 'GET', acceso: true},
     {rolRolId: '001', RecursoId: '/rocas', metodo: 'GET', acceso: true},

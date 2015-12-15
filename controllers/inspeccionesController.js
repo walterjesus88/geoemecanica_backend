@@ -1,9 +1,21 @@
 var Inspeccion = require('../models/Inspeccion');
 var Respuesta = require('../models/Respuesta');
 var Pregunta = require('../models/Pregunta');
+var Labor = require('../models/Labor');
+var Roca = require('../models/Roca');
+var Sostenimiento = require('../models/Sostenimiento');
 
 exports.index = function(req, res, next) {
-  Inspeccion.findAll()
+  Inspeccion.findAll(
+    {
+      where: {nivel_riesgo: req.query.nivel},
+      include: [
+        {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro']},
+        {model: Roca, attributes: ['codigo', 'porcentaje']},
+        {model: Sostenimiento, attributes: ['codigo', 'descripcion']}
+      ]
+    }
+  )
   .then(function(inspecciones) {
     res.status(200).jsonp(inspecciones);
   })
