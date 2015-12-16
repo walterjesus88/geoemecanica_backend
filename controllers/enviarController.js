@@ -78,7 +78,7 @@ exports.store = function(req, res, next) {
 	});
 
 	smtpTransport.sendMail({
-	    from: req.body.from, // sender address
+	    from: req.body.email, // sender address
 	    to: req.body.email, // comma separated list of receivers
 	    subject: req.body.asunto, // Subject line
 	    text: req.body.texto // plaintext body   
