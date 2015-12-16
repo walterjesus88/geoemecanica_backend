@@ -41,22 +41,45 @@ var Inspeccion = client.define('inspeccion', {
   comentario: Sequelize.STRING
 }, {
   instanceMethods: {
-    validarPorcentajes: function() {
+    validarRiesgo: function(respuestas) {
+      var estado = this.estado;
+      var recomendacion = this.recomendacion;
+      var instalacion = this.instalacion;
       var roca = this.rocaRocaid;
-      var alto_real = this.alto_real;
-      var ancho_real = this.ancho_real;
-      var nivel_riesgo = this.nivel_riesgo;
-      var codigo = this.laborCodigo;
-      var respuesta = new Promise(function(resolve, reject) {
-        Labor.findById(codigo)
+      var alto = this.alto_real;
+      var ancho = this.ancho_real;
+      var riesgo = this.nivel_riesgo;
+      var laborid = this.laborCodigo;
+
+      var promesa = new Promise(function(resolve, reject) {
+        Labor.findById(laborid)
         .then(function(labor) {
-          var por_alto = ((parseFloat(alto_real) * 100) / parseFloat(labor.alto_pro)) - 100;
-          var por_ancho = ((parseFloat(ancho_real) * 100) / parseFloat(labor.ancho_pro)) - 100;
-          Porcentaje.getNivelRiesgo(roca, por_alto, por_ancho).then(function(nivel) {
-            if (nivel_riesgo !== nivel) {
-              reject('Nivel de riesgo no corresponde a los porcentajes de sobreexcavacion');
+          var porAlto = ((parseFloat(alto) * 100) / parseFloat(labor.alto_pro)) - 100;
+          var porAncho = ((parseFloat(ancho) * 100) / parseFloat(labor.ancho_pro)) - 100;
+          Porcentaje.getNivelRiesgo(roca, porAlto, porAncho).then(function(nivel) {
+
+            if (riesgo === 'CRITICO') {
+              if (estado && recomendacion && instalacion && respuestas[8].value) {
+                if (riesgo === nivel) {
+                  resolve(true);
+                } else {
+                  reject('Error de validacion, nivel de riesgo no puede ser ' + riesgo);
+                }
+              } else {
+                resolve(true);
+              }
+            } else if (riesgo === 'MEDIO' || riesgo === 'BAJO') {
+              if (!estado || !recomendacion || !instalacion || !respuestas[8].value) {
+                reject('Error de validacion, nivel de riesgo no puede ser ' + riesgo);
+              } else {
+                if (riesgo === nivel) {
+                  resolve(true);
+                } else {
+                  reject('Error de validacion, nivel de riesgo no puede ser ' + riesgo);
+                }
+              }
             }
-            resolve(true);
+
           })
           .catch(function(err) {
             console.log(err);
@@ -66,30 +89,8 @@ var Inspeccion = client.define('inspeccion', {
           console.log(err);
         });
       });
-      return respuesta;
-    },
-    validarRespuestas: function(respuestas) {
-      var nivel_riesgo = this.nivel_riesgo;
-      console.log(respuestas);
-      var respuesta = new Promise(function(resolve, reject) {
-        for (var i = 1; i < respuestas.length; i++) {
-          if (i === 8 && !respuestas[i].value && nivel_riesgo !== 'CRITICO') {
-            reject('Nivel de riesgo deberia ser critico');
-          } else {
-            resolve(true);
-          }
-        }
-      });
-      return respuesta;
-    }
-  },
-  validate: {
-    validarRiesgoGeneral: function() {
-      if (!this.estado || !this.recomendacion || !this.instalacion) {
-        if (this.nivel_riesgo !== 'CRITICO') {
-          throw new Error('Nivel de riesgo deberia ser critico');
-        }
-      }
+
+      return promesa;
     }
   }
 });

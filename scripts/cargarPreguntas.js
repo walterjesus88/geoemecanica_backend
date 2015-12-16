@@ -61,7 +61,8 @@ client.sync().then(function() {
       descripcion: '¿Cuál es la altura del ultimo elemento de sostenimiento (perno/malla)?',
       estado:'A',
       posicion:8,
-			tipo: 'Compuesto'
+			tipo: 'MultipleText',
+			alternativas: ['HASTIAL IZQUIERDO', 'HASTIAL DERECHO']
     },
     {
       descripcion: '¿Están pintados las placas de los Pernos de Anclaje?',
@@ -103,7 +104,8 @@ client.sync().then(function() {
       descripcion: '¿El panel informativo se encuentra actualizado?',
       estado:'A',
       posicion:15,
-      tipo: 'Compuesto'
+      tipo: 'MultipleCheck',
+			alternativas: ['PANEL', 'POLITICA', 'PETS', 'ESTANDARES', 'PLANOS TOP', 'PLANOS GEOMEC.']
     },
 
 	];
