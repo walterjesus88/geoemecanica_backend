@@ -1,10 +1,34 @@
 var Inspeccion = require('../models/Inspeccion');
 var Respuesta = require('../models/Respuesta');
 var Pregunta = require('../models/Pregunta');
+
 var Observacion = require('../models/Observacion');
 
+var Labor = require('../models/Labor');
+var Roca = require('../models/Roca');
+var Sostenimiento = require('../models/Sostenimiento');
+var Respuesta = require('../models/Respuesta');
+
+
 exports.index = function(req, res, next) {
-  Inspeccion.findAll()
+  var condicion = {};
+  if (req.query.nivel) {
+    condicion.nivel_riesgo = req.query.nivel;
+  }
+  if (req.query.desde && req.query.hasta) {
+    condicion.fecha = {$between: [req.query.desde, req.query.hasta]};
+  }
+  Inspeccion.findAll(
+    {
+      where: condicion,
+      include: [
+        {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro']},
+        {model: Roca, attributes: ['codigo', 'porcentaje']},
+        {model: Sostenimiento, attributes: ['codigo', 'descripcion']},
+        {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta']}
+      ]
+    }
+  )
   .then(function(inspecciones) {
     res.status(200).jsonp(inspecciones);
   })

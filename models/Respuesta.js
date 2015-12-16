@@ -16,6 +16,7 @@ var Respuesta = client.define('respuesta', {
 });
 
 Respuesta.belongsTo(Inspeccion);
+Inspeccion.hasMany(Respuesta);
 Respuesta.belongsTo(Pregunta);
 
 module.exports = Respuesta;
