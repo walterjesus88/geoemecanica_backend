@@ -7,9 +7,16 @@ var Sostenimiento = require('../models/Sostenimiento');
 var Respuesta = require('../models/Respuesta');
 
 exports.index = function(req, res, next) {
+  var condicion = {};
+  if (req.query.nivel) {
+    condicion.nivel_riesgo = req.query.nivel;
+  }
+  if (req.query.desde && req.query.hasta) {
+    condicion.fecha = {$between: [req.query.desde, req.query.hasta]};
+  }
   Inspeccion.findAll(
     {
-      where: {nivel_riesgo: req.query.nivel},
+      where: condicion,
       include: [
         {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro']},
         {model: Roca, attributes: ['codigo', 'porcentaje']},
