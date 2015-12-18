@@ -12,7 +12,7 @@ var Pregunta = client.define('pregunta', {
 	tipo: {
 		type: Sequelize.STRING,
 		validate: {
-			isIn: [['Check', 'Opciones', 'Compuesto']]
+			isIn: [['Check', 'Opciones', 'MultipleCheck', 'MultipleText']]
 		}
 	},
 	alternativas: Sequelize.ARRAY(Sequelize.STRING),

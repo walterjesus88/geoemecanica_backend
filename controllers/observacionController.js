@@ -1,14 +1,18 @@
 var Observacion = require('../models/Observacion.js');
 var Inspeccion = require('../models/Inspeccion.js');
 var User = require('../models/User.js');
+var Labor = require('../models/Labor.js');
 
 exports.index = function(req,res,next){
 	Observacion.findAll({
 		include: [
-			{ model: Inspeccion, attributes: ['nivel_riesgo','comentario'] }
+			{ model: Inspeccion, 
+				include : [ { model: Labor, attributes: ['nivel']},
+				{ model: User, as: 'Responsable', attributes: ['nombre']}],
+			attributes: ['nivel_riesgo','comentario','laborCodigo'] }
 		],
 		where: { userUid: req.user.uid }
-			//{ model: User, attributes: ['uid'] }		
+		//{ model: User, attributes: ['uid'] }		
 
 	})
 	.then(function(observaciones){
@@ -27,7 +31,7 @@ exports.show = function(req,res,next){
 	})
 }
 
-exports.store = function(req,res,next){
+/*exports.store = function(req,res,next){
 	Observacion.create({
 		observacion_id: req.body.observacion_id,
 		nivel_riesgo: req.body.nivel_riesgo,
@@ -44,17 +48,14 @@ exports.store = function(req,res,next){
 		res.send(500, err)
 	})
 
-}
+}*/
 
 exports.update = function(req,res,next){
 	Observacion.findById(req.params.id)
 	.then(function(observacion){
 		if(!observacion) return res.send(400,'Observacion no existe');
-		if(req.body.nivel_riesgo){
-			observacion.nivel_riesgo = req.body.nivel_riesgo;
-		}
-		if(req.body.estado){
-			observacion.estado = req.body.estado;
+		if(req.body.estado_leido){
+			observacion.estado_leido = req.body.estado_leido;
 		}
 		if(req.body.estado_observacion){
 			observacion.estado_observacion = req.body.estado_observacion;

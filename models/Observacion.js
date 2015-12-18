@@ -10,11 +10,6 @@ var Observacion = client.define('observaciones', {
     primaryKey: true,
     autoIncrement: true
   },
-  nivel_riesgo: {
-    type: Sequelize.STRING(8),
-    validate: {
-      isIn: [['CRITICO', 'MEDIO', 'BAJO']]
-  }},
   estado_leido: {
     type: Sequelize.BOOLEAN,
     defaultValue: false

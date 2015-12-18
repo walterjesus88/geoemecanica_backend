@@ -28,6 +28,7 @@ client.sync().then(function() {
     {rolRolId: '001', RecursoId: '/users', metodo: 'PUT', acceso: true},
     {rolRolId: '001', RecursoId: '/users', metodo: 'DELETE', acceso: true},
 		{rolRolId: '001', RecursoId: '/roles', metodo: 'GET', acceso: true},
+		{rolRolId: '001', RecursoId: '/inspecciones', metodo: 'GET', acceso: true},
     {rolRolId: '001', RecursoId: '/inspecciones', metodo: 'POST', acceso: true},
     {rolRolId: '001', RecursoId: '/tipos', metodo: 'GET', acceso: true},
     {rolRolId: '001', RecursoId: '/rocas', metodo: 'GET', acceso: true},
@@ -43,7 +44,12 @@ client.sync().then(function() {
     {rolRolId: '101', RecursoId: '/sostenimientos', metodo: 'GET', acceso: true},
     {rolRolId: '101', RecursoId: '/empresas', metodo: 'GET', acceso: true},
     {rolRolId: '101', RecursoId: '/porcentajes', metodo: 'GET', acceso: true},
-    {rolRolId: '101', RecursoId: '/preguntas', metodo: 'GET', acceso: true}
+    {rolRolId: '101', RecursoId: '/preguntas', metodo: 'GET', acceso: true},
+
+    {rolRolId: '001', RecursoId: '/observaciones', metodo: 'GET', acceso: true},
+    {rolRolId: '001', RecursoId: '/observaciones', metodo: 'POST', acceso: true},
+    {rolRolId: '001', RecursoId: '/observaciones', metodo: 'PUT', acceso: true}
+
   ];
 
   Recurso.bulkCreate(recursos).then(function() {
