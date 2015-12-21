@@ -42,27 +42,62 @@ exports.show = function(req, res, next) {
 }
 
 exports.store = function(req, res, next) {
+  console.log(req.body);
+  //if (!req.body.fecha) res.status(500).send('Campo fecha es obligatorio');
+  //if (!req.body.guardia) res.status(500).send('Campo guardia es obligatorio');
+  //if (!req.body.progresiva.inicio) res.status(500).send('Inicio de progresiva es obligatorio');
+  //if (!req.body.progresiva.fin) res.status(500).send('Fin de progresiva es obligatorio');
+  //if (!req.body.ancho_real) res.status(500).send('Ancho es obligatorio');
+  //if (!req.body.alto_real) res.status(500).send('Alto es obligatorio');
+  if (!req.body.gsi_hd) req.body.gsi_hd = 0;
+  if (!req.body.gsi_hi) req.body.gsi_hi = 0;
+  if (!req.body.gsi_cor) req.body.gsi_cor = 0;
+  //if (!req.body.riesgo.nivel) res.status(500).send('Nivel de riesgo obligatorio');
+  //if (!req.body.riesgo.porcentaje) res.status(500).send('Porcentaje de riesgo es obligatorio');
+  //if (!req.body.comentario) req.body.comentario = '';
+  //if (!req.body.condicion_geomecanica) res.status(500).send('Condicion geomecanica es obligatoria');
+  //if (!req.body.sostenimiento.comentario) req.body.sostenimiento.comentario = '';
+  //if (!req.body.laborCodigo) res.status(500).send('Labor es obligatoria');
+  //if (!req.body.RocaId) res.status(500).send('Tipo de roca es obligatorio');
+  //if (!req.body.SostenimientoId) res.status(500).send('Tipo de sostenimiento es obligatorio');
+  //if (!req.body.ResponsableUid) res.status(500).send('Responsable es obligatorio');
+  if (!req.body.GeomecanicoUid) req.body.GeomecanicoUid = '';
+  if (!req.body.SeguridadUid) req.body.SeguridadUid = '';
+  if (!req.body.OperacionesUid) req.body.OperacionesUid = '';
+  if (!req.body.SuperintendenteUid) req.body.SuperintendenteUid = '';
+  if (!req.body.GerenciaUid) req.body.GerenciaUid = '';
   var ins = Inspeccion.build({
     fecha: req.body.fecha,
-    periodo: req.body.periodo,
-    estado: req.body.estado,
-    recomendacion: req.body.recomendacion,
-    instalacion: req.body.instalacion,
+    guardia: req.body.guardia,
+    progresiva_inicio: req.body.progresiva_inicio,
+    progresiva_fin: req.body.progresiva_fin,
     ancho_real: req.body.ancho_real,
     alto_real: req.body.alto_real,
-    nivel_riesgo: req.body.nivel_riesgo,
+    gsi_hd: req.body.gsi_hd,
+    gsi_hi: req.body.gsi_hi,
+    gsi_cor: req.body.gsi_cor,
+    estado_recomendacion: req.body.estado_recomendacion,
+    nivel_riesgo: req.body.riesgo_nivel,
+    porcentaje_riesgo: req.body.riesgo_porcentaje,
     comentario: req.body.comentario,
+    condicion_geomecanica: req.body.condicion_geomecanica,
+    estado_sostenimiento: req.body.sostenimiento_estado,
+    comentario_sostenimiento: req.body.sostenimiento_comentario,
+    instalacion: req.body.instalacion,
     laborCodigo: req.body.laborCodigo,
-    ResponsableUid: req.body.ResponsableUid,
-    SeguridadUid: req.body.SeguridadUid,
-    GeomecanicoUid: req.body.GeomecanicoUid,
-    OperacionesUid: req.body.OperacionesUid,
-    RegistroUid: req.body.RegistroUid,
     rocaRocaid: req.body.RocaId,
-    sostenimientoSostenimientoid: req.body.SostenimientoId
+    sostenimientoSostenimientoid: req.body.SostenimientoId,
+    ResponsableUid: req.body.ResponsableUid,
+    GeomecanicoUid: req.body.GeomecanicoUid,
+    SeguridadUid: req.body.SeguridadUid,
+    OperacionesUid: req.body.OperacionesUid,
+    SuperintendenteUid: req.body.SuperintendenteUid,
+    GerenciaUid: req.body.GerenciaUid,
+    RegistroUid: req.user.uid
+
   });
 
-  ins.validarRiesgo(req.body.respuestas).then(function(valido){
+  //ins.validarRiesgo(req.body.respuestas).then(function(valido){
     ins.save().then(function(inspeccion) {
       var respuestas = req.body.respuestas;
       var array = [];
@@ -104,10 +139,10 @@ exports.store = function(req, res, next) {
     .catch(function(err) {
       res.status(500).send(err);
     });
-  })
-  .catch(function(err) {
-    res.status(500).send(err);
-  });
+  //})
+  //.catch(function(err) {
+  //  res.status(500).send(err);
+  //});
 
 }
 
