@@ -1,8 +1,6 @@
 /*cargado de las dependencias: https es para usar SSL, fs para acceder a los
 archivos de las claves de cifrado SSL*/
 var express = require('express');
-var https = require('https');
-var fs = require('fs');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -58,15 +56,10 @@ app.use('/rocas', rocasRoutes);
 app.use('/porcentajes', porcentajesRoutes);
 app.use('/observaciones', observacionesRoutes);
 
-
-//archivos de cifrado ssl
-var options = {
-    key  : fs.readFileSync('ssl/key.pem'),
-    ca   : fs.readFileSync('ssl/csr.pem'),
-    cert : fs.readFileSync('ssl/cert.pem')
-};
-
 //ejecucion del servidor con los datos necesarios
-https.createServer(options, app).listen(PORT, HOST, null, function() {
-    console.log('Server listening on port %d in %s mode', this.address().port, app.settings.env);
+var server = app.listen(PORT, function () {
+  var host = server.address().address;
+  var port = server.address().port;
+
+  console.log('Servidor iniciado en http://%s:%s', host, port);
 });

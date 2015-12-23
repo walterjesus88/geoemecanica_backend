@@ -39,7 +39,7 @@ var Inspeccion = client.define('inspeccion', {
       isIn: [['BAJO', 'MEDIO', 'CRITICO']]
     }
   },
-  porcentaje_riesgo: Sequelize.DECIMAL(2,2),
+  porcentaje_riesgo: Sequelize.DECIMAL(10,2),
   comentario: Sequelize.STRING,
   condicion_geomecanica: Sequelize.STRING,
   estado_sostenimiento: Sequelize.BOOLEAN,

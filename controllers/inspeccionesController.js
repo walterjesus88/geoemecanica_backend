@@ -42,7 +42,6 @@ exports.show = function(req, res, next) {
 }
 
 exports.store = function(req, res, next) {
-  console.log(req.body);
   //if (!req.body.fecha) res.status(500).send('Campo fecha es obligatorio');
   //if (!req.body.guardia) res.status(500).send('Campo guardia es obligatorio');
   //if (!req.body.progresiva.inicio) res.status(500).send('Inicio de progresiva es obligatorio');
@@ -84,7 +83,7 @@ exports.store = function(req, res, next) {
     estado_sostenimiento: req.body.sostenimiento_estado,
     comentario_sostenimiento: req.body.sostenimiento_comentario,
     instalacion: req.body.instalacion,
-    laborCodigo: req.body.laborCodigo,
+    laborCodigo: req.body.labor,
     rocaRocaid: req.body.RocaId,
     sostenimientoSostenimientoid: req.body.SostenimientoId,
     ResponsableUid: req.body.ResponsableUid,
@@ -102,34 +101,34 @@ exports.store = function(req, res, next) {
       var respuestas = req.body.respuestas;
       var array = [];
       for (var i = 1; i < respuestas.length; i++) {
-        var json = {
-          inspeccionInspeccionId: inspeccion.inspeccion_id,
-          preguntumPreguntaid: respuestas[i].preguntaid
-        };
-        if (respuestas[i].tipo === 'Check') {
-          json.respuesta = {check: respuestas[i].value};
-        } else if (respuestas[i].tipo === 'Opciones') {
-          json.respuesta = {opcion: respuestas[i].value};
-        } else {
-          json.respuesta = respuestas[i].value || [];
+        if (respuestas[i] !== null) {
+          var json = {
+            inspeccionInspeccionId: inspeccion.inspeccion_id,
+            preguntumPreguntaid: respuestas[i].preguntaid
+          };
+          if (respuestas[i].tipo === 'Check') {
+            json.respuesta = {check: respuestas[i].value};
+          } else if (respuestas[i].tipo === 'Opciones') {
+            json.respuesta = {opcion: respuestas[i].value};
+          } else {
+            json.respuesta = respuestas[i].value || [];
+          }
+          json.respuesta.opcional = respuestas[i].comentario;
+          array.push(json);
         }
-
-        array.push(json);
       }
       Respuesta.bulkCreate(array)
       .then(function() {
-        //res.status(201).jsonp(inspeccion);
-         Observacion.create({
-            inspeccionInspeccionId: inspeccion.inspeccion_id,
-            userUid: req.user.uid
-          })
-          .then(function(observacion) {
-            res.status(201).jsonp(inspeccion);
-          })
-          .catch(function(err){
-            console.log('500');
-            res.send(500, err)
-          })
+        Observacion.create({
+          inspeccionInspeccionId: inspeccion.inspeccion_id,
+          userUid: req.user.uid
+        })
+        .then(function(observacion) {
+          res.status(201).jsonp(inspeccion);
+        })
+        .catch(function(err){
+          res.status(200).send(err);
+        });
 
       })
       .catch(function(err) {
