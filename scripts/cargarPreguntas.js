@@ -1,7 +1,6 @@
-var client = require('../dbConnection').getInstance().getClient();
 var Pregunta = require('../models/Pregunta');
 
-client.sync().then(function() {
+Pregunta.sync({force: true}).then(function() {
 
 	var preguntas = [
 		{

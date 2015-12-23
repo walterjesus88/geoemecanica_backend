@@ -1,8 +1,7 @@
-var client = require('../dbConnection').getInstance().getClient();
 var Porcentaje = require('../models/Porcentaje');
 var Roca = require('../models/Roca');
 
-client.sync().then(function() {
+Porcentaje.sync({force: true}).then(function() {
 
   var porcentajes = [
     {

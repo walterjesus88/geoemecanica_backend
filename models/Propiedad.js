@@ -25,9 +25,11 @@ var Propiedad = client.define('propiedad', {
   condicion: {
     type: Sequelize.STRING(50)
   },
+  caracteristica: Sequelize.STRING(100),
   descripcion: {
     type: Sequelize.STRING(200)
-  }
+  },
+  mensaje: Sequelize.STRING(100)
 });
 
 module.exports = Propiedad;

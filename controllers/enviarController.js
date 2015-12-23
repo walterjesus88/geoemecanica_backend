@@ -1,10 +1,10 @@
 
 var nodemailer = require('nodemailer');
-var email = require('mailer');
+/*var email = require('mailer');
 var path = require('path');
 var PDFDocument = require('pdfkit');
 var blobStream = require('blob-stream');
-var fs = require('fs');
+var fs = require('fs');*/
 
 var Labor = require('../models/Labor');
 var Tipo = require('../models/Tipo');
@@ -13,22 +13,22 @@ var Empresa = require('../models/Empresa');
 //console.log(path.join(process.cwd(), 'static', /hola.txt));
 
 exports.index = function(req, res) {
-	
+
 
 	// var pdf = require('html-pdf');
-	
+
 	// var html = fs.readFileSync(path.join(process.cwd(), 'pdf',"/hola.html"), 'utf8');
 	// var options = { format: 'Letter' };
 
 	// pdf.create(html, options).toFile(path.join(process.cwd(), 'pdf',"/hola.pdf"), function(err, res) {
 	//   if (err) return console.log(err);
-	//   console.log(res); 
+	//   console.log(res);
 	// });
-    
 
- 
-	doc = new PDFDocument
-	//var data = [{ code: '0001', name: 'Black table', quantity: '10', price: '$ 19.20' },{ code: '0005', name: 'White table', quantity: '8',  price: '$ 19.20' },{ code: '0012', name: 'Red chair',   quantity: '40', price: '$ 12.00' }]	
+
+
+	/*doc = new PDFDocument
+	//var data = [{ code: '0001', name: 'Black table', quantity: '10', price: '$ 19.20' },{ code: '0005', name: 'White table', quantity: '8',  price: '$ 19.20' },{ code: '0012', name: 'Red chair',   quantity: '40', price: '$ 12.00' }]
 	var arr = [ {"id":"10", "class": "child-of-9"}, {"id":"11", "classd": "child-of-10"}];
 	console.log(arr);
 
@@ -39,12 +39,12 @@ exports.index = function(req, res) {
 	//     for(var key in obj){
 	//         var attrName = key;
 	//         var attrValue = obj[key];
-	       
+
 	//         doc.addPage()
 	// 		   .fontSize(25)
 	// 		   .text(attrValue, 100, 100)
-		    
-	// 	    console.log(attrValue);	    				    		
+
+	// 	    console.log(attrValue);
 	//     }
 	// }
 
@@ -59,14 +59,14 @@ exports.index = function(req, res) {
 
 	Labor.findAll({include: [{model: Tipo, attributes: ['nombre']}, {model:Empresa, attributes: ['nombre']}]})
 	.then(function(labores) {
-	    
+
 	    //console.log(jsonp(labores));
 	    //console.log(labores.length);
 
 	    labores.forEach(function(lab) {
 	    	ret_users.push({
-                     id:lab.nombre                   
-            });			    	
+                     id:lab.nombre
+            });
 	    })
 
 	    console.log(ret_users);
@@ -78,18 +78,18 @@ exports.index = function(req, res) {
 		        var attrNames = key;
 		        var attrValues = obj[key];
 		        //console.log(attrName);
-		        console.log(attrValues);	    		
+		        console.log(attrValues);
 		     	    doc.addPage()
 				 	.fontSize(25)
 					.text(attrValues, 100, 100)
-    			
+
     			//res.status(200).jsonp(pregunta);
 
 		    }
-		}	
-	  
+		}
+
 	})
-    .catch(function(err) { 
+    .catch(function(err) {
     	res.status(500).send(err);
   	});
 
@@ -112,7 +112,7 @@ exports.index = function(req, res) {
 	doc.addPage()
 	   .fillColor("blue")
 	   .text('Here is a link!', 100, 100)
-	
+
 	   .link(100, 100, 160, 27, 'http://google.com/')
 
 	doc.end()
@@ -140,10 +140,10 @@ exports.index = function(req, res) {
 	// console.log('SMTP Configured');
 
 
-	// var message = {	 
+	// var message = {
 	//     from: 'Sender Name <walter_js56@outlook.com>',
 	//     to: '"Receiver Name" <walter_js56@outlook.com>',
-	//     subject: 'Nodemailer is unicode friendly ✔', 
+	//     subject: 'Nodemailer is unicode friendly ✔',
 	//     text: 'Hello to myself!',
 	//     html:'<p><b>Hello</b> to myself <img src="cid:note@node"/></p>'+
 	//          '<p>Here\'s a nyan cat for you as an embedded attachment:<br/></p>'
@@ -158,10 +158,10 @@ exports.index = function(req, res) {
 	// 	}
 	// 	else
 	// 	{
-	// 		console.log('Message sent successfully!');	  	
+	// 		console.log('Message sent successfully!');
 	// 	}
-	
-	// });
+
+	// });*/
 
 }
 
@@ -183,11 +183,11 @@ exports.store = function(req, res, next) {
 	//     },
 	//     function(err, result){
 	//       if(err){ console.log(err); res.send("error occured"); }
-	//       else { console.log('hurray! Email Sent'); 
+	//       else { console.log('hurray! Email Sent');
 	//       res.send("Email Sent")}
 	// });
 
-	var smtpTransport = nodemailer.createTransport("SMTP",{
+	/*var smtpTransport = nodemailer.createTransport("SMTP",{
 	   service: "Gmail",
 	   auth: {
 	       user: "theosys.pe@gmail.com",
@@ -202,7 +202,7 @@ exports.store = function(req, res, next) {
 	    text: req.body.texto,
 	    attachments: [
         {   // utf-8 string as an attachment
-            fileName: req.body.asunto,                   
+            fileName: req.body.asunto,
             filePath: path.join(process.cwd(), 'pdf',"/"+req.body.fecha)
             //filePath:  path.join(process.cwd(), 'static', /hola.txt);
         }
@@ -220,5 +220,5 @@ exports.store = function(req, res, next) {
 	       //console.log("../"+__dirname+"/pdf/hola.txt");
 	       console.log(path.join(process.cwd(), 'pdf',"/"+req.body.fecha));
 	   }
-	});
+	});*/
 }
