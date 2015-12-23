@@ -4,6 +4,7 @@ var Sequelize = require('sequelize');
 var crypto = require('crypto');
 var jwt = require('jsonwebtoken');
 var Rol = require('./Rol');
+var Empresa = require('./Empresa');
 
 var User = client.define('user', {
   uid: {
@@ -17,6 +18,12 @@ var User = client.define('user', {
     }
   },
   nombre : {
+    type: Sequelize.STRING(50)
+  },
+  cargo : {
+    type: Sequelize.STRING(50)
+  },
+  area : {
     type: Sequelize.STRING(50)
   },
   password: {
@@ -69,5 +76,6 @@ var User = client.define('user', {
 });
 
 User.belongsTo(Rol);
+User.belongsTo(Empresa);
 
 module.exports = User;
