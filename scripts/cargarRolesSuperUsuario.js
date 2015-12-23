@@ -35,6 +35,10 @@ client.sync().then(function() {
     {
       id: '106',
       nombre: 'Gerencia General'
+    },
+    {
+      id: '107',
+      nombre: 'Planeamiento'
     }
   ];
 
@@ -55,7 +59,8 @@ client.sync().then(function() {
           estado: 'Activo',
           uid_registro: 'administrador',
           correo: 'administrador@atacocha.com.pe'
-        })
+        }
+        )
         .then(function(user){
           console.log('Super Usuario creado, cambie el password en el primer accesso');
           console.log('Usuario: administrador');

@@ -12,6 +12,8 @@ exports.index = function(req,res,next){
 			attributes: ['nivel_riesgo','comentario','laborCodigo'] }
 		],
 		where: { userUid: req.user.uid }
+		//{ model: User, attributes: ['uid'] }		
+
 	})
 	.then(function(observaciones){
 		res.status(200).jsonp(observaciones);
