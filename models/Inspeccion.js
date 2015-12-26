@@ -19,26 +19,32 @@ var Inspeccion = client.define('inspeccion', {
     type: Sequelize.DATE,
     defaultValue: Sequelize.now
   },
-
-  periodo: {
+  guardia: {
     type: Sequelize.STRING(5),
     validate: {
       isIn: [['DIA', 'NOCHE']]
     }
   },
-  estado: Sequelize.BOOLEAN,
-  recomendacion: Sequelize.BOOLEAN,
-  instalacion: Sequelize.BOOLEAN,
-
+  progresiva_inicio: Sequelize.STRING,
+  progresiva_fin: Sequelize.STRING,
   ancho_real: Sequelize.DECIMAL(10, 2),
   alto_real: Sequelize.DECIMAL(10, 2),
+  gsi_hd: Sequelize.DECIMAL(10, 2),
+  gsi_hi: Sequelize.DECIMAL(10, 2),
+  gsi_cor: Sequelize.DECIMAL(10, 2),
+  estado_recomendacion: Sequelize.BOOLEAN,
   nivel_riesgo: {
     type: Sequelize.STRING(10),
     validate: {
       isIn: [['BAJO', 'MEDIO', 'CRITICO']]
     }
   },
-  comentario: Sequelize.STRING
+  porcentaje_riesgo: Sequelize.DECIMAL(10,2),
+  comentario: Sequelize.STRING,
+  condicion_geomecanica: Sequelize.STRING,
+  estado_sostenimiento: Sequelize.BOOLEAN,
+  comentario_sostenimiento: Sequelize.STRING,
+  instalacion: Sequelize.BOOLEAN
 }, {
   instanceMethods: {
     validarRiesgo: function(respuestas) {
@@ -96,19 +102,14 @@ var Inspeccion = client.define('inspeccion', {
 });
 
 Inspeccion.belongsTo(Labor);
-// Inspeccion.belongsTo(Empresa);
-// Inspeccion.belongsTo(Tipo);
 Inspeccion.belongsTo(Roca);
 Inspeccion.belongsTo(Sostenimiento);
 Inspeccion.belongsTo(User, {as: 'Responsable'});
 Inspeccion.belongsTo(User, {as: 'Geomecanico'});
 Inspeccion.belongsTo(User, {as: 'Seguridad'});
 Inspeccion.belongsTo(User, {as: 'Operaciones'});
+Inspeccion.belongsTo(User, {as: 'Superintendente'});
+Inspeccion.belongsTo(User, {as: 'Gerencia'});
 Inspeccion.belongsTo(User, {as: 'Registro'});
-
-Inspeccion.hook('beforeValidate', function(inspeccion, options) {
-
-});
-
 
 module.exports = Inspeccion;

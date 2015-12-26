@@ -1,7 +1,6 @@
-var client = require('../dbConnection').getInstance().getClient();
 var Pregunta = require('../models/Pregunta');
 
-client.sync().then(function() {
+Pregunta.sync({force: true}).then(function() {
 
 	var preguntas = [
 		{
@@ -9,7 +8,7 @@ client.sync().then(function() {
       estado:'A',
       posicion:0,
       tipo: 'Opciones',
-			alternativas: ['SIN PERSONAL', 'LIMPIEZA', 'DEST/SOST', 'PERF']
+			alternativas: ['SIN PERSONAL', 'LIMPIEZA', 'DEST/SOST', 'PERFORACION']
 		},
     {
       descripcion: '¿El personal Realizó el IPERC?',
@@ -65,7 +64,7 @@ client.sync().then(function() {
 			alternativas: ['HASTIAL IZQUIERDO', 'HASTIAL DERECHO']
     },
     {
-      descripcion: '¿Están pintados las placas de los Pernos de Anclaje?',
+      descripcion: '¿Está instalada la malla de sacrificio?',
       estado:'A',
       posicion:9,
       tipo: 'Check'
@@ -77,35 +76,22 @@ client.sync().then(function() {
       tipo: 'Check'
     },
     {
-      descripcion: '¿Las mallas estan sobrecargadas de bancos y/o rocas sueltas?',
+      descripcion: '¿Existen mallas rotas, sobrecargadas de bancos y/o rocas sueltas?',
       estado:'A',
       posicion:11,
       tipo: 'Check'
     },
     {
-      descripcion: '¿Existen tramos con mallas rotas?',
+      descripcion: '¿El ancho de labor y la altura están de acuerdo al diseño?',
       estado:'A',
       posicion:12,
       tipo: 'Check'
     },
     {
-      descripcion: '¿El ancho de labor y la altura están de acuerdo al diseño?',
+      descripcion: '¿El panel informativo se encuentra actualizado?',
       estado:'A',
       posicion:13,
       tipo: 'Check'
-    },
-    {
-      descripcion: '¿Se realizó voladura controlada, se evidencia las cañas?',
-      estado:'A',
-      posicion:14,
-      tipo: 'Check'
-    },
-    {
-      descripcion: '¿El panel informativo se encuentra actualizado?',
-      estado:'A',
-      posicion:15,
-      tipo: 'MultipleCheck',
-			alternativas: ['PANEL', 'POLITICA', 'PETS', 'ESTANDARES', 'PLANOS TOP', 'PLANOS GEOMEC.']
     },
 
 	];

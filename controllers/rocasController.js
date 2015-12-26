@@ -6,8 +6,8 @@ exports.index = function(req, res, next) {
     {
       attributes: ['rocaid', 'codigo', 'porcentaje'],
       include: [
-        {model: Propiedad, as: 'Estructura', attributes: ['codigo', 'tipo', 'condicion', 'descripcion']},
-        {model: Propiedad, as: 'Superficie', attributes: ['codigo', 'tipo', 'condicion', 'descripcion']}
+        {model: Propiedad, as: 'Estructura', attributes: ['codigo', 'tipo', 'condicion', 'caracteristica', 'descripcion', 'mensaje']},
+        {model: Propiedad, as: 'Superficie', attributes: ['codigo', 'tipo', 'condicion', 'caracteristica', 'descripcion', 'mensaje']}
       ]
     }
   )

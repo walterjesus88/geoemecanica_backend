@@ -1,10 +1,10 @@
 
 var nodemailer = require('nodemailer');
-var email = require('mailer');
+/*var email = require('mailer');
 var path = require('path');
 var PDFDocument = require('pdfkit');
 var blobStream = require('blob-stream');
-var fs = require('fs');
+var fs = require('fs');*/
 
 var Labor = require('../models/Labor');
 var Tipo = require('../models/Tipo');
@@ -19,20 +19,42 @@ var Respuesta = require('../models/Respuesta');
 //console.log(path.join(process.cwd(), 'static', /hola.txt));
 
 exports.index = function(req, res) {
-	
+
 
 	// var pdf = require('html-pdf');
-	
+
 	// var html = fs.readFileSync(path.join(process.cwd(), 'pdf',"/hola.html"), 'utf8');
 	// var options = { format: 'Letter' };
 
 	// pdf.create(html, options).toFile(path.join(process.cwd(), 'pdf',"/hola.pdf"), function(err, res) {
 	//   if (err) return console.log(err);
-	//   console.log(res); 
+	//   console.log(res);
 	// });
-    
+
 
 	//var data = [{ code: '0001', name: 'Black table', quantity: '10', price: '$ 19.20' },{ code: '0005', name: 'White table', quantity: '8',  price: '$ 19.20' },{ code: '0012', name: 'Red chair',   quantity: '40', price: '$ 12.00' }]	
+
+
+
+	doc = new PDFDocument
+	//var data = [{ code: '0001', name: 'Black table', quantity: '10', price: '$ 19.20' },{ code: '0005', name: 'White table', quantity: '8',  price: '$ 19.20' },{ code: '0012', name: 'Red chair',   quantity: '40', price: '$ 12.00' }]
+	var arr = [ {"id":"10", "class": "child-of-9"}, {"id":"11", "classd": "child-of-10"}];
+	console.log(arr);
+
+	// for(var i=0;i<arr.length;i++){
+	//     var obj = arr[i];
+	//     //console.log(obj);
+
+	//     for(var key in obj){
+	//         var attrName = key;
+	//         var attrValue = obj[key];
+
+	//         doc.addPage()
+	// 		   .fontSize(25)
+	// 		   .text(attrValue, 100, 100)
+
+	// 	    console.log(attrValue);
+	//     }
 
 	// }
 
@@ -44,12 +66,13 @@ exports.index = function(req, res) {
 
 	var ret_users=[];
 
+
 	Inspeccion.findAll(
 		
 		//{include: [{model: Tipo, attributes: ['nombre']}, {model:Empresa, attributes: ['nombre']}]}
 
 		{
-	      //where: condicion,
+	      where: condicion,
 	      include: [
 	        {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro']},
 	        {model: Roca, attributes: ['codigo', 'porcentaje']},
@@ -137,12 +160,11 @@ exports.index = function(req, res) {
 
 		doc.end();		
 
+
 	})
-    .catch(function(err) { 
+    .catch(function(err) {
     	res.status(500).send(err);
   	});
-
-
 
 	// // Create a SMTP transport object
 	// var transport = nodemailer.createTransport("SMTP", {
@@ -161,12 +183,10 @@ exports.index = function(req, res) {
 	//     });
 
 	// console.log('SMTP Configured');
-
-
-	// var message = {	 
+	// var message = {
 	//     from: 'Sender Name <walter_js56@outlook.com>',
 	//     to: '"Receiver Name" <walter_js56@outlook.com>',
-	//     subject: 'Nodemailer is unicode friendly ✔', 
+	//     subject: 'Nodemailer is unicode friendly ✔',
 	//     text: 'Hello to myself!',
 	//     html:'<p><b>Hello</b> to myself <img src="cid:note@node"/></p>'+
 	//          '<p>Here\'s a nyan cat for you as an embedded attachment:<br/></p>'
@@ -181,9 +201,9 @@ exports.index = function(req, res) {
 	// 	}
 	// 	else
 	// 	{
-	// 		console.log('Message sent successfully!');	  	
+	// 		console.log('Message sent successfully!');
 	// 	}
-	
+
 	// });
 
 }
@@ -206,7 +226,7 @@ exports.store = function(req, res, next) {
 	//     },
 	//     function(err, result){
 	//       if(err){ console.log(err); res.send("error occured"); }
-	//       else { console.log('hurray! Email Sent'); 
+	//       else { console.log('hurray! Email Sent');
 	//       res.send("Email Sent")}
 	// });
 
@@ -225,7 +245,7 @@ exports.store = function(req, res, next) {
 	    text: req.body.texto,
 	    attachments: [
         {   // utf-8 string as an attachment
-            fileName: req.body.asunto,                   
+            fileName: req.body.asunto,
             filePath: path.join(process.cwd(), 'pdf',"/"+req.body.fecha)
             //filePath:  path.join(process.cwd(), 'static', /hola.txt);
         }
