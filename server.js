@@ -44,7 +44,7 @@ var	enviarRoutes = require('./routes/enviars');
 
 app.use('/', indexRoutes);
 //uso de middleware para verificar token de usuario
-app.use(ensureAuthorized);
+//app.use(ensureAuthorized);
 app.use('/users', usersRoutes);
 app.use('/labores', laboresRoutes);
 app.use('/preguntas', preguntasRoutes);
