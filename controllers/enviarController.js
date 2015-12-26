@@ -19,8 +19,6 @@ var Respuesta = require('../models/Respuesta');
 //console.log(path.join(process.cwd(), 'static', /hola.txt));
 
 exports.index = function(req, res) {
-
-
 	// var pdf = require('html-pdf');
 
 	// var html = fs.readFileSync(path.join(process.cwd(), 'pdf',"/hola.html"), 'utf8');
@@ -31,26 +29,7 @@ exports.index = function(req, res) {
 	//   console.log(res);
 	// });
 
-	doc = new PDFDocument
-	var arr = [ {"id":"10", "class": "child-of-9"}, {"id":"11", "classd": "child-of-10"}];
-	// for(var i=0;i<arr.length;i++){
-	//     var obj = arr[i];
-	//     //console.log(obj);
-
-	//     for(var key in obj){
-	//         var attrName = key;
-	//         var attrValue = obj[key];
-
-	//         doc.addPage()
-	// 		   .fontSize(25)
-	// 		   .text(attrValue, 100, 100)
-
-	// 	    console.log(attrValue);
-	//     }
-
-	// }
-	Inspeccion.findAll(		
-		//{include: [{model: Tipo, attributes: ['nombre']}, {model:Empresa, attributes: ['nombre']}]}
+	Inspeccion.findAll(				
 		{
 	      //where: condicion,
 	      include: [
@@ -60,10 +39,10 @@ exports.index = function(req, res) {
 	        {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta']}
 	      ]
 	    }
+
 	)
 	.then(function(inspecciones) {	    
 		doc = new PDFDocument
-	    //console.log(inspecciones);
 
 	    inspecciones.forEach(function(inspeccion) {
 	    	// ret_users.push({
@@ -75,7 +54,7 @@ exports.index = function(req, res) {
 			   .moveTo(100, 150)
 			   .lineTo(100, 250)
 			   .lineTo(200, 250)
-			   .fill("#FF3300")
+			   .fill("#FF3300")	
 
 			doc.scale(0.6)
 			   .translate(470, -380)
@@ -83,16 +62,26 @@ exports.index = function(req, res) {
 			   .fill('red', 'even-odd')
 			   .restore()
 
+			//doc.circle(100, 50, 50)
+   				//.dash(5, space: 10)
+   				//.stroke()
+
+		 //    filePath=path.join(process.cwd()+"/controllers/performance.png");
+		 //    console.log(filePath);
+
+			// doc.image(filePath)
 			console.log(inspeccion.nivel_riesgo);
 
 	    	doc.addPage()
 			   .fillColor("blue")	    		
 			   .text(inspeccion.nivel_riesgo, 100, 150)
-			   .text(inspeccion.laborCodigo, 200, 150)
-			   .text(inspeccion.recomendacion, 300, 150)
-			   .text(inspeccion.sostenimientoSostenimientoid, 400, 150)
-			   .text(inspeccion.comentario, 500, 150);
-	
+			   .text(inspeccion.laborCodigo, 180, 150)
+			   //.text(inspeccion.progresica_inicio, 230, 150)
+			   //.text(inspeccion.progresica_fin, 300, 150)
+			   //.text(inspeccion.recomendacion, 400, 150)
+			   //.text(inspeccion.condicion_geomecanica, 600, 150)
+			   //.text(inspeccion.sostenimientoSostenimientoid, 700, 150)
+			   .text(inspeccion.comentario, 850, 150);
 	  
 	    })
 
