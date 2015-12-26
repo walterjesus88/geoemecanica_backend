@@ -9,6 +9,12 @@ var fs = require('fs');
 var Labor = require('../models/Labor');
 var Tipo = require('../models/Tipo');
 var Empresa = require('../models/Empresa');
+var Inspeccion = require('../models/Inspeccion');
+var Roca = require('../models/Roca');
+var Sostenimiento = require('../models/Sostenimiento');
+var Respuesta = require('../models/Respuesta');
+
+
 
 //console.log(path.join(process.cwd(), 'static', /hola.txt));
 
@@ -26,29 +32,10 @@ exports.index = function(req, res) {
 	// });
     
 
- 
-	doc = new PDFDocument
 	//var data = [{ code: '0001', name: 'Black table', quantity: '10', price: '$ 19.20' },{ code: '0005', name: 'White table', quantity: '8',  price: '$ 19.20' },{ code: '0012', name: 'Red chair',   quantity: '40', price: '$ 12.00' }]	
-	var arr = [ {"id":"10", "class": "child-of-9"}, {"id":"11", "classd": "child-of-10"}];
-	console.log(arr);
 
-	// for(var i=0;i<arr.length;i++){
-	//     var obj = arr[i];
-	//     //console.log(obj);
-
-	//     for(var key in obj){
-	//         var attrName = key;
-	//         var attrValue = obj[key];
-	       
-	//         doc.addPage()
-	// 		   .fontSize(25)
-	// 		   .text(attrValue, 100, 100)
-		    
-	// 	    console.log(attrValue);	    				    		
-	//     }
 	// }
 
-	doc.pipe(fs.createWriteStream('output.pdf'))
 
 	// doc.font('fonts/PalatinoBold.ttf')
 	//    .fontSize(25)
@@ -57,67 +44,103 @@ exports.index = function(req, res) {
 
 	var ret_users=[];
 
-	Labor.findAll({include: [{model: Tipo, attributes: ['nombre']}, {model:Empresa, attributes: ['nombre']}]})
-	.then(function(labores) {
-	    
-	    //console.log(jsonp(labores));
-	    //console.log(labores.length);
+	Inspeccion.findAll(
+		
+		//{include: [{model: Tipo, attributes: ['nombre']}, {model:Empresa, attributes: ['nombre']}]}
 
-	    labores.forEach(function(lab) {
-	    	ret_users.push({
-                     id:lab.nombre                   
-            });			    	
+		{
+	      //where: condicion,
+	      include: [
+	        {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro']},
+	        {model: Roca, attributes: ['codigo', 'porcentaje']},
+	        {model: Sostenimiento, attributes: ['codigo', 'descripcion']},
+	        {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta']}
+	      ]
+	    }
+
+		)
+	.then(function(inspecciones) {
+	    
+		doc = new PDFDocument
+	    //console.log(jsonp(labores));
+	    console.log(inspecciones);
+
+	    inspecciones.forEach(function(inspeccion) {
+	    	// ret_users.push({
+	     //                 id:lab.nombre                   
+	     //    });	
+			doc.pipe(fs.createWriteStream('theosys.pdf'));
+
+			doc.save()
+			   .moveTo(100, 150)
+			   .lineTo(100, 250)
+			   .lineTo(200, 250)
+			   .fill("#FF3300")
+
+			doc.scale(0.6)
+			   .translate(470, -380)
+			   .path('M 250,75 L 323,301 131,161 369,161 177,301 z')
+			   .fill('red', 'even-odd')
+			   .restore()
+
+			console.log(inspeccion.nivel_riesgo);
+
+	    	doc.addPage()
+			   .fillColor("blue")	    		
+			   .text(inspeccion.nivel_riesgo, 100, 150)
+			   .text(inspeccion.laborCodigo, 200, 150)
+			   .text(inspeccion.recomendacion, 300, 150)
+			   .text(inspeccion.sostenimientoSostenimientoid, 400, 150)
+			   .text(inspeccion.comentario, 500, 150);
+			   //.text(lab.nombre, 100, 150);
+			//doc.fontSize(55)		
+			
+			   //.link(100, 100, 160, 27, 'http://google.com/')
+
+
+			// var arr = [ {"id":"10", "class": "child-of-9"}, {"id":"11", "classd": "child-of-10"}];
+
+			// for(var i=0;i<arr.length;i++){
+			//     var obj = arr[i];
+			 
+			//     for(var key in obj){
+			//         var attrName = key;
+			//         var attrValue = obj[key];
+			       
+			//         doc.addPage()
+			// 		   .fontSize(25)
+			// 		   .text('attrValue', 100, 100)
+				    
+			// 	    console.log(attrValue);	    				    		
+			//     }
+			// }
+   			//       console.log(lab.nombre);
+    	
+				//console.log(ret_users);
+		  //   	for(var i=0;i<ret_users.length;i++){
+				//    var obj = ret_users[i];
+				//     console.log(obj);
+
+				//     for(var key in obj){
+				//         var attrNames = key;
+				//         var attrValue = obj[key];
+				//        console.log('obj.id');
+				//         console.log(attrValue);
+				//         doc.addPage();
+				// 		doc.fontSize(25).text(obj.id, 100, 150);
+						
+		    			
+				//     }
+				// }	
+	  
 	    })
 
-	    console.log(ret_users);
-    	for(var i=0;i<ret_users.length;i++){
-		    var obj = ret_users[i];
-		    //console.log(obj);
+		doc.end();		
 
-		    for(var key in obj){
-		        var attrNames = key;
-		        var attrValues = obj[key];
-		        //console.log(attrName);
-		        console.log(attrValues);	    		
-		     	    doc.addPage()
-				 	.fontSize(25)
-					.text(attrValues, 100, 100)
-    			
-    			//res.status(200).jsonp(pregunta);
-
-		    }
-		}	
-	  
 	})
     .catch(function(err) { 
     	res.status(500).send(err);
   	});
-
-
-
-
-
-	doc.save()
-	   .moveTo(100, 150)
-	   .lineTo(100, 250)
-	   .lineTo(200, 250)
-	   .fill("#FF3300")
-
-	doc.scale(0.6)
-	   .translate(470, -380)
-	   .path('M 250,75 L 323,301 131,161 369,161 177,301 z')
-	   .fill('red', 'even-odd')
-	   .restore()
-
-	doc.addPage()
-	   .fillColor("blue")
-	   .text('Here is a link!', 100, 100)
-	
-	   .link(100, 100, 160, 27, 'http://google.com/')
-
-	doc.end()
-
-
 
 
 
