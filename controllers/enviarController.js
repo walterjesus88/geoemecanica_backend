@@ -1,10 +1,10 @@
 
 var nodemailer = require('nodemailer');
-/*var email = require('mailer');
+var email = require('mailer');
 var path = require('path');
 var PDFDocument = require('pdfkit');
 var blobStream = require('blob-stream');
-var fs = require('fs');*/
+var fs = require('fs');
 
 var Labor = require('../models/Labor');
 var Tipo = require('../models/Tipo');
@@ -31,16 +31,8 @@ exports.index = function(req, res) {
 	//   console.log(res);
 	// });
 
-
-	//var data = [{ code: '0001', name: 'Black table', quantity: '10', price: '$ 19.20' },{ code: '0005', name: 'White table', quantity: '8',  price: '$ 19.20' },{ code: '0012', name: 'Red chair',   quantity: '40', price: '$ 12.00' }]	
-
-
-
 	doc = new PDFDocument
-	//var data = [{ code: '0001', name: 'Black table', quantity: '10', price: '$ 19.20' },{ code: '0005', name: 'White table', quantity: '8',  price: '$ 19.20' },{ code: '0012', name: 'Red chair',   quantity: '40', price: '$ 12.00' }]
 	var arr = [ {"id":"10", "class": "child-of-9"}, {"id":"11", "classd": "child-of-10"}];
-	console.log(arr);
-
 	// for(var i=0;i<arr.length;i++){
 	//     var obj = arr[i];
 	//     //console.log(obj);
@@ -57,22 +49,10 @@ exports.index = function(req, res) {
 	//     }
 
 	// }
-
-
-	// doc.font('fonts/PalatinoBold.ttf')
-	//    .fontSize(25)
-	//    .text('Some text with an embedded font!', 100, 100)
-	//var lorem = "Lorem ipLorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojases contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.sum dolor sit amete";
-
-	var ret_users=[];
-
-
-	Inspeccion.findAll(
-		
+	Inspeccion.findAll(		
 		//{include: [{model: Tipo, attributes: ['nombre']}, {model:Empresa, attributes: ['nombre']}]}
-
 		{
-	      where: condicion,
+	      //where: condicion,
 	      include: [
 	        {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro']},
 	        {model: Roca, attributes: ['codigo', 'porcentaje']},
@@ -80,13 +60,10 @@ exports.index = function(req, res) {
 	        {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta']}
 	      ]
 	    }
-
-		)
-	.then(function(inspecciones) {
-	    
+	)
+	.then(function(inspecciones) {	    
 		doc = new PDFDocument
-	    //console.log(jsonp(labores));
-	    console.log(inspecciones);
+	    //console.log(inspecciones);
 
 	    inspecciones.forEach(function(inspeccion) {
 	    	// ret_users.push({
@@ -115,46 +92,7 @@ exports.index = function(req, res) {
 			   .text(inspeccion.recomendacion, 300, 150)
 			   .text(inspeccion.sostenimientoSostenimientoid, 400, 150)
 			   .text(inspeccion.comentario, 500, 150);
-			   //.text(lab.nombre, 100, 150);
-			//doc.fontSize(55)		
-			
-			   //.link(100, 100, 160, 27, 'http://google.com/')
-
-
-			// var arr = [ {"id":"10", "class": "child-of-9"}, {"id":"11", "classd": "child-of-10"}];
-
-			// for(var i=0;i<arr.length;i++){
-			//     var obj = arr[i];
-			 
-			//     for(var key in obj){
-			//         var attrName = key;
-			//         var attrValue = obj[key];
-			       
-			//         doc.addPage()
-			// 		   .fontSize(25)
-			// 		   .text('attrValue', 100, 100)
-				    
-			// 	    console.log(attrValue);	    				    		
-			//     }
-			// }
-   			//       console.log(lab.nombre);
-    	
-				//console.log(ret_users);
-		  //   	for(var i=0;i<ret_users.length;i++){
-				//    var obj = ret_users[i];
-				//     console.log(obj);
-
-				//     for(var key in obj){
-				//         var attrNames = key;
-				//         var attrValue = obj[key];
-				//        console.log('obj.id');
-				//         console.log(attrValue);
-				//         doc.addPage();
-				// 		doc.fontSize(25).text(obj.id, 100, 150);
-						
-		    			
-				//     }
-				// }	
+	
 	  
 	    })
 
