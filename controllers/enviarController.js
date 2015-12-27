@@ -29,6 +29,26 @@ exports.index = function(req, res) {
 	//   console.log(res);
 	// });
 
+// var loremIpsum = 'Lorem ipsum dolor or sit amet, consectetur adipiscing elit. Etiam in suscipit purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus nec hendrerit felis. Morbi aliquam facilisis risus eu lacinia. Sed eu leo in turpis fringilla hendrerit. Ut nec accumsan nisl. Suspendisse rhoncus nisl posuere tortor tempus et dapibus elit porta. Cras leo neque, elementum a rhoncus ut, vestibulum non nibh. Phasellus pretium justo turpis. Etiam vulputate, odio vitae tincidunt ultricies, eros odio dapibus nisi, ut tincidunt lacus arcu eu elit. Aenean velit erat, vehicula eget lacinia ut, dignissim non tellus. Aliquam nec lacus mi, sed vestibulum nunc. Suspendisse potenti. Curabitur vitae sem turpis. Vestibulum sed neque eget dolor dapibus porttitor at sit amet sem. Fusce a turpis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.';  
+
+// doc.y = 20;
+// doc.fillColor('black')
+// doc.text(loremIpsum, {
+//    paragraphGap: 10,
+//    indent: 20,
+//    align: 'justify',
+//    columns: 2
+// })
+
+
+
+	doc = new PDFDocument
+	doc.addPage({
+	    size: 'LEGAL',
+	    layout: 'landscape'
+	})
+	doc.pipe(fs.createWriteStream('theosys.pdf'));
+					
 	Inspeccion.findAll(				
 		{
 	      //where: condicion,
@@ -39,99 +59,75 @@ exports.index = function(req, res) {
 	        {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta']}
 	      ]
 	    }
-
 	)
-	.then(function(inspecciones) {	    
-		doc = new PDFDocument
+	.then(function(inspecciones) {
+
+  		console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');  		
+  		var  inspeccionjson=JSON.stringify(inspecciones);
+  		console.log(inspeccionjson);
+  		console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');	
+
+		var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';  
+		doc.y = 320;
+		doc.fillColor('black')
+		doc.text(titulo, 10,60,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1	});
+
+			doc.fillColor('black')
+			doc.text('labor',-920,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+			doc.text('nivel',-810,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('prog_inicio/fin',-750,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			//doc.text('prog_fin',-710,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('gsi',-590,160, { paragraphGap: -190,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('cond_geomecanica',-500,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('recomendacion geomecanica',-215,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('sostenimiento',315,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5}); 
+			doc.text('%_excav', 600,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
+			doc.text('ancho_alto', 600,180,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
+			//doc.text('%_exc_alto', 410,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('riesgo', 740,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+
+		var a = 0;
 
 	    inspecciones.forEach(function(inspeccion) {
-	    	// ret_users.push({
-	     //                 id:lab.nombre                   
-	     //    });	
-			doc.pipe(fs.createWriteStream('theosys.pdf'));
+	    	var det_inspeccion=[];	 
+	    	var nivel=inspeccion['labor']['nivel'];
+	    	var descripcion_sosten=inspeccion['sostenimiento']['descripcion'];
+	    	var nivel_riesgo=inspeccion['nivel_riesgo'];
+	    	var ancho_real=inspeccion.ancho_real;
+	    	var alto_real=inspeccion.alto_real;
+	    	var alto_pro=inspeccion['labor']['alto_pro'];
+	    	var ancho_pro=inspeccion['labor']['ancho_pro'];
+	    	var porcentaje=inspeccion['roca']['porcentaje'];
+	    	var gsi=inspeccion['roca']['codigo'];
+	    	var exc_ancho=(((ancho_real-ancho_pro)/ancho_pro)*100).toFixed(2);;
+	    	var exc_alto=(((alto_real-alto_pro)/alto_pro)*100).toFixed(2);;
+	    	porc_exc_ancho = Math.abs(exc_ancho);
+	    	porc_exc_alto = Math.abs(exc_alto);
 
-			doc.save()
-			   .moveTo(100, 150)
-			   .lineTo(100, 250)
-			   .lineTo(200, 250)
-			   .fill("#FF3300")	
-
-			doc.scale(0.6)
-			   .translate(470, -380)
-			   .path('M 250,75 L 323,301 131,161 369,161 177,301 z')
-			   .fill('red', 'even-odd')
-			   .restore()
-
-			//doc.circle(100, 50, 50)
-   				//.dash(5, space: 10)
-   				//.stroke()
-
-		 //    filePath=path.join(process.cwd()+"/controllers/performance.png");
-		 //    console.log(filePath);
-
-			// doc.image(filePath)
-			console.log(inspeccion.nivel_riesgo);
-
-	    	doc.addPage()
-			   .fillColor("blue")	    		
-			   .text(inspeccion.nivel_riesgo, 100, 150)
-			   .text(inspeccion.laborCodigo, 180, 150)
-			   //.text(inspeccion.progresica_inicio, 230, 150)
-			   //.text(inspeccion.progresica_fin, 300, 150)
-			   //.text(inspeccion.recomendacion, 400, 150)
-			   //.text(inspeccion.condicion_geomecanica, 600, 150)
-			   //.text(inspeccion.sostenimientoSostenimientoid, 700, 150)
-			   .text(inspeccion.comentario, 850, 150);
-	  
+	    	console.log(porc_exc_ancho);
+	    	console.log(gsi);
+			doc.fillColor('black')
+			doc.text(inspeccion.laborCodigo,-920,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+			doc.text(nivel,-810,a+200, { paragraphGap: 100,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(inspeccion.progresiva_inicio,-730,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(inspeccion.progresiva_fin,-670,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(gsi,-590,a+200, { paragraphGap: -660,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(inspeccion.condicion_geomecanica,-500,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(inspeccion.comentario,-215,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(descripcion_sosten,380,a+200, { paragraphGap: 10,indent:40,align: 'left',columns: 2,lineGap:5,height:5,width:420}); 
+			doc.text(porc_exc_ancho, 610,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(porc_exc_alto, 680,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(nivel_riesgo, 735,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 			
+			a = a + 40;
 	    })
-
-		doc.end();		
-
-
+	
+	doc.pipe( res );
+	doc.end();		
+		
 	})
     .catch(function(err) {
     	res.status(500).send(err);
   	});
-
-	// // Create a SMTP transport object
-	// var transport = nodemailer.createTransport("SMTP", {
-	//         service: 'gmail',
-	//         //host: 'smtp.gmail.com',
-	//         //secureConnection: true,
- // 			//port: 465,
-	//         //port: 587, // port for secure SMTP
-	//         auth: {
-	//             user: "wjesus88@gmail.com",
-	//             pass: "xxx"
-	//         },
-	//      //    tls: {
-	// 	    //     ciphers:'SSLv3'
-	// 	    // }
-	//     });
-
-	// console.log('SMTP Configured');
-	// var message = {
-	//     from: 'Sender Name <walter_js56@outlook.com>',
-	//     to: '"Receiver Name" <walter_js56@outlook.com>',
-	//     subject: 'Nodemailer is unicode friendly ✔',
-	//     text: 'Hello to myself!',
-	//     html:'<p><b>Hello</b> to myself <img src="cid:note@node"/></p>'+
-	//          '<p>Here\'s a nyan cat for you as an embedded attachment:<br/></p>'
-	// };
-
-	// console.log('Sending Mail');
-	// transport.sendMail(message, function(error){
-	// 	if(error){
-	// 	    console.log('Error occured');
-	// 	    console.log(error.message);
-	// 	    return;
-	// 	}
-	// 	else
-	// 	{
-	// 		console.log('Message sent successfully!');
-	// 	}
-
-	// });
 
 }
 
@@ -165,6 +161,111 @@ exports.store = function(req, res, next) {
 	   }
 	});
 
+	//generacion del PDF//
+	doc = new PDFDocument
+	doc.addPage({
+	    size: 'LEGAL',
+	    layout: 'landscape'
+	})
+	doc.pipe(fs.createWriteStream( path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf")));
+					
+	var condicion = {};
+	if (req.body.nivel) {
+		condicion.nivel_riesgo = req.body.nivel;
+	}
+	if (req.body.fIni && req.body.fFin) {
+		condicion.fecha = {$between: [req.body.fIni, req.body.fFin]};
+	}				
+	Inspeccion.findAll(				
+		{
+	      where: condicion,
+	      include: [
+	        {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro']},
+	        {model: Roca, attributes: ['codigo', 'porcentaje']},
+	        {model: Sostenimiento, attributes: ['codigo', 'descripcion']},
+	        {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta']}
+	      ]
+	    }
+	)
+	.then(function(inspecciones) {
+
+  		console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');  		
+  		var  inspeccionjson=JSON.stringify(inspecciones);
+  		console.log(inspeccionjson);
+  		console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');	
+
+  		// console.log(req.body.fIni);
+  		// console.log(req.body.fFin);
+  		// console.log(req.body.nivel);
+
+		var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';  
+		var desde = req.body.fIni;
+		var hasta = req.body.fFin;
+
+		doc.y = 320;
+		doc.fillColor('black')
+		doc.text(titulo, 10,60,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1	});
+		doc.text(desde, 10,80,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1	});
+		doc.text(hasta, 10,90,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1	});
+
+			doc.fillColor('black')
+			doc.text('labor',-920,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+			doc.text('nivel',-810,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('prog_inicio/fin',-750,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			//doc.text('prog_fin',-710,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('gsi',-590,160, { paragraphGap: -190,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('cond_geomecanica',-500,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('recomendacion geomecanica',-215,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('sostenimiento',315,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5}); 
+			doc.text('%_excav', 600,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
+			doc.text('ancho_alto', 600,180,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
+			//doc.text('%_exc_alto', 410,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('riesgo', 740,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+
+		var a = 0;
+
+	    inspecciones.forEach(function(inspeccion) {
+	    	var det_inspeccion=[];	 
+	    	var nivel=inspeccion['labor']['nivel'];
+	    	var descripcion_sosten=inspeccion['sostenimiento']['descripcion'];
+	    	var nivel_riesgo=inspeccion['nivel_riesgo'];
+	    	var ancho_real=inspeccion.ancho_real;
+	    	var alto_real=inspeccion.alto_real;
+	    	var alto_pro=inspeccion['labor']['alto_pro'];
+	    	var ancho_pro=inspeccion['labor']['ancho_pro'];
+	    	var porcentaje=inspeccion['roca']['porcentaje'];
+	    	var gsi=inspeccion['roca']['codigo'];
+	    	var exc_ancho=(((ancho_real-ancho_pro)/ancho_pro)*100).toFixed(2);;
+	    	var exc_alto=(((alto_real-alto_pro)/alto_pro)*100).toFixed(2);;
+	    	porc_exc_ancho = Math.abs(exc_ancho);
+	    	porc_exc_alto = Math.abs(exc_alto);
+	   
+			doc.fillColor('black')
+			doc.text(inspeccion.laborCodigo,-920,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+			doc.text(nivel,-810,a+200, { paragraphGap: 100,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(inspeccion.progresiva_inicio,-730,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(inspeccion.progresiva_fin,-670,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(gsi,-590,a+200, { paragraphGap: -660,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(inspeccion.condicion_geomecanica,-500,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(inspeccion.comentario,-215,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(descripcion_sosten,380,a+200, { paragraphGap: 10,indent:40,align: 'left',columns: 2,lineGap:5,height:5,width:420}); 
+			doc.text(porc_exc_ancho, 610,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(porc_exc_alto, 680,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(nivel_riesgo, 735,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 			
+			a = a + 40;
+	    })
+	
+	doc.pipe( res );
+	doc.end();		
+		
+	})
+    .catch(function(err) {
+    	res.status(500).send(err);
+  	});
+
+	//FIN DE GENERAR EL PDF//
+
+
 	smtpTransport.sendMail({
 	    from: req.body.from, // sender address
 	    to: req.body.email, // comma separated list of receivers
@@ -172,23 +273,21 @@ exports.store = function(req, res, next) {
 	    text: req.body.texto,
 	    attachments: [
         {   // utf-8 string as an attachment
-            fileName: req.body.asunto,
-            filePath: path.join(process.cwd(), 'pdf',"/"+req.body.fecha)
+            fileName: "Inspeccion"+req.body.fecha,
+            filePath: path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf")
             //filePath:  path.join(process.cwd(), 'static', /hola.txt);
         }
         ]
         //console.log(__dirname+"./inspecciones_pdf/hola.txt");
 	    // html:'<p><b>Hello</b> to myself <img src="cid:note@node"/></p>'+text+
 	    //      '<p>Here\'s a nyan cat for you as an embedded attachment:<br/></p>'
-
-
 	}, function(error, response){
 	   if(error){
 	       console.log(error);
 	   }else{
 	       console.log("Mail sent: " + response.message);
 	       //console.log("../"+__dirname+"/pdf/hola.txt");
-	       console.log(path.join(process.cwd(), 'pdf',"/"+req.body.fecha));
+	       console.log(path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf"));
 	   }
 	});
 }
