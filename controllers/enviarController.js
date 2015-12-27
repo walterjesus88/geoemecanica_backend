@@ -202,11 +202,28 @@ exports.store = function(req, res, next) {
 		var desde = req.body.fIni;
 		var hasta = req.body.fFin;
 
+		d=desde.split('T');
+		h=hasta.split('T');
+
+		doc.moveTo(100, 120)                       
+	    .lineTo(190, 120)                            
+	  	// .quadraticCurveTo(130, 200, 150, 120)        # draw a quadratic curve
+	  	// .bezierCurveTo(190, -40, 200, 200, 300, 150) # draw a bezier curve
+	    //.lineTo(400, 90)                             
+	    .stroke()    
+
 		doc.y = 320;
-		doc.fillColor('black')
-		doc.text(titulo, 10,60,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1	});
-		doc.text(desde, 10,80,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1	});
-		doc.text(hasta, 10,90,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1	});
+		doc.fillColor('blue')
+		doc.text(titulo, 10,60,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+		doc.text('Desde', -710,85,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+		doc.text(d[0],-580,85,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+		doc.text('Hasta',-710,105,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+		doc.text(h[0], -580,105,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+
+		doc.text('Geomecanica', -700,505,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+		doc.text('V.G', -300,505,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+		doc.text('Seguridad', 200,505,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+		doc.text('Spte Mina', 700,505,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 
 			doc.fillColor('black')
 			doc.text('labor',-920,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
