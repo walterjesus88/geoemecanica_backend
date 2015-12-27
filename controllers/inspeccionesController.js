@@ -11,18 +11,26 @@ var Respuesta = require('../models/Respuesta');
 
 
 exports.index = function(req, res, next) {
+
   var condicion = {};
-  if (req.query.nivel) {
-    condicion.nivel_riesgo = req.query.nivel;
-  }
-  if (req.query.desde && req.query.hasta) {
-    condicion.fecha = {$between: [req.query.desde, req.query.hasta]};
-  }
+  var condicionLabor = {};
+
+  if (req.query.nivel) condicion.nivel_riesgo = req.query.nivel;
+  if (req.query.desde && req.query.hasta) condicion.fecha = {$between: [req.query.desde, req.query.hasta]};
+  if (req.query.labor) condicion.laborCodigo = req.query.labor;
+  if (req.query.responsable) condicion.ResponsableUid = req.query.responsable;
+  if (req.query.inspector) condicion.RegistroUid = req.query.inspector;
+  if (typeof(req.query.recoGeo) !== 'undefined') condicion.estado_recomendacion = req.query.recoGeo;
+  if (req.query.guardia) condicion.guardia = req.query.guardia.toUpperCase();
+  if (typeof(req.query.sostenimiento) !== 'undefined') condicion.estado_sostenimiento = req.query.sostenimiento;
+  if (req.query.empresaid) condicionLabor.empresaEmpresaid = req.query.empresaid;
+  if (req.query.tipo) condicionLabor.tipoTipoId = req.query.tipo;
+
   Inspeccion.findAll(
     {
       where: condicion,
       include: [
-        {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro']},
+        {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro', 'empresaEmpresaid'], where: condicionLabor},
         {model: Roca, attributes: ['codigo', 'porcentaje']},
         {model: Sostenimiento, attributes: ['codigo', 'descripcion']},
         {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta']}
@@ -79,6 +87,7 @@ exports.store = function(req, res, next) {
     nivel_riesgo: req.body.riesgo_nivel,
     porcentaje_riesgo: req.body.riesgo_porcentaje,
     comentario: req.body.comentario,
+    recomendacion: req.body.recomendacion_comentario,
     condicion_geomecanica: req.body.condicion_geomecanica,
     estado_sostenimiento: req.body.sostenimiento_estado,
     comentario_sostenimiento: req.body.sostenimiento_comentario,
