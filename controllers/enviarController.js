@@ -138,13 +138,14 @@ exports.store = function(req, res, next) {
 	}
 
 	//generacion del PDF//
-	var doc = new PDFDocument
-	var stream = doc.pipe(blobStream());
-	doc.pipe(fs.createWriteStream( path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf")));
-	doc.addPage({
+	var doc = new PDFDocument( {
 	    size: 'LEGAL',
 	    layout: 'landscape'
 	});
+
+	var stream = doc.pipe(blobStream());
+	doc.pipe(fs.createWriteStream( path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf")));
+
 
 	Inspeccion.findAll(
 		{
@@ -160,10 +161,9 @@ exports.store = function(req, res, next) {
 	.then(function(inspecciones) {
 
   		var  inspeccionjson=JSON.stringify(inspecciones);
-  		console.log(inspeccionjson);
 		var a = 0;
 
-		var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';
+		var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';  
 		var user=req.user.uid;
 		doc.text(titulo, 10,60,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 		doc.text(user, 600,80,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
