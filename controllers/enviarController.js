@@ -138,7 +138,7 @@ exports.store = function(req, res, next) {
 	}	
 
 	//generacion del PDF//
-	var doc = new PDFDocument
+	
 	var doc = new PDFDocument( {
 	    size: 'LEGAL',
 	    layout: 'landscape'
