@@ -139,13 +139,14 @@ exports.store = function(req, res, next) {
 
 	//generacion del PDF//
 	var doc = new PDFDocument
-	var stream = doc.pipe(blobStream());
-	doc.pipe(fs.createWriteStream( path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf")));	
-
-	doc.addPage({
+	var doc = new PDFDocument( {
 	    size: 'LEGAL',
 	    layout: 'landscape'
 	});
+
+	var stream = doc.pipe(blobStream());
+	doc.pipe(fs.createWriteStream( path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf")));	
+
 	  					
 	Inspeccion.findAll(				
 		{
@@ -161,7 +162,7 @@ exports.store = function(req, res, next) {
 	.then(function(inspecciones) {	
 		
   		var  inspeccionjson=JSON.stringify(inspecciones);
-  		console.log(inspeccionjson);  	
+  		//console.log(inspeccionjson);  	
 		var a = 0;  			
   		
 		var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';  
