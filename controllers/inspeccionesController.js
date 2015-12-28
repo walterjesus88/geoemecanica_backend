@@ -43,7 +43,7 @@ exports.index = function(req, res, next) {
 }
 
 exports.show = function(req, res, next) {
-  Inspeccion.findById(req.params.id)
+  Inspeccion.findOne({where: {inspeccion_id: req.params.id}, include: [{ all: true }]})
   .then(function(inspeccion) {
     res.status(200).jsonp(inspeccion);
   });
