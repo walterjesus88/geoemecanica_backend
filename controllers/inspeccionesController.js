@@ -101,7 +101,7 @@ exports.store = function(req, res, next) {
     OperacionesUid: req.body.OperacionesUid,
     SuperintendenteUid: req.body.SuperintendenteUid,
     GerenciaUid: req.body.GerenciaUid,
-    RegistroUid: req.body.uid
+    RegistroUid: req.user.uid
 
   });
 

@@ -28,27 +28,33 @@ exports.index = function(req, res) {
 	//   if (err) return console.log(err);
 	//   console.log(res);
 	// });
+	// doc.y = 320;
+		// doc.fillColor('black')
+		// doc.text(titulo, 10,60,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1	});
 
-// var loremIpsum = 'Lorem ipsum dolor or sit amet, consectetur adipiscing elit. Etiam in suscipit purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus nec hendrerit felis. Morbi aliquam facilisis risus eu lacinia. Sed eu leo in turpis fringilla hendrerit. Ut nec accumsan nisl. Suspendisse rhoncus nisl posuere tortor tempus et dapibus elit porta. Cras leo neque, elementum a rhoncus ut, vestibulum non nibh. Phasellus pretium justo turpis. Etiam vulputate, odio vitae tincidunt ultricies, eros odio dapibus nisi, ut tincidunt lacus arcu eu elit. Aenean velit erat, vehicula eget lacinia ut, dignissim non tellus. Aliquam nec lacus mi, sed vestibulum nunc. Suspendisse potenti. Curabitur vitae sem turpis. Vestibulum sed neque eget dolor dapibus porttitor at sit amet sem. Fusce a turpis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.';  
+		// 	doc.fillColor('black')
+		// 	doc.text('labor',-920,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+		// 	doc.text('nivel',-810,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+		// 	doc.text('prog_inicio/fin',-750,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 	
+		// 	doc.text('gsi',-590,160, { paragraphGap: -190,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+		// 	doc.text('cond_geomecanica',-500,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+		// 	doc.text('recomendacion geomecanica',-215,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+		// 	doc.text('sostenimiento',315,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5}); 
+		// 	doc.text('%_excav', 600,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
+		// 	doc.text('ancho_alto', 600,180,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 			
+		// 	doc.text('riesgo', 740,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
 
-// doc.y = 20;
-// doc.fillColor('black')
-// doc.text(loremIpsum, {
-//    paragraphGap: 10,
-//    indent: 20,
-//    align: 'justify',
-//    columns: 2
-// })
-
+var loremIpsum = 'Lorem ipsum dolor or sit amet, consectetur adipiscing elit. Etiam in suscipit purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus nec hendrerit felis. Morbi aliquam facilisis risus eu lacinia. Sed eu leo in turpis fringilla hendrerit. Ut nec accumsan nisl. Suspendisse rhoncus nisl posuere tortor tempus et dapibus elit porta. Cras leo neque, elementum a rhoncus ut, vestibulum non nibh. Phasellus pretium justo turpis. Etiam vulputate, odio vitae tincidunt ultricies, eros odio dapibus nisi, ut tincidunt lacus arcu eu elit. Aenean velit erat, vehicula eget lacinia ut, dignissim non tellus. Aliquam nec lacus mi, sed vestibulum nunc. Suspendisse potenti. Curabitur vitae sem turpis. Vestibulum sed neque eget dolor dapibus porttitor at sit amet sem. Fusce a turpis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.';  
 
 
 	doc = new PDFDocument
+	doc.pipe(fs.createWriteStream('theosys.pdf'));
 	doc.addPage({
 	    size: 'LEGAL',
 	    layout: 'landscape'
 	})
-	doc.pipe(fs.createWriteStream('theosys.pdf'));
-					
+		
+			
 	Inspeccion.findAll(				
 		{
 	      //where: condicion,
@@ -61,34 +67,11 @@ exports.index = function(req, res) {
 	    }
 	)
 	.then(function(inspecciones) {
-
-  		console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');  		
-  		var  inspeccionjson=JSON.stringify(inspecciones);
-  		console.log(inspeccionjson);
-  		console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');	
-
 		var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';  
-		doc.y = 320;
-		doc.fillColor('black')
-		doc.text(titulo, 10,60,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1	});
-
-			doc.fillColor('black')
-			doc.text('labor',-920,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
-			doc.text('nivel',-810,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text('prog_inicio/fin',-750,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			//doc.text('prog_fin',-710,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text('gsi',-590,160, { paragraphGap: -190,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text('cond_geomecanica',-500,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text('recomendacion geomecanica',-215,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text('sostenimiento',315,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5}); 
-			doc.text('%_excav', 600,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
-			doc.text('ancho_alto', 600,180,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
-			//doc.text('%_exc_alto', 410,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text('riesgo', 740,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-
 		var a = 0;
-
 	    inspecciones.forEach(function(inspeccion) {
+
+
 	    	var det_inspeccion=[];	 
 	    	var nivel=inspeccion['labor']['nivel'];
 	    	var descripcion_sosten=inspeccion['sostenimiento']['descripcion'];
@@ -102,23 +85,27 @@ exports.index = function(req, res) {
 	    	var exc_ancho=(((ancho_real-ancho_pro)/ancho_pro)*100).toFixed(2);;
 	    	var exc_alto=(((alto_real-alto_pro)/alto_pro)*100).toFixed(2);;
 	    	porc_exc_ancho = Math.abs(exc_ancho);
-	    	porc_exc_alto = Math.abs(exc_alto);
-
-	    	console.log(porc_exc_ancho);
-	    	console.log(gsi);
-			doc.fillColor('black')
-			doc.text(inspeccion.laborCodigo,-920,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
-			doc.text(nivel,-810,a+200, { paragraphGap: 100,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(inspeccion.progresiva_inicio,-730,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(inspeccion.progresiva_fin,-670,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(gsi,-590,a+200, { paragraphGap: -660,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(inspeccion.condicion_geomecanica,-500,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(inspeccion.comentario,-215,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(descripcion_sosten,380,a+200, { paragraphGap: 10,indent:40,align: 'left',columns: 2,lineGap:5,height:5,width:420}); 
-			doc.text(porc_exc_ancho, 610,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(porc_exc_alto, 680,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(nivel_riesgo, 735,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 			
-			a = a + 40;
+	    	porc_exc_alto = Math.abs(exc_alto);	    
+			doc.fillColor('blue')
+			doc.text(inspeccion.laborCodigo,20,a+200,{ paragraphGap: 10 ,indent: 40,align: 'left',columns: 1,lineGap:5,height:5});
+			doc.text(nivel,-810,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
+			// .text(inspeccion.progresiva_inicio,-730,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	})
+			// .text(inspeccion.progresiva_fin,-670,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	})
+			// .text(gsi,-590,a+200, { paragraphGap: -660,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	})
+			// .text(inspeccion.condicion_geomecanica,-500,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	})
+			// .text(inspeccion.comentario,-215,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	})
+			// .text(descripcion_sosten,380,a+200, { paragraphGap: 10,indent:40,align: 'left',columns: 2,lineGap:5,height:5,width:420})
+			// .text(porc_exc_ancho, 610,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	})
+			// .text(porc_exc_alto, 680,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}) 
+			// .text(nivel_riesgo, 735,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 			
+			a = a + 50;
+			if (a > 200) {
+		        a = 0;
+		        doc.addPage({
+				    size: 'LEGAL',
+				    layout: 'landscape'
+				});
+		    }
 	    })
 	
 	doc.pipe( res );
@@ -133,25 +120,6 @@ exports.index = function(req, res) {
 
 exports.store = function(req, res, next) {
 
-	// email.send({
-	//     host : "smtp.gmail.com",
-	//     port : "465",
-	//     ssl : true,
-	//     domain : "i-visionblog.com",
-	//     to : "wjesus88@gmail.com",
-	//     from : "walter_js56@gmail.com",
-	//     subject : "Mailer library Mail node.js",
-	//     text: "Mail by Mailer library",
-	//     html: "<span> Hello World Mail sent from  mailer library" ,
-	//     authentication : "login",        // auth login is supported; anything else $
-	//     username : 'theosys.pe@gmail.com',
-	//     password : "5Y5T3MCR4FT"
-	//     },
-	//     function(err, result){
-	//       if(err){ console.log(err); res.send("error occured"); }
-	//       else { console.log('hurray! Email Sent');
-	//       res.send("Email Sent")}
-	// });
 
 	var smtpTransport = nodemailer.createTransport("SMTP",{
 	   service: "Gmail",
@@ -160,14 +128,6 @@ exports.store = function(req, res, next) {
 	       pass: "5Y5T3MCR4FT"
 	   }
 	});
-
-	//generacion del PDF//
-	doc = new PDFDocument
-	doc.addPage({
-	    size: 'LEGAL',
-	    layout: 'landscape'
-	})
-	doc.pipe(fs.createWriteStream( path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf")));
 					
 	var condicion = {};
 	if (req.body.nivel) {
@@ -175,7 +135,18 @@ exports.store = function(req, res, next) {
 	}
 	if (req.body.fIni && req.body.fFin) {
 		condicion.fecha = {$between: [req.body.fIni, req.body.fFin]};
-	}				
+	}	
+
+	//generacion del PDF//
+	var doc = new PDFDocument
+	var stream = doc.pipe(blobStream());
+	doc.pipe(fs.createWriteStream( path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf")));	
+
+	doc.addPage({
+	    size: 'LEGAL',
+	    layout: 'landscape'
+	});
+	  					
 	Inspeccion.findAll(				
 		{
 	      where: condicion,
@@ -187,61 +158,79 @@ exports.store = function(req, res, next) {
 	      ]
 	    }
 	)
-	.then(function(inspecciones) {
-
-  		console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');  		
+	.then(function(inspecciones) {	
+		
   		var  inspeccionjson=JSON.stringify(inspecciones);
-  		console.log(inspeccionjson);
-  		console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');	
-
-  		// console.log(req.body.fIni);
-  		// console.log(req.body.fFin);
-  		// console.log(req.body.nivel);
-
+  		console.log(inspeccionjson);  	
+		var a = 0;  			
+  		
 		var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';  
+		var user=req.user.uid;
+		doc.text(titulo, 10,60,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+		doc.text(user, 600,80,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+
 		var desde = req.body.fIni;
 		var hasta = req.body.fFin;
 
 		d=desde.split('T');
-		h=hasta.split('T');
-
-		doc.moveTo(100, 120)                       
-	    .lineTo(190, 120)                            
-	  	// .quadraticCurveTo(130, 200, 150, 120)        # draw a quadratic curve
-	  	// .bezierCurveTo(190, -40, 200, 200, 300, 150) # draw a bezier curve
-	    //.lineTo(400, 90)                             
-	    .stroke()    
-
-		doc.y = 320;
-		doc.fillColor('blue')
-		doc.text(titulo, 10,60,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+		h=hasta.split('T');	
+		//doc.y = 320;
+		doc.fillColor('black')
 		doc.text('Desde', -710,85,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 		doc.text(d[0],-580,85,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 		doc.text('Hasta',-710,105,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 		doc.text(h[0], -580,105,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 
-		doc.text('Geomecanica', -700,505,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
-		doc.text('V.G', -300,505,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
-		doc.text('Seguridad', 200,505,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
-		doc.text('Spte Mina', 700,505,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+		doc.text('Geomecanica', -690,570,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+		doc.text('Jefe de Guardia', -300,570,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+		doc.text('Seguridad', 100,570,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+		doc.text('Spte Mina', 500,570,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 
 			doc.fillColor('black')
-			doc.text('labor',-920,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
-			doc.text('nivel',-810,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text('prog_inicio/fin',-750,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			//doc.text('prog_fin',-710,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text('gsi',-590,160, { paragraphGap: -190,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text('cond_geomecanica',-500,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text('recomendacion geomecanica',-215,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text('sostenimiento',315,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5}); 
-			doc.text('%_excav', 600,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
-			doc.text('ancho_alto', 600,180,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
-			//doc.text('%_exc_alto', 410,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text('riesgo', 740,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.fontSize(10)
+			doc.text('LABOR',-940,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+			doc.text('PROG.',-840,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+				doc.text('Anch/Alt',-840,180, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+			doc.text('NIVEL',-740,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('PROGRES.',-660,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('Inicio/Fin',-660,180, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 		 
+			doc.text('GSI',-540,160, { paragraphGap: -190,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('COND GEOMECANICA',-465,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('RECOMENDACION GEOMECANICA',-220,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('SOSTENIMIENTO',180,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
+			doc.text('TURNO',370,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
+			doc.text('%_EXCAV', 450,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
+				doc.text('Ancho/Alto', 450,180,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 		
+			doc.text('RIESGO', 570,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text('COMENTARIO', 700,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});   	
 
-		var a = 0;
 
-	    inspecciones.forEach(function(inspeccion) {
+
+	    inspecciones.forEach(function(inspeccion) {	 
+
+	    	doc.moveTo(90, 560).lineTo(200, 560).stroke()  
+		    doc.moveTo(290, 560).lineTo(400, 560).stroke() 
+		    doc.moveTo(490, 560).lineTo(600, 560).stroke() 
+		    doc.moveTo(690, 560).lineTo(800, 560).stroke()  
+		    //tabla 
+		    doc.moveTo(40, 145).lineTo(40, 500).stroke() 
+		    doc.moveTo(90, 145).lineTo(90, 500).stroke() 
+		    doc.moveTo(140, 145).lineTo(140, 500).stroke() 
+		    doc.moveTo(180, 145).lineTo(180, 500).stroke() 
+		    doc.moveTo(240, 145).lineTo(240, 500).stroke() 
+		    doc.moveTo(280, 145).lineTo(280, 500).stroke() 
+		    doc.moveTo(395, 145).lineTo(395, 500).stroke() 
+		    doc.moveTo(580, 145).lineTo(580, 500).stroke() 
+		    doc.moveTo(700, 145).lineTo(700, 500).stroke() 	
+		    doc.moveTo(740, 145).lineTo(740, 500).stroke() 
+		    doc.moveTo(792, 145).lineTo(792, 500).stroke()
+		    doc.moveTo(852, 145).lineTo(852, 500).stroke() 
+		    doc.moveTo(980, 145).lineTo(980, 500).stroke()
+		    //lineas horizontales//
+		    doc.moveTo(40, 145).lineTo(980, 145).stroke()
+		    doc.moveTo(40, 190).lineTo(980, 190).stroke()  
+
+	   
 	    	var det_inspeccion=[];	 
 	    	var nivel=inspeccion['labor']['nivel'];
 	    	var descripcion_sosten=inspeccion['sostenimiento']['descripcion'];
@@ -255,25 +244,75 @@ exports.store = function(req, res, next) {
 	    	var exc_ancho=(((ancho_real-ancho_pro)/ancho_pro)*100).toFixed(2);;
 	    	var exc_alto=(((alto_real-alto_pro)/alto_pro)*100).toFixed(2);;
 	    	porc_exc_ancho = Math.abs(exc_ancho);
-	    	porc_exc_alto = Math.abs(exc_alto);
-	   
+	    	porc_exc_alto = Math.abs(exc_alto); 
+
 			doc.fillColor('black')
-			doc.text(inspeccion.laborCodigo,-920,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
-			doc.text(nivel,-810,a+200, { paragraphGap: 100,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(inspeccion.progresiva_inicio,-730,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(inspeccion.progresiva_fin,-670,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(gsi,-590,a+200, { paragraphGap: -660,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(inspeccion.condicion_geomecanica,-500,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(inspeccion.comentario,-215,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(descripcion_sosten,380,a+200, { paragraphGap: 10,indent:40,align: 'left',columns: 2,lineGap:5,height:5,width:420}); 
-			doc.text(porc_exc_ancho, 610,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(porc_exc_alto, 680,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
-			doc.text(nivel_riesgo, 735,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 			
+			doc.fontSize(9)
+			doc.text(inspeccion.laborCodigo,-940,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+			doc.text(ancho_pro,-840,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+			doc.text(alto_pro,-810,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+			doc.text(nivel,-740,a+200, { paragraphGap: 100,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(inspeccion.progresiva_inicio,-660,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(inspeccion.progresiva_fin,-620,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(gsi,-540,a+200, { paragraphGap: -660,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(inspeccion.condicion_geomecanica,282,a+200,{ paragraphGap: 10,indent: 40,align: 'justify',columns: 1,lineGap:5,height:110,width:110}); 
+			doc.text(inspeccion.recomendacion,405,a+200,{ paragraphGap: 10,indent: 40,align: 'justify',columns: 1,lineGap:5,height:110,width:150	}); 
+			doc.text(descripcion_sosten,580,a+200, { paragraphGap: 10,indent:40,align: 'justify',columns: 1,lineGap:5,height:110,width:110}); 
+			doc.text(inspeccion.guardia,390,a+200, { paragraphGap: 10,indent:40,align: 'justify',columns: 2,lineGap:5,height:5}); 
+			doc.text(porc_exc_ancho, 460,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+				doc.text(porc_exc_alto, 510,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+			doc.text(nivel_riesgo, 570,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 			
+			doc.text(inspeccion.comentario, 820,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 1,lineGap:5,height:110,width:150	}); 			
 			a = a + 40;
+			if (a > 200) {
+		        a = 0;
+		        doc.addPage({
+				    size: 'LEGAL',
+				    layout: 'landscape'
+				});
+				
+				doc.fontSize(12)
+				var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';  
+				var user= req.user.uid;
+
+				doc.fillColor('black')
+				doc.text(titulo, 10,60,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+				doc.text(user, 600,90,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+				doc.text('Desde', -710,85,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+				doc.text(d[0],-580,85,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+				doc.text('Hasta',-710,105,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+				doc.text(h[0], -580,105,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+
+				doc.text('Geomecanica', -690,570,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+				doc.text('Jefe de Guardia', -300,570,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+				doc.text('Seguridad', 100,570,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+				doc.text('Spte Mina', 500,570,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+
+
+				doc.fillColor('black')
+				doc.fontSize(10)
+				doc.text('LABOR',-940,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+				doc.text('PROG.',-840,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+					doc.text('Anch/Alt',-840,180, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+				doc.text('NIVEL',-740,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+				doc.text('PROGRES.',-660,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+				doc.text('Inicio/Fin',-660,180, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 		 
+				doc.text('GSI',-540,160, { paragraphGap: -190,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+				doc.text('COND GEOMECANICA',-465,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+				doc.text('RECOMENDACION GEOMECANICA',-220,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+				doc.text('SOSTENIMIENTO',180,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
+				doc.text('TURNO',370,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
+				doc.text('%_EXCAV', 450,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 
+					doc.text('Ancho/Alto', 450,180,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 }); 		
+				doc.text('RIESGO', 570,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	}); 
+				doc.text('COMENTARIO', 700,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});  
+
+		    }
+
 	    })
 	
 	doc.pipe( res );
-	doc.end();		
+	doc.end();	
 		
 	})
     .catch(function(err) {
@@ -291,8 +330,7 @@ exports.store = function(req, res, next) {
 	    attachments: [
         {   // utf-8 string as an attachment
             fileName: "Inspeccion"+req.body.fecha,
-            filePath: path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf")
-            //filePath:  path.join(process.cwd(), 'static', /hola.txt);
+            filePath: path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf")       
         }
         ]
         //console.log(__dirname+"./inspecciones_pdf/hola.txt");
