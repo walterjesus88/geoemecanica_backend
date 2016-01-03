@@ -1,0 +1,79 @@
+[
+  {
+     "fecha":"10-jul-15"
+    ,"guardia":"DIA"
+    ,"laborCodigo":"Rpa. 7839N"
+    ,"rocaRocaid":2
+    ,"sostenimientoSostenimientoid":10
+    ,"estado_sostenimiento":"TRUE"
+    ,"estado_recomendacion":"TRUE "
+    ,"instalacion":"TRUE"
+    ,"ancho_real":"5,00"
+    ,"porc_sobreExc_realancho":"0%"
+    ,"FIELD11":5
+    ,"alto_real":5
+    ,"porc_sobreExc_realalto":"0%"
+    ,"nivel_riesgo":"CRITICO"
+    ,"SeguridadUid":""
+    ,"GeomecanicoUid":"LUIS ROMERO TORRES"
+    ,"OperacionesUid":""
+    ,"ResponsableUid":"JOSE VILCHEZ Y DENYS LAZARO"
+    ,"respuesta":[
+               { "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."  },
+               { "preguntaid":"2","tipo":"Check","value":"TRUE"  },
+               { "preguntaid":"3","tipo":"Check","value":"TRUE"  },
+    ]
+    ,"4":"NO"
+    ,"5":"SI"
+    ,"6":"SI"
+    ,"7":"SI"
+    ,"8":"SI"
+    ,"9":1.6
+    ,"9":1.6
+    ,"recomendacion":"Terreno de mediana resistencia, fallas transversales a la labor como factor influyente filtracion de agua goteo en tramos. Se observa que falta reforzar el sostenimiento. Recomendacion reforzar el sostenimiento, bajar la altura de sostenimiento a 1.50 mts"
+    ,"comentario":"0"
+    ,"createdAt":"10/07/2015"
+  }]
+
+
+
+  {lb}
+     "{h1}":"{f1}"
+    ,"{h2}":"{f2}"
+    ,"{h3}":"{f3}"
+    ,"{h4}":{(f4)==""?"null":f4}
+    ,"{h5}":{(f5)==""?"null":f5}    
+    ,"{h6}":{f6}
+    ,"{h7}":{f7}
+    ,"{h8}":{f8}
+    ,"{h9}":{(f9)==""?"null":f9}
+    ,"{h10}":"{f10}"
+    ,"{h11}":{(f11)==""?"null":f11}
+    ,"{h12}":"{f12}"
+    ,"{h13}":"{f13}"
+    ,"{h14}":"{f14}"
+    ,"{h15}":"{f15}"
+    ,"{h16}":"{f16}"
+    ,"{h17}":"{f17}"
+    ,"{h18}":"{f18}"
+    ,"{h19}":"{f19}"
+    ,"{h20}":"{f20}"
+    ,"{h21}":"{f21}"
+    ,"respuesta":[
+     {  "preguntaid":"{h22}","tipo":"Opciones","value":"{f22}"   },
+     { "preguntaid":"{h23}","tipo":"Check","value":{f23}  },
+     { "preguntaid":"{h24}","tipo":"Check","value":{f24}  },
+     { "preguntaid":"{h25}","tipo":"Check","value":{f25}  },
+     { "preguntaid":"{h26}","tipo":"Check","value":{f26}  },
+     { "preguntaid":"{h27}","tipo":"Check","value":{f27}  },
+     { "preguntaid":"{h28}","tipo":"Check","value":{f28}  },
+     { "preguntaid":"{h29}","tipo":"Check","value":{f29}  },
+     { "preguntaid":"{h30}","tipo":"MultipleText","value":  { 'HASTIAL IZQUIERDO': "{f30}", 'HASTIAL DERECHO': "{f31}" }  },
+     { "preguntaid":"{h32}","tipo":"Check","value":{f32}  },
+     { "preguntaid":"{h34}","tipo":"Check","value":{f34}  }, 
+     { "preguntaid":"{h35}","tipo":"Check","value":{f35}  },
+    ] 
+    ,"{h36}":"{f36}"
+    ,"{h37}":"{f37}"
+    ,"{h38}":{f38}
+  {rb}

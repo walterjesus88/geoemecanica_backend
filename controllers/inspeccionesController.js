@@ -108,6 +108,7 @@ exports.store = function(req, res, next) {
   //ins.validarRiesgo(req.body.respuestas).then(function(valido){
     ins.save().then(function(inspeccion) {
       var respuestas = req.body.respuestas;
+      console.log(respuestas);
       var array = [];
       for (var i = 1; i < respuestas.length; i++) {
         if (respuestas[i] !== null) {
