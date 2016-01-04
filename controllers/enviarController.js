@@ -5,6 +5,7 @@ var path = require('path');
 var PDFDocument = require('pdfkit');
 var blobStream = require('blob-stream');
 var fs = require('fs');
+var config = require('../config.json');
 
 var Labor = require('../models/Labor');
 var Tipo = require('../models/Tipo');
@@ -124,8 +125,8 @@ exports.store = function(req, res, next) {
 	var smtpTransport = nodemailer.createTransport("SMTP",{
 	   service: "Gmail",
 	   auth: {
-	       user: "theosys.pe@gmail.com",
-	       pass: "5Y5T3MCR4FT"
+	       user: config.email.correo,
+	       pass: config.email.password
 	   }
 	});
 
@@ -163,7 +164,7 @@ exports.store = function(req, res, next) {
   		var  inspeccionjson=JSON.stringify(inspecciones);
 		var a = 0;
 
-		var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';  
+		var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';
 		var user=req.user.uid;
 		doc.text(titulo, 10,60,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 		doc.text(user, 600,80,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});

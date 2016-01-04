@@ -11,5 +11,9 @@
         "user"     : "postgres",
         "password" : "postgres",
         "host"     : "localhost"
+    },
+    "email": {
+      "correo": "theosys.pe@gmail.com",
+      "password": "5Y5T3MCR4FT"
     }
 }
