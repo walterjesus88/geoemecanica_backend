@@ -19,6 +19,10 @@ client.sync().then(function() {
     {
       id: 'MAPERU',
       nombre: 'MAPERU'
+    },
+    {
+      id: 'MCEISA',
+      nombre: 'MCEISA'
     }
   ];
 

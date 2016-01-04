@@ -40,11 +40,15 @@ var Inspeccion = client.define('inspeccion', {
     }
   },
   porcentaje_riesgo: Sequelize.DECIMAL(10,2),
-  comentario: Sequelize.STRING,
-  recomendacion: Sequelize.STRING,
+  porc_sobreExc_realancho: Sequelize.STRING,
+  porc_sobreExc_realalto: Sequelize.STRING,
+  comentario: Sequelize.TEXT,
+  recomendacion: Sequelize.TEXT,
   condicion_geomecanica: Sequelize.STRING,
   estado_sostenimiento: Sequelize.BOOLEAN,
-  comentario_sostenimiento: Sequelize.STRING,
+  estandar_labor: Sequelize.TEXT,
+  comentario_sostenimiento: Sequelize.TEXT,
+  labor_paralizada: Sequelize.BOOLEAN,
   instalacion: Sequelize.BOOLEAN
 }, {
   instanceMethods: {
