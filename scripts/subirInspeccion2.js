@@ -7,9 +7,9 @@ respuesta=[];
 
 client.sync().then(function() {  
   var inspecciones = 
-  [
-  {
-     "fecha":"13-oct-15"
+[
+ {
+     "fecha":"2015-10-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 PISO 14"
     ,"rocaRocaid":12
@@ -28,8 +28,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"CONTINUAR CON EL DESCARGUE DE MALLA Y REFORZAMIENTO DEL SOSTENIMIENTO"
     ,"comentario":"MALLAS CARGADAS"
-    ,"createdAt":"13/10/2015"
-    ,"updatedAt":"13/10/2015"
+    ,"createdAt":"2015-10-13"
+    ,"updatedAt":"2015-10-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -48,8 +48,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO EN EL ULTIMO TRAMO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13-oct-15"
+ {
+     "fecha":"2015-10-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 995"
     ,"rocaRocaid":7
@@ -68,8 +68,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE DEBE DE RELLENAR, PORQUE LAS DOS LABORES QUE SEA CORRIEN HAN COMUNICADO, Y POR FALTA DE SHOTCRETE SE ESTÁ ELEVANDO.DE IGUAL MANERA EN TODA LA INTERSECCIÓN SE OBSERVA QUE EL SHOTCRETE SE ESTÁ RAJÁNDOSE Y SE ESTÁ SOCAVANDOSE EN LOS HASTIALES. "
     ,"comentario":"\""
-    ,"createdAt":"13/10/2015"
-    ,"updatedAt":"13/10/2015"
+    ,"createdAt":"2015-10-13"
+    ,"updatedAt":"2015-10-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -88,8 +88,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE DEBE DE RELLENAR."
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"13-oct-15"
+ {
+     "fecha":"2015-10-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 24"
     ,"rocaRocaid":12
@@ -108,8 +108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE HA DESQUINCHADO EN LA ZONA DEL PILAR DESESTABILIZANDOLE, EL HASTIAL IZQUIERDO, SE RECOMIENDA ANTES DE REALIZAR LOS TALADROS LARGOS SE DEBE DE COMPLETAR CON EL REFORZADO DEL SOSTENIMIENTO. SE EVIDENCIA BANCOS COLGADOS TANTO EN HASTIALES Y SOBRECARGADO LAS MALLAS EN LA CORONA."
     ,"comentario":"\""
-    ,"createdAt":"13/10/2015"
-    ,"updatedAt":"13/10/2015"
+    ,"createdAt":"2015-10-13"
+    ,"updatedAt":"2015-10-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -128,8 +128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PORQUE SE DEBE DE COMPLETAR EL SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13-oct-15"
+ {
+     "fecha":"2015-10-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 7779 N"
     ,"rocaRocaid":12
@@ -148,8 +148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"HACIA EL TOPE SE OBSERVA SISTEMA DE FALLAS PARALELAS A LA LABOR. EL HASTIAL DERECHO SE ENCUENTRA EN VOLADIZO. EN AMBOS HASTIALES MALLAS COLGADAS, QUE SE DEBE DE COMPLETAR EL SOSTENIMIENTO. SE ESTÁ INSTALALANDO SPLIT SETRS PARALELOS A LA FALLA. DESDE EL INGRESO SE DEBE DE RESANAR."
     ,"comentario":"\""
-    ,"createdAt":"13/10/2015"
-    ,"updatedAt":"13/10/2015"
+    ,"createdAt":"2015-10-13"
+    ,"updatedAt":"2015-10-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -168,8 +168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE CORECCIÓN"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13-oct-15"
+ {
+     "fecha":"2015-10-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 7779  S"
     ,"rocaRocaid":12
@@ -188,8 +188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"EALLAS PARALELAS A LA LABOR. SE OBSERVA MALLAS CARGADAS TANTO EN HASTIALES Y CORONA DESDE EL INGRESO, SE DEBE RESANAR. SE COLOCÓ  SPLIT SETS PARALELAS  A LA FALLA."
     ,"comentario":"\""
-    ,"createdAt":"13/10/2015"
-    ,"updatedAt":"13/10/2015"
+    ,"createdAt":"2015-10-13"
+    ,"updatedAt":"2015-10-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -208,8 +208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE CORRECCIÓN."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13-oct-15"
+ {
+     "fecha":"2015-10-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 660"
     ,"rocaRocaid":12
@@ -228,8 +228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA QUE EL HASTIAL DERECHO SE ENCUENTRA EN VOLADIZO. SE DEBE DE MEJORAR LA DISTRIBUCIÓN DE PERNO A PERNO Y MEJORAR EL TRASLAPE."
     ,"comentario":"\""
-    ,"createdAt":"13/10/2015"
-    ,"updatedAt":"13/10/2015"
+    ,"createdAt":"2015-10-13"
+    ,"updatedAt":"2015-10-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -248,8 +248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN CORRECCIÓN."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"14-oct-15"
+ {
+     "fecha":"2015-10-14"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa. 7884"
     ,"rocaRocaid":2
@@ -268,8 +268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"TERRENO RESISTENTE CALIZA GRIS, CON PRESENCIA DE VENILLAS DE CALCITA CON REELENO DURO EN LAS DISCONTINUIDADES. CON EL DISPARO QUE SE REALIZO SE HA REMANGADO LA MALLA A 15 METROS DEL TOPE, EL ESPACIADO DE SPLIT SET A SPLIT SET ES DE 1.00 A 1.20 NO ESTA DE ACUERDO A LA RECOMENDACION GEOMECANICA, REALIZAR VOLADURA CONTROLADA"
     ,"comentario":"\""
-    ,"createdAt":"14/10/2015"
-    ,"updatedAt":"14/10/2015"
+    ,"createdAt":"2015-10-14"
+    ,"updatedAt":"2015-10-14"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -288,8 +288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"ESTA EN PROCESO DE DESATE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"14-oct-15"
+ {
+     "fecha":"2015-10-14"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa. 7854 E"
     ,"rocaRocaid":2
@@ -308,8 +308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"EMPLAZADO EN CALIZA GRIS DE MEDIANA RESISTENCIA, PRESENTA DOS DISCONTINUIDADES SUBVERTICALES. RECOMENDACION REALIZAR DESCARFUE DEMALLAS CARGADAS, REALIZAR EL RESANE DE LOS HASTIALES, REALIZAR VOLADURA CONTROLADA"
     ,"comentario":"\""
-    ,"createdAt":"14/10/2015"
-    ,"updatedAt":"14/10/2015"
+    ,"createdAt":"2015-10-14"
+    ,"updatedAt":"2015-10-14"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -328,8 +328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"14-oct-15"
+ {
+     "fecha":"2015-10-14"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 154 N"
     ,"rocaRocaid":6
@@ -348,8 +348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"TERRENO DE BAJA RESISTENCIA CON ALTERACION ARGILICA EN EL CONTACTO MUINERALIZADO. SE OBSERVA LA ALTURA DE SOSTENIMIENTO MAS DE 1.50 MTS, FALTA DESCARGAR LAS MALLAS CARGADAS, REALIZAR EL RESANE DE LOS HASTIALES Y CONTROLAR LA SECCION DE LA LABOR REALIZANDO LA VOLADURA CONTROLADA"
     ,"comentario":"\""
-    ,"createdAt":"14/10/2015"
-    ,"updatedAt":"14/10/2015"
+    ,"createdAt":"2015-10-14"
+    ,"updatedAt":"2015-10-14"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -368,8 +368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"ESTA EN PROCESO DE LEVANTAMIENTO DE LOS OBSERVACIONES"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"14-oct-15"
+ {
+     "fecha":"2015-10-14"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 369 (PISO 14)"
     ,"rocaRocaid":12
@@ -388,8 +388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR LA VOLADURA CONTROLADA. SE OBSERVO MALLAS CARGADAS EN EL HASTIAL IZQUIERDO"
     ,"comentario":"\""
-    ,"createdAt":"14/10/2015"
-    ,"updatedAt":"14/10/2015"
+    ,"createdAt":"2015-10-14"
+    ,"updatedAt":"2015-10-14"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -408,8 +408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"14-oct-15"
+ {
+     "fecha":"2015-10-14"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa. 782"
     ,"rocaRocaid":2
@@ -428,8 +428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR LA DISTRIBUCION Y ESPACIAMIENTO DE LSO SPLIT SET"
     ,"comentario":"\""
-    ,"createdAt":"14/10/2015"
-    ,"updatedAt":"14/10/2015"
+    ,"createdAt":"2015-10-14"
+    ,"updatedAt":"2015-10-14"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -448,8 +448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"ESTA EN PROCESO DE SOSTENIMIENTO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"14-oct-15"
+ {
+     "fecha":"2015-10-14"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 746"
     ,"rocaRocaid":12
@@ -468,8 +468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA VOLADURA CONTROLADA Y EL ARCO DE AUTOSOPORTE, DESATE DE BANCOS SUELTAS CARGADOS SOBRE  LA MALLA ELECTROSOLDADA."
     ,"comentario":"PRESENCIA DE BANCOS SUELTOS, MALLAS ROTAS."
-    ,"createdAt":"14/10/2015"
-    ,"updatedAt":"14/10/2015"
+    ,"createdAt":"2015-10-14"
+    ,"updatedAt":"2015-10-14"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -488,8 +488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"14-oct-15"
+ {
+     "fecha":"2015-10-14"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 N"
     ,"rocaRocaid":12
@@ -508,8 +508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA VOLADURA CONTROLADA Y CORTAR MALLAS SUSPENDIDAS."
     ,"comentario":"FALTA REFORZARESPACIOS ABIERTOS."
-    ,"createdAt":"14/10/2015"
-    ,"updatedAt":"14/10/2015"
+    ,"createdAt":"2015-10-14"
+    ,"updatedAt":"2015-10-14"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -528,8 +528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"14-oct-15"
+ {
+     "fecha":"2015-10-14"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -548,8 +548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA VOLADURA CONTROLADA Y SOSTENER INDEPENDIENTE LA MALLA DE SACRIFICIO."
     ,"comentario":"PRESENCIA DE BANCOS SUELTOS EN LA INTERSECCION DEL ACCESO AL STP 765 N Y Rpa 859 N."
-    ,"createdAt":"14/10/2015"
-    ,"updatedAt":"14/10/2015"
+    ,"createdAt":"2015-10-14"
+    ,"updatedAt":"2015-10-14"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -568,8 +568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"14-oct-15"
+ {
+     "fecha":"2015-10-14"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 S"
     ,"rocaRocaid":12
@@ -588,8 +588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA VOLADURA CONTROLADA Y CORTAR MALLAS SUSPENDIDOS DE LOS HASTIALES."
     ,"comentario":"\""
-    ,"createdAt":"14/10/2015"
-    ,"updatedAt":"14/10/2015"
+    ,"createdAt":"2015-10-14"
+    ,"updatedAt":"2015-10-14"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -608,8 +608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE RESANE DE MALLAS ROTAS."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-oct-15"
+ {
+     "fecha":"2015-10-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 N"
     ,"rocaRocaid":6
@@ -628,8 +628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE FALLA SEMIPARALELA A LA LABOR EN EL HASTIAL IZQUIERDO SE RECOMIENDA DESATE MACANIZADO .RUMBO DE LA FALLA N 50° W."
     ,"comentario":"SE OBSERVA MALLAS ROTAS EN EL HASTIAL DERECHO."
-    ,"createdAt":"15/10/2015"
-    ,"updatedAt":"15/10/2015"
+    ,"createdAt":"2015-10-15"
+    ,"updatedAt":"2015-10-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -648,8 +648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-oct-15"
+ {
+     "fecha":"2015-10-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -668,8 +668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"ESPACIOS ABIERTOS DE MALLA PRODUCTO DE LA VOLADURA SE RECOMIENDA REALIZAR VOLADURA CONTROLADA."
     ,"comentario":"SE OBSERVA MALLAS ROTAS DEL TOPE HACIA ATRÁS 15M."
-    ,"createdAt":"15/10/2015"
-    ,"updatedAt":"15/10/2015"
+    ,"createdAt":"2015-10-15"
+    ,"updatedAt":"2015-10-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -688,8 +688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"RE REALIZO REFUERZO DE SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-oct-15"
+ {
+     "fecha":"2015-10-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 746 N"
     ,"rocaRocaid":12
@@ -708,8 +708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA BAJAR LA CARGA OPERANTE EN LOS HASTIALES, SE EVIDENCIA SOBREROTURA DE 30 Cm."
     ,"comentario":"SE OBSERVA QUE FALTA LIMPIEZA DE CUNETA."
-    ,"createdAt":"15/10/2015"
-    ,"updatedAt":"15/10/2015"
+    ,"createdAt":"2015-10-15"
+    ,"updatedAt":"2015-10-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -728,8 +728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-oct-15"
+ {
+     "fecha":"2015-10-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859"
     ,"rocaRocaid":12
@@ -748,8 +748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIAZAR VOLADURA CONTROLADA PARA MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"FALTA SOSTENIMIENTO DE LA LABOR."
-    ,"createdAt":"15/10/2015"
-    ,"updatedAt":"15/10/2015"
+    ,"createdAt":"2015-10-15"
+    ,"updatedAt":"2015-10-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -768,8 +768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENER EL ULTIMO DISPARO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-oct-15"
+ {
+     "fecha":"2015-10-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa. 7884"
     ,"rocaRocaid":2
@@ -788,8 +788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR EL SOSTENIMIENTO DE ACUERDO A LA RECOMENDACION GEOMECANICA A 1.50MTS DEL PISO. LA BARRETILLA DE 8´ ESTA DESGASTADAS LAS UÑAS"
     ,"comentario":"\""
-    ,"createdAt":"15/10/2015"
-    ,"updatedAt":"15/10/2015"
+    ,"createdAt":"2015-10-15"
+    ,"updatedAt":"2015-10-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -808,8 +808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-oct-15"
+ {
+     "fecha":"2015-10-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 369 (piso 14)"
     ,"rocaRocaid":12
@@ -828,8 +828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REFORZAR EL SOSTENIMIENTO EN EL HASTIAL IZQUIERDO"
     ,"comentario":"\""
-    ,"createdAt":"15/10/2015"
-    ,"updatedAt":"15/10/2015"
+    ,"createdAt":"2015-10-15"
+    ,"updatedAt":"2015-10-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -848,8 +848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE ESTA LEVANTANDO LAS OBSERVACIONES"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-oct-15"
+ {
+     "fecha":"2015-10-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 369 (piso 2)"
     ,"rocaRocaid":12
@@ -868,8 +868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"EMPLAZADO EN CALIZA DE MEDIANA RESISTENCIA, PRESENTA VENILLAS DE CALCITA CON RELLENO SUAVE, COMO FACTOR INFLUYENTE LABOR ADYACENTE. RECOMENDACION DESCARGUE DE MALLAS CARGADAS, CONTROLAR LASECCION DE LA LABOR, BAJAR LA ALTURA DE SOSTENIMIENTO A 1.50 M. Y REALIZAR VOLADURA CONTROLADA"
     ,"comentario":"\""
-    ,"createdAt":"15/10/2015"
-    ,"updatedAt":"15/10/2015"
+    ,"createdAt":"2015-10-15"
+    ,"updatedAt":"2015-10-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -888,8 +888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE ESTA LEVANTANDO LAS OBSERVACIONES"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-oct-15"
+ {
+     "fecha":"2015-10-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 369 (piso 11)"
     ,"rocaRocaid":2
@@ -908,8 +908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"TERRENO DE MEDIANA RESISTENCIA, FALLA SUBVERTICAL A LA LABOR CON RELLENO SUAVE EN LAS APERTURAS. RECOMENDACION DESCARGUE DE MALLAS CARGADAS, REALIZAR VOLADURA CONTROLADA"
     ,"comentario":"\""
-    ,"createdAt":"15/10/2015"
-    ,"updatedAt":"15/10/2015"
+    ,"createdAt":"2015-10-15"
+    ,"updatedAt":"2015-10-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -928,8 +928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-oct-15"
+ {
+     "fecha":"2015-10-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro. 436 S"
     ,"rocaRocaid":10
@@ -948,8 +948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"TERRENO DE BAJA RESISTENCIA, PRESENTA ALTERACION ARGILIZA CON PRESENCIA DE PANIZO, FALLA TRANSVERSAL A LA LABOR. RECOMENDACION DESATE CONTINUO, DESCARGUE DE MALLAS CARGADAS, RESANE DE MALLAS ROTAS, CONTROLAR LASECCION DE LA LABOR. RECOMENDACION REALIZAR LA VOLADURA CONTROLADA Y COLOCAR LA MALLA DE SACRIFICIO"
     ,"comentario":"\""
-    ,"createdAt":"15/10/2015"
-    ,"updatedAt":"15/10/2015"
+    ,"createdAt":"2015-10-15"
+    ,"updatedAt":"2015-10-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -968,8 +968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE ESTA REALIZANDO VOLADURA CONTROLADA"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-oct-15"
+ {
+     "fecha":"2015-10-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop. 440 S"
     ,"rocaRocaid":12
@@ -988,8 +988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca muy fracturada regulara, alteración moderada entre las fracturas. recomendación desate continuo de la zona disparada,  descargue de mallas que presente cargada suspendida, reponer malla dañada, realizar la voladura controlada y colocar la malla hasta el tope."
     ,"comentario":"el ultimo paño de malla ha sido remangado por el ultimo disparo, esto a razón de no estar correctamente adherido a la superficie de la roca con Split set de 7'"
-    ,"createdAt":"16/10/2015"
-    ,"updatedAt":"16/10/2015"
+    ,"createdAt":"2015-10-16"
+    ,"updatedAt":"2015-10-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1008,8 +1008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"LABOR EN CICLO NORMAL"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-oct-15"
+ {
+     "fecha":"2015-10-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop. 765 N"
     ,"rocaRocaid":6
@@ -1028,8 +1028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MUY FARACTURADA POBRE, SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA NO REMANGAR MALLA DE SOSTENIMIENTOEN LA PARTE DE LA CORONA, REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"ESPACIOS ABIERTOS DE MALLA EN EL HASTIAL DERECHO DE LA LABOR."
-    ,"createdAt":"16/10/2015"
-    ,"updatedAt":"16/10/2015"
+    ,"createdAt":"2015-10-16"
+    ,"updatedAt":"2015-10-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1048,8 +1048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-oct-15"
+ {
+     "fecha":"2015-10-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859"
     ,"rocaRocaid":12
@@ -1068,8 +1068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA MANTENER LASECCION PROGRAMADA, REFORZAR SOSTENIMIENTO EN LA INTERSECCION DE LA LABOR."
     ,"comentario":"SE OBSERVA MALLA SUSPENDIDA EN LA INTERSECCION DE LA LABOR."
-    ,"createdAt":"16/10/2015"
-    ,"updatedAt":"16/10/2015"
+    ,"createdAt":"2015-10-16"
+    ,"updatedAt":"2015-10-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1088,8 +1088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE LIMPIEZA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-oct-15"
+ {
+     "fecha":"2015-10-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":2
@@ -1108,8 +1108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ESPACIOS ABIERTOS DE MALLA SE RECOMIENDA REFORZAR SOSTENIMIENTO, REALIZAR VOLADURA CONTROLADA PARA NO REMANGAR MALLA DE SOSTENIMIENTO."
     ,"comentario":"FALTA LIMPIEZA DE CUNETA, ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"16/10/2015"
-    ,"updatedAt":"16/10/2015"
+    ,"createdAt":"2015-10-16"
+    ,"updatedAt":"2015-10-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1128,8 +1128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE DESATE."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-oct-15"
+ {
+     "fecha":"2015-10-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 746 N"
     ,"rocaRocaid":12
@@ -1148,8 +1148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"FALTA LIMPIEZA DE CUNETA, ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"16/10/2015"
-    ,"updatedAt":"16/10/2015"
+    ,"createdAt":"2015-10-16"
+    ,"updatedAt":"2015-10-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1168,8 +1168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-oct-15"
+ {
+     "fecha":"2015-10-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 154 N"
     ,"rocaRocaid":6
@@ -1188,8 +1188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA QUE EL ANCHO DE LA LABOR NO ESTA DEACUERDO AL DISEÑO, EN LA CORONA DE LA LABOR HAY BANCOS COLGADOS SOBRE LA MALLA,BAJAR LA ALTURA DE SOSTENIMIENTO A 1.50 EN EL HASTIAL DERECHO, REFORZAR EL SOSTENIMIENTO"
     ,"comentario":"\""
-    ,"createdAt":"16/10/2015"
-    ,"updatedAt":"16/10/2015"
+    ,"createdAt":"2015-10-16"
+    ,"updatedAt":"2015-10-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1208,8 +1208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE VA A CONTROLAR LA SECCION DE LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-oct-15"
+ {
+     "fecha":"2015-10-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 691"
     ,"rocaRocaid":12
@@ -1228,8 +1228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS Y LA ALTURA DE SOSTENIMIENTO DE LOS HASTIALES NO ESTAN DE ACUERDO A LA RECOMENDACION GEOMECANICA CONTROLAR LA SECCION REALIZANDO VOLADURA CONTROLADA"
     ,"comentario":"\""
-    ,"createdAt":"16/10/2015"
-    ,"updatedAt":"16/10/2015"
+    ,"createdAt":"2015-10-16"
+    ,"updatedAt":"2015-10-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1248,8 +1248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"ESTA EN PROCESO DE SOSTENIMIENTO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-oct-15"
+ {
+     "fecha":"2015-10-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa. 782"
     ,"rocaRocaid":2
@@ -1268,8 +1268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALLA SUBVERTICAL A LA LABOR , SE OBSERVA MALLAS CARGADAS EN DICHA LABOR"
     ,"comentario":"\""
-    ,"createdAt":"16/10/2015"
-    ,"updatedAt":"16/10/2015"
+    ,"createdAt":"2015-10-16"
+    ,"updatedAt":"2015-10-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1288,8 +1288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"ESTA EN PROCESO DE DESATE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-oct-15"
+ {
+     "fecha":"2015-10-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 369 (PISO 14)"
     ,"rocaRocaid":12
@@ -1308,8 +1308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE DESCARGA MALLA DEL PUNTO TOPOGRAFICO F.78 A 15MTS Y SE REALIZA RESANE"
     ,"comentario":"\""
-    ,"createdAt":"16/10/2015"
-    ,"updatedAt":"16/10/2015"
+    ,"createdAt":"2015-10-16"
+    ,"updatedAt":"2015-10-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1328,8 +1328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-oct-15"
+ {
+     "fecha":"2015-10-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA. 7884"
     ,"rocaRocaid":2
@@ -1348,8 +1348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR EN LA DISTRIBUCION DE SPLIT A SPLIT SET"
     ,"comentario":"\""
-    ,"createdAt":"16/10/2015"
-    ,"updatedAt":"16/10/2015"
+    ,"createdAt":"2015-10-16"
+    ,"updatedAt":"2015-10-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1368,8 +1368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-oct-15"
+ {
+     "fecha":"2015-10-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop. 440 W"
     ,"rocaRocaid":12
@@ -1388,8 +1388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"ROCA CON FRACTURA MODERADAMENTE ALTERADAS, ELIMINARA LAS ROCAS SUSPENDIDAS EN LA MALLA, COMPLETAR DE SOSTENER SEGÚN SE HA RECOMENDADO, MEJORAR EN LA DISTRIBUCION DE SPLIT A SPLIT SET"
     ,"comentario":"SE HA ENCONTRADO EL FRENTE DISPARADO SIN COMPLETAR EL SOSTENIMIENTO DEL DISPARO ANTERIOR (6.5M SIN SOSTENER). TRAMOS DE MALLA DAÑADA QUE REQUIERE REHABILITARSE. "
-    ,"createdAt":"19/10/2015"
-    ,"updatedAt":"19/10/2015"
+    ,"createdAt":"2015-10-19"
+    ,"updatedAt":"2015-10-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -1408,8 +1408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20-oct-15"
+ {
+     "fecha":"2015-10-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop. 440 W"
     ,"rocaRocaid":12
@@ -1428,8 +1428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"ROCA CON FRACTURA MODERADAMENTE ALTERADAS, ELIMINARA LAS ROCAS SUSPENDIDAS EN LA MALLA, COMPLETAR DE SOSTENER SEGÚN SE HA RECOMENDADO, MEJORAR EN LA DISTRIBUCION DE SPLIT A SPLIT SET"
     ,"comentario":"\""
-    ,"createdAt":"19/10/2015"
-    ,"updatedAt":"19/10/2015"
+    ,"createdAt":"2015-10-19"
+    ,"updatedAt":"2015-10-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -1448,8 +1448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20-oct-15"
+ {
+     "fecha":"2015-10-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop. 440 W"
     ,"rocaRocaid":12
@@ -1468,8 +1468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESECIA DE B"
     ,"comentario":"\""
-    ,"createdAt":"19/10/2015"
-    ,"updatedAt":"19/10/2015"
+    ,"createdAt":"2015-10-19"
+    ,"updatedAt":"2015-10-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -1488,8 +1488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PREOCESO DE SOSTENIMIENTO, CONT"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19-oct-15"
+ {
+     "fecha":"2015-10-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop. 765 N"
     ,"rocaRocaid":7
@@ -1508,8 +1508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"CONTINUAR CON RESANE Y DESATE DE BANCOS SUELTOS SOBRE LA MALLA ELECTROSOLDADA."
     ,"comentario":"PRESENCIA DE MALLAS ROTAS, BANCOS SUELTOS SOBRE LA MALLA."
-    ,"createdAt":"19/10/2015"
-    ,"updatedAt":"19/10/2015"
+    ,"createdAt":"2015-10-19"
+    ,"updatedAt":"2015-10-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1528,8 +1528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMIENTO Y CONTROL DE VOLADURA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19-oct-15"
+ {
+     "fecha":"2015-10-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop. 765 S"
     ,"rocaRocaid":6
@@ -1548,8 +1548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"CORTAR LAS MALLAS SUSPENDIDAS, PEGAR LAS MALLAS ENBOSONADAS."
     ,"comentario":"PRESENCIA DE MALLAS ENBOLSONADAS, MALLAS SUSPENDIDAS."
-    ,"createdAt":"19/10/2015"
-    ,"updatedAt":"19/10/2015"
+    ,"createdAt":"2015-10-19"
+    ,"updatedAt":"2015-10-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1568,8 +1568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19-oct-15"
+ {
+     "fecha":"2015-10-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro. 544 E"
     ,"rocaRocaid":12
@@ -1588,8 +1588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"RECOMENDACION, REALIZAR TALADROS DE ALIVIO, USO DE CAÑAS EN LA CORONA."
     ,"comentario":"FALTA RESANE DE LAS MALLAS ROTAS, DESCARGUE DE BANCOS SUELTOS SOBRE LA MALLA."
-    ,"createdAt":"19/10/2015"
-    ,"updatedAt":"19/10/2015"
+    ,"createdAt":"2015-10-19"
+    ,"updatedAt":"2015-10-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1608,8 +1608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19-oct-15"
+ {
+     "fecha":"2015-10-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859"
     ,"rocaRocaid":6
@@ -1628,8 +1628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"RESANE DE MALLAS ROTAS DEL TOPE A 7m ATRAS."
     ,"comentario":"PRESENCIA DE MALLAS ROTAS, BANCOS SUELTOS SOBRE LA MALLA."
-    ,"createdAt":"19/10/2015"
-    ,"updatedAt":"19/10/2015"
+    ,"createdAt":"2015-10-19"
+    ,"updatedAt":"2015-10-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1648,8 +1648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19-oct-15"
+ {
+     "fecha":"2015-10-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 119"
     ,"rocaRocaid":9
@@ -1668,8 +1668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"desate mecanizado, realizar voladura controlada, taladros de alivio, reducir la carga de explosivos en el contorno."
     ,"comentario":"presencia de cuñas, sistema de fallamiento paralelo a la labor."
-    ,"createdAt":"19/10/2015"
-    ,"updatedAt":"19/10/2015"
+    ,"createdAt":"2015-10-19"
+    ,"updatedAt":"2015-10-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1688,8 +1688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMEINTOY DESQUINCHE."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21-oct-15"
+ {
+     "fecha":"2015-10-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 154 S"
     ,"rocaRocaid":12
@@ -1708,8 +1708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REALIZO DESCARGUE DE MALLAS CARGADAS. CONTINUAR EN LA GUARDIA NOCHE"
     ,"comentario":"\""
-    ,"createdAt":"21/10/2015"
-    ,"updatedAt":"21/10/2015"
+    ,"createdAt":"2015-10-21"
+    ,"updatedAt":"2015-10-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1728,8 +1728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE VA CONTROLAR LA SECCION DE LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21-oct-15"
+ {
+     "fecha":"2015-10-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 369 (PISO 14)"
     ,"rocaRocaid":12
@@ -1748,8 +1748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTROLAR LA SECCION, SE REALIZA DESCARGUE DE MALLAS CARGADAS"
     ,"comentario":"\""
-    ,"createdAt":"21/10/2015"
-    ,"updatedAt":"21/10/2015"
+    ,"createdAt":"2015-10-21"
+    ,"updatedAt":"2015-10-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1768,8 +1768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE ESTA LLEVANDO LA SECCION DE ACUERDO A GEOLOGIA. SE VA REALIZAR INSPECCIONES Y ENTRENAMIENTOS PARA CONTROLAR EL ANCHO DE MINADO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21-oct-15"
+ {
+     "fecha":"2015-10-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 369 (PISO 2)"
     ,"rocaRocaid":12
@@ -1788,8 +1788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSEVAN MALLAS CARGADAS REALIZAR DESCARGUE DE MALLAS CARGADAS"
     ,"comentario":"\""
-    ,"createdAt":"21/10/2015"
-    ,"updatedAt":"21/10/2015"
+    ,"createdAt":"2015-10-21"
+    ,"updatedAt":"2015-10-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1808,8 +1808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21-oct-15"
+ {
+     "fecha":"2015-10-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro. 7912"
     ,"rocaRocaid":2
@@ -1828,8 +1828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"CALIZA GRIS, TERRENO RESISTENTE CON VENILLAS DE CALCITA DURO. FALLA FAVORABLE A LA LABOR. RECOMENDACION REALIZAR DESCARGUE DE MALLAS CARGADAS, REFORZAR EL SOSTENIMIENTO, DESATE DE HASTIALES Y REALIZAR VOLADURA CONTROLADA"
     ,"comentario":"\""
-    ,"createdAt":"21/10/2015"
-    ,"updatedAt":"21/10/2015"
+    ,"createdAt":"2015-10-21"
+    ,"updatedAt":"2015-10-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1848,8 +1848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21-oct-15"
+ {
+     "fecha":"2015-10-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa. 859 N"
     ,"rocaRocaid":12
@@ -1868,8 +1868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE CALIZA GRIS, SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA MANTENER LA SECCION PROGRAMADA, REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO  EN LA INTERSECCION DE ESPACIOS ABIERTOS."
-    ,"createdAt":"21/10/2015"
-    ,"updatedAt":"21/10/2015"
+    ,"createdAt":"2015-10-21"
+    ,"updatedAt":"2015-10-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1888,8 +1888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE DESATE."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21-oct-15"
+ {
+     "fecha":"2015-10-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa. 544 E"
     ,"rocaRocaid":12
@@ -1908,8 +1908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE BARETINA, SE RECOMIENDA REFORZAR ESPACIOS ABIERTOS, REALIZAR TALADROS DE PRE-CORTE PARA MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"21/10/2015"
-    ,"updatedAt":"21/10/2015"
+    ,"createdAt":"2015-10-21"
+    ,"updatedAt":"2015-10-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1928,8 +1928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21-oct-15"
+ {
+     "fecha":"2015-10-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 746 N"
     ,"rocaRocaid":12
@@ -1948,8 +1948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA BAJAR LA CARGA OPERANTE EN LOS HASTIALES PORQUE HAY PRESENCIA DE ROTURA, REALIZAR REFUERZO DE SOSTENIMIENTO HASTA LA GRADIENTE."
     ,"comentario":"FALTA LIMPIEZA DE CUNETA Y FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"21/10/2015"
-    ,"updatedAt":"21/10/2015"
+    ,"createdAt":"2015-10-21"
+    ,"updatedAt":"2015-10-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -1968,8 +1968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE DESATE."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21-oct-15"
+ {
+     "fecha":"2015-10-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 765 N"
     ,"rocaRocaid":7
@@ -1988,8 +1988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR TALADROS DE PRE-CORTE PARA MANTENER LA SECCION PROGRAMADA, CONTINUAR CON LAVOLADURA CONTROLADA, BANCOS COLGADOS EN LA MALLA SE RECOMENDÓ DESATE MECANIZADO."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"21/10/2015"
-    ,"updatedAt":"21/10/2015"
+    ,"createdAt":"2015-10-21"
+    ,"updatedAt":"2015-10-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2008,8 +2008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22-oct-15"
+ {
+     "fecha":"2015-10-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 746 N"
     ,"rocaRocaid":6
@@ -2028,8 +2028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA, REFORZAR SOSTENIMIENTO HASTA LA GRADIENTE DE ESPACIOS ABIERTOS."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS."
-    ,"createdAt":"22/10/2015"
-    ,"updatedAt":"22/10/2015"
+    ,"createdAt":"2015-10-22"
+    ,"updatedAt":"2015-10-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2048,8 +2048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22-oct-15"
+ {
+     "fecha":"2015-10-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 544 E"
     ,"rocaRocaid":12
@@ -2068,8 +2068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA NO REALIZAR SOBRE ROTURA,REFORZAR ESPACIOS ABIERTOS DE MALLA EN EL HASTIAL IZQUIERDO."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"22/10/2015"
-    ,"updatedAt":"22/10/2015"
+    ,"createdAt":"2015-10-22"
+    ,"updatedAt":"2015-10-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2088,8 +2088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22-oct-15"
+ {
+     "fecha":"2015-10-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 765 N "
     ,"rocaRocaid":7
@@ -2108,8 +2108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR TALADROS DE PRE-CORTE  EN LA CORONA DE LA LABOR, REALIZAR DESATE CONSTANTE."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"22/10/2015"
-    ,"updatedAt":"22/10/2015"
+    ,"createdAt":"2015-10-22"
+    ,"updatedAt":"2015-10-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2128,8 +2128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE PERFORACION."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22-oct-15"
+ {
+     "fecha":"2015-10-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N "
     ,"rocaRocaid":12
@@ -2148,8 +2148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR TALADROS DE PRE-CORTE EN LA CORONA, REFORZAR ESPACIOS ABIERTOS DE MALLA EN LOS HASTIALES."
     ,"comentario":"DESVIACION DE LA LABOR EN EL HASTIAL IZQUIERDO 1.4\"M"
-    ,"createdAt":"22/10/2015"
-    ,"updatedAt":"22/10/2015"
+    ,"createdAt":"2015-10-22"
+    ,"updatedAt":"2015-10-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2168,8 +2168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE DESATE."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22-oct-15"
+ {
+     "fecha":"2015-10-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 154 N"
     ,"rocaRocaid":12
@@ -2188,8 +2188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"LABOR CON CARGA, DESCARGUE Y DESATE NE LOS HASTIALES Y REFORZAR EL SOSTENIMIENTO"
     ,"comentario":"\""
-    ,"createdAt":"22/10/2015"
-    ,"updatedAt":"22/10/2015"
+    ,"createdAt":"2015-10-22"
+    ,"updatedAt":"2015-10-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2208,8 +2208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"ESTA EN PROCESO DE DESATE Y DESCARGUE DE MALLAS CARGADAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22-oct-15"
+ {
+     "fecha":"2015-10-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 154 S"
     ,"rocaRocaid":12
@@ -2228,8 +2228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"DESCARGUE DE MALLAS CARGADAS CONSTANTE Y EN EL HASTIAL DERECHO DESATE CONTINUO PRESENTA FALLAS"
     ,"comentario":"\""
-    ,"createdAt":"22/10/2015"
-    ,"updatedAt":"22/10/2015"
+    ,"createdAt":"2015-10-22"
+    ,"updatedAt":"2015-10-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -2248,8 +2248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"ESTA CON CARGA LA LABOR Y SE VA A REALIZAR VOLADURA CONTROLADA"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22-oct-15"
+ {
+     "fecha":"2015-10-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 369 (PISO 14)"
     ,"rocaRocaid":12
@@ -2268,8 +2268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTROLAR LA SECCION DE LA LABOR, SE OBSERVAN MALLAS CARGADAS. REALIZAR VOLADURA CONTROLADA"
     ,"comentario":"\""
-    ,"createdAt":"22/10/2015"
-    ,"updatedAt":"22/10/2015"
+    ,"createdAt":"2015-10-22"
+    ,"updatedAt":"2015-10-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2288,8 +2288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE VA A CONTROLAR LA SECCION DE LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22-oct-15"
+ {
+     "fecha":"2015-10-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 7921"
     ,"rocaRocaid":2
@@ -2308,8 +2308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"terreno resistente emplazado en caliza gris de mediana resistencia. SE OBSERVA MALLAS CARGADAS Y FALTA REFORZAR EL SOSTENIMIENTO"
     ,"comentario":"\""
-    ,"createdAt":"22/10/2015"
-    ,"updatedAt":"22/10/2015"
+    ,"createdAt":"2015-10-22"
+    ,"updatedAt":"2015-10-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2328,8 +2328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23-oct-15"
+ {
+     "fecha":"2015-10-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7884"
     ,"rocaRocaid":2
@@ -2348,8 +2348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"terreno resistente emplazado en caliza gris de mediana resistencia. SE OBSERVA MALLAS CARGADAS Y FALTA REFORZAR EL SOSTENIMIENTO"
     ,"comentario":"\""
-    ,"createdAt":"23/10/2015"
-    ,"updatedAt":"23/10/2015"
+    ,"createdAt":"2015-10-23"
+    ,"updatedAt":"2015-10-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2368,8 +2368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23-oct-15"
+ {
+     "fecha":"2015-10-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154S"
     ,"rocaRocaid":12
@@ -2388,8 +2388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"TERRENO DE MEDIANA RESISTENCIA CON ALTERACION ARGILICA EN EL CONTACTOMINERALIZADO, REALIZAR DESCARGUE DE MALLAS CARGADAS Y LA ALTURA DE SOSTENIMIENTO NO ESTA DE ACUERDO A LA RECOMENDACION A 1.50M DEL PISO Y REALIZARVOLADURA CONTROLADA"
     ,"comentario":"\""
-    ,"createdAt":"23/10/2015"
-    ,"updatedAt":"23/10/2015"
+    ,"createdAt":"2015-10-23"
+    ,"updatedAt":"2015-10-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2408,8 +2408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23-oct-15"
+ {
+     "fecha":"2015-10-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 314W"
     ,"rocaRocaid":12
@@ -2428,8 +2428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE DESCARGO MALLAS CARGADAS DEL TOPE A 10 MTS."
     ,"comentario":"CAMBIAR LAS BARRETILLAS EN MAL ESTADO DE 6 Y 8"
-    ,"createdAt":"23/10/2015"
-    ,"updatedAt":"23/10/2015"
+    ,"createdAt":"2015-10-23"
+    ,"updatedAt":"2015-10-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2448,8 +2448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23-oct-15"
+ {
+     "fecha":"2015-10-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 7840S"
     ,"rocaRocaid":2
@@ -2468,8 +2468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR LA DISTRIBUCION DE ELEMENTOS DE SOSTENIMIENTO"
     ,"comentario":"SE REALIZO DESCARGUE DE MALLA EN EL HASTIAL IZQUIERDO"
-    ,"createdAt":"23/10/2015"
-    ,"updatedAt":"23/10/2015"
+    ,"createdAt":"2015-10-23"
+    ,"updatedAt":"2015-10-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2488,8 +2488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23-oct-15"
+ {
+     "fecha":"2015-10-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 765 N"
     ,"rocaRocaid":7
@@ -2508,8 +2508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA, REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO DE ESPACVIOS ABIERTOS."
-    ,"createdAt":"23/10/2015"
-    ,"updatedAt":"23/10/2015"
+    ,"createdAt":"2015-10-23"
+    ,"updatedAt":"2015-10-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2528,8 +2528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23-oct-15"
+ {
+     "fecha":"2015-10-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -2548,8 +2548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR LOS TALADROS DE PRE-CORTE EN LA CORONA PARA MANTENER LA SECCCION PROGRAMADA, REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA"
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO  DE ESPÁCIOS ABIERTOS."
-    ,"createdAt":"23/10/2015"
-    ,"updatedAt":"23/10/2015"
+    ,"createdAt":"2015-10-23"
+    ,"updatedAt":"2015-10-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2568,8 +2568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23-oct-15"
+ {
+     "fecha":"2015-10-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 746 N"
     ,"rocaRocaid":12
@@ -2588,8 +2588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR LOS TALADROS DE PRE-CORTE EN LA CORONA PARA MANTENER LA SECCCION PROGRAMADA, REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA"
     ,"comentario":"FALTA REALIZAR DESATE DE ROCAS SUELTAS"
-    ,"createdAt":"23/10/2015"
-    ,"updatedAt":"23/10/2015"
+    ,"createdAt":"2015-10-23"
+    ,"updatedAt":"2015-10-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2608,8 +2608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23-oct-15"
+ {
+     "fecha":"2015-10-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 826 N"
     ,"rocaRocaid":12
@@ -2628,8 +2628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALTA REALIZAR TALADROS DE PRE-CORTE EN LA CORONA , SE RECOMIENDA REALIZAR TALADROS DE PRE-CORTE."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"23/10/2015"
-    ,"updatedAt":"23/10/2015"
+    ,"createdAt":"2015-10-23"
+    ,"updatedAt":"2015-10-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2648,8 +2648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 7840"
     ,"rocaRocaid":2
@@ -2668,8 +2668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR DISTRIBUCION DE ELEMENTOS DE SOSTENIMIENTO"
     ,"comentario":"MALLA CARGADA EN EL HASTIAL IZQUIERDO DEL TOPE A 4 MTS."
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2688,8 +2688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 S"
     ,"rocaRocaid":12
@@ -2708,8 +2708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR LA ALTURA DE SOSTENIMIENTO Y SE REALIZO DESCARGA DE MALLA DEL TOPE A 7 MTS"
     ,"comentario":"IMPLEMENTAR BARRETILLAS DE 8 Y 1\""
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2728,8 +2728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854"
     ,"rocaRocaid":12
@@ -2748,8 +2748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"CARTAR MALLA SOBRESALIDA, DESARGAR MALLAS A 10 M AL TOPE"
     ,"comentario":"SE OBSERVO MALLAS SOBRESALIDAS"
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2768,8 +2768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE DE LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 S"
     ,"rocaRocaid":2
@@ -2788,8 +2788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REALIZA REFORZAMIENTO + DESCARGUE DE MALLA"
     ,"comentario":"MALLAS CARGADAS DE ROCAS Y TRAMOS DE MALLAS SUELTAS"
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2808,8 +2808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7880"
     ,"rocaRocaid":2
@@ -2828,8 +2828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTROLAR SECCION DE LA LABOR SEGUN PROGRAMA"
     ,"comentario":"SE REALIZO DESCARGUE DE MALLA."
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2848,8 +2848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 826 N"
     ,"rocaRocaid":12
@@ -2868,8 +2868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA, REALIZAR TALADROS DE PRE-CORTE."
     ,"comentario":"FALTA CANTONEO LA VIA."
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2888,8 +2888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 746 N"
     ,"rocaRocaid":12
@@ -2908,8 +2908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE AGUA POR GOTEO, SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA, REFORZAR SOSTENIMIENTO."
     ,"comentario":"FALTAVA LA SECCION EN EL HASTIAL DERECHO , SE REALIZO DESATE MECANIZADO PARA CUADRAR LA SECCION."
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2928,8 +2928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":6
@@ -2948,8 +2948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA, REFORZAR SOSTENIMIENTO, REALIZAR DESATE MINUCIOSO."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS."
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -2968,8 +2968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 E"
     ,"rocaRocaid":12
@@ -2988,8 +2988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3008,8 +3008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 440W"
     ,"rocaRocaid":12
@@ -3028,8 +3028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Desate con equipo mecanizado, eliminara condiciones e rocas sueltas, reducir altura con relleno detrítico, sostener con Split de 7’ a 1.20X1.20m, voladura controlada para reducir la seccion segun programa."
     ,"comentario":"Sistemas de fracturas sub horizontales asociadas a fracturas secundarias que definen cuñas en las cajas, las más definidas se encuentran al lado izquierdo, por el buzamiento de estas se han formado bloques  y voladizos en esta pared, la sección se encuentra sobre excavada tanto por la falta de control de voladura con por la condición estructuras de la roca matriz"
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3048,8 +3048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Se debe controlara la sección con voladura con pre corte y disminución de la carga en los taladros de contorno. Así mismo se tiene que ganar altura con detrítico para confinar cajas"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 896 W"
     ,"rocaRocaid":12
@@ -3068,8 +3068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Desate con equipo mecanizado, eliminara condiciones e rocas sueltas, reducir altura con relleno detrítico, sostener con Split de 7’ a 1.00X1.00m, voladura controlada para reducir la seccion segun programa."
     ,"comentario":"Se tiene fallas definidas con relleno suave que cruzan sub transversales al eje del Stop, por estas ha y goteo de agua por toda la corona, las fracturas presentan relleno suave, se tiene cuñas definidas en corona que pueden soltarse por la filtración, se tiene comunicación con una GL antigua."
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3088,8 +3088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Por la filtración de agua se tiene ligeras acumulaciones y desprendimiento en corona de alteración y rocas suelta, la sección se encuentra Sobre excavada, estos tramos deben rellenarse con detrítico para matar altura, la voladura debe de ser más controlada."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 928"
     ,"rocaRocaid":12
@@ -3108,8 +3108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Desate con equipo mecanizado, eliminara condiciones e rocas sueltas, reducir altura con relleno detrítico, sostener con Split de 7’ a 1.20X1.20m, voladura controlada para reducir la seccion segun programa."
     ,"comentario":"Sistemas fracturas de fracturas definidas que se intersectan en corona y definiendo cuñas en corona, la malla no guarda el estándar al igual que los Split set."
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3128,8 +3128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Se debe de mejorar la voladura para controlar la sección, relleno de los tramos realzados."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 160W"
     ,"rocaRocaid":12
@@ -3148,8 +3148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Desate con equipo mecanizado, eliminara condiciones e rocas sueltas, reducir altura con relleno detrítico, sostener con Split de 7’ a 1.20X1.20m, voladura controlada para reducir la seccion segun programa."
     ,"comentario":"Se tiene sección con formación de cuñas en corona, al lado izquierdo se tiene, comunicación con el stop antiguo, se tiene bloque abierto e inestable en esta comunicación, se nota que están sosteniendo sin completar de hacer la limpieza, yaqué se notan bloques en las mallas, la sección no se controla tanto en ancho como en alto. rellenara en estos tramos con detritico."
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3168,8 +3168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"No se está dejado en frente completamente habilitado para el sostenimiento razón por la que se notan bloques sueltos en las mallas de las paredes y corona."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 160-S7N_N"
     ,"rocaRocaid":12
@@ -3188,8 +3188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Desate con equipo mecanizado, eliminara condiciones e rocas sueltas, reducir altura con relleno detrítico, sostener con Split de 7’ a 1.20X1.20m, voladura controlada para reducir la seccion segun programa."
     ,"comentario":"Se tiene mallas con carga acumulada en corona y paredes, la sección no tiene el ancho programado ya que no se respetó la dirección de la sellada desde un inicio, pilara inestable con respecto  del  Stop166N."
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3208,8 +3208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Rellenara el stop 16N dejando pase para equipo para reforzar el pilar. Control de perforación y voladura."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-oct-15"
+ {
+     "fecha":"2015-10-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 440E"
     ,"rocaRocaid":12
@@ -3228,8 +3228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Desate con equipo mecanizado, eliminara condiciones e rocas sueltas, reducir altura con relleno detrítico, sostener con Split de 7’ a 1.20X1.20m, voladura controlada para reducir la seccion segun programa."
     ,"comentario":"Formación de cuñas en corona y cajas, se tiene que rellenar para mantener la sección a la altura programada, control, de perforación y voladura."
-    ,"createdAt":"24/10/2015"
-    ,"updatedAt":"24/10/2015"
+    ,"createdAt":"2015-10-24"
+    ,"updatedAt":"2015-10-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3248,8 +3248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"mejorar en el control de perforacion y la voladura"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25-oct-15"
+ {
+     "fecha":"2015-10-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 14"
     ,"rocaRocaid":12
@@ -3268,8 +3268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Rellenar piso, descargar mallas sobrecargadas a 20 m del tope"
     ,"comentario":"ALTURA DE SOSTENIMIENTO ELEVADA"
-    ,"createdAt":"25/10/2015"
-    ,"updatedAt":"25/10/2015"
+    ,"createdAt":"2015-10-25"
+    ,"updatedAt":"2015-10-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -3288,8 +3288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA REALIZAR EL DESCARGUE DE MALLAS, Y RELLENO DEL PISO"
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"25-oct-15"
+ {
+     "fecha":"2015-10-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 S"
     ,"rocaRocaid":2
@@ -3308,8 +3308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR DESCARGUE DE MALLAS CARGADAS"
     ,"comentario":"SE REALIZO DESCARGUE DE MALLA DESDE EL INGRESO DE LA LABOR"
-    ,"createdAt":"25/10/2015"
-    ,"updatedAt":"25/10/2015"
+    ,"createdAt":"2015-10-25"
+    ,"updatedAt":"2015-10-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -3328,8 +3328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25-oct-15"
+ {
+     "fecha":"2015-10-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7840 N"
     ,"rocaRocaid":2
@@ -3348,8 +3348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":""
     ,"comentario":"SE CONTROLA SECCION PROGRAMADA. ALTURA DE SOSTENIMIENTO EN LOS HASTIALES SENTRO DE ESTANDAR."
-    ,"createdAt":"25/10/2015"
-    ,"updatedAt":"25/10/2015"
+    ,"createdAt":"2015-10-25"
+    ,"updatedAt":"2015-10-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3368,8 +3368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25-oct-15"
+ {
+     "fecha":"2015-10-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":2
@@ -3388,8 +3388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR REFORZAMIENTO DE MALLAS"
     ,"comentario":"SE  REALIZO DESCARGUE DE MALLA."
-    ,"createdAt":"25/10/2015"
-    ,"updatedAt":"25/10/2015"
+    ,"createdAt":"2015-10-25"
+    ,"updatedAt":"2015-10-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3408,8 +3408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25-oct-15"
+ {
+     "fecha":"2015-10-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 746 N"
     ,"rocaRocaid":12
@@ -3428,8 +3428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS, REALIZAR TALADROS DE PRE-CORTE EN LA CORONA PARA MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"FALTA REFORZAR ESAPCIOS ABIERTOS DE MALLA."
-    ,"createdAt":"25/10/2015"
-    ,"updatedAt":"25/10/2015"
+    ,"createdAt":"2015-10-25"
+    ,"updatedAt":"2015-10-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3448,8 +3448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25-oct-15"
+ {
+     "fecha":"2015-10-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 826 N"
     ,"rocaRocaid":12
@@ -3468,8 +3468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA, SE REFORZO ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"25/10/2015"
-    ,"updatedAt":"25/10/2015"
+    ,"createdAt":"2015-10-25"
+    ,"updatedAt":"2015-10-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3488,8 +3488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25-oct-15"
+ {
+     "fecha":"2015-10-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":6
@@ -3508,8 +3508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALTA SOSTENER EL ULTIMO DISPARO, SE RECOMENDO REALIZAR DESATE MECANIZADO EN EL TOPE PARA SOSTENER,REALIAZAR VOLADURA CONTROLADA."
     ,"comentario":"FALTA SOSTENER EL ULTIMO DISPARO."
-    ,"createdAt":"25/10/2015"
-    ,"updatedAt":"25/10/2015"
+    ,"createdAt":"2015-10-25"
+    ,"updatedAt":"2015-10-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3528,8 +3528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE MECANIZADO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25-oct-15"
+ {
+     "fecha":"2015-10-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 E"
     ,"rocaRocaid":12
@@ -3548,8 +3548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR TALADROS DE PRE-CORTE EN LA CORONA PARA MANTENER EL TECHO DE LA LABOR Y CONTINUAR CON LA VOLADURA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"25/10/2015"
-    ,"updatedAt":"25/10/2015"
+    ,"createdAt":"2015-10-25"
+    ,"updatedAt":"2015-10-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3568,8 +3568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26-oct-15"
+ {
+     "fecha":"2015-10-26"
     ,"guardia":"NOCHE"
     ,"laborCodigo":"CRP 413 N "
     ,"rocaRocaid":2
@@ -3588,8 +3588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REALIZO DESCARGUE DE MALLA EN EL HASTIAL IZQUIERDO DEL TOPE A 2 MTS"
     ,"comentario":"FALTA SOSTENIMIENTO ULTIMO DISPARO"
-    ,"createdAt":"27/10/2015"
-    ,"updatedAt":"27/10/2015"
+    ,"createdAt":"2015-10-27"
+    ,"updatedAt":"2015-10-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3608,8 +3608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-oct-15"
+ {
+     "fecha":"2015-10-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 369"
     ,"rocaRocaid":12
@@ -3628,8 +3628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SOSTENIMIENTO CON MALLA MAS SPLIT SETS 7´_x000D_\nINSTALACION DE SPLIT SETS EN FORMA DE COCO Y ESPACIADO A 1.20 MTS"
     ,"comentario":"SE REALIZO DESATADO, DESCARGADO DE MALLAS AL TOPE DE LA LABOR. SE REALIAZA ENTRENAMIENTO EN LA TABLA GSI SEGÚN ESTANDAR"
-    ,"createdAt":"27/10/2015"
-    ,"updatedAt":"27/10/2015"
+    ,"createdAt":"2015-10-27"
+    ,"updatedAt":"2015-10-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3648,8 +3648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO DEL TOPE (ULTIMO DISPARO)"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-oct-15"
+ {
+     "fecha":"2015-10-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854"
     ,"rocaRocaid":2
@@ -3668,8 +3668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR LA DISTRIBUCION DE LOS ELEMENTOS DE SOSTENIMIENTO"
     ,"comentario":"\""
-    ,"createdAt":"27/10/2015"
-    ,"updatedAt":"27/10/2015"
+    ,"createdAt":"2015-10-27"
+    ,"updatedAt":"2015-10-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3688,8 +3688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-oct-15"
+ {
+     "fecha":"2015-10-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 14"
     ,"rocaRocaid":6
@@ -3708,8 +3708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA RELLENAR PISO, DESCARGAR Y REFORZAR EL SOSTENIMIENTO. CUMPLIR CON LA SECCION PROGRAMADA (CONTROLAR VOLADURA)"
     ,"comentario":"SE OBSERVA SECCION DE LABOR UN AMPLIA A LA PROGRAMADA, ADEMAS DE MALLAS CARGADAS EN LOS HASTIALES Y EL TECHO."
-    ,"createdAt":"27/10/2015"
-    ,"updatedAt":"27/10/2015"
+    ,"createdAt":"2015-10-27"
+    ,"updatedAt":"2015-10-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3728,8 +3728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA REALIZAR EL DECARGUE Y REFUERZO DE MALLAS HACIA EL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-oct-15"
+ {
+     "fecha":"2015-10-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":6
@@ -3748,8 +3748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"ESPACIOS ABIERTO DEL TOPE A 3M ATRAS ESPACIOS ABIERTOS DE MALLA, SE RECOMIENDA REALIZAR REFUERZO DE SOSTENIMIENTO DE ESPACIOS ABIERTOS ."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA"
-    ,"createdAt":"27/10/2015"
-    ,"updatedAt":"27/10/2015"
+    ,"createdAt":"2015-10-27"
+    ,"updatedAt":"2015-10-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -3768,8 +3768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"27-oct-15"
+ {
+     "fecha":"2015-10-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 544 E"
     ,"rocaRocaid":12
@@ -3788,8 +3788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS, REFORZAR ESPACIOS ABIERTOS DE MALLA, CONTINUAR CON LA VOLADURA CONTROLADA."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"27/10/2015"
-    ,"updatedAt":"27/10/2015"
+    ,"createdAt":"2015-10-27"
+    ,"updatedAt":"2015-10-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3808,8 +3808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-oct-15"
+ {
+     "fecha":"2015-10-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 765 S"
     ,"rocaRocaid":7
@@ -3828,8 +3828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR TALADROS DE PRE-CORTE EN LA CORONA DE LA LABOR PARA MANTENER LA SECCION, REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"27/10/2015"
-    ,"updatedAt":"27/10/2015"
+    ,"createdAt":"2015-10-27"
+    ,"updatedAt":"2015-10-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3848,8 +3848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-oct-15"
+ {
+     "fecha":"2015-10-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 746 N"
     ,"rocaRocaid":12
@@ -3868,8 +3868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE AGUA POR GOTEO SE RECOMIENDA REALIZAR VOLADURA CONTROLADA, SE DEBE REALIZAR TALADROS DE PRE-CORTE."
     ,"comentario":"FALTA LIMPIEZA DE MATERIAL."
-    ,"createdAt":"27/10/2015"
-    ,"updatedAt":"27/10/2015"
+    ,"createdAt":"2015-10-27"
+    ,"updatedAt":"2015-10-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -3888,8 +3888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE DESATE."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-oct-15"
+ {
+     "fecha":"2015-10-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 746 N"
     ,"rocaRocaid":12
@@ -3908,8 +3908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE AGUA POR GOTEO, SE RECOMIENDA REALIZAR DESATE DE ROCAS SOBRECARGADAS EN LA MALLA, REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"28/10/2015"
-    ,"updatedAt":"28/10/2015"
+    ,"createdAt":"2015-10-28"
+    ,"updatedAt":"2015-10-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -3928,8 +3928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-oct-15"
+ {
+     "fecha":"2015-10-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 E"
     ,"rocaRocaid":12
@@ -3948,8 +3948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR DESATE CONSTANTE DE ROCAS SOBRECARGADAS EN LA MALL, REFORZAR SOSTENIMIENTO HASTA LA GRADIENTE."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO HASTA LA GRADIENTE."
-    ,"createdAt":"28/10/2015"
-    ,"updatedAt":"28/10/2015"
+    ,"createdAt":"2015-10-28"
+    ,"updatedAt":"2015-10-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -3968,8 +3968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"28-oct-15"
+ {
+     "fecha":"2015-10-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 544 E"
     ,"rocaRocaid":12
@@ -3988,8 +3988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA, REALIZAR TALADROS DE PRE-CORTE EN LA CORONA PARA MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"FALTA CANTONEO DE LA VIA, FALTA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS."
-    ,"createdAt":"28/10/2015"
-    ,"updatedAt":"28/10/2015"
+    ,"createdAt":"2015-10-28"
+    ,"updatedAt":"2015-10-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4008,8 +4008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-oct-15"
+ {
+     "fecha":"2015-10-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -4028,8 +4028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA, CONTINUAR REALIZANDO LOS TALADROS DE PRE-CORTE EN LA CORONA PAR MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"28/10/2015"
-    ,"updatedAt":"28/10/2015"
+    ,"createdAt":"2015-10-28"
+    ,"updatedAt":"2015-10-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4048,8 +4048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-oct-15"
+ {
+     "fecha":"2015-10-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854"
     ,"rocaRocaid":2
@@ -4068,8 +4068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REQUIERE REFORZAR EL HASTIAL DERECHO A UNOS 10 MTS DEL TOPE, DESCARGAR MALLAS CON CARGA"
     ,"comentario":"SE PRESENCIA BANCOS COLGADOS A 8 METROS DEL TOPE"
-    ,"createdAt":"28/10/2015"
-    ,"updatedAt":"28/10/2015"
+    ,"createdAt":"2015-10-28"
+    ,"updatedAt":"2015-10-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4088,8 +4088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA REFORZAMIENTO Y DESCARGUE DE MALLAS A 10 MTS DEL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-oct-15"
+ {
+     "fecha":"2015-10-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 355"
     ,"rocaRocaid":2
@@ -4108,8 +4108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REQUIERE DESCARGAR MALLAS CONCARGA Y CORTAR SPLIT SETS SOBRESALIDOS"
     ,"comentario":"REQUIERE REFORZAR MALLAS DAÑADAS PRODUCTO DE VOLADURA"
-    ,"createdAt":"28/10/2015"
-    ,"updatedAt":"28/10/2015"
+    ,"createdAt":"2015-10-28"
+    ,"updatedAt":"2015-10-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4128,8 +4128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"CONTROLAR LA VOLADURA PARA MANTENER LA SECCION PROGRAMADA, DESCARGAR MALLAS Y SOSTENER AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-oct-15"
+ {
+     "fecha":"2015-10-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 389"
     ,"rocaRocaid":12
@@ -4148,8 +4148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"DESQUINCHAR BANCOS Y DESCARGAR MALLAS, CONTROLAR LA SECCION PROGRAMADA Y REALIZAR EL SOSTENIMIENTO INMEDIATAMENTE DESPUES DE LA LIMPIEZA"
     ,"comentario":"SE OBSERVA BANCOS COLGADOS A 12 MTS DEL TOPE Y A LOS HASTIALES, ADEMAS DE QUE NO CUENTA CON EL SOSTENIMIENTO DEL ULTIMO DISPARO."
-    ,"createdAt":"28/10/2015"
-    ,"updatedAt":"28/10/2015"
+    ,"createdAt":"2015-10-28"
+    ,"updatedAt":"2015-10-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4168,8 +4168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENER AL TOPE DE LA LABOR Y DESATAR BANCOS TANTO EN LOS HASTIALES COMO EN LA CORONA"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-oct-15"
+ {
+     "fecha":"2015-10-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 160 N"
     ,"rocaRocaid":12
@@ -4188,8 +4188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE DEBE DE REDUCIR EL ANCHO DE LA LABOR. HACIA EL TOPE HAY LA PRESENCIA DE FILTRACIÓN DE AGUA. LA ÚLTIMA MALLA QUE HA INSTALADO LA E. E. MARTINEZ, NO HA COMPLETADO, HAY LA PRESENCIA DE FALLAS EN  LA CORONA QUE ESTÁ FORMANDO CUÑA, SE ESTÁ ELEVANDO Y ESTÁ CHISPEANDO. SE HA COLOCADO SPLIT SETS PARALELOS A LA FALLA, MAL TRASLAPE, NO HAY UNA BUENA DISTRIBUCIÓN DE PERNO A PERNO.  HAY TRAMOS DE MALLAS COLGADAS TANTO EN HASTIALES Y CORONA, SE DEBE DESCARGAR LA MALLA Y SE DEBE DE RESANAR. "
     ,"comentario":"SEW HA MARCADO PARA PERTFORAR LOPS PUNTOS DE COMBERGENCIA."
-    ,"createdAt":"29/10/2015"
-    ,"updatedAt":"29/10/2015"
+    ,"createdAt":"2015-10-29"
+    ,"updatedAt":"2015-10-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -4208,8 +4208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE CORRECCIÓN."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-oct-15"
+ {
+     "fecha":"2015-10-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 160 S"
     ,"rocaRocaid":12
@@ -4228,8 +4228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"EN LA INTERSECCIÓN, DEL LADO SUR SE OBSEREVA MALLAS COLGADAS  Y MALLAS CARGADAS, SE DEBE DE DESCARAGAR MALLA Y SE DEBE DE REFORZAR EL SOSTENIMIENTO. HACIA EL TOPE PRESENCIA DE FALLAS PARALELAS A LA LABOR QUE ESTÁN FORMANDO CUÑAS, DESESTABILIZANDO LA LABOR SOBRE TODO EL HASTIAL IZQUIERDO. SE OBSERVA MALLAS COLGADAS, MARTÍNEZ A COLOCADO SOSTENIMIENTO, SIN CUMPLIR EL PROCEDIMIENTO. SPLIT SETS PARALELO A LAS FALLAS, MAL TRASLAPE, EN AMBOS HASTIALES MALLAS COLGADAS. SE DEBE DE REFORZAR EL SOSTENIMIENTO, NECESITA HACER UN DESATE MINUCIOSO, TANTO EN HASTIALES Y CORONA. DESDE EL INGRESO A LA LABOR."
     ,"comentario":"SEA MARCADO PARA PERFORAR TALADROS PARA PUNTOS DE COMBERGENCIA."
-    ,"createdAt":"29/10/2015"
-    ,"updatedAt":"29/10/2015"
+    ,"createdAt":"2015-10-29"
+    ,"updatedAt":"2015-10-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -4248,8 +4248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE CORECCIÓN."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-oct-15"
+ {
+     "fecha":"2015-10-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 116"
     ,"rocaRocaid":12
@@ -4268,8 +4268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"NECESITA REFORZAR EL SOSTENIMIENTO EN LA INERSECCIÓN, SE EVIDENCIA MALLAS CARGADAS DESDE EL INGRESO, DESCARGAR Y REFORZAR EL SOSTENIMIENTO. HACIA EL SUR CONTINUAR RELLENANDO. HACIA EL LADO NORTE, SE DEBE DE MEJORAR LA VOLADURA, PUES EL DISPARO A REMANGADO TODO EL PAÑO DE MALLA, SE DEBE DE REFORZAR. EN LA ZONA ANCHA, SE DEBE DE RELLENAR HACIA EL TOPE PORQUE SE ESTÁ DESESTABILIZANDOSE, LA CORONA POR EL ANCHO DE LA SECCIÓN TIENE 9.30 M. EN EL SUBNIVEL QUE SE ESTÁ CORRIENDO SE OBSERVA MALLAS CARGADAS. DESDE EL INGRESO, LA E. MARTÍNEZ NO ESTÁ HACIENDO UNA BUENA DISTRIBUCIÓN DE PERNO A PERNO,  SE DEBE DE REDUCIR LA SECCIÓN."
     ,"comentario":"SE HA MARCADO PARA PUNTOS DE COMBERGENCIA."
-    ,"createdAt":"29/10/2015"
-    ,"updatedAt":"29/10/2015"
+    ,"createdAt":"2015-10-29"
+    ,"updatedAt":"2015-10-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4288,8 +4288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE CORECCIÓN."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-oct-15"
+ {
+     "fecha":"2015-10-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 160 ACCESO AN."
     ,"rocaRocaid":12
@@ -4308,8 +4308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE DEBE DE CONTINUAR RELLENADO, SOLO SEA SOSTENIDO LA CORONA Y NO LOS HASTIALES. SE DEBE DE DESATAR SE EVIDENCIA BANCOS COLGADOS, Y COMPLETAR EL SOSTENIMIENTO. SE ESTÁ DISPARANDO SECUENCIALMENTE LOS TRES LABORES A LA VEZ, CON LA VIBRACIÓN SE ESTÁ DESESTABILIZANDOSE, SE DEBE DE CICLAR."
     ,"comentario":"SE HA MARCADO PARA PERFORAR PUNTOS DE COMBERGENCIA."
-    ,"createdAt":"29/10/2015"
-    ,"updatedAt":"29/10/2015"
+    ,"createdAt":"2015-10-29"
+    ,"updatedAt":"2015-10-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -4328,8 +4328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE DEBE DE COREGIR, TODO LO OBSERVADO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-oct-15"
+ {
+     "fecha":"2015-10-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro746 N"
     ,"rocaRocaid":12
@@ -4348,8 +4348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE AGUA POR GOTEO, SE RECOMIENDA REFORZAR SOSTENIMIENTO DE ESPACIOS BIERTOS LOS HASTIALES , CONTINUAR CON LA VOLADUREA CONTROLADA."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS."
-    ,"createdAt":"29/10/2015"
-    ,"updatedAt":"29/10/2015"
+    ,"createdAt":"2015-10-29"
+    ,"updatedAt":"2015-10-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -4368,8 +4368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE DE ROCAS SUELTAS."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-oct-15"
+ {
+     "fecha":"2015-10-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 709 W"
     ,"rocaRocaid":6
@@ -4388,8 +4388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE DOS FALLAS CON RUMBOS R=N23°E,R=N48°W,SE RECOMENDO DESATE MECANIZADO POR EL RELAJAMIENTO DEL MACIZO ROCOSO."
     ,"comentario":"SE REALIZO DESATE MECANIZADO."
-    ,"createdAt":"29/10/2015"
-    ,"updatedAt":"29/10/2015"
+    ,"createdAt":"2015-10-29"
+    ,"updatedAt":"2015-10-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4408,8 +4408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-oct-15"
+ {
+     "fecha":"2015-10-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"STOP 765 N"
     ,"rocaRocaid":7
@@ -4428,8 +4428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA EVITAR SOBREROTURA, REALIZAR TALADROS DE PRE-CORTE EN LA CORONA PARA MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"PRESENCIA DE FALLA EN EL HASTIAL IZQUIERDO CON R=N3\"W."
-    ,"createdAt":"29/10/2015"
-    ,"updatedAt":"29/10/2015"
+    ,"createdAt":"2015-10-29"
+    ,"updatedAt":"2015-10-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4448,8 +4448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION VOLADURA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-oct-15"
+ {
+     "fecha":"2015-10-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -4468,8 +4468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR TALADROS DE PRE-CORTE EN LA CORONA PARA MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"REALIZAR DESATE DE ROCAS SUELTAS QUE ESTAN SOBRECARGADAS EN LA LABOR."
-    ,"createdAt":"29/10/2015"
-    ,"updatedAt":"29/10/2015"
+    ,"createdAt":"2015-10-29"
+    ,"updatedAt":"2015-10-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4488,8 +4488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-oct-15"
+ {
+     "fecha":"2015-10-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854 E"
     ,"rocaRocaid":12
@@ -4508,8 +4508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REQUIERE CAMPAÑA DE DESATADO DE ROCAS EN LOS HASTIALES"
     ,"comentario":"FALTA DESCARGAR MALLA CON CARGA"
-    ,"createdAt":"29/10/2015"
-    ,"updatedAt":"29/10/2015"
+    ,"createdAt":"2015-10-29"
+    ,"updatedAt":"2015-10-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4528,8 +4528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-oct-15"
+ {
+     "fecha":"2015-10-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 752"
     ,"rocaRocaid":12
@@ -4548,8 +4548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALTA REPARAR MALLAS DAÑADAS PRODUCTO DE LA VOLADURA DE CUNETA, DESCARGAR MALLAS CON CARGA"
     ,"comentario":"REQUIERE CORTAR SPLIT SET Y MALLAS SOBRESALIDAS"
-    ,"createdAt":"29/10/2015"
-    ,"updatedAt":"29/10/2015"
+    ,"createdAt":"2015-10-29"
+    ,"updatedAt":"2015-10-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4568,8 +4568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-oct-15"
+ {
+     "fecha":"2015-10-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 15"
     ,"rocaRocaid":12
@@ -4588,8 +4588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"CONTROLAR PERFORACION Y VOLADURA, DESATAR ROCAS COLGADAS (CORONA Y HASTIALES)"
     ,"comentario":"\""
-    ,"createdAt":"29/10/2015"
-    ,"updatedAt":"29/10/2015"
+    ,"createdAt":"2015-10-29"
+    ,"updatedAt":"2015-10-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4608,8 +4608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO EN EL TOPE Y RESANE DE MALLAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-oct-15"
+ {
+     "fecha":"2015-10-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 389 E"
     ,"rocaRocaid":12
@@ -4628,8 +4628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR EL DESATADO DE ROCAS Y EL RESANE DE MALLAS ROTAS"
     ,"comentario":"SE OBSERVA ROCAS COLGADAS EN MALLAS TANTO EN LOS HASTIALES COMO EN EL TECHO, TRAMOS CON MALLA ROTA 12 MTS DEL TOPE Y 5 MTS."
-    ,"createdAt":"29/10/2015"
-    ,"updatedAt":"29/10/2015"
+    ,"createdAt":"2015-10-29"
+    ,"updatedAt":"2015-10-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4648,8 +4648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO EN EL TOPE Y DESCARGUE DE ROCAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-oct-15"
+ {
+     "fecha":"2015-10-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"ST. 995"
     ,"rocaRocaid":6
@@ -4668,8 +4668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE DEBE DE REDUCIR EL ALTO DE LA LABOR, LA RAZANTE ESTÁ LLEGANDO AL PISO. SI SE LIMPIA LA CARAGA DEL PISO VA HA TENER 6.22 M SE DEBE DE TENER CUIDADO CON EL PUENTE, QUE TIENE LA LABOR. SE DEBE DE MEJORAR EL SOSTENIMIENTO, DESDE EL PUNTO TOP. 76, PUES SE OBSERVA QUE LA MALLA ESTÁ MUY ALTO, MAL TRASLAPE, MALLAS CARGADAS Y MALA DISTRIBUCIÓN DE LOS ELEMENTOS DE OSTENIMIENTO.  POR SER EL ÚLTIMO CORTE SE DEBE DE MEJORAR LA VOLADURA CONTROLADA."
     ,"comentario":"\""
-    ,"createdAt":"30/10/2015"
-    ,"updatedAt":"30/10/2015"
+    ,"createdAt":"2015-10-30"
+    ,"updatedAt":"2015-10-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4688,8 +4688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE DEBE DE COREGIR."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-oct-15"
+ {
+     "fecha":"2015-10-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"ST. 996 BAY PASS"
     ,"rocaRocaid":6
@@ -4708,8 +4708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"LA E. E. MARTÍNEZ A INSTALADO EN EL HASTIAL DERECHO LA MALLA MUY ALTO, SE DEBE DE BAJAR DE ACUERDOA ESTÁNDAR. SE ESTÁ COLOCANDO CHAPAS PEQUEÑAS AL SPLIT SET. SE COLOCÓ 2 PAÑOS. SE ESTÁ REALIZANDO UN MAL TRASLAPE, SE DEBE DE CONTROLAR LA GRADIENTE Y NO LEVANTAR MUCHO LA ALTURA DE LA LABOR. SE DEBE DE MEJORAR LA VOLADURA, EL DISPARO ESTÁ REMANGANDO LA MALLA, SE DEBE DE RESANAR EL SOSTENIMIENTO. MEJORAR LA DISTRIBUCIÓN DE LOS ELEMENTOS DE SOSTENIMIENTO."
     ,"comentario":"\""
-    ,"createdAt":"30/10/2015"
-    ,"updatedAt":"30/10/2015"
+    ,"createdAt":"2015-10-30"
+    ,"updatedAt":"2015-10-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4728,8 +4728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE CORECCIÓN."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-oct-15"
+ {
+     "fecha":"2015-10-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 24"
     ,"rocaRocaid":12
@@ -4748,8 +4748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"LA E. E. MARTÍNEZ, ESTÁ SOSTENIENDO ENCIMA DE BANCOS COLGADOS, SIN DESATAR, HACE UN MAL TRASLAPE, ENCIMA DE SPLIT SETS SOBRESALIDOS, MALA DISTRIBUCIÓN DE LOS ELEMENTOS DE SOTENIMIENTO.  DEBE DE CORREGIR TODO EL SOSTENIMIENTO INSTALADO.  "
     ,"comentario":"\""
-    ,"createdAt":"30/10/2015"
-    ,"updatedAt":"30/10/2015"
+    ,"createdAt":"2015-10-30"
+    ,"updatedAt":"2015-10-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4768,8 +4768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE CORECCIÓN."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-oct-15"
+ {
+     "fecha":"2015-10-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 160 S"
     ,"rocaRocaid":12
@@ -4788,8 +4788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"EN LA INTERSECCIÓN, LA CORORA SE ESTÁ PLANCHONEANDO Y SE ESTÁ JALANDO EL SOSTENIMIENTO Y SE OBSERVA, QUE LA CORONA SE ESTÁ INESTABILIZÁNDOSE, HACIA EL TOPE LA CORONA ESTÁ EN VOLADIZO Y ESTÁ COLGADO, MARTINEZ HA COLOCADO SOSTENIMIENTO PARALELOS A LA FALLA. POR ESTÁS CONCIDERACIONES EN EL DESPACHO DE GUARDIA SEA CORDINADO TANTO CON SEGURIDAD, MINA Y GEOMECÁNICA, SE DEBE DE RELLENAR Y DENTRAR POR EL STOPE 116."
     ,"comentario":"NO SE PERFORA LOS PUNTOS DE COMBERGENCIA, HASTA LA FECHA."
-    ,"createdAt":"30/10/2015"
-    ,"updatedAt":"30/10/2015"
+    ,"createdAt":"2015-10-30"
+    ,"updatedAt":"2015-10-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4808,8 +4808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"HASTA RELLENAR."
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"30-oct-15"
+ {
+     "fecha":"2015-10-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 160 N"
     ,"rocaRocaid":12
@@ -4828,8 +4828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"HACIA EL TOPE HA LLEGADO AL TOPE DE LO PLANIFICADO, POR EL ALTO Y ANCHO DE LA LABOR SE DEBE DE RELLENAR, SE OBSERVA MALLAS COLGADOS DE BANCOS,  Y SE BA CORRER POR EL BAY PASS DE LA IZQUIERDA Y SEGUIR MINANDO EL LADO NORTE."
     ,"comentario":"\""
-    ,"createdAt":"30/10/2015"
-    ,"updatedAt":"30/10/2015"
+    ,"createdAt":"2015-10-30"
+    ,"updatedAt":"2015-10-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4848,8 +4848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE CORRECCIÓN."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-oct-15"
+ {
+     "fecha":"2015-10-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 709 N"
     ,"rocaRocaid":12
@@ -4868,8 +4868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE DOS  FALLAS CON RUMBOS R=N23°E,R=N48°W, B=83°SE, SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA MANTENER LA SECCION PROGRAMADA, REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA CANTYONEO DE LA VIA."
-    ,"createdAt":"30/10/2015"
-    ,"updatedAt":"30/10/2015"
+    ,"createdAt":"2015-10-30"
+    ,"updatedAt":"2015-10-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4888,8 +4888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-oct-15"
+ {
+     "fecha":"2015-10-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -4908,8 +4908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA EVITAR LA SOBREROTURA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"30/10/2015"
-    ,"updatedAt":"30/10/2015"
+    ,"createdAt":"2015-10-30"
+    ,"updatedAt":"2015-10-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4928,8 +4928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-oct-15"
+ {
+     "fecha":"2015-10-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 746 N"
     ,"rocaRocaid":12
@@ -4948,8 +4948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE AGUA POR GOTEO, SE RECOMIENDA REFORZAR ESPACIOS ABIERTOS DE MALLA CONTINUAR CON LA VOLADURA CONTROLADA."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"30/10/2015"
-    ,"updatedAt":"30/10/2015"
+    ,"createdAt":"2015-10-30"
+    ,"updatedAt":"2015-10-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -4968,8 +4968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-oct-15"
+ {
+     "fecha":"2015-10-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 826 N"
     ,"rocaRocaid":12
@@ -4988,8 +4988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REFORZAR ESPACIOS ABIERTOS DE MALLA REALIZAR DESATE MINUCIOSO,CONTINUAR CON LA VOLADURA CONTROLADA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"30/10/2015"
-    ,"updatedAt":"30/10/2015"
+    ,"createdAt":"2015-10-30"
+    ,"updatedAt":"2015-10-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5008,8 +5008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-oct-15"
+ {
+     "fecha":"2015-10-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 14"
     ,"rocaRocaid":12
@@ -5028,8 +5028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALTA MEJORAR LA DISTRIBUCION DE SPLIT SET ESPACIAMIENTO 1.20 X 1.20 MTS , ESTA ESPACIADO ACTUALMENTE 1.10 X 1.10 MTS"
     ,"comentario":"\""
-    ,"createdAt":"30/10/2015"
-    ,"updatedAt":"30/10/2015"
+    ,"createdAt":"2015-10-30"
+    ,"updatedAt":"2015-10-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5048,8 +5048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-oct-15"
+ {
+     "fecha":"2015-10-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854"
     ,"rocaRocaid":12
@@ -5068,8 +5068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALTA CORTAR SPLIT SETS Y MALLA SOBRESALIDA Y DESCARGAR MALLAS CONCARGA"
     ,"comentario":"\""
-    ,"createdAt":"30/10/2015"
-    ,"updatedAt":"30/10/2015"
+    ,"createdAt":"2015-10-30"
+    ,"updatedAt":"2015-10-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -5088,8 +5088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA DESCARGUE Y RESANE DE MALLAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"31-oct-15"
+ {
+     "fecha":"2015-10-31"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 2"
     ,"rocaRocaid":12
@@ -5108,8 +5108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"A 10 MTS DEL TOPE FALTA DESCARGAR MALLAS LUEGO RESANAR LAS MALLAS ROTAS"
     ,"comentario":"\""
-    ,"createdAt":"30/10/2015"
-    ,"updatedAt":"30/10/2015"
+    ,"createdAt":"2015-10-30"
+    ,"updatedAt":"2015-10-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5128,8 +5128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-oct-15"
+ {
+     "fecha":"2015-10-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854"
     ,"rocaRocaid":12
@@ -5148,8 +5148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALTA CORTAR SPLIT SETS Y MALLA SOBRESALIDA Y DESCARGAR MALLAS CONCARGA"
     ,"comentario":"\""
-    ,"createdAt":"30/10/2015"
-    ,"updatedAt":"30/10/2015"
+    ,"createdAt":"2015-10-30"
+    ,"updatedAt":"2015-10-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -5168,8 +5168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA DESCARGUE Y RESANE DE MALLAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-oct-15"
+ {
+     "fecha":"2015-10-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 2"
     ,"rocaRocaid":12
@@ -5188,8 +5188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"A 10 MTS DEL TOPE FALTA DESCARGAR MALLAS LUEGO RESANAR LAS MALLAS ROTAS"
     ,"comentario":"\""
-    ,"createdAt":"30/10/2015"
-    ,"updatedAt":"30/10/2015"
+    ,"createdAt":"2015-10-30"
+    ,"updatedAt":"2015-10-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5208,8 +5208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"31-oct-15"
+ {
+     "fecha":"2015-10-31"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 598 E"
     ,"rocaRocaid":12
@@ -5228,8 +5228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REFORZO SOSTENIMIENTO EN TODO EL ACCESO DEL CRO 746 N UN 90%, SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"31-oct-15"
-    ,"updatedAt":"31-oct-15"
+    ,"createdAt":"2015-10-31"
+    ,"updatedAt":"2015-10-31"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5248,8 +5248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"31-oct-15"
+ {
+     "fecha":"2015-10-31"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -5268,8 +5268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIEMNDA REALIZAR VOLADURA CONTROLADA, SE REFORZO ESAPCIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"31-oct-15"
-    ,"updatedAt":"31-oct-15"
+    ,"createdAt":"2015-10-31"
+    ,"updatedAt":"2015-10-31"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5288,8 +5288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"31-oct-15"
+ {
+     "fecha":"2015-10-31"
     ,"guardia":"DIA"
     ,"laborCodigo":"STOP 765 N"
     ,"rocaRocaid":7
@@ -5308,8 +5308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR LOS TALADROS DE RE-CORTE EN LA CORONA PARA MANTENER EL ARCO DE AUTOSOPORTE."
     ,"comentario":"SE OBSERVA SOBRE ROTURA POR PRESENCIA DE LA FALLA EN EL HASTIAL IZQUIERDO R=N47°W"
-    ,"createdAt":"31-oct-15"
-    ,"updatedAt":"31-oct-15"
+    ,"createdAt":"2015-10-31"
+    ,"updatedAt":"2015-10-31"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5328,8 +5328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION Y VOLADURA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"31-oct-15"
+ {
+     "fecha":"2015-10-31"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 709"
     ,"rocaRocaid":12
@@ -5348,8 +5348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE UNA FALLA EN EL HASTIAL IZQUIERDO POR EL CUAL SE FORMO UNA CUÑA, SE RECOMENDO REALIZAR DESATE MECANIZADO."
     ,"comentario":"FALTA CONTONEO DE LA VIA."
-    ,"createdAt":"31-oct-15"
-    ,"updatedAt":"31-oct-15"
+    ,"createdAt":"2015-10-31"
+    ,"updatedAt":"2015-10-31"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5368,8 +5368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE LIMPIEZA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"31-oct-15"
+ {
+     "fecha":"2015-10-31"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 7873"
     ,"rocaRocaid":9
@@ -5388,8 +5388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"DESQUINCHAR Y SOSTENER INMEDIATAMENTE LA LABOR. CONTROLAR LA SECCION PROGRAMADA."
     ,"comentario":"\""
-    ,"createdAt":"31-oct-15"
-    ,"updatedAt":"31-oct-15"
+    ,"createdAt":"2015-10-31"
+    ,"updatedAt":"2015-10-31"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5408,8 +5408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO, Y DERIFICAR EL COMPORTAMIENTO DE LA ROCA"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"31-oct-15"
+ {
+     "fecha":"2015-10-31"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 15"
     ,"rocaRocaid":12
@@ -5428,8 +5428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"COMPLETAR EL SOSTENIMIENTO QUE FALTA. DESATAR LAS ROCAS AL HASTIAL IZQUIERDO Y CORONA."
     ,"comentario":"SE OBSERVA QUE EL SOSTENIMIENTO ULYIMO ESTA A 7.5 MTS DEL TOPE (2 DISPAROS), MALLAS CARGADAS AL HASTIAL IZQUIERDO Y CORONA"
-    ,"createdAt":"31-oct-15"
-    ,"updatedAt":"31-oct-15"
+    ,"createdAt":"2015-10-31"
+    ,"updatedAt":"2015-10-31"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5448,8 +5448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO DE 7.50 MTS DEL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"31-oct-15"
+ {
+     "fecha":"2015-10-31"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 314"
     ,"rocaRocaid":9
@@ -5468,8 +5468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"DESCARGUE DE BANCOS Y ROCAS EN LAS MALLAS (TANTO EN CORONA COMO HASTIALES). CONTROLAR LA P/V PARA CUMPLIR CON LA SECCION PROGRAMADA."
     ,"comentario":"SE OBSERVA BANCOS COLGADOS A MEDIO TRAMO DEL INGRESO, Y MALLAS CARGADAS AL HASTIAL DERECHO DEL TOPE. PRESENCIA DE FALLA AL HASTIAL DERECHO N85°W/ 84°SE"
-    ,"createdAt":"31-oct-15"
-    ,"updatedAt":"31-oct-15"
+    ,"createdAt":"2015-10-31"
+    ,"updatedAt":"2015-10-31"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5488,8 +5488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO DE LA LABOR AL TOPE Y CONTROL DE P/V"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01-nov-15"
+ {
+     "fecha":"2015-11-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"STOP 765 N"
     ,"rocaRocaid":7
@@ -5508,8 +5508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR TALADROS DE RECORTE EN LA CORONA, SE EVIDENCIA DESLIZAMIENTO EN EL HASTIAL IZQUIERDO DEBIDO A LA FALLA."
     ,"comentario":"SOBRE DIMENCIONAMIENTO EN EL HASTIAL IZQUIERDO DEBIDO A LA FALLA CON Rb=S35° W"
-    ,"createdAt":"01-nov-15"
-    ,"updatedAt":"01-nov-15"
+    ,"createdAt":"2015-11-01"
+    ,"updatedAt":"2015-11-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5528,8 +5528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE DE ROCAS SUELTAS."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01-nov-15"
+ {
+     "fecha":"2015-11-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 544 E"
     ,"rocaRocaid":12
@@ -5548,8 +5548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR TALADROS DE  RECORTE EN LA CORONA PARA MANTENER EL ARCO DE AUTOSOPORTE."
     ,"comentario":"FALTA REALIZAR DESATE DE ROCAS SUELTAS EN EL TOPE."
-    ,"createdAt":"01-nov-15"
-    ,"updatedAt":"01-nov-15"
+    ,"createdAt":"2015-11-01"
+    ,"updatedAt":"2015-11-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5568,8 +5568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01-nov-15"
+ {
+     "fecha":"2015-11-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -5588,8 +5588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONBTINUAR CON LA VOLADURA CONTROLADA, SE REALIZO DESATE DE ROCAS SUELTAS."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"01-nov-15"
-    ,"updatedAt":"01-nov-15"
+    ,"createdAt":"2015-11-01"
+    ,"updatedAt":"2015-11-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5608,8 +5608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01-nov-15"
+ {
+     "fecha":"2015-11-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 746 N"
     ,"rocaRocaid":12
@@ -5628,8 +5628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA NO REMANGAR LA MALLA DE SOSTENIMIENTO."
     ,"comentario":"FALTA DE4SATE DE ROCAS SUELTAS."
-    ,"createdAt":"01-nov-15"
-    ,"updatedAt":"01-nov-15"
+    ,"createdAt":"2015-11-01"
+    ,"updatedAt":"2015-11-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5648,8 +5648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01-nov-15"
+ {
+     "fecha":"2015-11-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7840"
     ,"rocaRocaid":12
@@ -5668,8 +5668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"DE RECOMIENTA DESATAR ROCAS COLGADAS EN MALLA Y MANTENER SECCION DE LABOR. ALTURA DE SOSTENIMIENTO 1.50 MTS"
     ,"comentario":"PRESENCIA DE ESTRUCTURA MINERALIZADA (SUR), MALLAS COLGADAS EN HASTIALES COMO CORONA (SUR, Y NORTE)"
-    ,"createdAt":"01-nov-15"
-    ,"updatedAt":"01-nov-15"
+    ,"createdAt":"2015-11-01"
+    ,"updatedAt":"2015-11-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5688,8 +5688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA LIMPIEZA Y SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01-nov-15"
+ {
+     "fecha":"2015-11-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854"
     ,"rocaRocaid":12
@@ -5708,8 +5708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"DE RECOMIENTA DESQUINCHAR BLOQUES DE ROCAS EN LOS HASTIALES Y DESATAR ROCAS DE LAS MALLAS"
     ,"comentario":"CALIZA CRISTALIZADA CON FRACTURAS RELLENAS DE CALCITA, EN EL ULTIMO DISPARO PRESENCIA DE CALIZA BITUMINOSA, FRACTURAS DE CALCITA. SE OBSERVA BLOQUES DE ROCA SUELTAS Y MALLAS CARGADAS"
-    ,"createdAt":"01-nov-15"
-    ,"updatedAt":"01-nov-15"
+    ,"createdAt":"2015-11-01"
+    ,"updatedAt":"2015-11-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5728,8 +5728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA LIMPIEZA Y SOSTENIMIENTO DEL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01-nov-15"
+ {
+     "fecha":"2015-11-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 7109 S"
     ,"rocaRocaid":12
@@ -5748,8 +5748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REFORZAR EN INTERSECCION EL SOSTENIMIENTO. DESCARGANDO MALLAY COLOCANDO MINI SPLIT SETS."
     ,"comentario":"FALTA CORTAR SPLIT SETS Y MALLAS SOBRESALIDAS"
-    ,"createdAt":"01-nov-15"
-    ,"updatedAt":"01-nov-15"
+    ,"createdAt":"2015-11-01"
+    ,"updatedAt":"2015-11-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5768,8 +5768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE DE LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01-nov-15"
+ {
+     "fecha":"2015-11-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 PISO 2"
     ,"rocaRocaid":12
@@ -5788,8 +5788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA ALTURA DE BANEO MUY ELEVADO, REQUIERE CONTROLAR SECCION 4.00 X 4.00 MTS. "
     ,"comentario":"SE EVIDENCIA SPLIT SET Y MALLAS SOBRESALIDAS, REQUIERE CORTARLOS"
-    ,"createdAt":"01-nov-15"
-    ,"updatedAt":"01-nov-15"
+    ,"createdAt":"2015-11-01"
+    ,"updatedAt":"2015-11-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5808,8 +5808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA CONTROLAR ALTURA Y ANCHO DE SECCION"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02-nov-15"
+ {
+     "fecha":"2015-11-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"STOP 765 N"
     ,"rocaRocaid":7
@@ -5828,8 +5828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE UNA FALLA CON Rb=N47°W, DEBIDO A ESTA FALLA SE EVIDENCIA DIMENCIONAMIENTO DEL ANCHO DE LA LABOR, SE RECOMIENDA REALIZAR VOLADURA CONTROLADA."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"02-nov-15"
-    ,"updatedAt":"02-nov-15"
+    ,"createdAt":"2015-11-02"
+    ,"updatedAt":"2015-11-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5848,8 +5848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION Y VOLADURA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02-nov-15"
+ {
+     "fecha":"2015-11-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 W"
     ,"rocaRocaid":12
@@ -5868,8 +5868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR LOS TALADROS DE RE-CORTE EN LA CORONA PARA MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"FALTA REALIZAR DESATE DE ROCAS SUELTAS."
-    ,"createdAt":"02-nov-15"
-    ,"updatedAt":"02-nov-15"
+    ,"createdAt":"2015-11-02"
+    ,"updatedAt":"2015-11-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5888,8 +5888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02-nov-15"
+ {
+     "fecha":"2015-11-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":10
@@ -5908,8 +5908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA MANTENER LA SECCION PROGRAMADA POR QUE SE EVIDENCIA BASTANTE DESPRENDIMIENTO DE ROCAS SUELTAS."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"02-nov-15"
-    ,"updatedAt":"02-nov-15"
+    ,"createdAt":"2015-11-02"
+    ,"updatedAt":"2015-11-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5928,8 +5928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORTACION Y VOLADURA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02-nov-15"
+ {
+     "fecha":"2015-11-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 910 "
     ,"rocaRocaid":12
@@ -5948,8 +5948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE CALIZAR CRISTALIZADA SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"02-nov-15"
-    ,"updatedAt":"02-nov-15"
+    ,"createdAt":"2015-11-02"
+    ,"updatedAt":"2015-11-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -5968,8 +5968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01-nov-15"
+ {
+     "fecha":"2015-11-01"
     ,"guardia":"NOCHE"
     ,"laborCodigo":"RPA 7854"
     ,"rocaRocaid":12
@@ -5988,8 +5988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA EN EL HASTIAL DERECHO  UNA CUÑA, SE PERCUTA Y SE HACE CAER LA CUÑA, FALTA REFORZAR EL SOSTENIMIENTO DEL DESCARGUE QUE SE REALIZO."
     ,"comentario":"\""
-    ,"createdAt":"02-nov-15"
-    ,"updatedAt":"02-nov-15"
+    ,"createdAt":"2015-11-02"
+    ,"updatedAt":"2015-11-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6008,8 +6008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO EN EL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01-nov-15"
+ {
+     "fecha":"2015-11-01"
     ,"guardia":"NOCHE"
     ,"laborCodigo":"CRO 350 W"
     ,"rocaRocaid":12
@@ -6028,8 +6028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS Y FALTA RESANE DE MALLAS ROTAS. REALIZAR VOLADURA CONTROLADA."
     ,"comentario":"\""
-    ,"createdAt":"02-nov-15"
-    ,"updatedAt":"02-nov-15"
+    ,"createdAt":"2015-11-02"
+    ,"updatedAt":"2015-11-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6048,8 +6048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02-nov-15"
+ {
+     "fecha":"2015-11-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 389"
     ,"rocaRocaid":2
@@ -6068,8 +6068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"DESATADO DE ROCAS A 10 MTS DEL TOPE"
     ,"comentario":"SE OBSERVA MALLAS CARGADAS A LOS HASTIALES Y CORONA"
-    ,"createdAt":"02-nov-15"
-    ,"updatedAt":"02-nov-15"
+    ,"createdAt":"2015-11-02"
+    ,"updatedAt":"2015-11-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6088,8 +6088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02-nov-15"
+ {
+     "fecha":"2015-11-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 15"
     ,"rocaRocaid":2
@@ -6108,8 +6108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"DESATE DE ROCAS CONSTANTE, ADEMAS DE CONTROLAR PERFORACION Y VOLADURA"
     ,"comentario":"SPLIT SET COLGADOS, MALLAS CARGADAS A LOS HASTIALES A 7 MTS DEL TOPE"
-    ,"createdAt":"02-nov-15"
-    ,"updatedAt":"02-nov-15"
+    ,"createdAt":"2015-11-02"
+    ,"updatedAt":"2015-11-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6128,8 +6128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02-nov-15"
+ {
+     "fecha":"2015-11-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7880 S"
     ,"rocaRocaid":2
@@ -6148,8 +6148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALTA REFORZAR EL SOSTENIMIENTO HASTIAL IZQUIERDO CON MALLA Y MINI SPLIT SET"
     ,"comentario":"REQUIERE MEJORAR EL CONTROL DE SECCION"
-    ,"createdAt":"02-nov-15"
-    ,"updatedAt":"02-nov-15"
+    ,"createdAt":"2015-11-02"
+    ,"updatedAt":"2015-11-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6168,8 +6168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03-nov-15"
+ {
+     "fecha":"2015-11-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 116 S/NV_N2"
     ,"rocaRocaid":12
@@ -6188,8 +6188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"_x000D_\nRoca fracturada, formación cuñas en corona y hastiales producto del fractura miento de las cajas y estructura que defines cuñas, sostenimiento con Split de 7’ a 1.20X1.20m con malla hasta 1.50m del piso._x000D_\n"
     ,"comentario":"Se tienen dos paños de malla dañados por el ultimo disparo, así mismo se tiene malla cargada en corona y hastiales, Se tiene áreas sin completar de sostener tanto en la comunicación de sub nivel 1 y 2 norte a si como en el mismo S/NV_N2"
-    ,"createdAt":"03-nov-15"
-    ,"updatedAt":"03-nov-15"
+    ,"createdAt":"2015-11-03"
+    ,"updatedAt":"2015-11-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -6208,8 +6208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"falta colocar servicios para concluir el sostenimiento"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03-nov-15"
+ {
+     "fecha":"2015-11-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 116 S/NV_S3"
     ,"rocaRocaid":12
@@ -6228,8 +6228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"_x000D_\nRoca fracturada, formación cuñas en corona y hastiales producto del fracturas tanto en cajas y estructura que defines cuñas, sostenimiento con Split set de 7’ a 1.20X1.20m con malla hasta 1.50m del piso._x000D_\n"
     ,"comentario":"Paños de malla dañados tanto en corona como hastiales por el ultimo disparo, los split set del ultimo tramo se colocaron ha una altura mayor ha 2.\"\"m del piso,falta sostener todo el ultimo disparo. Frente con carga"
-    ,"createdAt":"03-nov-15"
-    ,"updatedAt":"03-nov-15"
+    ,"createdAt":"2015-11-03"
+    ,"updatedAt":"2015-11-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -6248,8 +6248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"falta completar la limpieza para sostener"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03-nov-15"
+ {
+     "fecha":"2015-11-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 160 N"
     ,"rocaRocaid":12
@@ -6268,8 +6268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"_x000D_\nRoca fracturada, formación cuñas en corona y hastiales producto del fracturas tanto en cajas y estructura, filtracion de agua por los split set y fracturas, sostenimiento con Split set de 7’ a 1.00X1.00m con malla hasta 1.50m del piso._x000D_\n"
     ,"comentario":"Se tiene seccion fuera de progarama tanto por condiciones estructurales como por falta de control de la perforacion y voladura, no se respeta la gradiente, si se revaja piso segun gradiente la labor tendria altura mayor a 6.\"\"m, persiste la filtacion de agua en corona, falta completar sostenimiento asi como el refiuerzo de los tramos dañados por voladura."
-    ,"createdAt":"03-nov-15"
-    ,"updatedAt":"03-nov-15"
+    ,"createdAt":"2015-11-03"
+    ,"updatedAt":"2015-11-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6288,8 +6288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"controlara la seccion para no desnivelar el puente ha recuperar"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03-nov-15"
+ {
+     "fecha":"2015-11-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 709 W"
     ,"rocaRocaid":12
@@ -6308,8 +6308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE UN BANCO EN LA CORONA SE RECOMENDO DESATE MECANIZADO Y CONTINUAR CON LA VOLADURA CONTROLADA._x000D_\n"
     ,"comentario":"FALTA LIMPÍEZA DEL MATERIAL."
-    ,"createdAt":"03-nov-15"
-    ,"updatedAt":"03-nov-15"
+    ,"createdAt":"2015-11-03"
+    ,"updatedAt":"2015-11-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -6328,8 +6328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03-nov-15"
+ {
+     "fecha":"2015-11-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -6348,8 +6348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"DEL TOPE A 5 M ATRAS SE EVIDENCIA UNA FALLA CON RUMBO Rb=N45°W LA FALLA TIENE RELLENO DE 10 CM. EN EL TOPE CAMBIO EL TIPÓ DE ROCA ESTAMOS EN UN GSI M2."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"03-nov-15"
-    ,"updatedAt":"03-nov-15"
+    ,"createdAt":"2015-11-03"
+    ,"updatedAt":"2015-11-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6368,8 +6368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03-nov-15"
+ {
+     "fecha":"2015-11-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 765 N"
     ,"rocaRocaid":7
@@ -6388,8 +6388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECONMIENDA REALIZAR VOLADURA CONTROLADA, REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA, SE EVIDENCIA SOBRE ROTURA DE 30CM POR EL TIPO DE ROCA."
     ,"comentario":"FALTA REALIZAR DESATE DE ROCAS SUELTAS."
-    ,"createdAt":"03-nov-15"
-    ,"updatedAt":"03-nov-15"
+    ,"createdAt":"2015-11-03"
+    ,"updatedAt":"2015-11-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6408,8 +6408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION Y VOLADURA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03-nov-15"
+ {
+     "fecha":"2015-11-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 910 S"
     ,"rocaRocaid":12
@@ -6428,8 +6428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":" SE EVIDENCIA BANCOS COLGADOS EN TODO EL ACCESO Y ROCAS SUELTAS SOBRE LA MALLA, EN TOPE SE EVIDENCIA UNA CUÑA EN LA CORONA SE RECOMENDO DESATE MECANIZADO."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"03-nov-15"
-    ,"updatedAt":"03-nov-15"
+    ,"createdAt":"2015-11-03"
+    ,"updatedAt":"2015-11-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -6448,8 +6448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03-nov-15"
+ {
+     "fecha":"2015-11-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 425"
     ,"rocaRocaid":12
@@ -6468,8 +6468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARAGAR MALLAS AL HASTIAL DERECHO"
     ,"comentario":"HACIA EL HASTIAL DE SUPERFICIE ALTERADO Y CON PANIZO. TIPO DE ROCA CALIZA, CON TRAMOS DE BRECHA AL HASTIAL IZQUIERDO. SE OBSERVA MALLAS CARGADAS AL HASTIAL DERECHO"
-    ,"createdAt":"03-nov-15"
-    ,"updatedAt":"03-nov-15"
+    ,"createdAt":"2015-11-03"
+    ,"updatedAt":"2015-11-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6488,8 +6488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03-nov-15"
+ {
+     "fecha":"2015-11-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 314 W"
     ,"rocaRocaid":2
@@ -6508,8 +6508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA EL DESCARGUE DE MALLAS TANTO EN LA CORONA COMO EN LOS HASTIALES DE TODA LA LABOR"
     ,"comentario":"PRESENCIA DE FALLA AL HASTIAL DERECHO QUE PRESENTA ROCA ALTERADA, FRACTURADA. SE OBSERVA MALLAS CARGADAS A LOS HASTIALES Y BANCOS COLGADOS EN LA CORONA AL INGRESO A LA LABOR."
-    ,"createdAt":"03-nov-15"
-    ,"updatedAt":"03-nov-15"
+    ,"createdAt":"2015-11-03"
+    ,"updatedAt":"2015-11-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6528,8 +6528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03-nov-15"
+ {
+     "fecha":"2015-11-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 7709"
     ,"rocaRocaid":12
@@ -6548,8 +6548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA EL DESCARGUE DE MALLAS DEL HASTIAL IZQUIERDO"
     ,"comentario":"ROCA CALIZA CON FRACTURAS RELLENAS DE CALCITA. ORIENTACION DE LA ROCA N7\"°W Y BZ 63 NE. PRESENCIA DE MALLAS CARGADAS EN EL ULTIMO TRAMO DE SOSTENIMIENTO AL HASTIAL IZQUIERDO."
-    ,"createdAt":"03-nov-15"
-    ,"updatedAt":"03-nov-15"
+    ,"createdAt":"2015-11-03"
+    ,"updatedAt":"2015-11-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -6568,8 +6568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03-nov-15"
+ {
+     "fecha":"2015-11-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7880"
     ,"rocaRocaid":2
@@ -6588,8 +6588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REFORZAR EL SOSTENIMIENTO"
     ,"comentario":"FALTA REFORZAR EL SOSTENIMIENTO EN VARIOS TRAMOS"
-    ,"createdAt":"03-nov-15"
-    ,"updatedAt":"03-nov-15"
+    ,"createdAt":"2015-11-03"
+    ,"updatedAt":"2015-11-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -6608,8 +6608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7880"
     ,"rocaRocaid":2
@@ -6628,8 +6628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REFORZAR EL SOSTENIMIENTO Y DESCARGAR MALLAS"
     ,"comentario":"FALTA REFORZAR EL SOSTENIMIENTO EN VARIOS TRAMOS"
-    ,"createdAt":"04/11/2015"
-    ,"updatedAt":"04/11/2015"
+    ,"createdAt":"2015-11-04"
+    ,"updatedAt":"2015-11-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6648,8 +6648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 425"
     ,"rocaRocaid":12
@@ -6668,8 +6668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGAR MALLAS DE LA CORONA Y HASTIALES"
     ,"comentario":"A 5 MTS DEL TOPE MALLAS CARGADAS EN LA CORONA Y HASTIALES"
-    ,"createdAt":"04/11/2015"
-    ,"updatedAt":"04/11/2015"
+    ,"createdAt":"2015-11-04"
+    ,"updatedAt":"2015-11-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6688,8 +6688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 389"
     ,"rocaRocaid":12
@@ -6708,8 +6708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGAR MALLAS EN LOS HASTIALES Y CORONA. SEGUIR MANTENIENTO LA SECCION"
     ,"comentario":"SE OBSERVA MALLAS CARGADAS A LOS HASTIALES Y EN CORONA A 1\" MTS DEL TOPE"
-    ,"createdAt":"04/11/2015"
-    ,"updatedAt":"04/11/2015"
+    ,"createdAt":"2015-11-04"
+    ,"updatedAt":"2015-11-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6728,8 +6728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 N"
     ,"rocaRocaid":7
@@ -6748,8 +6748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Realizar el precorte, con los taladros de alivio correspondientes, en la corona y hastiales."
     ,"comentario":"PRESENCIA DE SISTEMA DE FALLAMIENTO PARALELO A LA LABOR, ROCAS SUELTAS SOBRE LA MALLA."
-    ,"createdAt":"04/11/2015"
-    ,"updatedAt":"04/11/2015"
+    ,"createdAt":"2015-11-04"
+    ,"updatedAt":"2015-11-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6768,8 +6768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE DESATE Y RESANE DE MALLAS ROTAS."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rp 910 S"
     ,"rocaRocaid":12
@@ -6788,8 +6788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"DESATE DE ROCAS SUELTAS SOBRE LA MALLA ELECTROSOLDADA, CONTINUAR CON RESANE DE MALLASROTAS."
     ,"comentario":"BANCOS SUELTOS SOBRE LA MALLA Y MALLAS ROTAS, PRESENCIA DE SITEMA DE FALLAMIENTOS PERPENDICULAR A LA LABOR."
-    ,"createdAt":"04/11/2015"
-    ,"updatedAt":"04/11/2015"
+    ,"createdAt":"2015-11-04"
+    ,"updatedAt":"2015-11-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6808,8 +6808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gl. 624 W"
     ,"rocaRocaid":12
@@ -6828,8 +6828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"COMPLETAR SOSTENIMIENTO DEL ULTIMO DISPARO REALIZADO."
     ,"comentario":"PRESENCIA DE SISTEMA DE FALLAMIENTO PERPENDICULAR AL EJE DE LA LABOR."
-    ,"createdAt":"04/11/2015"
-    ,"updatedAt":"04/11/2015"
+    ,"createdAt":"2015-11-04"
+    ,"updatedAt":"2015-11-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6848,8 +6848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gl. 709 W"
     ,"rocaRocaid":12
@@ -6868,8 +6868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"RESANE DE MALLAS ROTAS, CONTINUAR CON VOLADURA CONTROLADA."
     ,"comentario":"FALTA RELLENAR CARGA HACIA EL HASTIAL IZQUIERDO."
-    ,"createdAt":"04/11/2015"
-    ,"updatedAt":"04/11/2015"
+    ,"createdAt":"2015-11-04"
+    ,"updatedAt":"2015-11-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6888,8 +6888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rp. 859 N"
     ,"rocaRocaid":12
@@ -6908,8 +6908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"CONTINUAR CON DESATE ROCAS SUELTAS SOBRE LA MALLA ELECTROSOLDADA, CONTINUAR CON RESANE DE MALLAS ROTAS."
     ,"comentario":"PRESENCIA DE MALLAS ROTAS, PRESENCIA DE BANCOS SUELTOS SOBRE LA MALLA."
-    ,"createdAt":"04/11/2015"
-    ,"updatedAt":"04/11/2015"
+    ,"createdAt":"2015-11-04"
+    ,"updatedAt":"2015-11-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6928,8 +6928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 896"
     ,"rocaRocaid":12
@@ -6948,8 +6948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Sostenimiento con Split de 7’ a 1.20x1.20m con malla hasta 1.50m del piso, control de perforación y voladura. "
     ,"comentario":"Labor sobre excavada, altura de 6.\"5m y ancho de 4.5\"m, plano fractura que define bloques al lado derecho, la altura delos últimos Split set esta en 3.5m a la izquierda y 2.5 a la derecha"
-    ,"createdAt":"04/11/2015"
-    ,"updatedAt":"04/11/2015"
+    ,"createdAt":"2015-11-04"
+    ,"updatedAt":"2015-11-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -6968,8 +6968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE TIENE QUE REDUCIR ALTURA CON RELLENO DETRITICO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 928"
     ,"rocaRocaid":12
@@ -6988,8 +6988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Sostenimiento con Split de 7’ a 1.20x1.20m con malla hasta 1.50m del piso, control de perforación y voladura. eliminara los bloques abiertos del lado izquierdo. cajeo en los tramos de voladizo"
     ,"comentario":"Frente con carga, último disparo sin sostenimiento, tramos de malla cargada en corona y paredes, se tiene bloques abiertos 1\"m antes del tope, tramos con voladizos productos de corte anteriores  "
-    ,"createdAt":"04/11/2015"
-    ,"updatedAt":"04/11/2015"
+    ,"createdAt":"2015-11-04"
+    ,"updatedAt":"2015-11-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -7008,8 +7008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"labor programada sin personal, dos dias sin sostener"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 E"
     ,"rocaRocaid":12
@@ -7028,8 +7028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Sostenimiento con Split de 7’ a 1.20x1.20m con malla hasta 1.50m del piso, control de perforación y voladura. resostener los tramos de malla dañda por el disparo"
     ,"comentario":"Ancho de labor fuera del programa, bloques abiertos y colgados en la malla, Split set delultimo tramo por encima de 1.5\"m con respecto al piso"
-    ,"createdAt":"04/11/2015"
-    ,"updatedAt":"04/11/2015"
+    ,"createdAt":"2015-11-04"
+    ,"updatedAt":"2015-11-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7048,8 +7048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"control de perforacion y voladura"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 995"
     ,"rocaRocaid":12
@@ -7068,8 +7068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Sostenimiento con Split de 7’ a 1.20x1.20m con malla hasta 1.50m del piso, control de perforación y voladura para no debilitar el puente de 4.00m recomendado"
     ,"comentario":"Sobre excavación  tanto en alto como ancho,  se está disminuyendo el puente recomendado para la recuperación del último corte."
-    ,"createdAt":"04/11/2015"
-    ,"updatedAt":"04/11/2015"
+    ,"createdAt":"2015-11-04"
+    ,"updatedAt":"2015-11-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7088,8 +7088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"controlara la seccion para mantener el puente recomendado."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 W"
     ,"rocaRocaid":12
@@ -7108,8 +7108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Sostenimiento con Split de 7’ a 1.20x1.20m con malla hasta 1.50m del piso, eliminar pecho colgado de la interseccionj"
     ,"comentario":"Eliminar el bloque abierto de la corona con equipo mecanizado,completar el sostenimiento según estándar  "
-    ,"createdAt":"04/11/2015"
-    ,"updatedAt":"04/11/2015"
+    ,"createdAt":"2015-11-04"
+    ,"updatedAt":"2015-11-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7128,8 +7128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 N"
     ,"rocaRocaid":7
@@ -7148,8 +7148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA , EN LA CORONA DE LA SECCION REALIZAR TALADROS DE RE CORTE PARA MANTENER EL ARCO DE AUTOSOPORTE."
     ,"comentario":"FALTA DESATE DE ROCAS SUELTAS."
-    ,"createdAt":"05/11/2015"
-    ,"updatedAt":"05/11/2015"
+    ,"createdAt":"2015-11-05"
+    ,"updatedAt":"2015-11-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7168,8 +7168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04-nov-15"
+ {
+     "fecha":"2015-11-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 N"
     ,"rocaRocaid":7
@@ -7188,8 +7188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA , EN LA CORONA DE LA SECCION REALIZAR TALADROS DE RE CORTE PARA MANTENER EL ARCO DE AUTOSOPORTE."
     ,"comentario":"\""
-    ,"createdAt":"05/11/2015"
-    ,"updatedAt":"05/11/2015"
+    ,"createdAt":"2015-11-05"
+    ,"updatedAt":"2015-11-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7208,8 +7208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE PARALIZA "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05-nov-15"
+ {
+     "fecha":"2015-11-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 N"
     ,"rocaRocaid":7
@@ -7228,8 +7228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA , EN LA CORONA DE LA SECCION REALIZAR TALADROS DE RE CORTE PARA MANTENER EL ARCO DE AUTOSOPORTE."
     ,"comentario":"\""
-    ,"createdAt":"05/11/2015"
-    ,"updatedAt":"05/11/2015"
+    ,"createdAt":"2015-11-05"
+    ,"updatedAt":"2015-11-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7248,8 +7248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZA PERFORACION."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05-nov-15"
+ {
+     "fecha":"2015-11-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 W"
     ,"rocaRocaid":7
@@ -7268,8 +7268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE MALLAS ROTAS Y FALTA TOPEAR CON LA CARGA AL TOPE."
     ,"comentario":"PRESENCIA DE MALLAS ROTAS Y FALTA TOPEAR CON CARGA LAS LABORES OBSERVACIONES."
-    ,"createdAt":"05/11/2015"
-    ,"updatedAt":"05/11/2015"
+    ,"createdAt":"2015-11-05"
+    ,"updatedAt":"2015-11-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7288,8 +7288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE DE ROCAS SUELTAS."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05-nov-15"
+ {
+     "fecha":"2015-11-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -7308,8 +7308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA, REALIZAR TALADROS DE RE-CORTE."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"05/11/2015"
-    ,"updatedAt":"05/11/2015"
+    ,"createdAt":"2015-11-05"
+    ,"updatedAt":"2015-11-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7328,8 +7328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION Y VOLADURA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05-nov-15"
+ {
+     "fecha":"2015-11-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 709 W"
     ,"rocaRocaid":12
@@ -7348,8 +7348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SOSTENER EL ULTIMO DISPARO , REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA SOSTENER EL ULTIMO DISPARO."
-    ,"createdAt":"05/11/2015"
-    ,"updatedAt":"05/11/2015"
+    ,"createdAt":"2015-11-05"
+    ,"updatedAt":"2015-11-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7368,8 +7368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05-nov-15"
+ {
+     "fecha":"2015-11-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154"
     ,"rocaRocaid":2
@@ -7388,8 +7388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESATAR MALLAS CARGADAS Y LLEVAR LA SECCION"
     ,"comentario":"SE OBSERVA ESTRUCTURA MINERALIZADA AL TOPE RB=N84°W Y BZ=79NE DE 8CM DE POTENCIA AL TOPE. TAMBIEN SE OBSERVA MALLAS CARGADAS A 7 MTS Y 13 MTS DEL TOPE (H.I. Y H.D., RESPECTIVAMENTE)"
-    ,"createdAt":"05/11/2015"
-    ,"updatedAt":"05/11/2015"
+    ,"createdAt":"2015-11-05"
+    ,"updatedAt":"2015-11-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7408,8 +7408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05-nov-15"
+ {
+     "fecha":"2015-11-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 314"
     ,"rocaRocaid":2
@@ -7428,8 +7428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA MEJORAR LOS ELEMENTOS DE DISTRIBUCION DEL SOSTENIMIENTO"
     ,"comentario":"\""
-    ,"createdAt":"05/11/2015"
-    ,"updatedAt":"05/11/2015"
+    ,"createdAt":"2015-11-05"
+    ,"updatedAt":"2015-11-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7448,8 +7448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05-nov-15"
+ {
+     "fecha":"2015-11-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":2
@@ -7468,8 +7468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REALIZO DESCARGUE DE MALLA DEL TOPE A 7 MTS"
     ,"comentario":"MALLA CARGADA EN EL HASTIAL IZQUIERDO"
-    ,"createdAt":"05/11/2015"
-    ,"updatedAt":"05/11/2015"
+    ,"createdAt":"2015-11-05"
+    ,"updatedAt":"2015-11-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7488,8 +7488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05-nov-15"
+ {
+     "fecha":"2015-11-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7840 OB18"
     ,"rocaRocaid":2
@@ -7508,8 +7508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"CUMPLIR CON LAS RECOMENDACIONES GEOMECANICAS"
     ,"comentario":"SE OBSERVA MALLAS CARGADAS, ADEMAS FALTA ACTUALIZAR EL PLANO GEOMECANICO AL TOPE ACTUAL"
-    ,"createdAt":"05/11/2015"
-    ,"updatedAt":"05/11/2015"
+    ,"createdAt":"2015-11-05"
+    ,"updatedAt":"2015-11-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7528,8 +7528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05-nov-15"
+ {
+     "fecha":"2015-11-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 E"
     ,"rocaRocaid":12
@@ -7548,8 +7548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca muy fracturada regulara, cumplir con el estándar de sostenimiento a 1.20X1.20m con malla hasta 1.50m del piso. Control de perforación y voladura."
     ,"comentario":"En la intersección se tiene cámara de acumulamiento provisional, esta presenta roca relajada con desprendimientos esporádico, este puntos debe re desatar y completar el sostenimiento para seguir usándola con cámara de acumulación."
-    ,"createdAt":"05/11/2015"
-    ,"updatedAt":"05/11/2015"
+    ,"createdAt":"2015-11-05"
+    ,"updatedAt":"2015-11-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7568,8 +7568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"HACER SEGUIMIENTO A LA PERFORACIÓN Y VOLADURA"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05-nov-15"
+ {
+     "fecha":"2015-11-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 660 S"
     ,"rocaRocaid":12
@@ -7588,8 +7588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Cumplir con el estándar de sostenimiento a 1.20X1.20m con malla hasta 1.50m del piso. Control de perforación y voladura."
     ,"comentario":"A LA CAJA TECHO SE TIENE POCHO SOBRESALIENTE CON BASE INESTABLE CON POSIBILIDAD DE DESPRENDIMIENTO, LOSE SPLIT COLOCADOS NO SE ESTÁN ANCLANDO A CAJA ESTABLE, SI SE CONTINUA SE DEBE DE ELIMINAR LA CONDICIÓN O CASO CONTRARIO RELLENAR LA LABOR."
-    ,"createdAt":"05/11/2015"
-    ,"updatedAt":"05/11/2015"
+    ,"createdAt":"2015-11-05"
+    ,"updatedAt":"2015-11-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7608,8 +7608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"ELIMINAR CONDICIONES DE INESTABILIDAD EN LOS INGRESOS DE LOS STOP"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05-nov-15"
+ {
+     "fecha":"2015-11-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 W"
     ,"rocaRocaid":12
@@ -7628,8 +7628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Cumplir con el estándar de sostenimiento a 1.20X1.20m con malla hasta 1.50m del piso. Control de perforación y voladura."
     ,"comentario":"En la intersección se tiene áreas para completar el sostenimiento, estas han quedado expuestas después de la eliminación del pecho colgado."
-    ,"createdAt":"05/11/2015"
-    ,"updatedAt":"05/11/2015"
+    ,"createdAt":"2015-11-05"
+    ,"updatedAt":"2015-11-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7648,8 +7648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":2
@@ -7668,8 +7668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CAMBIAR BARRETILLAS EN MAL ESTADO DE 6 Y 9 PULGADAS"
     ,"comentario":"SE OBSERVA FALTA DE SOSTENIMIENTO DEL ULTIMO DISPARO."
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7688,8 +7688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7840 S"
     ,"rocaRocaid":2
@@ -7708,8 +7708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR DESCARGUE DE MALLA CONSTANTE"
     ,"comentario":"SE OBSERVA MALLAS CARGADAS DEL TOPE A 7 METROS"
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7728,8 +7728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 7709"
     ,"rocaRocaid":12
@@ -7748,8 +7748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESATAR MALLAS A 6 METROS DEL TOPE EN EL HASTIAL DERECHO Y CORONA. EN ESTA ZONA EL DESCARGUE DE MALLA DEBE SER CONSTANTE."
     ,"comentario":"SE OBSERVA CALIZAS CON RELLENO DE CALCITA. PRESENCIA DE MALLAS CARGADAS A 7 MTS DEL TOPE AL HASTIAL DERECHO."
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -7768,8 +7768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE DE LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 910 S"
     ,"rocaRocaid":12
@@ -7788,8 +7788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SOSTENIMIENTO CON PERNO HELICOIDAL, DESCARGUE DE BANCOS SUELTOS SOBRE LA MALLA, REFORZAR SOSTENIMIENTO EN EL HASTIAL IZQUIERDO."
     ,"comentario":"PRESENCIA DE ROCAS SUELTAS SOBRE LA MALLA, MALLAS ENBOLSONADAS EN EL HASTIAL IZQUIERDO."
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7808,8 +7808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE LIMPIEZA Y SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 N"
     ,"rocaRocaid":7
@@ -7828,8 +7828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA Y AUMENTAR MAYOR CANTIDAD DE TALADROS DE ALIVIO EN EL HASTIAL IZQUIERDO PARA SU CONTROL DE LA FALLA SEMI PARALELA AL EJE DE LA LABOR."
     ,"comentario":"BANCOS SUELTOS SOBRE LA MALLA, PRESENCIA DE  SISTEMA DE FALLAMIENTO EN EL HASTIAL IZQUIERDO SEMI PARALELO AL EJE DE LA LABOR."
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7848,8 +7848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMIENTO Y DESATE CONSTANTE DE LOS BANCOS SOBRE LA MALLA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gl. 624 W"
     ,"rocaRocaid":12
@@ -7868,8 +7868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTROLAR LA SECCION Y REALIZAR VOLADURA CONTROLADA."
     ,"comentario":"\""
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7888,8 +7888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE MARCO LA MALLA DE PERFORACION DE ACUERDO A LA SECCION."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gl. 598 E"
     ,"rocaRocaid":12
@@ -7908,8 +7908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA COMPLETAR EL SOSTENIMIENTO DEL ULTIMO DISPARO."
     ,"comentario":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO REALIZADO, DECARGUE DE BANCOS SUELTOS SOBRE LA MALLA EN LA INTERSECCION CON EL Cro 746 N."
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7928,8 +7928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 996 "
     ,"rocaRocaid":12
@@ -7948,8 +7948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se observa la intersección con el acceso principal mallas abiertas y cargadas con bancos abiertos, reforzar el sostenimiento."
     ,"comentario":"\""
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -7968,8 +7968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Se coordinó con operaciones completar el sostenimiento de la comunicación antes de reiniciar operaciones."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 24"
     ,"rocaRocaid":12
@@ -7988,8 +7988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se debe completar el sostenimiento por parte de Martínez, realizar el desate de la zona de intersección "
     ,"comentario":"\""
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8008,8 +8008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 160N"
     ,"rocaRocaid":12
@@ -8028,8 +8028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Terreno inestable con presencia de bancos abiertos en el último disparo, se debe realizar desate y sostenimiento presencia de bancos abiertos. "
     ,"comentario":"\""
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8048,8 +8048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se coordino con el jefe de guardia en la labor el completar el sostenimiento"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 116N"
     ,"rocaRocaid":12
@@ -8068,8 +8068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Completar el sostenimiento del ultimo disparo, mejorar en los traslapes para no remangar la malla (martinez), en la intersección se tienen mallas abiertas y zonas sin sostener"
     ,"comentario":"\""
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8088,8 +8088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se coordino con el jefe de guardia completar el sostenimiento del tope y de la interseccion "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 160S"
     ,"rocaRocaid":12
@@ -8108,8 +8108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"En ambas aperturas se observa falta de sostenimiento en la comunicación, realizar el desate de los bancos abiertos. "
     ,"comentario":"\""
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8128,8 +8128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se coordino con el jefe de guardia que se levamntarian las observaciones en guardia noche "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 W"
     ,"rocaRocaid":12
@@ -8148,8 +8148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"El lado derecho se debe completar el relleno hidraulico, se observa bancos relajados y un chispeo constante. En la insterseccion completar el sostenimiento. "
     ,"comentario":"\""
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -8168,8 +8168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"esta paralizado hasta completar el relleno hidraulico y completar el sostenimiento "
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 E"
     ,"rocaRocaid":12
@@ -8188,8 +8188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Completar el sostenimiento del ultimo disparo "
     ,"comentario":"\""
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -8208,8 +8208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 175"
     ,"rocaRocaid":12
@@ -8228,8 +8228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Completar el sostenimiento del ultimo disparo "
     ,"comentario":"\""
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -8248,8 +8248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se reducira la altura "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06-nov-15"
+ {
+     "fecha":"2015-11-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 896"
     ,"rocaRocaid":12
@@ -8268,8 +8268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"realizar el desate en la zona de curvatura, hacia el tope se evidencia mallas cargadas asi como en la interseccion "
     ,"comentario":"\""
-    ,"createdAt":"06/11/2015"
-    ,"updatedAt":"06/11/2015"
+    ,"createdAt":"2015-11-06"
+    ,"updatedAt":"2015-11-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -8288,8 +8288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se debe controlar la seccion de la labor. "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07-nov-15"
+ {
+     "fecha":"2015-11-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 E"
     ,"rocaRocaid":12
@@ -8308,8 +8308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Pendiente sostenimiento del ultimo disparo, presencia de bancos sueltos sobre la malla."
     ,"comentario":"Presencia de mallas rotas, falta sostenimiento del ultimo disparo."
-    ,"createdAt":"07/11/2015"
-    ,"updatedAt":"07/11/2015"
+    ,"createdAt":"2015-11-07"
+    ,"updatedAt":"2015-11-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -8328,8 +8328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Proceso de limpieza."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07-nov-15"
+ {
+     "fecha":"2015-11-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 698 E"
     ,"rocaRocaid":12
@@ -8348,8 +8348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Completar sostenimiento del ultimo disparo, desate minucioso de las rocas sueltas sobre la malla."
     ,"comentario":"presencia de rocas sueltas sobre la malla, falta sostenimiento del ultimo disparo."
-    ,"createdAt":"07/11/2015"
-    ,"updatedAt":"07/11/2015"
+    ,"createdAt":"2015-11-07"
+    ,"updatedAt":"2015-11-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -8368,8 +8368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Proceso de limpieza."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07-nov-15"
+ {
+     "fecha":"2015-11-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 765 N"
     ,"rocaRocaid":7
@@ -8388,8 +8388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"En el hastial isquierdo presencia de sitema de fallas sub paralelas al eje de la lbaor, continuar con el desatabo y resane de mallas rotas."
     ,"comentario":"Presenciad de rocas sueltas sobre la malla, mallas rotas"
-    ,"createdAt":"07/11/2015"
-    ,"updatedAt":"07/11/2015"
+    ,"createdAt":"2015-11-07"
+    ,"updatedAt":"2015-11-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8408,8 +8408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Proceso de control de seccion, con voladura controlada."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07-nov-15"
+ {
+     "fecha":"2015-11-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 910 E"
     ,"rocaRocaid":12
@@ -8428,8 +8428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Realizar voladura controlada, desate de rocas sueltas sobre la malla electrosoldada, continuar con resane de mallas rotas."
     ,"comentario":"Bancos sueltos sobre la malla, mallas rotas."
-    ,"createdAt":"07/11/2015"
-    ,"updatedAt":"07/11/2015"
+    ,"createdAt":"2015-11-07"
+    ,"updatedAt":"2015-11-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8448,8 +8448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Proceso de limpieza."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07-nov-15"
+ {
+     "fecha":"2015-11-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154"
     ,"rocaRocaid":12
@@ -8468,8 +8468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA"
     ,"comentario":"MALLAS CARGADAS EN EL HASTIAL IZQUIERDO A 4 METROS."
-    ,"createdAt":"07/11/2015"
-    ,"updatedAt":"07/11/2015"
+    ,"createdAt":"2015-11-07"
+    ,"updatedAt":"2015-11-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8488,8 +8488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07-nov-15"
+ {
+     "fecha":"2015-11-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7840 N"
     ,"rocaRocaid":2
@@ -8508,8 +8508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA MEJORAR ALTURA DE SOSTENIMIENTO A 1.5 DEL PISO"
     ,"comentario":"SE OBSERVA MALLAS CARGADAS DEL TOPE A 7 MTS"
-    ,"createdAt":"07/11/2015"
-    ,"updatedAt":"07/11/2015"
+    ,"createdAt":"2015-11-07"
+    ,"updatedAt":"2015-11-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8528,8 +8528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07-nov-15"
+ {
+     "fecha":"2015-11-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 389"
     ,"rocaRocaid":12
@@ -8548,8 +8548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA RESANAR LAS MALLAS ROTAS"
     ,"comentario":"SE OBSERVA MALLAS SOBRECARGADAS EN LA CORONA A 1\" MTS APROXIMADAMENTE SE REALIZA EL RESCARGUE DE MALLAS"
-    ,"createdAt":"07/11/2015"
-    ,"updatedAt":"07/11/2015"
+    ,"createdAt":"2015-11-07"
+    ,"updatedAt":"2015-11-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8568,8 +8568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07-nov-15"
+ {
+     "fecha":"2015-11-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 7709"
     ,"rocaRocaid":12
@@ -8588,8 +8588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REFORZAR EL SOSTENIMIENTO Y RESANAR MALLAS, MANTENER SECCION DE LABOR"
     ,"comentario":"SE OBSERVA 2 ESTRUCTURAS CON BUZAMIENTO EN UN MISMO PUNTO, ESTRUCTURAS DE CALCITA. FALTA REFORZAR SOSTENIMIENTO Y RESANAR MALLAS"
-    ,"createdAt":"07/11/2015"
-    ,"updatedAt":"07/11/2015"
+    ,"createdAt":"2015-11-07"
+    ,"updatedAt":"2015-11-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8608,8 +8608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07-nov-15"
+ {
+     "fecha":"2015-11-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 335 W"
     ,"rocaRocaid":2
@@ -8628,8 +8628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGAR MALLAS DE LOS HASTIALES Y RESANAR MALLAS"
     ,"comentario":"SE OBSERVA ROCA BRECHADA. FALTA DESCARGUE DE MALLAS DESDE LA INTERSECCION"
-    ,"createdAt":"07/11/2015"
-    ,"updatedAt":"07/11/2015"
+    ,"createdAt":"2015-11-07"
+    ,"updatedAt":"2015-11-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8648,8 +8648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08-nov-15"
+ {
+     "fecha":"2015-11-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":2
@@ -8668,8 +8668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA MEJORAR DISTRIBUCION DE ELEMENTOS DE SOSTENIMIENTO."
     ,"comentario":"SE OBSERVO MALLAS CARGADAS DEL TOPE A 5 MTS"
-    ,"createdAt":"08/11/2015"
-    ,"updatedAt":"08/11/2015"
+    ,"createdAt":"2015-11-08"
+    ,"updatedAt":"2015-11-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8688,8 +8688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08-nov-15"
+ {
+     "fecha":"2015-11-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7840"
     ,"rocaRocaid":12
@@ -8708,8 +8708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGUE DE MALLA DEL TOPE A 7 MTS Y EL RESANE CORRESPONDIENTE"
     ,"comentario":"FALTA  SOSTENIMIENTO ULTIMO DISPARO"
-    ,"createdAt":"08/11/2015"
-    ,"updatedAt":"08/11/2015"
+    ,"createdAt":"2015-11-08"
+    ,"updatedAt":"2015-11-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8728,8 +8728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08-nov-15"
+ {
+     "fecha":"2015-11-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 389"
     ,"rocaRocaid":12
@@ -8748,8 +8748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGUE DE MALLA DESDE LA INTERSECCION Y RESANE CORRESPONDIENTE"
     ,"comentario":"SE OBSERVA ESTRUCTURA HACIA EL HASTIAL IZQUIERDO Y MALLAS CARGADAS DESDE LA INTERSECCION HACIA LOS HASTIALES Y CORONA"
-    ,"createdAt":"08/11/2015"
-    ,"updatedAt":"08/11/2015"
+    ,"createdAt":"2015-11-08"
+    ,"updatedAt":"2015-11-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8768,8 +8768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08-nov-15"
+ {
+     "fecha":"2015-11-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 2"
     ,"rocaRocaid":12
@@ -8788,8 +8788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGUE DE MALLA Y COLOCAR EL SOSTENIMIENTO AL TOPE. LABOR PARALIZADA"
     ,"comentario":"SE OBSERVA MALLAS CARGADAS A LOS HASTIALES A 1\" METROS DEL TOPE"
-    ,"createdAt":"08/11/2015"
-    ,"updatedAt":"08/11/2015"
+    ,"createdAt":"2015-11-08"
+    ,"updatedAt":"2015-11-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8808,8 +8808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE DE LA LABOR, Y SE PARALIZA LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08-nov-15"
+ {
+     "fecha":"2015-11-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 S"
     ,"rocaRocaid":12
@@ -8828,8 +8828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE MALLAS ROTAS EN LA INTERSECCION, CONTINUAR CON RESANE."
     ,"comentario":"PRESENCIA DE SISTEMA DE FALLAMIENTO, MALLAS ROTAS EN LA INTERSECCION."
-    ,"createdAt":"08/11/2015"
-    ,"updatedAt":"08/11/2015"
+    ,"createdAt":"2015-11-08"
+    ,"updatedAt":"2015-11-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8848,8 +8848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE DESATE Y SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08-nov-15"
+ {
+     "fecha":"2015-11-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 W"
     ,"rocaRocaid":12
@@ -8868,8 +8868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"COMPLETAR EL SOSTENIMIENTO DEL ULTIMO DISPARO MAS SU MALLA DE SACRIFICIO, SE RECOMIENDA REALIZAR VOLADURA CONTROLADA."
     ,"comentario":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO, MAS SU MALLA DE SACRIFICIO."
-    ,"createdAt":"08/11/2015"
-    ,"updatedAt":"08/11/2015"
+    ,"createdAt":"2015-11-08"
+    ,"updatedAt":"2015-11-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8888,8 +8888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08-nov-15"
+ {
+     "fecha":"2015-11-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 910 S"
     ,"rocaRocaid":12
@@ -8908,8 +8908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"COMPLETAR SOSTENIMIENTO DEL ULTIMODISPARO REALIZADO, CONTINUAR CON EL RESANE DE LAS MALLAS ROTAS."
     ,"comentario":"PRESENCIA DE MALLAS ROTAS, Y FALLA PERPENDICULAR AL EJE DE LA LABOR."
-    ,"createdAt":"08/11/2015"
-    ,"updatedAt":"08/11/2015"
+    ,"createdAt":"2015-11-08"
+    ,"updatedAt":"2015-11-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8928,8 +8928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESON DE LIMPIEZA Y RESANE DE LAS MALLAS ROTAS."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08-nov-15"
+ {
+     "fecha":"2015-11-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 N"
     ,"rocaRocaid":6
@@ -8948,8 +8948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA, DESATE DE ROCAS SUELTAS SOBRE LA MALLA ELECTROSOLDADA."
     ,"comentario":"PRESENCIA DE SISTEMA DE FALLAMIENTO SUB PARALELO AL EJE DE LA LABOR."
-    ,"createdAt":"08/11/2015"
-    ,"updatedAt":"08/11/2015"
+    ,"createdAt":"2015-11-08"
+    ,"updatedAt":"2015-11-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -8968,8 +8968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE CONTROLA REALIZANDO VOLADURA CONTROLADA Y AUMENTANDO MAYOR CANTIDAD DE TALADROS DE ALIVIO EN EL HASTIAL IZQUIERDO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09-nov-15"
+ {
+     "fecha":"2015-11-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 7709"
     ,"rocaRocaid":12
@@ -8988,8 +8988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGUE DE MALLAS DEL TOPE A 4 MTS, Y CONTROLAR LA VOLADURA"
     ,"comentario":"SE OBSERVA QUE LAS BARRETILLAS SE ENCUENTRAN CON LAS PUNTAS DESGASTADAS DE 6 Y 8"
-    ,"createdAt":"09/11/2015"
-    ,"updatedAt":"09/11/2015"
+    ,"createdAt":"2015-11-09"
+    ,"updatedAt":"2015-11-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9008,8 +9008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09-nov-15"
+ {
+     "fecha":"2015-11-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154"
     ,"rocaRocaid":12
@@ -9028,8 +9028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA MEJORAR LA DISTRIBUCION DE ELEMENTOS DE SOSTENIMIENTO"
     ,"comentario":"SE OBSERVO QUE EXISTE UN TRAMO ROTO DEL TOPE A 4 MTS AL HASTIAL IZQUIERDO"
-    ,"createdAt":"09/11/2015"
-    ,"updatedAt":"09/11/2015"
+    ,"createdAt":"2015-11-09"
+    ,"updatedAt":"2015-11-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9048,8 +9048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE DE LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09-nov-15"
+ {
+     "fecha":"2015-11-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 389"
     ,"rocaRocaid":12
@@ -9068,8 +9068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA RESANE DE MALLAS ROTAS, ASI COMO EL DESCARGUE DE LAS MISMAS"
     ,"comentario":"SE OBSERVO MALLAS CARGADAS EN LA CORONA A 2\" MTS APROXIMADAMENTE DEL TOPE. "
-    ,"createdAt":"09/11/2015"
-    ,"updatedAt":"09/11/2015"
+    ,"createdAt":"2015-11-09"
+    ,"updatedAt":"2015-11-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9088,8 +9088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09-nov-15"
+ {
+     "fecha":"2015-11-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 335"
     ,"rocaRocaid":12
@@ -9108,8 +9108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGUE DE MALLAS DE LOS HASTIALES Y RESANE DE MALLAS"
     ,"comentario":"SE OBSERVA UNA ROCA BRECHADA. FALTA DESCARGAR MALLAS DESDE EL INGRESO A LA LABOR"
-    ,"createdAt":"09/11/2015"
-    ,"updatedAt":"09/11/2015"
+    ,"createdAt":"2015-11-09"
+    ,"updatedAt":"2015-11-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9128,8 +9128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09-nov-15"
+ {
+     "fecha":"2015-11-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 615 N"
     ,"rocaRocaid":12
@@ -9148,8 +9148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA RELLENAR DE CARGA DESDE LA INTERSECCION DEL Cro 746 N."
     ,"comentario":"PRESENCIA DE MALLAS ROTAS EN LA INTERSECCION CON EL Cro 746 N"
-    ,"createdAt":"09/11/2015"
-    ,"updatedAt":"09/11/2015"
+    ,"createdAt":"2015-11-09"
+    ,"updatedAt":"2015-11-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9168,8 +9168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09-nov-15"
+ {
+     "fecha":"2015-11-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 W"
     ,"rocaRocaid":12
@@ -9188,8 +9188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA EN TODO EL CONTORNO DE LA LABOR."
     ,"comentario":"PRESENCIA DE MALLAS ROTAS EN LA INTERSECCION CON LA Gal. 624 N,S."
-    ,"createdAt":"09/11/2015"
-    ,"updatedAt":"09/11/2015"
+    ,"createdAt":"2015-11-09"
+    ,"updatedAt":"2015-11-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9208,8 +9208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO VOLADURA CONTROLADA MAS RESANE DE LAS MALLAS ROTAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09-nov-15"
+ {
+     "fecha":"2015-11-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -9228,8 +9228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA MAS RESANE DE LAS MALLAS ROTAS."
     ,"comentario":"MALLAS ROTAS, CONTACTO SUB PERPENDICULAR AL EJE DE LA LABOR."
-    ,"createdAt":"09/11/2015"
-    ,"updatedAt":"09/11/2015"
+    ,"createdAt":"2015-11-09"
+    ,"updatedAt":"2015-11-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9248,8 +9248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09-nov-15"
+ {
+     "fecha":"2015-11-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 598 E"
     ,"rocaRocaid":12
@@ -9268,8 +9268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REOCMIENDA RELLENAR CON CARGA HASTA LA INTERSECCION CON Cro 746 N, PEGAR LAS MALLAS ENBOLSONADAS CON SPLI TSET."
     ,"comentario":"PRESENCIA DE  MALLAS ENBOLSONADAS, ROTAS."
-    ,"createdAt":"09/11/2015"
-    ,"updatedAt":"09/11/2015"
+    ,"createdAt":"2015-11-09"
+    ,"updatedAt":"2015-11-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9288,8 +9288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10-nov-15"
+ {
+     "fecha":"2015-11-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"440 E "
     ,"rocaRocaid":12
@@ -9308,8 +9308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"se debe completar el sostenimiento del ultimo disparo y controlar la seccion, en los hastiales completar el sostenimiento a 1.50m "
     ,"comentario":"\""
-    ,"createdAt":"10/11/2015"
-    ,"updatedAt":"10/11/2015"
+    ,"createdAt":"2015-11-10"
+    ,"updatedAt":"2015-11-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9328,8 +9328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"en la guardia noche se levantara la observacion "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10-nov-15"
+ {
+     "fecha":"2015-11-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"440 W"
     ,"rocaRocaid":12
@@ -9348,8 +9348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"se debe completar el sostenimiento del ultimo disparo y culminar el relleno hacia el acceso derecho "
     ,"comentario":"\""
-    ,"createdAt":"10/11/2015"
-    ,"updatedAt":"10/11/2015"
+    ,"createdAt":"2015-11-10"
+    ,"updatedAt":"2015-11-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9368,8 +9368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"la tuberia de relleno se areno "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10-nov-15"
+ {
+     "fecha":"2015-11-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"160 N"
     ,"rocaRocaid":12
@@ -9388,8 +9388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Controlar la voladura, se evidencio que se remango la malla con el ultimo diapro "
     ,"comentario":"\""
-    ,"createdAt":"10/11/2015"
-    ,"updatedAt":"10/11/2015"
+    ,"createdAt":"2015-11-10"
+    ,"updatedAt":"2015-11-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9408,8 +9408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10-nov-15"
+ {
+     "fecha":"2015-11-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"25-abr-00"
     ,"rocaRocaid":12
@@ -9428,8 +9428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Mallas cargadas en el acceso, y hacia el hastial izquierdo en el tope"
     ,"comentario":"\""
-    ,"createdAt":"10/11/2015"
-    ,"updatedAt":"10/11/2015"
+    ,"createdAt":"2015-11-10"
+    ,"updatedAt":"2015-11-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9448,8 +9448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10-nov-15"
+ {
+     "fecha":"2015-11-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"23-jun-00"
     ,"rocaRocaid":12
@@ -9468,8 +9468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"completar el sostenimiento en el ultimo disparo. "
     ,"comentario":"\""
-    ,"createdAt":"10/11/2015"
-    ,"updatedAt":"10/11/2015"
+    ,"createdAt":"2015-11-10"
+    ,"updatedAt":"2015-11-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9488,8 +9488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10-nov-15"
+ {
+     "fecha":"2015-11-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7840"
     ,"rocaRocaid":2
@@ -9508,8 +9508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SEGUIR COLOCANDO LAS MALLAS DE SACRIFICIO FALTA SOSTENIMIENTO ULTIMO DISPARO"
     ,"comentario":"MALLAS CARGADAS EN EL HASTIAL IZQUIERDO DEL TOPE A 4 MTS"
-    ,"createdAt":"10/11/2015"
-    ,"updatedAt":"10/11/2015"
+    ,"createdAt":"2015-11-10"
+    ,"updatedAt":"2015-11-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9528,8 +9528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10-nov-15"
+ {
+     "fecha":"2015-11-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154"
     ,"rocaRocaid":12
@@ -9548,8 +9548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA MEJORAR DISTRIBUCION DE ELEMENTOS DE SOSTENIMIENTO"
     ,"comentario":"SE OBSERVA MALLAS CARGADAS EN LA CORONA A 7 MTS DEL TOPE"
-    ,"createdAt":"10/11/2015"
-    ,"updatedAt":"10/11/2015"
+    ,"createdAt":"2015-11-10"
+    ,"updatedAt":"2015-11-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9568,8 +9568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10-nov-15"
+ {
+     "fecha":"2015-11-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 11"
     ,"rocaRocaid":12
@@ -9588,8 +9588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGAR MALLAS SOBRECARGADAS Y COMPLETAR EL SOSTENIMIENTO"
     ,"comentario":"\""
-    ,"createdAt":"10/11/2015"
-    ,"updatedAt":"10/11/2015"
+    ,"createdAt":"2015-11-10"
+    ,"updatedAt":"2015-11-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9608,8 +9608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10-nov-15"
+ {
+     "fecha":"2015-11-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 15"
     ,"rocaRocaid":2
@@ -9628,8 +9628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGAR MALLA, CORTAR SPLIT SET, Y REFORZAR SOSTENIMIENTO"
     ,"comentario":"SE OBSERVA BANCO COLGADO DEL FRENTE DISPARADO ADEMAS DE BANCOS SUELTOS SOSTENIDOS POR SPLIT SETS Y MALLA"
-    ,"createdAt":"10/11/2015"
-    ,"updatedAt":"10/11/2015"
+    ,"createdAt":"2015-11-10"
+    ,"updatedAt":"2015-11-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -9648,8 +9648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA LIMPIEZA DEL FRENTE DISPARADO Y REALIZAR EL DESCARGUE Y DESATADO DE ROCAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10-nov-15"
+ {
+     "fecha":"2015-11-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 389"
     ,"rocaRocaid":12
@@ -9668,8 +9668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGAR MALLAS Y RESANAR MALLAS. CONTROLAR LA P/V PARA CUMPLIR CON LA SECCION PROGRAMADA."
     ,"comentario":"SE OBSERVA MALLA SOBRECARGADA A 7 MTS DEL TOPE. CALIZAS CON RELLENO DE CALCITA Y UNA ESTRUCTURA AL FRENTE Y A 15 MTS MALLA ABIERTA."
-    ,"createdAt":"10/11/2015"
-    ,"updatedAt":"10/11/2015"
+    ,"createdAt":"2015-11-10"
+    ,"updatedAt":"2015-11-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9688,8 +9688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10-nov-15"
+ {
+     "fecha":"2015-11-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 W"
     ,"rocaRocaid":12
@@ -9708,8 +9708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALISAR VOLADURA CONTROLADA EN LOS HASTIALES, DESATE MINUCIOSO Y CONSTANTE, REFORZAR SOSTENIMIENTO EN LOS HASTIALES."
     ,"comentario":"PRESENCIA MALLAS ENBOLSONADAS EN LOS HASTIALES "
-    ,"createdAt":"10/11/2015"
-    ,"updatedAt":"10/11/2015"
+    ,"createdAt":"2015-11-10"
+    ,"updatedAt":"2015-11-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9728,8 +9728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZA DE VOLADURA CONTROLADA, TANTO EN LA CORONA Y HASTIALES."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10-nov-15"
+ {
+     "fecha":"2015-11-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -9748,8 +9748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA EN TODO EL CONTORNO."
     ,"comentario":"PRESENCIA DE SISTEMA DE FALLAMIENTO SUB PARALELO AL EJE DE LA LABOR."
-    ,"createdAt":"10/11/2015"
-    ,"updatedAt":"10/11/2015"
+    ,"createdAt":"2015-11-10"
+    ,"updatedAt":"2015-11-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9768,8 +9768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE LIMPIEZA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10-nov-15"
+ {
+     "fecha":"2015-11-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -9788,8 +9788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA EN TODO EL CONTORNO."
     ,"comentario":"PRESENCIA DE SISTEMA DE FALLAMIENTO SUB PERPENDICULAR AL EJE DE LA LABOR."
-    ,"createdAt":"10/11/2015"
-    ,"updatedAt":"10/11/2015"
+    ,"createdAt":"2015-11-10"
+    ,"updatedAt":"2015-11-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9808,8 +9808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10-nov-15"
+ {
+     "fecha":"2015-11-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal  615 N"
     ,"rocaRocaid":12
@@ -9828,8 +9828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE MALLAS ROTAS EN EL HASTIAL DERECHO A LA ALTURA DE LA INTERSECCION, SE RECOMIENDA CONTINUAR RESANE, COMPLETAR SOSTENIMIENTO DEL ULTIMO DISPARO."
     ,"comentario":"MALLAS ROTAS EN EL HASTIAL DERECHO ALTURA DE LA INTERSECCION, FALTA SOSTENIMIENTO DEL ULTIMO DISPARO."
-    ,"createdAt":"10/11/2015"
-    ,"updatedAt":"10/11/2015"
+    ,"createdAt":"2015-11-10"
+    ,"updatedAt":"2015-11-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9848,8 +9848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11-nov-15"
+ {
+     "fecha":"2015-11-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154"
     ,"rocaRocaid":12
@@ -9868,8 +9868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA MALLAS A LOS HASTIALES Y CORONA. CONTROLAR PERFORAION Y VOLADURA"
     ,"comentario":"SE OBSERVA MALLAS CARGADAS A 5 Y 8 MTS DEL TOPE HACIA LA CORONA Y HASTIALES"
-    ,"createdAt":"11/11/2015"
-    ,"updatedAt":"11/11/2015"
+    ,"createdAt":"2015-11-11"
+    ,"updatedAt":"2015-11-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9888,8 +9888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11-nov-15"
+ {
+     "fecha":"2015-11-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":12
@@ -9908,8 +9908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA COLOCAR EL SOSTENIMIENTO AL TOPE DESPUES DE LIMPIAR Y COLOCAR MALLA DE SACRIFICIO A 2 MTS DEL PISO"
     ,"comentario":"SE OBSERVA MALLAS CARGADAS A 1\" MTS DEL TOPE HACIA EL HASTIAL IZQUIERDO"
-    ,"createdAt":"11/11/2015"
-    ,"updatedAt":"11/11/2015"
+    ,"createdAt":"2015-11-11"
+    ,"updatedAt":"2015-11-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9928,8 +9928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11-nov-15"
+ {
+     "fecha":"2015-11-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7840 N"
     ,"rocaRocaid":2
@@ -9948,8 +9948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGAR MALLAS Y CONTROLAR LA PERFORACION Y VOLADURA"
     ,"comentario":"SE COLOCO MALLA DE SACRIFICIO EN EL FRENTE. SE DESCARGA MALLA. FALTA ACTUALIZAR PLANOS"
-    ,"createdAt":"11/11/2015"
-    ,"updatedAt":"11/11/2015"
+    ,"createdAt":"2015-11-11"
+    ,"updatedAt":"2015-11-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -9968,8 +9968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11-nov-15"
+ {
+     "fecha":"2015-11-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 7709"
     ,"rocaRocaid":12
@@ -9988,8 +9988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGAR MALLAS Y CONTROLAR LA PERFORACION Y VOLADURA"
     ,"comentario":"SE OBSERVA MALLAS CARGADAS A 5 METROS DEL TOPE HACIA EL HASTIAL DERECHO."
-    ,"createdAt":"11/11/2015"
-    ,"updatedAt":"11/11/2015"
+    ,"createdAt":"2015-11-11"
+    ,"updatedAt":"2015-11-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10008,8 +10008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11-nov-15"
+ {
+     "fecha":"2015-11-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 544 E"
     ,"rocaRocaid":12
@@ -10028,8 +10028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS ROTAS EN EL HASTIAL DE LA INTERSECCION CON EL Cro 910 N,S; REALIZAR DESQUINCHE PARA COMPLETAR EL SOSTENIMIENTO."
     ,"comentario":"MALLAS ROTAS, FALTA SOSTENIMIENTO DEL ULTIMO DISPARO."
-    ,"createdAt":"11/11/2015"
-    ,"updatedAt":"11/11/2015"
+    ,"createdAt":"2015-11-11"
+    ,"updatedAt":"2015-11-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10048,8 +10048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11-nov-15"
+ {
+     "fecha":"2015-11-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 910 S"
     ,"rocaRocaid":12
@@ -10068,8 +10068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA, PRESENCIA DE FALLA PERPENDICULAR AL EJE DE LA LABOR, CONTINUAR CON RESANE DE LAS MALLAS ROTAS."
     ,"comentario":"SE OBSERVA FALLA PERPENDICULAR AL EJE DE LA LABOR CON POTENCIA DE 3.3 m, MALLAS ROTAS EN LA INTERSECCION CON EL Cro 5844 E."
-    ,"createdAt":"11/11/2015"
-    ,"updatedAt":"11/11/2015"
+    ,"createdAt":"2015-11-11"
+    ,"updatedAt":"2015-11-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10088,8 +10088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11-nov-15"
+ {
+     "fecha":"2015-11-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Crob 859 N"
     ,"rocaRocaid":12
@@ -10108,8 +10108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA, CONTINUAR REALIZANDO RESANE Y DESATE DE ROCAS SUELTAS SOBRE LA MALLA."
     ,"comentario":"PRESENCIA DE FALLA SUB PARALELO AL EJE DE LA LABOR, MALLAS ROTAS."
-    ,"createdAt":"11/11/2015"
-    ,"updatedAt":"11/11/2015"
+    ,"createdAt":"2015-11-11"
+    ,"updatedAt":"2015-11-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10128,8 +10128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE LIMPIEZA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11-nov-15"
+ {
+     "fecha":"2015-11-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 W"
     ,"rocaRocaid":12
@@ -10148,8 +10148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA, DESATE DE BANCOS SUELTOS SOBRE LA MALLA, RESANE DE LA INTERSECCION CON LA GAL. 615 N,S."
     ,"comentario":"MALLA CAGADA DE BANCOS SUELTOS, MALLAS ROTAS EN LA INTERSECCION."
-    ,"createdAt":"11/11/2015"
-    ,"updatedAt":"11/11/2015"
+    ,"createdAt":"2015-11-11"
+    ,"updatedAt":"2015-11-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10168,8 +10168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE LIMPIEZA MAS RESANE."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11-nov-15"
+ {
+     "fecha":"2015-11-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 660 N"
     ,"rocaRocaid":12
@@ -10188,8 +10188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Desatado mecanizado, eliminara bancos sueltos antes de sostenimiento con malla  hasta 1.50m del piso y Split de 7’ a 1.20x1.20m, se tiene tramos de malla sobrecargada."
     ,"comentario":"La sección se encuentra sobres excavada tanto en ancho como en alto, se tiene la altura de los Split set por encina de los 2m, no ser esta proyectante la rasante pese a que se tiene las maracas de topografía."
-    ,"createdAt":"11/11/2015"
-    ,"updatedAt":"11/11/2015"
+    ,"createdAt":"2015-11-11"
+    ,"updatedAt":"2015-11-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10208,8 +10208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se continua en explotacion"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11-nov-15"
+ {
+     "fecha":"2015-11-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 995"
     ,"rocaRocaid":12
@@ -10228,8 +10228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Desatado mecanizado, eliminara bancos sueltos antes de sostenimiento con malla  hasta 1.50m del piso y Split de 7’ a 1.20x1.20m."
     ,"comentario":"Sobre excavación tanto en ancho como en alto, se tiene tiro anillado en corona y bloque abierto al lado izquierdo, las mallas están sobrecargadas, no se proyecta la rasante."
-    ,"createdAt":"11/11/2015"
-    ,"updatedAt":"11/11/2015"
+    ,"createdAt":"2015-11-11"
+    ,"updatedAt":"2015-11-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10248,8 +10248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"labor en explotacion a la espera de limpieza y sostenimiento"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12-nov-15"
+ {
+     "fecha":"2015-11-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544  E"
     ,"rocaRocaid":12
@@ -10268,8 +10268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"EN LA INTERSECCION CON EL Cro 410 N,S PERNDIENTE SOSTENIMIENTO DE TODO EL RADIO DE GIRO, MAS CORTE DE MALLAS SUSPENDIDAS EN EL HASTIAL DERECHO DEL TOPE A 9 m."
     ,"comentario":"MALLAS SUSPENDIDAS EN EL HASTIAL DERECHO DEL TOPE A 9 m, pendiente sostenimiento del desquinche realizado en el radio de giro."
-    ,"createdAt":"12/11/2015"
-    ,"updatedAt":"12/11/2015"
+    ,"createdAt":"2015-11-12"
+    ,"updatedAt":"2015-11-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10288,8 +10288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12-nov-15"
+ {
+     "fecha":"2015-11-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 859 N"
     ,"rocaRocaid":12
@@ -10308,8 +10308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA, DESATE DE ROCAS SUELTAS SOBRE LA MALLA."
     ,"comentario":"PRESENCIA DE SISTEMA DE FALLA SUB PARALELO AL EJE DE LA LABOR, BANCOS SUSPENDIDOS SOBRE LA MALLA."
-    ,"createdAt":"12/11/2015"
-    ,"updatedAt":"12/11/2015"
+    ,"createdAt":"2015-11-12"
+    ,"updatedAt":"2015-11-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10328,8 +10328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE LIMPIEZA Y SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12-nov-15"
+ {
+     "fecha":"2015-11-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 S"
     ,"rocaRocaid":12
@@ -10348,8 +10348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA, DESATE DE ROCAS SUELTAS CON EQUIPO MECANIZADO, CORTE DE MALLAS SUSPENDIDAS."
     ,"comentario":"SE EVIDENCIA MALLAS ROTAS, PRESENCIA DE BANCOS SUELTOS SOBRE LA MALLA."
-    ,"createdAt":"12/11/2015"
-    ,"updatedAt":"12/11/2015"
+    ,"createdAt":"2015-11-12"
+    ,"updatedAt":"2015-11-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10368,8 +10368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE CONTROL DE LA SECCION CON VOLADURA CONTROLADA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12-nov-15"
+ {
+     "fecha":"2015-11-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 W"
     ,"rocaRocaid":12
@@ -10388,8 +10388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON VOLADURA CONTROLADA, RESANE DE MALLAS ROTAS."
     ,"comentario":"EN LA INTERSECCION CON LA Gal 615 N,S MALLAS ROTAS."
-    ,"createdAt":"12/11/2015"
-    ,"updatedAt":"12/11/2015"
+    ,"createdAt":"2015-11-12"
+    ,"updatedAt":"2015-11-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10408,8 +10408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12-nov-15"
+ {
+     "fecha":"2015-11-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":2
@@ -10428,8 +10428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SEGUIR REALIZANDO DESCARGUE DE MALLAS, ANTES DE EMPEZAR CON LOS TRABAJOS"
     ,"comentario":"SE REALIZO DESCARGUE DE MALLAS. SE USA MALLA DE SACRIFICIO EN EL FRENTE"
-    ,"createdAt":"12/11/2015"
-    ,"updatedAt":"12/11/2015"
+    ,"createdAt":"2015-11-12"
+    ,"updatedAt":"2015-11-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10448,8 +10448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12-nov-15"
+ {
+     "fecha":"2015-11-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7840 N"
     ,"rocaRocaid":2
@@ -10468,8 +10468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SEGUIR REALIZANDO DESCARGUE DE MALLAS, ANTES DE EMPEZAR CON LOS TRABAJOS"
     ,"comentario":"SE  REALIZO DESCARGUE DE MALLA. SE USA MALLA DESACRIFICIO EN EL FRENTE"
-    ,"createdAt":"12/11/2015"
-    ,"updatedAt":"12/11/2015"
+    ,"createdAt":"2015-11-12"
+    ,"updatedAt":"2015-11-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10488,8 +10488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12-nov-15"
+ {
+     "fecha":"2015-11-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 12"
     ,"rocaRocaid":12
@@ -10508,8 +10508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA RESANAR MALLAS, Y DESCARGAR MALLAS. CONTROLAR LA SECCION DE LA LABOR. VERIFICAR P/V"
     ,"comentario":"SE OBSERVA A 13 MTS DEL TOPE H.D. MALLAS SOBRECARGADAS Y H.I. MALLAS CARGADAS Y MALLA SUELTA"
-    ,"createdAt":"12/11/2015"
-    ,"updatedAt":"12/11/2015"
+    ,"createdAt":"2015-11-12"
+    ,"updatedAt":"2015-11-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10528,8 +10528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"CONTROLAR LA SECCION DE LA LABOR. REALIZAR EL DESCARGUE DE MALLAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12-nov-15"
+ {
+     "fecha":"2015-11-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 15"
     ,"rocaRocaid":12
@@ -10548,8 +10548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR EL DESATADO, DESCARGUE Y RESANE DE MALLAS SIEMPRE, ANTES DE EMPEZAR A LABORAR. CONTROLAR PERFORACION Y VOLADURA"
     ,"comentario":"SE OBSERVA A 4.4 MTS DEL TOPE AL H.I. QUE FALTA SOSTENIMIENTO. A 3.6 MTS DEL TOPE H.D. FALTA RESANAR MALLA (BLOQUES COLGADOS). A 5.7 MTS H.D. BLOQUE COLGADO"
-    ,"createdAt":"12/11/2015"
-    ,"updatedAt":"12/11/2015"
+    ,"createdAt":"2015-11-12"
+    ,"updatedAt":"2015-11-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10568,8 +10568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13-nov-15"
+ {
+     "fecha":"2015-11-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -10588,8 +10588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESATE DE ROCAS SUELTAS CON EQUIPO MECANIIZADO, CORTAR LAS MALLAS SUSPENDIDAS, REFORZAR SOSTENIMIENTO EN TODO EL AREA DE RADIO DE CURVATURA."
     ,"comentario":"MALLAS USPENDIDAS, PENDIENTE SOSTENIMIENTO DEL RADIO DE GIRO, CORTE DE MALLAS SUSPENDIDAS."
-    ,"createdAt":"13/11/2015"
-    ,"updatedAt":"13/11/2015"
+    ,"createdAt":"2015-11-13"
+    ,"updatedAt":"2015-11-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10608,8 +10608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13-nov-15"
+ {
+     "fecha":"2015-11-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 S"
     ,"rocaRocaid":12
@@ -10628,8 +10628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA, DESATE MECANIZADO."
     ,"comentario":"SE EVIDENCIA SOBREROTURA DE \"5 m, MALLAS  SUSPENDIDAS EN EL HASTIAL DERECHO DEL TOPE A 1\" m."
-    ,"createdAt":"13/11/2015"
-    ,"updatedAt":"13/11/2015"
+    ,"createdAt":"2015-11-13"
+    ,"updatedAt":"2015-11-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10648,8 +10648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"turno dia realizo voladura controlada."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13-nov-15"
+ {
+     "fecha":"2015-11-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 910 S"
     ,"rocaRocaid":12
@@ -10668,8 +10668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR EL DESQUINCHE CON TALADROS DE ALIVIO, CORTAR LOS  ELEMENTOS DE SOTENIMIENTO QUE QUEDARON DAÑADOS POR EL DESQUINCHE."
     ,"comentario":"MALLAS SUSPENDIDAS Y ROTAS, AFECTADOS POR EL DESQUINCHE."
-    ,"createdAt":"13/11/2015"
-    ,"updatedAt":"13/11/2015"
+    ,"createdAt":"2015-11-13"
+    ,"updatedAt":"2015-11-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10688,8 +10688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE DESQUINCHE Y SOSTENIMIENTO EN AVANZADA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13-nov-15"
+ {
+     "fecha":"2015-11-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 W"
     ,"rocaRocaid":12
@@ -10708,8 +10708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON RESANE Y REALIZAR VOLADURA CONTROLADA."
     ,"comentario":"PRESENCIA DE MALLAS ROTAS, EN LAINTERSECCION CON LA Gal 615 N,S."
-    ,"createdAt":"13/11/2015"
-    ,"updatedAt":"13/11/2015"
+    ,"createdAt":"2015-11-13"
+    ,"updatedAt":"2015-11-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10728,8 +10728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13-nov-15"
+ {
+     "fecha":"2015-11-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 724"
     ,"rocaRocaid":12
@@ -10748,8 +10748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON RESANE Y REALIZAR VOLADURA CONTROLADA."
     ,"comentario":"SE REALIZO DESCARGUE DE MALLA Y SE COLOCO MALLA DE SACRIFICIO"
-    ,"createdAt":"13/11/2015"
-    ,"updatedAt":"13/11/2015"
+    ,"createdAt":"2015-11-13"
+    ,"updatedAt":"2015-11-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10768,8 +10768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13-nov-15"
+ {
+     "fecha":"2015-11-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154"
     ,"rocaRocaid":12
@@ -10788,8 +10788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON RESANE Y REALIZAR VOLADURA CONTROLADA."
     ,"comentario":"REALIZAR DESCARGUE DE MALLA Y REFORZAR SOSTENIMIENTO"
-    ,"createdAt":"13/11/2015"
-    ,"updatedAt":"13/11/2015"
+    ,"createdAt":"2015-11-13"
+    ,"updatedAt":"2015-11-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10808,8 +10808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA COLOCAR EL SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13-nov-15"
+ {
+     "fecha":"2015-11-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - 15"
     ,"rocaRocaid":12
@@ -10828,8 +10828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SEGUIR CON EL DESCARGUE DE MALLAS Y CONTROLAR LA SECCION"
     ,"comentario":"SE OBSERVA BLOQUES SUELTOS Y MALLAS CARGADAS EN EL SUBNIVEL 369, SE DESCARGO MALLAS Y SE CONTROLO LA DISTANCIA DE LA COLORACION DE SPLIT SETS."
-    ,"createdAt":"13/11/2015"
-    ,"updatedAt":"13/11/2015"
+    ,"createdAt":"2015-11-13"
+    ,"updatedAt":"2015-11-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10848,8 +10848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13-nov-15"
+ {
+     "fecha":"2015-11-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 450"
     ,"rocaRocaid":12
@@ -10868,8 +10868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SEGUIR CON EL DESCARGUE DE MALLAS Y CONTROLAR LA SECCION"
     ,"comentario":"SE REALIZO DESCARGUE DE MALLA"
-    ,"createdAt":"13/11/2015"
-    ,"updatedAt":"13/11/2015"
+    ,"createdAt":"2015-11-13"
+    ,"updatedAt":"2015-11-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10888,8 +10888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA RESANAR Y DESCARGAR MALLAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-nov-15"
+ {
+     "fecha":"2015-11-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 W"
     ,"rocaRocaid":12
@@ -10908,8 +10908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA, DESCARGUE DE BANCOS SUELTOS SOBRE LA MALLA, CONTINUAR CON RESANE DE MALLAS ROTAS."
     ,"comentario":"MALLAS ROTAS, ROCAS SUELTAS SOBRE LA MALLA."
-    ,"createdAt":"15/11/2015"
-    ,"updatedAt":"15/11/2015"
+    ,"createdAt":"2015-11-15"
+    ,"updatedAt":"2015-11-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10928,8 +10928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-nov-15"
+ {
+     "fecha":"2015-11-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 n"
     ,"rocaRocaid":12
@@ -10948,8 +10948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ROCAS SUELTAS SOBRE LA MALLA ELECTROSOLDADA, MALLAS ROTAS DEL TOPE  A -50 m."
     ,"comentario":"PRESENCIA DE MALLAS ROTAS, ROCAS SUELTAS SOBRE LA MALLA ELECTROSOLDADA."
-    ,"createdAt":"15/11/2015"
-    ,"updatedAt":"15/11/2015"
+    ,"createdAt":"2015-11-15"
+    ,"updatedAt":"2015-11-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -10968,8 +10968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE LIMPIEZA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-nov-15"
+ {
+     "fecha":"2015-11-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 S"
     ,"rocaRocaid":12
@@ -10988,8 +10988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA, CORTE DE MALLAS SUSPENDIDAS EN LOS HASTIALES."
     ,"comentario":"MALLAS ROTAS EN LOS HASTIALES."
-    ,"createdAt":"15/11/2015"
-    ,"updatedAt":"15/11/2015"
+    ,"createdAt":"2015-11-15"
+    ,"updatedAt":"2015-11-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11008,8 +11008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-nov-15"
+ {
+     "fecha":"2015-11-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 910 S"
     ,"rocaRocaid":12
@@ -11028,8 +11028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA AVANZAR CON SOSTENIMIENTO, DESDE LA INTERSECCION DEL Cro 544 E, TAMBIEN SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS CON EQUIPO MECANIZADO."
     ,"comentario":"SE OBSERVA SPLIT SET SOBRESALIDOS, MALLAS ROTAS EN LOS HASTIALES."
-    ,"createdAt":"15/11/2015"
-    ,"updatedAt":"15/11/2015"
+    ,"createdAt":"2015-11-15"
+    ,"updatedAt":"2015-11-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11048,8 +11048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-nov-15"
+ {
+     "fecha":"2015-11-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -11068,8 +11068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SOSTENER CON PERNO HELICOIDAL, COMPLETAR SOSTENIMIENTO AL TOPE DESDE LA INTERSECCION."
     ,"comentario":"MALLAS ROTAS Y SPLIT SET SOBRESALIDOS, PERDIENTE SOSTENIMIENTO DESDE LA INTERSECCION EN LOS HASTIALES."
-    ,"createdAt":"15/11/2015"
-    ,"updatedAt":"15/11/2015"
+    ,"createdAt":"2015-11-15"
+    ,"updatedAt":"2015-11-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11088,8 +11088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-nov-15"
+ {
+     "fecha":"2015-11-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 340"
     ,"rocaRocaid":12
@@ -11108,8 +11108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SEGUIR DESCARGANDO MALLAS. CONTROLAR LA PERFORACION Y VOLADURA"
     ,"comentario":"SE OBSERVA MALLAS CARGADAS DESDE LA INTERSECCION AL FRENTE. FALTA SOSTENIMIENTO DEL TOPE A 5.9\" MTS. SE DESCARGO ALGUNAS MALLAS EN LAS ZONAS PERFORACION"
-    ,"createdAt":"15/11/2015"
-    ,"updatedAt":"15/11/2015"
+    ,"createdAt":"2015-11-15"
+    ,"updatedAt":"2015-11-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11128,8 +11128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE DE LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-nov-15"
+ {
+     "fecha":"2015-11-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 732"
     ,"rocaRocaid":2
@@ -11148,8 +11148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SEGUIR DESCARGANDO MALLAS. CONTROLAR LA PERFORACION Y VOLADURA"
     ,"comentario":"SE REALIZO DESATE DESDE EL INGRESO + DESCARGUE DE MALLA"
-    ,"createdAt":"15/11/2015"
-    ,"updatedAt":"15/11/2015"
+    ,"createdAt":"2015-11-15"
+    ,"updatedAt":"2015-11-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11168,8 +11168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-nov-15"
+ {
+     "fecha":"2015-11-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7840 N"
     ,"rocaRocaid":2
@@ -11188,8 +11188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SEGUIR DESCARGANDO MALLAS. CONTROLAR LA PERFORACION Y VOLADURA"
     ,"comentario":"SE REALIZO DESCARGUE DE MALLA Y DESATE DESDE EL INGRESO A LA LABOR"
-    ,"createdAt":"15/11/2015"
-    ,"updatedAt":"15/11/2015"
+    ,"createdAt":"2015-11-15"
+    ,"updatedAt":"2015-11-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11208,8 +11208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-nov-15"
+ {
+     "fecha":"2015-11-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 389 - BRAZO"
     ,"rocaRocaid":12
@@ -11228,8 +11228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SEGUIR DESCARGANDO MALLAS. CONTROLAR LA PERFORACION Y VOLADURA"
     ,"comentario":"SE OBSERVA MALLA CARGADAS EN LA INTERSECCION AL HASTIAL IZQUIERDO A 2 MTS DEL MISMO Y EN LA ESQUINA FALTA RESANAR MALLA."
-    ,"createdAt":"15/11/2015"
-    ,"updatedAt":"15/11/2015"
+    ,"createdAt":"2015-11-15"
+    ,"updatedAt":"2015-11-15"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11248,8 +11248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENER AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-nov-15"
+ {
+     "fecha":"2015-11-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 "
     ,"rocaRocaid":12
@@ -11268,8 +11268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"El sostenimiento es sistemático con malla a 1.50m del piso y Split de 7’ a 1.20x1.20"
     ,"comentario":"SE HA DEJADO LA MALLA A MEDIO INSTALAR  COLGADA COMO CORTINA CON SOLO 3 SPLIT. SE ESTÁ ENTERRADA LOS ELEMENTOS DE SOSTENIMIENTO SOBRANTE CON RELLENO, "
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11288,8 +11288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"LABOR EN PROCESO DE RELLENO"
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"15-nov-15"
+ {
+     "fecha":"2015-11-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 995"
     ,"rocaRocaid":10
@@ -11308,8 +11308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"labor a espera de sostenimiento 4 días, el tiempo de auto soporte esta entre 8-15, se nota relajamiento en corona, potencial de desprendimiento en corona, sostenimiento debe de ser con SH y luego colocara malla con split de 7’ según estándar."
     ,"comentario":"Se debe de dar prioridad  de sostenimiento a esta labor. Al retomar los trabajos se debe de redesatar antes de sostener"
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -11328,8 +11328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"es ta a la espera de Sh"
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"15-nov-15"
+ {
+     "fecha":"2015-11-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 996"
     ,"rocaRocaid":12
@@ -11348,8 +11348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Labor con 3 frentes para sostener por problemas de equipo, formación de cuñas en corona, sostenimiento recomendado con Split de 7’ a 1.20X1.20m con malla a 1.50m del piso, se tiene tramos de malla sobrecargada para eliminar y sostener"
     ,"comentario":"Se debe de dar celeridad al sostenimiento, el relajamiento se nota en las zonas que carecen de este, ingresara re desatando antes de sostener, se tiene el scoop inoperativo el cual impide el paso de los eq. De sostenimiento."
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -11368,8 +11368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"dar prioridad para sostener "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"15-nov-15"
+ {
+     "fecha":"2015-11-15"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 896"
     ,"rocaRocaid":12
@@ -11388,8 +11388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca muy fracturada, sección con sobre excavación de 1 m tanto en ancho como en alto, no se respeta la gradiente, mantener el sostenimiento con Split de 7’ a 1.00X1.00 con malla hasta 1.50m del piso"
     ,"comentario":"Hacer el seguimiento de marcado de gradiente, estandarizara el sostenimiento con Split de 7’  a 1.\"\"x1.\"\"m con malla a 1.5\"m del piso.  Control de perforación  y voladura"
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -11408,8 +11408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"hacer siguimiento al marcadode gradiente."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-nov-15"
+ {
+     "fecha":"2015-11-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 896"
     ,"rocaRocaid":12
@@ -11428,8 +11428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Estructura fracturada con Formación de cuñas en corona y cajas, sobre excavación que se nota más en la altura que sobrepasa los 5.5m, sostener con Split de 7’ a 1.20x1.20m con malla hasta 1.50m del piso."
     ,"comentario":"Se tiene tiros cortados al frente, roca muy fracturada pobre conformación de cuñas de en corona cajas,  no se marca la rasante hasta el tope, el sostenimiento esta fuera del estándar con respecto a la altura del último elemento ala piso"
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11448,8 +11448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"frente en espera de limpieza, eliminara los tiros cortados "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-nov-15"
+ {
+     "fecha":"2015-11-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 E"
     ,"rocaRocaid":12
@@ -11468,8 +11468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Estructura fracturada con Formación de cuñas en corona y cajas, sobre excavación que se nota más en la altura que sobrepasa los 5.5m, sostener con Split de 7’ a 1.20x1.20m con malla hasta 1.50m del piso."
     ,"comentario":"Intersección entre el sub nivel t el stop, cuñas en corona  y cajas, se tiene bloques sueltos y colgados en malla, malla dañada por voladura, desatar y corregir el sostenimiento según estándar con malla  a 1.5\"m del piso y Split de 7’ a 1.2x1.2\"m."
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11488,8 +11488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"ajilizar sostenimiento."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-nov-15"
+ {
+     "fecha":"2015-11-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 746 N"
     ,"rocaRocaid":12
@@ -11508,8 +11508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE AGUA POR GOTEO  SE RECOMIENDA SOSTENIMIENTO SPLIT SET 1.00X1.00 + MALLA DEBIDO AL FACTOR INFLUYENTE, REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11528,8 +11528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-nov-15"
+ {
+     "fecha":"2015-11-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 765 S"
     ,"rocaRocaid":6
@@ -11548,8 +11548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIAN ESPACIOS ABIERTOS DE MALLA SE RECOMIENDA REFORZAR SOSTENIMIENTO, REALIZAR VOLADURA CONTROLADA PARA MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"FALTA REFOPRZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA"
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11568,8 +11568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-nov-15"
+ {
+     "fecha":"2015-11-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -11588,8 +11588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REFORZAR SOSTENIMIENTO HASTA LA GRADIENTE, REALIZAR DESATE DE ROCAS SOBRECARGADAS EN LA MALLA, CONTINUAR CON LA VOLADURA CONTROLADA."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO HASTA LA GRADIENTE."
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11608,8 +11608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE LIMPIEZA "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-nov-15"
+ {
+     "fecha":"2015-11-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 910 N"
     ,"rocaRocaid":12
@@ -11628,8 +11628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR LOS TALADROS DE RECORTE EN LA CORONA PARA MANTENER EL ARCO DE AUTOSOPORTE."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11648,8 +11648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-nov-15"
+ {
+     "fecha":"2015-11-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 340"
     ,"rocaRocaid":12
@@ -11668,8 +11668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SEGUIR DESCARGANDO MALLAS. CONTROLAR LA PERFORACION Y VOLADURA."
     ,"comentario":"SE OBSERVA MALLAS CARGADAS DESDE LA INTERSECCION AL FRENTE. FALTA COLOCAR SOSTENIMIENTO AL TOPE."
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -11688,8 +11688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE DE LA LABOR."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-nov-15"
+ {
+     "fecha":"2015-11-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 732"
     ,"rocaRocaid":12
@@ -11708,8 +11708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SEGUIR DESCARGANDO MALLAS. CONTROLAR LA PERFORACION Y VOLADURA."
     ,"comentario":"SE OBSERVA MALLAS CARGADAS DE UNO A DOS ROCAS (\".15X.2\"X\".\"5). SE SOSTENIO MALLA DE SACRIFICIO EN EL FRENTE"
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11728,8 +11728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-nov-15"
+ {
+     "fecha":"2015-11-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":12
@@ -11748,8 +11748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SEGUIR DESCARGANDO MALLAS. CONTROLAR LA PERFORACION Y VOLADURA."
     ,"comentario":"SE OBSERVA MALLAS CARGADAS A 6, 8, 1\" MTS DEL TOPE. "
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -11768,8 +11768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-nov-15"
+ {
+     "fecha":"2015-11-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 15"
     ,"rocaRocaid":12
@@ -11788,8 +11788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGAR MALLAS Y DESATAR BLOQUES DE LOS HASTIALES. CONTROLAR LA PERFORACION Y VOLADURA."
     ,"comentario":"SE OBSERVA MALLAS CARGADAS A 4, 8 Y 12 MTS DEL TOPE. EN EL FRENTE DISPARADO, LOS HASTIALES PRESENTAN BLOQUES SUELTOS Y A LA CORONA MALLAS CARGADAS"
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -11808,8 +11808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA REALIZAR EL DESCARGUE Y DESATADO DE ROCAS. ADEMAS DE COLOCAR EL SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-nov-15"
+ {
+     "fecha":"2015-11-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 160 N"
     ,"rocaRocaid":12
@@ -11828,8 +11828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se tiene tramos con malla cargada en corona en la filtración de agua, se está apresurando al lado derecho, formación de cuñas en corona, sostener según estándar  con malla a 1.50m del piso con Split de 7’ a 1.20X1.20m, controlara la altura,"
     ,"comentario":" se tiene sobre excavación de 4\"cM en altura, la rocas es muy fracturada pobre, formación de bloques en la estructura"
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -11848,8 +11848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"LABOR EN ESPERA DE SOSTENIMIENTO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16-nov-15"
+ {
+     "fecha":"2015-11-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 995"
     ,"rocaRocaid":12
@@ -11868,8 +11868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"al lado derecho se tiene tramos con malla cargada en corona y cajas con filtración de agua, , formación de cuñas en corona, sostener según estándar  con SH y malla a 1.50m del piso con Split de 7’ a 1.20X1.20m, controlara la altura a 4m de banqueo para no debilitara el puente"
     ,"comentario":"Roca pobre por estará perturbada por la voladura del stp como de la galería superior, "
-    ,"createdAt":"16/11/2015"
-    ,"updatedAt":"16/11/2015"
+    ,"createdAt":"2015-11-16"
+    ,"updatedAt":"2015-11-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -11888,8 +11888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"labor a la espera de SH."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17-nov-15"
+ {
+     "fecha":"2015-11-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7840 N"
     ,"rocaRocaid":12
@@ -11908,8 +11908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA EL USO OBLIGADO DE LA MALLA DE SACRIFICIO DEL PISO A 2 MTS. DESCARGUE DE MALLAS CONSTANTE Y SOSTENIMIENTO AL TOPE"
     ,"comentario":"SE OBSERVA MALLAS CARGADAS EN EL HASTIAL IZQUIERDO DEL TOPE A 4 MTS Y A 6 MTS, QUE DEBEN SER DESCARGADAS"
-    ,"createdAt":"17-nov-15"
-    ,"updatedAt":"17-nov-15"
+    ,"createdAt":"2015-11-17"
+    ,"updatedAt":"2015-11-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11928,8 +11928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17-nov-15"
+ {
+     "fecha":"2015-11-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154"
     ,"rocaRocaid":12
@@ -11948,8 +11948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA MEJORAR LA DISTRIBUCION DE ELEMENTOS DE SOSTENIMIENTO."
     ,"comentario":"SE OBSERVA MALLAS CARGADAS EN EL TECHO A 7 MTS"
-    ,"createdAt":"17-nov-15"
-    ,"updatedAt":"17-nov-15"
+    ,"createdAt":"2015-11-17"
+    ,"updatedAt":"2015-11-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -11968,8 +11968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17-nov-15"
+ {
+     "fecha":"2015-11-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 12"
     ,"rocaRocaid":2
@@ -11988,8 +11988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESCARGUE DE MALLAS. MEJORAR LA DISTRIBUCION DE ELEMENTOS DE SOSTENIMIENTO. COLOCAR EL SOSTENIMIENTO A 1.50"
     ,"comentario":"SE OBSERVA MALLAS CARGADAS A 12 MTS DEL TOPE A LOS HASTIALES Y DESDE EL INGRESO A LA LABOR. Y FALTA COMPLETAR EL SOSTENIMIENTO"
-    ,"createdAt":"17-nov-15"
-    ,"updatedAt":"17-nov-15"
+    ,"createdAt":"2015-11-17"
+    ,"updatedAt":"2015-11-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12008,8 +12008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17-nov-15"
+ {
+     "fecha":"2015-11-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -12028,8 +12028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ESPACIOS ABIERTOS SE RECOMIENDA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA, REDUCIR LA SECCION POR QUE SE EVIDENCIA SOBRE ROTURA."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS."
-    ,"createdAt":"17-nov-15"
-    ,"updatedAt":"17-nov-15"
+    ,"createdAt":"2015-11-17"
+    ,"updatedAt":"2015-11-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -12048,8 +12048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"17-nov-15"
+ {
+     "fecha":"2015-11-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 765 S"
     ,"rocaRocaid":12
@@ -12068,8 +12068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ESPACIOS ABIERTOS DE MALLA EN EL ACCESO, SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA MANTENER LA SECCION PROGRAMADA, REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS."
-    ,"createdAt":"17-nov-15"
-    ,"updatedAt":"17-nov-15"
+    ,"createdAt":"2015-11-17"
+    ,"updatedAt":"2015-11-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12088,8 +12088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION Y VOLADURA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17-nov-15"
+ {
+     "fecha":"2015-11-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 910 N"
     ,"rocaRocaid":12
@@ -12108,8 +12108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALTA SOSTENER EL ULTIMO DISPARO, CORTAR MALLAS SUSPENDIDAS, SE RECOMIENDA REALIZAR VOLADURA CONTROLADA."
     ,"comentario":"FALTA SOSTENER EL ULTIMO DISPARO."
-    ,"createdAt":"17-nov-15"
-    ,"updatedAt":"17-nov-15"
+    ,"createdAt":"2015-11-17"
+    ,"updatedAt":"2015-11-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12128,8 +12128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE DE ROCAS SUELTAS."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17-nov-15"
+ {
+     "fecha":"2015-11-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -12148,8 +12148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS SOBRECARGADAS EN LA MALLA, REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"17-nov-15"
-    ,"updatedAt":"17-nov-15"
+    ,"createdAt":"2015-11-17"
+    ,"updatedAt":"2015-11-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12168,8 +12168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17-nov-15"
+ {
+     "fecha":"2015-11-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 896"
     ,"rocaRocaid":12
@@ -12188,8 +12188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Presencia de planos de fracturas que definen bloquea se a lo largo d ellos ultimo 20m del stop, las mallas están elevadas dejando espacios abiertos sin sostenimiento en las cajas, en la última intersección se tiene bloques relajados que se deben de eliminar, la altura debe controlarse con relleno detrítico para solo tener un espacio de 4m a menos de altura."
     ,"comentario":"Antes de retomar los trabajo se deben de desatar los tramos más inestables que se aprecien en la inspección, el control de la gradiente y la altura de corte es esencial para mantener la estabilidad del stop."
-    ,"createdAt":"17-nov-15"
-    ,"updatedAt":"17-nov-15"
+    ,"createdAt":"2015-11-17"
+    ,"updatedAt":"2015-11-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -12208,8 +12208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"a la espera de relleno"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17-nov-15"
+ {
+     "fecha":"2015-11-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 441 "
     ,"rocaRocaid":12
@@ -12228,8 +12228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca fracturada regulara, cuñas menores en corona, mantener  el control de voladura"
     ,"comentario":"Se tiene tramos de malla abierta y que no cumplen con el estándar de 1.5\"m del piso, así mismo se tiene marcado los tramos de reforzamiento en la intersección de la Rpa de acceso."
-    ,"createdAt":"17-nov-15"
-    ,"updatedAt":"17-nov-15"
+    ,"createdAt":"2015-11-17"
+    ,"updatedAt":"2015-11-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -12248,8 +12248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"completar el sostenimineto observado"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17-nov-15"
+ {
+     "fecha":"2015-11-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 W"
     ,"rocaRocaid":12
@@ -12268,8 +12268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se tiene la corona horizontal mientras el piso esta en negativo razón por la cual  se  tiene sobre altura de 1.70m, al, tope se tiene bloques relajadas con entre el frente y la corona, las, mallas laterales están por encima de los 3m, el sostenimiento non guarda relación con el estándar."
     ,"comentario":"Se mantiene los desvíos por sobre excavación y mal sostenimiento, así mismo la falta de control de voladura."
-    ,"createdAt":"17-nov-15"
-    ,"updatedAt":"17-nov-15"
+    ,"createdAt":"2015-11-17"
+    ,"updatedAt":"2015-11-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -12288,8 +12288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"no se controla la gradiente."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17-nov-15"
+ {
+     "fecha":"2015-11-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 160 N"
     ,"rocaRocaid":12
@@ -12308,8 +12308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca relajadas en la comunicación entre las dos alas, pilara desestabilizado por la última sellada del lado derecho el cual se tiene que resostener previa descarga, cuñas abiertas en corona  los 3m, el sostenimiento non guarda relación con el estándar."
     ,"comentario":"Se tiene que descargar mallas, completar el sostenimiento faltante, reforzar el pilara dañado."
-    ,"createdAt":"18-nov-15"
-    ,"updatedAt":"18-nov-15"
+    ,"createdAt":"2015-11-18"
+    ,"updatedAt":"2015-11-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12328,8 +12328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"control de perforacion y voladura"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18-nov-15"
+ {
+     "fecha":"2015-11-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 732"
     ,"rocaRocaid":12
@@ -12348,8 +12348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS AL INGRESO DE LA LABOR A 5 MTS DEL INGRESO. SE LEVANTO LA OBSERVACION, QUEDANDO PENDIENTE EL RESANE. LA ROCA ES MUY FRACTURADA EN LOS PRIMEROS TRAMOS DE INGRESO Y HACIA EL EL TOPE LA ROCA ES DE MEDIANA RESISTENCIA. "
     ,"comentario":"\""
-    ,"createdAt":"18/11/2015"
-    ,"updatedAt":"18/11/2015"
+    ,"createdAt":"2015-11-18"
+    ,"updatedAt":"2015-11-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12368,8 +12368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE DE LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18-nov-15"
+ {
+     "fecha":"2015-11-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"7840 N"
     ,"rocaRocaid":12
@@ -12388,8 +12388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVO MALLAS CARGADAS A 8 MTS DEL TOPE HACIA EL HASTIAL DERECHO. SE REALIZO EL DESCARGUE DE MALLAS."
     ,"comentario":"\""
-    ,"createdAt":"18/11/2015"
-    ,"updatedAt":"18/11/2015"
+    ,"createdAt":"2015-11-18"
+    ,"updatedAt":"2015-11-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12408,8 +12408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EXISTEN TRAMOS CON MALLAS ROTAS. FALTA REALIZAR EL RESANE DE LAS MISMAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18-nov-15"
+ {
+     "fecha":"2015-11-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":12
@@ -12428,8 +12428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVO MALLAS CARGADAS Y MALLAS QUE FALTA RESANAR A 6 Y 9 MTS. SE REALIZO EL REFUERZO DEL SOSTENIMIENTO."
     ,"comentario":"\""
-    ,"createdAt":"18/11/2015"
-    ,"updatedAt":"18/11/2015"
+    ,"createdAt":"2015-11-18"
+    ,"updatedAt":"2015-11-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12448,8 +12448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE DE LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18-nov-15"
+ {
+     "fecha":"2015-11-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -12468,8 +12468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIAN ROCAS SUELTAS SOBRECARGADAS EN LA MALLA, ESPACIOS ABIERTOS DE MALLA, SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS, REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA CANTONEO DE LA VIA, ROCAS SUELTAS SOBRECARGADAS EN LA MALLA."
-    ,"createdAt":"18/11/2015"
-    ,"updatedAt":"18/11/2015"
+    ,"createdAt":"2015-11-18"
+    ,"updatedAt":"2015-11-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12488,8 +12488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18-nov-15"
+ {
+     "fecha":"2015-11-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 765 S"
     ,"rocaRocaid":6
@@ -12508,8 +12508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ESPACIOS ABIERTOS DE MALLA,SE RECOMIENDA REALIZAR REFUERZO DE ESPACIOS ABIERTOS DE MALLA, REALIZAR LOS TALADROS DE RECORTE EN LA CORONA PARA MANTENER EL ARCO DE AUTOSOPORTE DE LA LABOR."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"18/11/2015"
-    ,"updatedAt":"18/11/2015"
+    ,"createdAt":"2015-11-18"
+    ,"updatedAt":"2015-11-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12528,8 +12528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18-nov-15"
+ {
+     "fecha":"2015-11-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -12548,8 +12548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR REFUERZO DE ESPACIOS ABIERTOS DE MALLA, REALIZAR VOLADURA CONTROLADA PARA MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"18/11/2015"
-    ,"updatedAt":"18/11/2015"
+    ,"createdAt":"2015-11-18"
+    ,"updatedAt":"2015-11-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -12568,8 +12568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18-nov-15"
+ {
+     "fecha":"2015-11-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 910 N"
     ,"rocaRocaid":12
@@ -12588,8 +12588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SOSTENER EL ULTIMO DISPARO REALIZAR LOS TALADROS DE RECORTE EN LA CORONA PARA MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"FALTA SOSTENER EL ULTIMO DISPARO."
-    ,"createdAt":"18/11/2015"
-    ,"updatedAt":"18/11/2015"
+    ,"createdAt":"2015-11-18"
+    ,"updatedAt":"2015-11-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -12608,8 +12608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18-nov-15"
+ {
+     "fecha":"2015-11-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854 S"
     ,"rocaRocaid":12
@@ -12628,8 +12628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REALIZO DESCARGUE MAS REFORZAMIENTO DE MALLAS. SE COLOCO MALLA DE SACRIFICIO. SE VERIFICO EL REPORTE, NOTANDOSE EL AVANCE QUEDANDO PENDIENTE ALGUNOS TRAMOS DONDE FALTA RESANAR MALLAS."
     ,"comentario":"\""
-    ,"createdAt":"19/11/2015"
-    ,"updatedAt":"19/11/2015"
+    ,"createdAt":"2015-11-19"
+    ,"updatedAt":"2015-11-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12648,8 +12648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19-nov-15"
+ {
+     "fecha":"2015-11-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 350"
     ,"rocaRocaid":12
@@ -12668,8 +12668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA UN MEJOR CONTROL DE LA SECCION ASI COMO LA ALTURA DE SOSTENIMIENTO. DESDE LA INTERSECCION A 15 MTS AL HASTIAL DERECHO PRESENCIA DE FALLA Y POR ELLO MALLAS CARGADAS DE MATERIAL PANIZADO. QUE COLOCO CINTAS ROJAS PARA REALIZAR EL DESCARGUE DE LAS MISMAS Y RESANAR MALLAS."
     ,"comentario":"\""
-    ,"createdAt":"19/11/2015"
-    ,"updatedAt":"19/11/2015"
+    ,"createdAt":"2015-11-19"
+    ,"updatedAt":"2015-11-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12688,8 +12688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19-nov-15"
+ {
+     "fecha":"2015-11-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 314"
     ,"rocaRocaid":12
@@ -12708,8 +12708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA UN MEJOR CONTROL DE LA SECCION ASI COMO LA ALTURA DE SOSTENIMIENTO ADECUADA. A 25 MTS DEL TOPE AL HASTIAL IZQUIERDO EN LA SELLADA PRESENTA RELLENO DE LABOR ANTIGUA HACIA EL TECHO A 2.20 MTS. LA ZONA DE COMUNICACION CON UNA LABOR ANTIGUA SE MUESTRA ESTABLE (SIN PRESENCIA DE MALLAS CARGADAS). HACIA EL TOPE DE LA LABOR. ESTRUCTURAS QUE ESTAN CUASI PARALELAS A LA LABOR. ALGUNOS TRAMOS CON MALLAS ROTAS QUE FALTA REALIZAR EL RESANE CORRESPONDIENTE."
     ,"comentario":"\""
-    ,"createdAt":"19/11/2015"
-    ,"updatedAt":"19/11/2015"
+    ,"createdAt":"2015-11-19"
+    ,"updatedAt":"2015-11-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -12728,8 +12728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19-nov-15"
+ {
+     "fecha":"2015-11-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 765 S"
     ,"rocaRocaid":6
@@ -12748,8 +12748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ESPACIOS ABIERTOS DE MALLA DESDE EL PUNTO TOPOGRAFICO I48 HASTA I52, SE RECOMIENDA REFORZAR SOSTENIMIENTO."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"19/11/2015"
-    ,"updatedAt":"19/11/2015"
+    ,"createdAt":"2015-11-19"
+    ,"updatedAt":"2015-11-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12768,8 +12768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19-nov-15"
+ {
+     "fecha":"2015-11-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -12788,8 +12788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ESPACIOS ABIERTOS DE MALLA, SE RECOMIENDA REDUCIR LA SECCION PARA MANTENER LA SECCION PROGRAMADA, REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS ."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS."
-    ,"createdAt":"19/11/2015"
-    ,"updatedAt":"19/11/2015"
+    ,"createdAt":"2015-11-19"
+    ,"updatedAt":"2015-11-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12808,8 +12808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19-nov-15"
+ {
+     "fecha":"2015-11-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 910 N"
     ,"rocaRocaid":12
@@ -12828,8 +12828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ESPACIOS ABIERTOS DE MALLA, MALLAS SUSPENDIDAS, SE RECOMIENDA REALIZAR REFUERZO DE ESPACIOS ABIERTOS DE MALLA, CORTAR MALLAS SUSPENDIDAS, SOSTENER EL ULTIMO DISPARO."
     ,"comentario":"FALTA SOSTENER EL ULTIMO DISPARO."
-    ,"createdAt":"19/11/2015"
-    ,"updatedAt":"19/11/2015"
+    ,"createdAt":"2015-11-19"
+    ,"updatedAt":"2015-11-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -12848,8 +12848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19-nov-15"
+ {
+     "fecha":"2015-11-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -12868,8 +12868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ESPACIOS ABIERTOS DE MALLA, ROCAS SUELTAS SOBRECARGADAS EN LA MALLA, SE RECOMIENDA REFORZAR ESPACIOS ABIERTOS DE MALLA Y REALIZAR DESATE DE ROCAS SUELTAS SOBRECARGADAS EN LA MALLA."
     ,"comentario":"FALTA REALIZAR DESATE DE ROCAS SUELTAS."
-    ,"createdAt":"19/11/2015"
-    ,"updatedAt":"19/11/2015"
+    ,"createdAt":"2015-11-19"
+    ,"updatedAt":"2015-11-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -12888,8 +12888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20-nov-15"
+ {
+     "fecha":"2015-11-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":12
@@ -12908,8 +12908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA AL HASTIAL DERECHO ESTRUCTURA QUE VA CON 240°/32°SE HACIA EL HAST. IZQUIERDO. ROCA CALIZA BITUMINOSA CON PRESENCIA DE FRACTURAS RELLENAS DE CALCITA (2 FAMILIAS) QUE FORMAN APARENTES CUÑAS. SE RECOMIENDA INSPECCIONAR LA LABOR DIARAMENTE VERIFICANDO EL COMPORTAMIENTO DE LOS MISMOS. A 14 MTS DEL TOPE AL HAST. DERECHO MALLAS CARGADAS. SE RECOMIENDA DESCARGAR MALLA (CINTAS ROJAS COLOCADAS)"
     ,"comentario":"\""
-    ,"createdAt":"20/11/2015"
-    ,"updatedAt":"20/11/2015"
+    ,"createdAt":"2015-11-20"
+    ,"updatedAt":"2015-11-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -12928,8 +12928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE. CORREGIR LA ALTURA DE SOSTENIMIENTO A 1.50 MTS DEL PISO Y REALIZAR EL DESCARGUE DE MALLAS CORRESPONDIENTE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20-nov-15"
+ {
+     "fecha":"2015-11-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 E"
     ,"rocaRocaid":2
@@ -12948,8 +12948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA LA PRESENCIA DE FALLA DEL TOPE (HAST. DERECHO) HACIA 20 MTS ATRAS (HAST IZQ). LAS ESTRUCTURAS DE LA ROCA ESTAN PARALELAS A LA LABOR. SE OBSERVAN MALLAS CARGADAS A 30 MTS DEL TOPE. SE RECOMIENDA DESCARGAR MALLAS Y CONTROLAR LA SECCION DE LA LABOR."
     ,"comentario":"\""
-    ,"createdAt":"20/11/2015"
-    ,"updatedAt":"20/11/2015"
+    ,"createdAt":"2015-11-20"
+    ,"updatedAt":"2015-11-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -12968,8 +12968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE Y DESCARGAR MALLAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20-nov-15"
+ {
+     "fecha":"2015-11-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7840 N"
     ,"rocaRocaid":12
@@ -12988,8 +12988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SEGUIR CON EL DESATE CONSTANTE DE MALLAS. COLOCAR ALTURA DE SOSTENIMIENTO A 1.50 Y CONTROLAR SECCION DE LABOR"
     ,"comentario":"SE REALIZO REFORZAMIENTO DE MALLA SE COLOCA MALLA DE SACRIFICIO EN EL FRENTE DE LA LABOR"
-    ,"createdAt":"20/11/2015"
-    ,"updatedAt":"20/11/2015"
+    ,"createdAt":"2015-11-20"
+    ,"updatedAt":"2015-11-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13008,8 +13008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20-nov-15"
+ {
+     "fecha":"2015-11-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 314"
     ,"rocaRocaid":12
@@ -13028,8 +13028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE COLOCO MALLA DE SACRIFICIO EN EL FRENTE Y SE LEVANTO ALGUNAS OBSERVACIONES QUE SE TENIA. SE RECOMIENDA SEGUIR MEJORANDO LA PERFORACION Y VOLADURA. MAYOR CONTROL"
     ,"comentario":"\""
-    ,"createdAt":"20/11/2015"
-    ,"updatedAt":"20/11/2015"
+    ,"createdAt":"2015-11-20"
+    ,"updatedAt":"2015-11-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13048,8 +13048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20-nov-15"
+ {
+     "fecha":"2015-11-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 910 S"
     ,"rocaRocaid":12
@@ -13068,8 +13068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RCOMIENDA REALIZAR VOLADURA CONTROLADA, CORTAR MALLAS SOBRESALIDAS, COMPLETAR LOS RESANES CORRESPONDIENTES."
     ,"comentario":"PENDIENTE COMPLETAR SOSTENIMIENTO AL TOPE  CON PERNO HELICOIDAL."
-    ,"createdAt":"20/11/2015"
-    ,"updatedAt":"20/11/2015"
+    ,"createdAt":"2015-11-20"
+    ,"updatedAt":"2015-11-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13088,8 +13088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20-nov-15"
+ {
+     "fecha":"2015-11-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -13108,8 +13108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE BANCOS SUELTOS SOBRE LA MALLA, SE RECOMIENDA DESATED E LOS BANCOS SUELTOS, RESANE DE MALLAS ROTAS."
     ,"comentario":"BANCOS SUELTOS SOBRE LA MALLA, PENDIENTE SOSTENIMIENTO DEL ULTIMO DISPARO."
-    ,"createdAt":"20/11/2015"
-    ,"updatedAt":"20/11/2015"
+    ,"createdAt":"2015-11-20"
+    ,"updatedAt":"2015-11-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13128,8 +13128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20-nov-15"
+ {
+     "fecha":"2015-11-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 S"
     ,"rocaRocaid":6
@@ -13148,8 +13148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA, COMPLETAR SOSTENIMIENTO AL TOPE, REALIZAR VOLADURA CONTROLADA."
     ,"comentario":"MALLAS ENBOLSANADAS, PEGAR CON SPLIT SET, CORTAR LAS MALLAS SOBRELAIDAS."
-    ,"createdAt":"20/11/2015"
-    ,"updatedAt":"20/11/2015"
+    ,"createdAt":"2015-11-20"
+    ,"updatedAt":"2015-11-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13168,8 +13168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE RELAIZO VOLADURA CONTROLAD Y CONTROLDE SECCION."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21-nov-15"
+ {
+     "fecha":"2015-11-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854"
     ,"rocaRocaid":12
@@ -13188,8 +13188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS A LOS HASTIALES, MALLAS ROTAS. SE RECOMIENDA DESCARGAR MALLAS Y RESANAR/REFORZAR MALLAS QUE FALTAN."
     ,"comentario":"\""
-    ,"createdAt":"21/11/2015"
-    ,"updatedAt":"21/11/2015"
+    ,"createdAt":"2015-11-21"
+    ,"updatedAt":"2015-11-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -13208,8 +13208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE DE LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21-nov-15"
+ {
+     "fecha":"2015-11-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7840"
     ,"rocaRocaid":12
@@ -13228,8 +13228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS A LOS HASTIALES, MALLAS ROTAS. SE RECOMIENDA DESCARGAR MALLAS Y RESANAR/REFORZAR MALLAS QUE FALTAN."
     ,"comentario":"\""
-    ,"createdAt":"21/11/2015"
-    ,"updatedAt":"21/11/2015"
+    ,"createdAt":"2015-11-21"
+    ,"updatedAt":"2015-11-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -13248,8 +13248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21-nov-15"
+ {
+     "fecha":"2015-11-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 732"
     ,"rocaRocaid":12
@@ -13268,8 +13268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA LA PRESENCIA DE UNA FALLA QUE VA DESDE EL HASTIAL IZQUIERDO (5 MTS DEL TOPE) AL TOPE- CENTRO DE LA LABOR. MALLAS CARGADAS A LOS HASTIALES, MALLAS ROTAS. SE RECOMIENDA DESCARGAR MALLAS Y RESANAR/REFORZAR MALLAS QUE FALTAN."
     ,"comentario":"\""
-    ,"createdAt":"21/11/2015"
-    ,"updatedAt":"21/11/2015"
+    ,"createdAt":"2015-11-21"
+    ,"updatedAt":"2015-11-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -13288,8 +13288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA LIMPIEZA Y SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21-nov-15"
+ {
+     "fecha":"2015-11-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 910 S"
     ,"rocaRocaid":9
@@ -13308,8 +13308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA DESATE MECANIZADO, MAS SOSTENIMIENTO AL TOPE CON PERNO HELICOIDAL, SHOT CRETE DE 2\" (e)."
     ,"comentario":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO, REFORZAR SOSTENIMIENTO CON PERNO HELICOIDAL."
-    ,"createdAt":"21/11/2015"
-    ,"updatedAt":"21/11/2015"
+    ,"createdAt":"2015-11-21"
+    ,"updatedAt":"2015-11-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13328,8 +13328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21-nov-15"
+ {
+     "fecha":"2015-11-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -13348,8 +13348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CORTE DE MALLAS SOBRESALIDAS, PEGAR MALLAS ENOLSONADAS, COMPLETAR SOSTENIMIENTO DEL ULTIMO DISPARO."
     ,"comentario":"PENDIENTE RESANE DE MALLAS ROTAS EN EL HASTIAL IZQUIERDO."
-    ,"createdAt":"21/11/2015"
-    ,"updatedAt":"21/11/2015"
+    ,"createdAt":"2015-11-21"
+    ,"updatedAt":"2015-11-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13368,8 +13368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22-nov-15"
+ {
+     "fecha":"2015-11-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":2
@@ -13388,8 +13388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVO QUE SE LEVANTO LAS OBSERVACIONES DE MALLAS CARGADAS. QUEDA PENDIENTE RESANE DE ALGUNOS PUNTOS. SE INSPECCIONO LA COLOCACION DE MALLA DE SACRIFICIO. SE OBSERVA PRESENCIA DE SUPUESTAS CUÑAS A LA CORANA. SE RECOMIENDA INSPECCION CONSTANTE DEL ESTADO."
     ,"comentario":"\""
-    ,"createdAt":"22/11/2015"
-    ,"updatedAt":"22/11/2015"
+    ,"createdAt":"2015-11-22"
+    ,"updatedAt":"2015-11-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13408,8 +13408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22-nov-15"
+ {
+     "fecha":"2015-11-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 314"
     ,"rocaRocaid":12
@@ -13428,8 +13428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVO QUE SE LEVANTO LAS OBSERVACIONES DE MALLAS CARGADAS. QUEDA PENDIENTE RESANE DE ALGUNOS PUNTOS. SE RECOMIENDA CONTROLAR LA SECCION PROGRAMADA, PUESTO QUE LA ROCA PRESENTE ES MUY FRACTURA."
     ,"comentario":"\""
-    ,"createdAt":"22/11/2015"
-    ,"updatedAt":"22/11/2015"
+    ,"createdAt":"2015-11-22"
+    ,"updatedAt":"2015-11-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13448,8 +13448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22-nov-15"
+ {
+     "fecha":"2015-11-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 12"
     ,"rocaRocaid":2
@@ -13468,8 +13468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA QUE LA SECCION ES SUPERIOR A LO ESTIMADO. SE RECOMIENDA CONTROLAR LA SECCION. FALTA RELLENAR PISO."
     ,"comentario":"\""
-    ,"createdAt":"22/11/2015"
-    ,"updatedAt":"22/11/2015"
+    ,"createdAt":"2015-11-22"
+    ,"updatedAt":"2015-11-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -13488,8 +13488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE PARALIZO LABOR. COMPLETAR PISO ANTES DE SEGUIR TRABAJANDO. CONTROLAR SECCION"
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"22-nov-15"
+ {
+     "fecha":"2015-11-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 S"
     ,"rocaRocaid":12
@@ -13508,8 +13508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA COMPLETAR SOSTENIMIENTO AL TOPE, COMPLETAR RESANE DE LAS MALLAS ROTAS."
     ,"comentario":"SE EVIDENCIAS MALLAS ROTAS DEL TOPE A 18 m EN EL LADO DERECHO, PENDIENTE SOSTENIMIENTO AL TOPE."
-    ,"createdAt":"22/11/2015"
-    ,"updatedAt":"22/11/2015"
+    ,"createdAt":"2015-11-22"
+    ,"updatedAt":"2015-11-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13528,8 +13528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22-nov-15"
+ {
+     "fecha":"2015-11-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 910 S"
     ,"rocaRocaid":12
@@ -13548,8 +13548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE UN DIQUE PERPENDICULAR AL EJE DE LA Rpa 910, SE RECOMIENDA REALIZAR SOSTENIMIENTO AL TOPE CON SPLIT SET, LUEGO T/N INTERMEDIAR CON PERNO HELICOIDAL."
     ,"comentario":"PRESENCIA DE UN DIQUE PERPENDICULAR AL EJE DE LA Rpa. 91\" S,  PENDIENTE INTERMENDIAR CON PERNO HELICOIDAL HASTA EL TOPE."
-    ,"createdAt":"22/11/2015"
-    ,"updatedAt":"22/11/2015"
+    ,"createdAt":"2015-11-22"
+    ,"updatedAt":"2015-11-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13568,8 +13568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23-nov-15"
+ {
+     "fecha":"2015-11-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":2
@@ -13588,8 +13588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS A LOS HASTIALES, LA LABOR ESTA SOBRE CALIZAS BITUMINOSAS CON FRACTURAS RELLENAS DE CALCITA QUE APARENTAN FORMACION DE CUÑAS. SE RECOMIENDA LA INSPECCION CONSTANTE DE LA RPA. ADEMAS DE DESCARGAR MALLAS. CONTROLAR LA SECCION"
     ,"comentario":"\""
-    ,"createdAt":"23/11/2015"
-    ,"updatedAt":"23/11/2015"
+    ,"createdAt":"2015-11-23"
+    ,"updatedAt":"2015-11-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13608,8 +13608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23-nov-15"
+ {
+     "fecha":"2015-11-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 S"
     ,"rocaRocaid":12
@@ -13628,8 +13628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS A 15 Y 18 MTS DEL TOPE. HACIA LOS HASTIALES. SE RECOMIENDA TENER PRECAUCION PUESTO QUE LA ROCA VA CAMBIANDO. SE RECOMIENDA DESCARGAR MALLAS Y RESANAR."
     ,"comentario":"\""
-    ,"createdAt":"23/11/2015"
-    ,"updatedAt":"23/11/2015"
+    ,"createdAt":"2015-11-23"
+    ,"updatedAt":"2015-11-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13648,8 +13648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE Y COLOCAR MALLA DE SACRIFICIO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-nov-15"
+ {
+     "fecha":"2015-11-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 404 W"
     ,"rocaRocaid":12
@@ -13668,8 +13668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS A 25 METROS DEL TOPE, EN LA CORONA. SE ESTA CONTROLANDO Y CORRIGIENDO LA ALTURA DE SOSTENIMIENTO Y EL ESPACIAMIENTO ENTRE SS. ADEMAS DE LA APLICACION DE MINI SPLIT SETS EN EL TRASLAPE"
     ,"comentario":"\""
-    ,"createdAt":"24/11/2015"
-    ,"updatedAt":"24/11/2015"
+    ,"createdAt":"2015-11-24"
+    ,"updatedAt":"2015-11-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13688,8 +13688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA DESCARGAR MALLA"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-nov-15"
+ {
+     "fecha":"2015-11-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":12
@@ -13708,8 +13708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS SOBRECARGADAS EN VARIOS TRAMOS. REQUIERE DESATE Y/O DESCARGUE DE MALLAS. SE RECOMIENDAMEJORAR LA P/V CONTROLANDO Y CORRIGIENDO LA ALTURA DE LA SECCION. ADEMAS SE ESTA VERIFICANDO LA APLICACION DE MINI SPLIT SETS EN EL TRASLAPE"
     ,"comentario":"\""
-    ,"createdAt":"24/11/2015"
-    ,"updatedAt":"24/11/2015"
+    ,"createdAt":"2015-11-24"
+    ,"updatedAt":"2015-11-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13728,8 +13728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-nov-15"
+ {
+     "fecha":"2015-11-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154"
     ,"rocaRocaid":12
@@ -13748,8 +13748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS SOBRECARGADAS EN VARIOS TRAMOS. REQUIERE DESATE Y/O DESCARGUE DE MALLAS. SE RECOMIENDAMEJORAR LA P/V CONTROLANDO, MEJORAR EL SOSTENIMIENTO A LOS HASTIALES A 1.5 MTS DEL ÍSO. ADEMAS SE ESTA VERIFICANDO LA APLICACION DE MINI SPLIT SETS EN EL TRASLAPE"
     ,"comentario":"\""
-    ,"createdAt":"24/11/2015"
-    ,"updatedAt":"24/11/2015"
+    ,"createdAt":"2015-11-24"
+    ,"updatedAt":"2015-11-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13768,8 +13768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-nov-15"
+ {
+     "fecha":"2015-11-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 15"
     ,"rocaRocaid":12
@@ -13788,8 +13788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS A 8 Y 17 MTS DEL TOPE. REQUIERE DESATE Y/O DESCARGUE DE MALLAS. SE RECOMIENDA CONTROLAR LA ALTURA DE SOSTENIMIENTO A 1.5 MTS. ADEMAS SE ESTA VERIFICANDO LA APLICACION DE MINI SPLIT SETS EN EL TRASLAPE"
     ,"comentario":"\""
-    ,"createdAt":"24/11/2015"
-    ,"updatedAt":"24/11/2015"
+    ,"createdAt":"2015-11-24"
+    ,"updatedAt":"2015-11-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13808,8 +13808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-nov-15"
+ {
+     "fecha":"2015-11-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 995"
     ,"rocaRocaid":6
@@ -13828,8 +13828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Acceso lado izquierdo hacia la intersección se debe completar sostenimiento en todo el hastial, hacia el frente se tiene el sobredimensionamiento de la labor entraran al lado izquierdo, se evidencia falta de control en la voladura teniendo la presencia de macizo rocoso relajado. hacia el lado derecho se iniciara el relleno de la labor. "
     ,"comentario":"\""
-    ,"createdAt":"24/11/2015"
-    ,"updatedAt":"24/11/2015"
+    ,"createdAt":"2015-11-24"
+    ,"updatedAt":"2015-11-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13848,8 +13848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se realizara el relleno del ladoderecho y el lado izquierdo de abrira a ambos lados, despues de completar el sostenimiento"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-nov-15"
+ {
+     "fecha":"2015-11-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 24"
     ,"rocaRocaid":12
@@ -13868,8 +13868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Completar el sostenimiento de la comunicación, y colocar cintas rojas en los accesos al slope"
     ,"comentario":"\""
-    ,"createdAt":"24/11/2015"
-    ,"updatedAt":"24/11/2015"
+    ,"createdAt":"2015-11-24"
+    ,"updatedAt":"2015-11-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -13888,8 +13888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-nov-15"
+ {
+     "fecha":"2015-11-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 996"
     ,"rocaRocaid":6
@@ -13908,8 +13908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Acceso a la rampa, se evidencia mallas abiertas y cargadas, en la zona de comunicacion se realizo voladura de la bancada, completar el sostenimiento, todos los frentes estan sin sostener controlar la voladura y no sobredimencionar las labores "
     ,"comentario":"\""
-    ,"createdAt":"24/11/2015"
-    ,"updatedAt":"24/11/2015"
+    ,"createdAt":"2015-11-24"
+    ,"updatedAt":"2015-11-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -13928,8 +13928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se paraliza hasta completar el sostebnimiento de todos los frentes "
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"24-nov-15"
+ {
+     "fecha":"2015-11-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"stp 660 N"
     ,"rocaRocaid":12
@@ -13948,8 +13948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"el breasting no tiene un buen relleno, se tiene un voladizo hacia el hastila derecho producto del disparo defectuoso, disparraon hacia el Hastial izquierdo y ampliaron la labor. "
     ,"comentario":"\""
-    ,"createdAt":"24/11/2015"
-    ,"updatedAt":"24/11/2015"
+    ,"createdAt":"2015-11-24"
+    ,"updatedAt":"2015-11-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -13968,8 +13968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se paralizo elavance para completar el sostenimiento, completar el relleno y realizar una bancada hacia el hastial derecho"
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"24-nov-15"
+ {
+     "fecha":"2015-11-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"stp 660 S"
     ,"rocaRocaid":12
@@ -13988,8 +13988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"la zona de comunicacion se encuentra sin sostenimiento desde hace 2 dias, completar el sostenimiento para ingresar por la comunicacion e iniciar el relleno de la zona sur. "
     ,"comentario":"\""
-    ,"createdAt":"24/11/2015"
-    ,"updatedAt":"24/11/2015"
+    ,"createdAt":"2015-11-24"
+    ,"updatedAt":"2015-11-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14008,8 +14008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se debe completar el sostenimiento de la comunicacion y rellenar la zona sur. "
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"24-nov-15"
+ {
+     "fecha":"2015-11-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 E"
     ,"rocaRocaid":12
@@ -14028,8 +14028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se debe completar el sostenimiento de la bancada, iniciar el relleno del 440 E hacia el lado derecho "
     ,"comentario":"\""
-    ,"createdAt":"24/11/2015"
-    ,"updatedAt":"24/11/2015"
+    ,"createdAt":"2015-11-24"
+    ,"updatedAt":"2015-11-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14048,8 +14048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se completara el sostenimiento de la bancada y del desquinche del lado izquierdo"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-nov-15"
+ {
+     "fecha":"2015-11-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 W"
     ,"rocaRocaid":12
@@ -14068,8 +14068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Completar el sostenimiento del tope y de la bancada hacia el acceso, completar elsostenimientodel paneleo "
     ,"comentario":"\""
-    ,"createdAt":"24/11/2015"
-    ,"updatedAt":"24/11/2015"
+    ,"createdAt":"2015-11-24"
+    ,"updatedAt":"2015-11-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -14088,8 +14088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se completara el sostenimiento de los tres frentes "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24-nov-15"
+ {
+     "fecha":"2015-11-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 116"
     ,"rocaRocaid":12
@@ -14108,8 +14108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"hacia el acceso realzaron para nueva bancada, completar el sostenimiento, "
     ,"comentario":"\""
-    ,"createdAt":"24/11/2015"
-    ,"updatedAt":"24/11/2015"
+    ,"createdAt":"2015-11-24"
+    ,"updatedAt":"2015-11-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14128,8 +14128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25-nov-15"
+ {
+     "fecha":"2015-11-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":12
@@ -14148,8 +14148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVO MALLAS CARGADAS DEL TOPE A 7 MTS EN EL HASTIAL IZQUIERDO Y FALTA SOSTENIMIENTO ULTIMO DISPARO. MEJORAR DISTRIBUCION DE ELEMENTOS DE SOSTENIMIENTO."
     ,"comentario":"\""
-    ,"createdAt":"25/11/2015"
-    ,"updatedAt":"25/11/2015"
+    ,"createdAt":"2015-11-25"
+    ,"updatedAt":"2015-11-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14168,8 +14168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25-nov-15"
+ {
+     "fecha":"2015-11-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854"
     ,"rocaRocaid":2
@@ -14188,8 +14188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVO MALLAS CARGADAS EN LA LABOR. ADEMAS DE BARRETILLAS EN MAL ESADO DE 6' Y 8'. SE RECOMIENDA MEJORAR ALTURA DE SOSTENIMIENTO"
     ,"comentario":"\""
-    ,"createdAt":"25/11/2015"
-    ,"updatedAt":"25/11/2015"
+    ,"createdAt":"2015-11-25"
+    ,"updatedAt":"2015-11-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14208,8 +14208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25-nov-15"
+ {
+     "fecha":"2015-11-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - 15 - SN E"
     ,"rocaRocaid":2
@@ -14228,8 +14228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA QUE LA SECCION NO ESTA CUMPLIENDO EL ESTANDAR. SE RECOMIENTA CONTROLAR P/V Y RELLENO DEL PISO A 1 METRO DE LA GRADIENTE. SE OBSERVA MALLAS CARGADAS A 10 MTS DEL TOPE AL HASTIAL DERECHO."
     ,"comentario":"\""
-    ,"createdAt":"25/11/2015"
-    ,"updatedAt":"25/11/2015"
+    ,"createdAt":"2015-11-25"
+    ,"updatedAt":"2015-11-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -14248,8 +14248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25-nov-15"
+ {
+     "fecha":"2015-11-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 403"
     ,"rocaRocaid":2
@@ -14268,8 +14268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA  MALLAS CARGADAS DESDE LA INTERSECCION ASI COMO MALLAS ROTAS. POR LA PRESENCIA DE FALLAS EN LA INTERSECCION Y AL TOPE, SE ESTA PRODUCIENDO CHISPEO, TENER PRESENTE E INSPECCIONAR LA LABOR."
     ,"comentario":"\""
-    ,"createdAt":"25/11/2015"
-    ,"updatedAt":"25/11/2015"
+    ,"createdAt":"2015-11-25"
+    ,"updatedAt":"2015-11-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -14288,8 +14288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE DE LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25-nov-15"
+ {
+     "fecha":"2015-11-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 404 W"
     ,"rocaRocaid":2
@@ -14308,8 +14308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA  FALLA AL HASTIAL DERECHO AL TOPE, LA LABOR VA CON EL BUZAMIENTO. A LA INTERSECCION MALLAS CARGADAS, MAL RESANE, MALLA SIN SPLIT SETS. SE RECOMIENDA DESCARGAR MALLAS, RESANAR MALLAS. CONTROLAR SECCION DE LABOR"
     ,"comentario":"\""
-    ,"createdAt":"25/11/2015"
-    ,"updatedAt":"25/11/2015"
+    ,"createdAt":"2015-11-25"
+    ,"updatedAt":"2015-11-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -14328,8 +14328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26-nov-15"
+ {
+     "fecha":"2015-11-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 756"
     ,"rocaRocaid":2
@@ -14348,8 +14348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS EN VARIOS PUNTOS ADEMAS DE MALLAS ROTAS. SE RECOMIENDA DESCARGAR Y RESANAR SOSTENIMIENTO. CONTROLAR PERFORACION Y VOLADURA Y MEJORAR EL SOSTENIMIENTO A LOS HASTIALES A 1.50"
     ,"comentario":"\""
-    ,"createdAt":"26/11/2015"
-    ,"updatedAt":"26/11/2015"
+    ,"createdAt":"2015-11-26"
+    ,"updatedAt":"2015-11-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14368,8 +14368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26-nov-15"
+ {
+     "fecha":"2015-11-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":2
@@ -14388,8 +14388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS SOBRECARGADAS EN VARIOS PUNTOS. REQUIERE DESATE Y DESCARGUE DE MALLAS. SE RECOMIENDA MEJORAR LA PERFORACION Y VOLADURA."
     ,"comentario":"\""
-    ,"createdAt":"26/11/2015"
-    ,"updatedAt":"26/11/2015"
+    ,"createdAt":"2015-11-26"
+    ,"updatedAt":"2015-11-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14408,8 +14408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26-nov-15"
+ {
+     "fecha":"2015-11-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154"
     ,"rocaRocaid":2
@@ -14428,8 +14428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS A LOS HASTIALES. SE RECOMIENDA MEJORAR LA ALTURA DE SOSTENIMIENTO EN LOS HASTIALES. CONTROLAR LA PERFORACION Y VOLADURA."
     ,"comentario":"\""
-    ,"createdAt":"26/11/2015"
-    ,"updatedAt":"26/11/2015"
+    ,"createdAt":"2015-11-26"
+    ,"updatedAt":"2015-11-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14448,8 +14448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26-nov-15"
+ {
+     "fecha":"2015-11-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 756"
     ,"rocaRocaid":2
@@ -14468,8 +14468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS A LOS HASTIALES. SE RECOMIENDA EL DESCARGADO DE MALLAY INTERMEDIAR CON SPLIT SET."
     ,"comentario":"\""
-    ,"createdAt":"26/11/2015"
-    ,"updatedAt":"26/11/2015"
+    ,"createdAt":"2015-11-26"
+    ,"updatedAt":"2015-11-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14488,8 +14488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA COMPLETAR EL SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26-nov-15"
+ {
+     "fecha":"2015-11-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 734"
     ,"rocaRocaid":6
@@ -14508,8 +14508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA QUE A 150 METROS DEL TOPE DE LA LABOR, SE REALZO LA CORONA ALCANZONDO UNA ALTURA DE 6 METROS, SE REALIZO DESATADO CON SCAYLER Y SE RECOMIENDA HACER SOSTENIMIENTO CON MALLA Y SPLIT SET EN AVANZADA ESPACIADOS A 1 METRO PARA LUEGO REFORZAR CON SHOTCRETE."
     ,"comentario":"\""
-    ,"createdAt":"26/11/2015"
-    ,"updatedAt":"26/11/2015"
+    ,"createdAt":"2015-11-26"
+    ,"updatedAt":"2015-11-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -14528,8 +14528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA DESATADO Y SOSTENIMIENTO A 150 METROS DEL TOPE DE LA LABOR"
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"27-nov-15"
+ {
+     "fecha":"2015-11-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 735"
     ,"rocaRocaid":6
@@ -14548,8 +14548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"A 150 METROS SE REALZO LA LABOR, SE HIZO DESATADO CON SCAYLER Y ESTA EN PROCESO DE SOSTENIMIENTO, SE RECOMIENDA COMPLETAR EL SOSTENIMIENTO Y COORDINAR EL LANZADO DE SHOCRETE"
     ,"comentario":"\""
-    ,"createdAt":"27/11/2015"
-    ,"updatedAt":"27/11/2015"
+    ,"createdAt":"2015-11-27"
+    ,"updatedAt":"2015-11-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14568,8 +14568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"LA LABOR ESTA EN PROCESO DE SOSTENIMIENTO, SE RECOMIENDA COMPLETAR ELSOSTENIMIENTO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-nov-15"
+ {
+     "fecha":"2015-11-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765"
     ,"rocaRocaid":12
@@ -14588,8 +14588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"LA LABOR ESTA EN PROCESO DE SOSTENIMIENTO AL TOPE, SE RECOMIENDA COMPLETAR ESE SOSTENIMIENTOY COLOCAR MALLA DE SACRIFICIO PARA LA PERFORACION Y CARGUIO"
     ,"comentario":"\""
-    ,"createdAt":"27/11/2015"
-    ,"updatedAt":"27/11/2015"
+    ,"createdAt":"2015-11-27"
+    ,"updatedAt":"2015-11-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14608,8 +14608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"LA ALABOR ESTA EN PROCESO DE SOSTENIMIENTO HACIA EL TOPE."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-nov-15"
+ {
+     "fecha":"2015-11-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 544"
     ,"rocaRocaid":2
@@ -14628,8 +14628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"LA LABOR ESTA EN PROCESO DE LIMPIEZA, SE RECOMIENDA HACER EL DESATADO MECANIZADO Y REALIZAR EL SOSTENIMIENTO EN EL TOPE Y COLOCAR LA MALLA DE SACRIFICIO"
     ,"comentario":"\""
-    ,"createdAt":"27/11/2015"
-    ,"updatedAt":"27/11/2015"
+    ,"createdAt":"2015-11-27"
+    ,"updatedAt":"2015-11-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14648,8 +14648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"LA LABOR ESTA EN PROCESO DE LIMPIEZA, SE RECOMENDO HACER DESATADO MECANIZADO Y LUEGO COLOCAR SOSTENIMIENTO CON MALLA Y SPLIT SET ESPACIADOS A 1.2 METROS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-nov-15"
+ {
+     "fecha":"2015-11-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 816"
     ,"rocaRocaid":12
@@ -14668,8 +14668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"LA LABOR FALTA HACER SOSTENIMIENTO AL TOPE, SE RECOMIENDA COLOCAR SOSTENIMIENTO AL TOPE Y COLOCAR LA MALLA DE SACRIFIO PARA LA PERFORACION Y CARGUIO DEL FRENTE"
     ,"comentario":"\""
-    ,"createdAt":"27/11/2015"
-    ,"updatedAt":"27/11/2015"
+    ,"createdAt":"2015-11-27"
+    ,"updatedAt":"2015-11-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14688,8 +14688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE, SE RECOMIENDA COLOCAR EL SOSTENIMIENTO EN EL TOPE Y COLOCAR LA MALLA DE SACRIFICIO PARA LA PERFORACION Y CARGUIO DEL FRENTE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-nov-15"
+ {
+     "fecha":"2015-11-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 403"
     ,"rocaRocaid":12
@@ -14708,8 +14708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA ESTRUCTURAS DE ROCA CALIZA INTENSAMENTE FRACTURADO. Y A 6 METROS DEL TOPE AL HASTIAL IZQUIERDO FALLA DE PANIZO Y ROCA. PRESENTO CHISPEO POR LO CUAL SE DESQUINCHO ESE HASTIAL. SE REALIZO DESCARFUE DE MALLAS CARGADAS Y CORTADO DE LAS MISMAS. SE RECOMIENDA RESANAR MALLAS."
     ,"comentario":"\""
-    ,"createdAt":"27/11/2015"
-    ,"updatedAt":"27/11/2015"
+    ,"createdAt":"2015-11-27"
+    ,"updatedAt":"2015-11-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14728,8 +14728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE DE LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-nov-15"
+ {
+     "fecha":"2015-11-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 732"
     ,"rocaRocaid":12
@@ -14748,8 +14748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS A 5, 8, Y 9 METROS DEL TOPE. SE RECOMIENDA DESCARGAR MALLAS CARGADAS. MEJORAR ALTURA DE SOSTENIMIENTO"
     ,"comentario":"\""
-    ,"createdAt":"27/11/2015"
-    ,"updatedAt":"27/11/2015"
+    ,"createdAt":"2015-11-27"
+    ,"updatedAt":"2015-11-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14768,8 +14768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA LIMPIAR Y SOSTENER AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-nov-15"
+ {
+     "fecha":"2015-11-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 PISO 12"
     ,"rocaRocaid":2
@@ -14788,8 +14788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA QUE LA LABOR COMUNICADO CON LABOREO ANTIGUO. REQUIERE UNA EVALUACION DE GEOMECANICA Y OPERACIONES POR ALTURA DE CAIDA LIBRE. PUEDE CEDER EL PISO DE ESTA VIA. RECOMIENDO HACER UN BYPASS. SE ESTA TOMANDO EN CUENTA LA RECOMENDACION DE SEGURIDAD"
     ,"comentario":"\""
-    ,"createdAt":"27/11/2015"
-    ,"updatedAt":"27/11/2015"
+    ,"createdAt":"2015-11-27"
+    ,"updatedAt":"2015-11-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14808,8 +14808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-nov-15"
+ {
+     "fecha":"2015-11-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 350"
     ,"rocaRocaid":12
@@ -14828,8 +14828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA AL TOPE DE LA LABOR ESTRUCTURAS SUB VERTICALES. UNA DE ELLOS ESTA GENERANDO UNA FALSA CAPA AL HASTIAL DERECHO A 6 METROS DEL TOPE. SE RECOMENDO DESQUINCHAR HASTIAL. ADEMAS PRESENTA MALLAS ROTAS EN DIFERENTES PUNTOS ."
     ,"comentario":"\""
-    ,"createdAt":"27/11/2015"
-    ,"updatedAt":"27/11/2015"
+    ,"createdAt":"2015-11-27"
+    ,"updatedAt":"2015-11-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -14848,8 +14848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE DE LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-nov-15"
+ {
+     "fecha":"2015-11-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 160 N"
     ,"rocaRocaid":12
@@ -14868,8 +14868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"AL TOPE SE TIENE MALLA DAÑADA POR VOLADURA, EN LA INTERSECCIÓN CON LA RP DE ACCESO SE TI9ENE ÁREA EXPUESTA SIN SOSTENIMIENTO, FALTA COMPLETARA EL SOSTENIMIENTO DEL SELLADO AL LADO DERECHO."
     ,"comentario":"SE TIENE DEFICIENCIA CON EL SOSTENIMIENTO DE LA MALLA CON RESPECTO AL PISO."
-    ,"createdAt":"27/11/2015"
-    ,"updatedAt":"27/11/2015"
+    ,"createdAt":"2015-11-27"
+    ,"updatedAt":"2015-11-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14888,8 +14888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN ESPERA DE SOSTENIMIENTO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-nov-15"
+ {
+     "fecha":"2015-11-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 160 - VAS"
     ,"rocaRocaid":12
@@ -14908,8 +14908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"El ultimo disparo está a la espera de sostenimiento, se tiene la altura de los Split set por encima de 1.50m con respecto al piso, la sección esta fuera de lo programado."
     ,"comentario":"CONTROL DE PERFORACION Y VOLADURA"
-    ,"createdAt":"27/11/2015"
-    ,"updatedAt":"27/11/2015"
+    ,"createdAt":"2015-11-27"
+    ,"updatedAt":"2015-11-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14928,8 +14928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"CONTROL DE LA SECCION"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27-nov-15"
+ {
+     "fecha":"2015-11-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 996-S/N"
     ,"rocaRocaid":12
@@ -14948,8 +14948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"No se coloca la malla de sacrificio por falta de herramientas y barra de perforación para el J-8 Y EL CISSOR. SE TIENEN SE TIENE MALLA COLGADAS POR FALTA DE ADHERENCIA CON SPLIT SET"
     ,"comentario":"\""
-    ,"createdAt":"27/11/2015"
-    ,"updatedAt":"27/11/2015"
+    ,"createdAt":"2015-11-27"
+    ,"updatedAt":"2015-11-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -14968,8 +14968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"IMPULSAR EL TEMA DE LA MALLA DE SACRIFICIO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-nov-15"
+ {
+     "fecha":"2015-11-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 816"
     ,"rocaRocaid":12
@@ -14988,8 +14988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"AL INGRESO DE LA LABOR SE EVIDENCIA MALLAS COLGADAS Y CORTADAS POR EL SCOOP, SE RECOMIENDA EL RESANADO Y CORATADO DE MALLAS."
     ,"comentario":"\""
-    ,"createdAt":"28/11/2015"
-    ,"updatedAt":"28/11/2015"
+    ,"createdAt":"2015-11-28"
+    ,"updatedAt":"2015-11-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15008,8 +15008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE RECOMIENDA RESANAR Y CORTAR LAS MALLAS DAÑADAS POR EL SCOOP"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-nov-15"
+ {
+     "fecha":"2015-11-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 544"
     ,"rocaRocaid":12
@@ -15028,8 +15028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"LA LABOR SE ENCONTRO SOSTENIDA AL TOPEY COLOCADO MALLA DE SACRIFICIO, SE RECOMIENDA CONTINUAR CON SOSTENIMIENTO Y HACER LAS CAÑAS PARA UNA VOLADURA CONTROLADA."
     ,"comentario":"\""
-    ,"createdAt":"28/11/2015"
-    ,"updatedAt":"28/11/2015"
+    ,"createdAt":"2015-11-28"
+    ,"updatedAt":"2015-11-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15048,8 +15048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-nov-15"
+ {
+     "fecha":"2015-11-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"GAL 624"
     ,"rocaRocaid":12
@@ -15068,8 +15068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"LA LABOR SE ENCONTRO CON CARGA, FALTA COMPLETAR LIMPIEZA Y HACER SOSTENIMIENTO AL TOPE. LA LABOR ESTA PARALIZADA POR FALAT DE AREA PARA LA LIMPIEZA DE DESMONTE."
     ,"comentario":"\""
-    ,"createdAt":"28/11/2015"
-    ,"updatedAt":"28/11/2015"
+    ,"createdAt":"2015-11-28"
+    ,"updatedAt":"2015-11-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -15088,8 +15088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"LABOR EN PROCESO DE LIMPIEZA, SE RECOMIENDA HACER DESATADO MECANIZADO Y COLOCAR SOSTENIMIENTO DEL ULTIMO DISPARO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-nov-15"
+ {
+     "fecha":"2015-11-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 160 N"
     ,"rocaRocaid":12
@@ -15108,8 +15108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Bloques sueltos en corona del ultimo disparo, malla cargada en intersección, tramos descubiertos sin malla ni Split set"
     ,"comentario":"falta corregir la malla dañada por disparos  y completar sostenimiento"
-    ,"createdAt":"28/11/2015"
-    ,"updatedAt":"28/11/2015"
+    ,"createdAt":"2015-11-28"
+    ,"updatedAt":"2015-11-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15128,8 +15128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"conpletar sostenimiento"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-nov-15"
+ {
+     "fecha":"2015-11-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 160 S"
     ,"rocaRocaid":12
@@ -15148,8 +15148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"En la intersección, 5 m antes del tope y parte de la corona del acceso se tiene mallas cargadas con bloques y rocas sueltas, falta completara el sostenimiento del último disparo. "
     ,"comentario":"SE TIENE QUE HABILITAR EL ACCESO POR SER LABOR DE TRANSITO CONSTANTE."
-    ,"createdAt":"28/11/2015"
-    ,"updatedAt":"28/11/2015"
+    ,"createdAt":"2015-11-28"
+    ,"updatedAt":"2015-11-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15168,8 +15168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"completar el refuerzo de los tramos marcados."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-nov-15"
+ {
+     "fecha":"2015-11-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 W"
     ,"rocaRocaid":12
@@ -15188,8 +15188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Formación de bloques entre corona y hastial izquierdo, se tiene malla cargada desde el inicio de la bancada, en la intersección e ingreso (badén inundado) se tiene bloque abierto al lado izquierdo"
     ,"comentario":"ELIMINARÁ LAS CONDICIONES DE INESTABILIDAD QUE ESTÁN MARCADAS CON CINTAS ROJAS."
-    ,"createdAt":"28/11/2015"
-    ,"updatedAt":"28/11/2015"
+    ,"createdAt":"2015-11-28"
+    ,"updatedAt":"2015-11-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15208,8 +15208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"CONTROL DE LA SECCION"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-nov-15"
+ {
+     "fecha":"2015-11-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 896 S"
     ,"rocaRocaid":12
@@ -15228,8 +15228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Formación de bloques entre corona y hastial izquierdo, se tiene malla cargada desde el inicio de la bancada, en la intersección e ingreso (badén inundado) se tiene bloque abierto al lado izquierdo"
     ,"comentario":"Mantener el control de la seccion"
-    ,"createdAt":"28/11/2015"
-    ,"updatedAt":"28/11/2015"
+    ,"createdAt":"2015-11-28"
+    ,"updatedAt":"2015-11-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15248,8 +15248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-nov-15"
+ {
+     "fecha":"2015-11-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 928"
     ,"rocaRocaid":12
@@ -15268,8 +15268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Desde la cámara hasta el tope se tiene voladizo y formación de bloques al lado derecho y parte de la corona, las malla esta rotas y sobrecargadas con bloques, altura de la malla al piso que sobrepasa los 2m, se debe de rellenar eliminando altura para estabilizas las cajas."
     ,"comentario":"REDUCIR ALTURA CON DETRÍTICO PARA ESTABILIZAR LAS CAJAS, ELIMINAR LA MALLA CARGADA Y COMPLETAR EL REFUERZO DEL SOSTENIMIENTO."
-    ,"createdAt":"28/11/2015"
-    ,"updatedAt":"28/11/2015"
+    ,"createdAt":"2015-11-28"
+    ,"updatedAt":"2015-11-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15288,8 +15288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Rellenar con detritico y reducir altura para estabilizar las cajas."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-nov-15"
+ {
+     "fecha":"2015-11-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 441 N"
     ,"rocaRocaid":12
@@ -15308,8 +15308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"A la derecha se tiene voladizo sumado al fractura miento sub hori9zontal forma cuñas a lo largo de esta caja. Al lado izquierdo la altura de sostenimiento está por encima de 2.5m"
     ,"comentario":"EN EL VOLADIZO CAJEAR CON DESMONTE PARA CONTROLAR  LA CAJA"
-    ,"createdAt":"28/11/2015"
-    ,"updatedAt":"28/11/2015"
+    ,"createdAt":"2015-11-28"
+    ,"updatedAt":"2015-11-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15328,8 +15328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"control de perforacion y voladura"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-nov-15"
+ {
+     "fecha":"2015-11-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 660 "
     ,"rocaRocaid":12
@@ -15348,8 +15348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"El pilar del mato con respecto al Stp es mínimo, se notan tramos de la caja donde la voladura ha pateado. Se tiene área sin completar el sostenimiento en la comunicación del brazo norte"
     ,"comentario":"RELLENAR PARA ESTABILIZAR EL PILAR"
-    ,"createdAt":"28/11/2015"
-    ,"updatedAt":"28/11/2015"
+    ,"createdAt":"2015-11-28"
+    ,"updatedAt":"2015-11-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15368,8 +15368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"relleno para estabilizar el pilara"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"28-nov-15"
+ {
+     "fecha":"2015-11-28"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 995"
     ,"rocaRocaid":12
@@ -15388,8 +15388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Formación de bloques y cuñas tanto en la corona como en el breasting, tramos de malla sobrecargada en corona. "
     ,"comentario":"Uso de malla de sacrifico antes del carguío, eliminara los tramos de malla sobrecargada y reforzar el sostenimiento en estos puntos."
-    ,"createdAt":"28/11/2015"
-    ,"updatedAt":"28/11/2015"
+    ,"createdAt":"2015-11-28"
+    ,"updatedAt":"2015-11-28"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15408,8 +15408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"control de perforacion y voladura"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-nov-15"
+ {
+     "fecha":"2015-11-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"cro 816"
     ,"rocaRocaid":12
@@ -15428,8 +15428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"LA LABOR SE ENCONTRO COLO0CANDO LA MALLA DE SACRIFICIO, SE RECOMIENDA COMPLETAR EL SOSTENIMIENTO Y REALIZAR LOS NUEVE TALADORS EN CORONA Y PREPARAR CAÑAS."
     ,"comentario":"\""
-    ,"createdAt":"29/11/2015"
-    ,"updatedAt":"29/11/2015"
+    ,"createdAt":"2015-11-29"
+    ,"updatedAt":"2015-11-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15448,8 +15448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-nov-15"
+ {
+     "fecha":"2015-11-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765"
     ,"rocaRocaid":2
@@ -15468,8 +15468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"LA LABOR SE ENCONTRO EN PROCESO DE PERFORACION, SE RECOMIENDA HACER LOS NUEVE TALADROS EN LA CORONA Y MARCAR LA MALLA PARA LLEVAR UNA SECCION DE 4X4."
     ,"comentario":"\""
-    ,"createdAt":"29/11/2015"
-    ,"updatedAt":"29/11/2015"
+    ,"createdAt":"2015-11-29"
+    ,"updatedAt":"2015-11-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15488,8 +15488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"LA LABOR ESTA EN PROCESO DE PERFORACION , SE RECOMIENDA PINTAR LA MALLA DE PERFORACION PARA LLEVAR LA SECCION 4X4"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-nov-15"
+ {
+     "fecha":"2015-11-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 544"
     ,"rocaRocaid":2
@@ -15508,8 +15508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"LA LABORSE ENCONTRO EN PROCESO DE LIMPIEZA, SE RECOMIENDA COLOCAR SOSTENIMIENTO AL TOPE Y LA MALLA DE SACRIFICIO PARA REALIZAR LA PERFORACION Y CARGUIO DELFRENTE"
     ,"comentario":"\""
-    ,"createdAt":"29/11/2015"
-    ,"updatedAt":"29/11/2015"
+    ,"createdAt":"2015-11-29"
+    ,"updatedAt":"2015-11-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15528,8 +15528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"LA LABOR ESTA EN PROCESO DE LIMPIEZA, SE RECOMIENDA COLOCAR SOSTENIMIENTO AL TOPES Y LA MALLA DE SACRIFICIO PARA LA PERFORACION Y CARGUIO DEL FRENTE."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-nov-15"
+ {
+     "fecha":"2015-11-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cx.350 W"
     ,"rocaRocaid":5
@@ -15548,8 +15548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Descargar mallas con bancos suspendidos desde el tope a menos 15metros de distancia."
     ,"comentario":"Cortar mallas sobresalidas para continuar con el sostenimiento al tope."
-    ,"createdAt":"29/11/2015"
-    ,"updatedAt":"29/11/2015"
+    ,"createdAt":"2015-11-29"
+    ,"updatedAt":"2015-11-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15568,8 +15568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-nov-15"
+ {
+     "fecha":"2015-11-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rp.403 E"
     ,"rocaRocaid":5
@@ -15588,8 +15588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Descargar mallas cargadas con bancos."
     ,"comentario":"Reemplazar barretilla de 6 pies."
-    ,"createdAt":"29/11/2015"
-    ,"updatedAt":"29/11/2015"
+    ,"createdAt":"2015-11-29"
+    ,"updatedAt":"2015-11-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15608,8 +15608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-nov-15"
+ {
+     "fecha":"2015-11-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 369-P.12"
     ,"rocaRocaid":5
@@ -15628,8 +15628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Desatado minucioso de rocas despues de cada actividad."
     ,"comentario":"Inspeccion diaria de fracturamiento sobre el voladizo del hastial izquierdo que se encuentra en espacio vacio sobre un RB."
-    ,"createdAt":"29/11/2015"
-    ,"updatedAt":"29/11/2015"
+    ,"createdAt":"2015-11-29"
+    ,"updatedAt":"2015-11-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15648,8 +15648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-nov-15"
+ {
+     "fecha":"2015-11-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 154-S"
     ,"rocaRocaid":5
@@ -15668,8 +15668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Descargar mallas cargadas de bancos sueltos."
     ,"comentario":"Realizar el relleno sobre el acceso principal para dejar altura según corte de breasting para el avance en rotura."
-    ,"createdAt":"29/11/2015"
-    ,"updatedAt":"29/11/2015"
+    ,"createdAt":"2015-11-29"
+    ,"updatedAt":"2015-11-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15688,8 +15688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Se realiza trabajos de relleno despues de cada disparo parea controlar altura de excavacion."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-nov-15"
+ {
+     "fecha":"2015-11-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 996-S/N"
     ,"rocaRocaid":1
@@ -15708,8 +15708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Mallas sobrecargadas a lo largo de todo el STP, con mayor notoriedad en las intersecciones, la altura de sostenimiento solo coincide en uno de los lados "
     ,"comentario":"Control de perforación y voladura, programara campañas de desate y rehabilitación de tramos observados"
-    ,"createdAt":"29/11/2015"
-    ,"updatedAt":"29/11/2015"
+    ,"createdAt":"2015-11-29"
+    ,"updatedAt":"2015-11-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15728,8 +15728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"uso de malla de sacrificio antes de cada disparo"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-nov-15"
+ {
+     "fecha":"2015-11-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 995"
     ,"rocaRocaid":6
@@ -15748,8 +15748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se roca muy fracturada regular-pobre formación de bloques en el frente del breasting, tiene tramos de malla cargada desde el ingreso tanto en corona como en cajas las cuales están identificadas. altura de sostenimiento por encima del estándar."
     ,"comentario":"Seguir con el control de perforacion y voladura."
-    ,"createdAt":"29/11/2015"
-    ,"updatedAt":"29/11/2015"
+    ,"createdAt":"2015-11-29"
+    ,"updatedAt":"2015-11-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15768,8 +15768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"uso de malla de sacrificio en los frente del breasting"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-nov-15"
+ {
+     "fecha":"2015-11-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 440 E"
     ,"rocaRocaid":12
@@ -15788,8 +15788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Formación de bloques en hastiales, sección sobre excavada, en la intersección  de los breasting se tiene tramos que faltan sostener, en el inicio del stp. En el punto de carguío se tiene rocas sueltas y bloques abiertos en la malla. La altura de la malla con respecto al piso  mayor a 1.50msostenimiento por encima del estándar."
     ,"comentario":"Control de marcado de la malla, así como de la instalación de malla"
-    ,"createdAt":"29/11/2015"
-    ,"updatedAt":"29/11/2015"
+    ,"createdAt":"2015-11-29"
+    ,"updatedAt":"2015-11-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15808,8 +15808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"uso de malla de sacrificio"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-nov-15"
+ {
+     "fecha":"2015-11-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 160 N"
     ,"rocaRocaid":12
@@ -15828,8 +15828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Al lado derecho se tiene voladizo con respecto al corte anterior,  corona con formación de bloques producto del fractura miento y la voladura, sección sobre excavada, sostenimiento por 1.50mabiertos en la malla. La altura de la malla con respecto al piso  mayor a 1.50msostenimiento por encima del estándar."
     ,"comentario":"Se muestra cañas en corona, pero la sección tiene sobre excavación"
-    ,"createdAt":"29/11/2015"
-    ,"updatedAt":"29/11/2015"
+    ,"createdAt":"2015-11-29"
+    ,"updatedAt":"2015-11-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15848,8 +15848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Uso de malla de sacrificio, control de la malla de perforación."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-nov-15"
+ {
+     "fecha":"2015-11-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 896 S"
     ,"rocaRocaid":12
@@ -15868,8 +15868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Formación de bloques de potencias menores en corona y parte de los hastiales, ligera humedad en corona, se está controlando la voladura y disparando el sircado, se tiene mallas ligeramente cargadas del ingreso al sur."
     ,"comentario":"Mantener el control de perforación y voladura, usar la malla de sacrificio antes de perforar "
-    ,"createdAt":"29/11/2015"
-    ,"updatedAt":"29/11/2015"
+    ,"createdAt":"2015-11-29"
+    ,"updatedAt":"2015-11-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15888,8 +15888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"29-nov-15"
+ {
+     "fecha":"2015-11-29"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 928"
     ,"rocaRocaid":12
@@ -15908,8 +15908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Voladizo y fracturas sub horizontal  que definen bloques en las paredes y corona, tramos con malla por encima de los 2.00m mayor concentración de bloques abiertos al lado dereco"
     ,"comentario":"Desatado y refuerzo de las zonas observadas, colocada de malla de sacrifico en el frente antes de disparar"
-    ,"createdAt":"29/11/2015"
-    ,"updatedAt":"29/11/2015"
+    ,"createdAt":"2015-11-29"
+    ,"updatedAt":"2015-11-29"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -15928,8 +15928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"uso de malla de sacrificio"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-nov-15"
+ {
+     "fecha":"2015-11-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 403"
     ,"rocaRocaid":12
@@ -15948,8 +15948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS ROTAS A LOS HASTIALES. DESATE DE ROCA MINUCIOSO Y SOSTENER AL TOPE CUMPLIENDO LA RECOMENDACION GEOMECANICA"
     ,"comentario":"\""
-    ,"createdAt":"30/11/2015"
-    ,"updatedAt":"30/11/2015"
+    ,"createdAt":"2015-11-30"
+    ,"updatedAt":"2015-11-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -15968,8 +15968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-nov-15"
+ {
+     "fecha":"2015-11-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - 15 - SN"
     ,"rocaRocaid":2
@@ -15988,8 +15988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS SOBRESALIDAS Y ALTURA DE SOSTENIMIENTO INCORRECTO. SE RECOMIENDA CONTROLAR LA ALTURA DE SOSTENIMIENTO A 1.5 MTS DEL PISO. DESATE DE ROCA CONSTANTE Y MINUCIOSO"
     ,"comentario":"\""
-    ,"createdAt":"30/11/2015"
-    ,"updatedAt":"30/11/2015"
+    ,"createdAt":"2015-11-30"
+    ,"updatedAt":"2015-11-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16008,8 +16008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"CORREGIR ALTURA DE SOSTENIMIENTO A 1.5 MTS DEL PISO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-nov-15"
+ {
+     "fecha":"2015-11-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":12
@@ -16028,8 +16028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA QUE FALTA DESATE DE ROCAS AL TOPE. MALLAS CARGADAS Y TRAMOS DE MALLAS ROTAS. LA ROCA PRESENTA LIGERO LAJAMIENTO. FALTA SOSTENIMIENTO AL TOPE. SE RECOMIENDA CORREGIR LA ALTURA DE SOSTENIMIENTO A 1.5 MTS Y CONPLETAR SOSTENIMIENTO AL TOPE"
     ,"comentario":"\""
-    ,"createdAt":"30/11/2015"
-    ,"updatedAt":"30/11/2015"
+    ,"createdAt":"2015-11-30"
+    ,"updatedAt":"2015-11-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16048,8 +16048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-nov-15"
+ {
+     "fecha":"2015-11-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 350"
     ,"rocaRocaid":12
@@ -16068,8 +16068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS ROTAS A 20 - 30 MTS DEL TOPE. SE RECOMIENDA EL DESATE DE ROCA CONSTANTE Y MINUCIOSO ANTES, DURANTE Y DESPUES DE CADA ACTIVIDAD."
     ,"comentario":"\""
-    ,"createdAt":"30/11/2015"
-    ,"updatedAt":"30/11/2015"
+    ,"createdAt":"2015-11-30"
+    ,"updatedAt":"2015-11-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16088,8 +16088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"CONTROLAR LA SECCION Y RESANE DE MALLAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-nov-15"
+ {
+     "fecha":"2015-11-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 603 "
     ,"rocaRocaid":2
@@ -16108,8 +16108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se recomienda sostenimiento al tope, desate minucioso y constante, colocar malla de sacrifio obligatoriamente."
     ,"comentario":"Pendiente sostenimiento al tope."
-    ,"createdAt":"30/11/2015"
-    ,"updatedAt":"30/11/2015"
+    ,"createdAt":"2015-11-30"
+    ,"updatedAt":"2015-11-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16128,8 +16128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-nov-15"
+ {
+     "fecha":"2015-11-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 S"
     ,"rocaRocaid":2
@@ -16148,8 +16148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se recomienda realizar voladura controlada, generando el arco de autosoporte."
     ,"comentario":"Desate minucioso y constante, de rocas sueltas."
-    ,"createdAt":"30/11/2015"
-    ,"updatedAt":"30/11/2015"
+    ,"createdAt":"2015-11-30"
+    ,"updatedAt":"2015-11-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16168,8 +16168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-nov-15"
+ {
+     "fecha":"2015-11-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 928"
     ,"rocaRocaid":12
@@ -16188,8 +16188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Fracturas sub horizontales, formación de bloques en corona y hastiales, des de la Cma. Hasta el tope se tiene malla cargadas y rotas, bloques abiertos"
     ,"comentario":"eliminar las mallas cargadas y reforzar los tramos de sostenimiento deficiente"
-    ,"createdAt":"30/11/2015"
-    ,"updatedAt":"30/11/2015"
+    ,"createdAt":"2015-11-30"
+    ,"updatedAt":"2015-11-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16208,8 +16208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"control de perforacion y voladura"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-nov-15"
+ {
+     "fecha":"2015-11-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 441"
     ,"rocaRocaid":12
@@ -16228,8 +16228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Voladizo ala lado derecho asociado a fracturas sub horizontales que definen bloques, altura de voladizo 1.7m, la malla al lado izquierdo está por encima de 1.50m, tramos de malla cargada en hastiales y corona."
     ,"comentario":"Cajeo con desmonte el voladizo del lado derecho, llevara el sostenimiento según estándar."
-    ,"createdAt":"30/11/2015"
-    ,"updatedAt":"30/11/2015"
+    ,"createdAt":"2015-11-30"
+    ,"updatedAt":"2015-11-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16248,8 +16248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"control de perforación y voladura, uso de malla de sacrificio"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-nov-15"
+ {
+     "fecha":"2015-11-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 896 S"
     ,"rocaRocaid":12
@@ -16268,8 +16268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se viene realizando sircado, sección controlada, tramos de malla remangada por los disparos, ligero goteo de agua en corona."
     ,"comentario":"\""
-    ,"createdAt":"30/11/2015"
-    ,"updatedAt":"30/11/2015"
+    ,"createdAt":"2015-11-30"
+    ,"updatedAt":"2015-11-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16288,8 +16288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"30-nov-15"
+ {
+     "fecha":"2015-11-30"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 E"
     ,"rocaRocaid":12
@@ -16308,8 +16308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Formación de cuñas en corona, mallas rotas y sobrecargadas, altura por encima de los 5m, en la intersección se tiene tramos sin sostener otros con carga muerta en la malla, goteo constante de agua."
     ,"comentario":"Completar el sostenimiento de las zonas faltantes, control de perforación y voladura."
-    ,"createdAt":"30/11/2015"
-    ,"updatedAt":"30/11/2015"
+    ,"createdAt":"2015-11-30"
+    ,"updatedAt":"2015-11-30"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16328,8 +16328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"uso de malla de sacrificio, control de la seccion"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01/12/15 00:00"
+ {
+     "fecha":"2015-12-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 824 N"
     ,"rocaRocaid":12
@@ -16338,9 +16338,9 @@ client.sync().then(function() {
     ,"estado_recomendacion":true 
     ,"instalacion":true
     ,"ancho_real":4.5
-    ,"porc_sobreExc_realancho":"13%"
+    ,"porc_sobreExc_realancho":"1899-12-30"
     ,"alto_real":4.2
-    ,"porc_sobreExc_realalto":"5%"
+    ,"porc_sobreExc_realalto":"1899-12-30"
     ,"nivel_riesgo":"CRITICO"
     ,"SeguridadUid":"administrador"
     ,"GeomecanicoUid":"administrador"
@@ -16348,8 +16348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Desate de rocas sueltas sobre la malla electrsoldada, continuar con resane de mallas rotas."
     ,"comentario":"Precencia de rocas sueltas sobre la malla electrosoldada, mallas rotas."
-    ,"createdAt":"01/12/2015"
-    ,"updatedAt":"01/12/2015"
+    ,"createdAt":"2015-12-01"
+    ,"updatedAt":"2015-12-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16368,8 +16368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"proceso de limpieza y desate de rocas sueltas."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01/12/15 00:00"
+ {
+     "fecha":"2015-12-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -16388,8 +16388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Continuar con desate de rocas sueltas cargadassobre la malla electrosoldad, continuar con resane de mallas rotas."
     ,"comentario":"Se observa mallas cargados de bancos sueltos, mallas rotas."
-    ,"createdAt":"01/12/2015"
-    ,"updatedAt":"01/12/2015"
+    ,"createdAt":"2015-12-01"
+    ,"updatedAt":"2015-12-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16408,8 +16408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Proceso de limpieza y deste de rocas sueltas sobre la malla electrosoldada."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01/12/15 00:00"
+ {
+     "fecha":"2015-12-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":3
@@ -16428,8 +16428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA QUE FALTA SOSTENIMIENTO DEL ULTIMO DISPARO Y DESCARGUE DE MALLAS EN LA CORONA A 7 MTS DEL TOPE."
     ,"comentario":"\""
-    ,"createdAt":"01/12/2015"
-    ,"updatedAt":"01/12/2015"
+    ,"createdAt":"2015-12-01"
+    ,"updatedAt":"2015-12-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16448,8 +16448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01/12/15 00:00"
+ {
+     "fecha":"2015-12-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 756"
     ,"rocaRocaid":2
@@ -16468,8 +16468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA LA DISTRIBUCION DE ELEMENTOS DE SOSTENIMIENTO A 1.20X1.20 Y COLOCAR MALLAS DE SACRIFICIO."
     ,"comentario":"\""
-    ,"createdAt":"01/12/2015"
-    ,"updatedAt":"01/12/2015"
+    ,"createdAt":"2015-12-01"
+    ,"updatedAt":"2015-12-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16488,8 +16488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01/12/15 00:00"
+ {
+     "fecha":"2015-12-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 404 W"
     ,"rocaRocaid":12
@@ -16508,8 +16508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS A 10 MTS DEL TOPE AL HASTIAL IZQUIERDO Y MALLA ROTA A 26 MTS AL HASTIAL DERECHO. SE RECOMIENDA CONTROLAR SECCION"
     ,"comentario":"\""
-    ,"createdAt":"01/12/2015"
-    ,"updatedAt":"01/12/2015"
+    ,"createdAt":"2015-12-01"
+    ,"updatedAt":"2015-12-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16528,8 +16528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01/12/15 00:00"
+ {
+     "fecha":"2015-12-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 369"
     ,"rocaRocaid":12
@@ -16548,8 +16548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS EN LA INTERSECCION CON EL CRO 404  ADEMAS DE MALLAS SUELTAS QUE FALTA SOSTENER"
     ,"comentario":"\""
-    ,"createdAt":"01/12/2015"
-    ,"updatedAt":"01/12/2015"
+    ,"createdAt":"2015-12-01"
+    ,"updatedAt":"2015-12-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16568,8 +16568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA DESCARGAR MALLAS EN LA CORONA DE LA INTERSECCION"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01/12/15 00:00"
+ {
+     "fecha":"2015-12-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 995"
     ,"rocaRocaid":12
@@ -16588,8 +16588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca muy fracturada regular a pobre, formación de bloques en corona y hastiales, mallas cargadas en las intersecciones, mallas rotas y superficies expuestas"
     ,"comentario":"Control de perforación y voladura, reforzar las superficies dañadas y descargadas. Uso de malla de sacrificio en el breasting."
-    ,"createdAt":"01/12/2015"
-    ,"updatedAt":"01/12/2015"
+    ,"createdAt":"2015-12-01"
+    ,"updatedAt":"2015-12-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16608,8 +16608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Completar el sostenimiento y refuerzo."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01/12/15 00:00"
+ {
+     "fecha":"2015-12-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 996"
     ,"rocaRocaid":12
@@ -16628,8 +16628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca fracturada pobre. Moderadamente a muy  alterada, formación de cuñas tanto en corona como en paredes. Sobre excavación en alto y ancho, malla por encima de 2m con respecto del piso, mallas sobrecargadas en corona y paredes, tramos de malla rota o sin malla."
     ,"comentario":"Realizar campaña de desate y refuerzo. Uso de malla de sacrificio"
-    ,"createdAt":"01/12/2015"
-    ,"updatedAt":"01/12/2015"
+    ,"createdAt":"2015-12-01"
+    ,"updatedAt":"2015-12-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16648,8 +16648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"control de la seccion y sostenimiento."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01/12/15 00:00"
+ {
+     "fecha":"2015-12-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 160 S/N"
     ,"rocaRocaid":12
@@ -16668,8 +16668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca muy fracturada regular, boques abiertos en la intersección, cuñas en corona, malla sobrecargadas, rota y superficies abiertas."
     ,"comentario":"Eliminar las mallas coligadas y rotas, reforzar el sostenimiento  dañado uso de malla de sacrificio."
-    ,"createdAt":"01/12/2015"
-    ,"updatedAt":"01/12/2015"
+    ,"createdAt":"2015-12-01"
+    ,"updatedAt":"2015-12-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16688,8 +16688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"uso de malla de sacrificio"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"01/12/15 00:00"
+ {
+     "fecha":"2015-12-01"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 160 Vs"
     ,"rocaRocaid":12
@@ -16708,8 +16708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca muy fracturada regular, boques abiertos en la intersección, cuñas en corona, malla sobrecargadas, rota y superficies abiertas."
     ,"comentario":"Se tiene filtración de agua, roca fracturada regulara, cuñas debilitadas por humedad, mallas con carga y colgadas, mallas dañadas y rotas."
-    ,"createdAt":"01/12/2015"
-    ,"updatedAt":"01/12/2015"
+    ,"createdAt":"2015-12-01"
+    ,"updatedAt":"2015-12-01"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16728,8 +16728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"uso de malla de sacrificio"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02/12/15 00:00"
+ {
+     "fecha":"2015-12-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854"
     ,"rocaRocaid":3
@@ -16748,8 +16748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS Y TRAMOS CON MALLAS ROTAS A 20 MTS DEL TOPE. SE RECOMIENDA DESCARGAR Y RESANAR MALLAS."
     ,"comentario":"\""
-    ,"createdAt":"02/12/2015"
-    ,"updatedAt":"02/12/2015"
+    ,"createdAt":"2015-12-02"
+    ,"updatedAt":"2015-12-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16768,8 +16768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO EL DESCARGUE DE MALLAS Y RESANE, QUEDA PENDIENTE UN TRAMO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02/12/15 00:00"
+ {
+     "fecha":"2015-12-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 12"
     ,"rocaRocaid":2
@@ -16788,8 +16788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS A LOS HASTIALES DESDE EL INGRESO DE LA LABOR. SE RECOMIENDA CONTROLAR PERFORACION Y VOLADURA."
     ,"comentario":"\""
-    ,"createdAt":"02/12/2015"
-    ,"updatedAt":"02/12/2015"
+    ,"createdAt":"2015-12-02"
+    ,"updatedAt":"2015-12-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16808,8 +16808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA COLOCAR EL SOSTENIMIENTO AL TOPE. Y LA MALLA DE SACRIFICIO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02/12/15 00:00"
+ {
+     "fecha":"2015-12-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 N"
     ,"rocaRocaid":12
@@ -16828,8 +16828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"M2 A P. SE OBSERVO MALLAS CARGADAS DEL HASTIAL IZQUIERDO A 5  MTS DEL TOPE. SE RECOMIENDA COLOCAR MALLA DE SACRIFICIO EN EL FRENTE. AL PROMEDIAR LAS 11:00 SE PRODUJO UN DESPRENDIMIENTO DE ROCA AL TOPE. LA CUAL MERECE EVALUACION DEL AREA. DE PERSISTIR PROCEDER A PARALIZAR LA LABOR PERMANENTEMENTE HASTA QUE SE COLOQUE EL SHOTCRETE."
     ,"comentario":"\""
-    ,"createdAt":"02/12/2015"
-    ,"updatedAt":"02/12/2015"
+    ,"createdAt":"2015-12-02"
+    ,"updatedAt":"2015-12-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16848,8 +16848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE PARALIZO PARA VERIFICAR EL ESTADO DE LA MISMA"
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"02/12/15 00:00"
+ {
+     "fecha":"2015-12-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 S"
     ,"rocaRocaid":12
@@ -16868,8 +16868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA QUE LA ALTURA DE LA LABOR NO ES LA ADECUADA. SE RECOMIENDA CONTROLAR ALTURA DE LA LABOR. CUMPLIR CON EL ESTANDAR."
     ,"comentario":"\""
-    ,"createdAt":"02/12/2015"
-    ,"updatedAt":"02/12/2015"
+    ,"createdAt":"2015-12-02"
+    ,"updatedAt":"2015-12-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16888,8 +16888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE ESTA CONTROLANDO LA ALTURA DE SECCION"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02/12/15 00:00"
+ {
+     "fecha":"2015-12-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 403"
     ,"rocaRocaid":12
@@ -16908,8 +16908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA QUE LA LABOR NO ESTA CONFORME EL PROGRAMA. SE RECOMIENDA SACAR EL PUNTO DE DIRECCION Y GRADIENTE ADECUADAMENTE PARA NO GENERAR DESVIACIONES."
     ,"comentario":"\""
-    ,"createdAt":"02/12/2015"
-    ,"updatedAt":"02/12/2015"
+    ,"createdAt":"2015-12-02"
+    ,"updatedAt":"2015-12-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16928,8 +16928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE CONTINUO UBICANDO LA DIRECCION EXACTA"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02/12/15 00:00"
+ {
+     "fecha":"2015-12-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 857 N"
     ,"rocaRocaid":12
@@ -16948,8 +16948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON SOTENIMEINTO AL TOPE, COMPLETAR RESANE."
     ,"comentario":"PENDIENTE COMPLETAR SOSTENIMIENTOAL TOPE Y COMPLETAR RESANE DE MALLAS ROTAS."
-    ,"createdAt":"02/12/2015"
-    ,"updatedAt":"02/12/2015"
+    ,"createdAt":"2015-12-02"
+    ,"updatedAt":"2015-12-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -16968,8 +16968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMIENTO Y RESQANE DE MALLAS ROTAS."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02/12/15 00:00"
+ {
+     "fecha":"2015-12-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 S"
     ,"rocaRocaid":12
@@ -16988,8 +16988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA Y GENERAR EL ARCO DE AUTOSOPORTE."
     ,"comentario":"PRESENCIA DE MALLAS ENBOLSONADAS Y MALLAS ROTAS PUNTUALMENTE."
-    ,"createdAt":"02/12/2015"
-    ,"updatedAt":"02/12/2015"
+    ,"createdAt":"2015-12-02"
+    ,"updatedAt":"2015-12-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17008,8 +17008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02/12/15 00:00"
+ {
+     "fecha":"2015-12-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"GaL 602"
     ,"rocaRocaid":12
@@ -17028,8 +17028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA COMPLETAR SOSTENIMEINTOAL TOPE, VOLADURA CONTROLADA."
     ,"comentario":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO."
-    ,"createdAt":"02/12/2015"
-    ,"updatedAt":"02/12/2015"
+    ,"createdAt":"2015-12-02"
+    ,"updatedAt":"2015-12-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17048,8 +17048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"02/12/15 00:00"
+ {
+     "fecha":"2015-12-02"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -17068,8 +17068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTROLAR SECCION, REALIZAR VLADURA CONTROLADA GENERANDO EL ARCO DE AUTOPORTE."
     ,"comentario":"SEOBSERVA SOBREROTURA, PENDIENTE SOSTENIMIENTO AL TOPE."
-    ,"createdAt":"02/12/2015"
-    ,"updatedAt":"02/12/2015"
+    ,"createdAt":"2015-12-02"
+    ,"updatedAt":"2015-12-02"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17088,8 +17088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE OSSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03/12/15 00:00"
+ {
+     "fecha":"2015-12-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"stp 369 - piso 15 - sn"
     ,"rocaRocaid":2
@@ -17108,8 +17108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS A 6 MTS DEL TOPE Y MALLAS ROTAS A LOS HASTIALES A 7 MTS DEL TOPE. SE RECOMIENDA DESCARGAR MALLAS."
     ,"comentario":"\""
-    ,"createdAt":"03/12/2015"
-    ,"updatedAt":"03/12/2015"
+    ,"createdAt":"2015-12-03"
+    ,"updatedAt":"2015-12-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17128,8 +17128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03/12/15 00:00"
+ {
+     "fecha":"2015-12-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 350"
     ,"rocaRocaid":2
@@ -17148,8 +17148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVO MALLAS CARGADAS EN EL TECHO A 7 MTS DEL TOPE Y MALLA ROTA EN EL HASTIAL DERECHO A 5 MTS DEL TOPE."
     ,"comentario":"\""
-    ,"createdAt":"03/12/2015"
-    ,"updatedAt":"03/12/2015"
+    ,"createdAt":"2015-12-03"
+    ,"updatedAt":"2015-12-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17168,8 +17168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03/12/15 00:00"
+ {
+     "fecha":"2015-12-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854 E"
     ,"rocaRocaid":2
@@ -17188,8 +17188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS A 7 MTS DEL TOPE HACIA LOS HASTIALES. SE RECOMIENDA DESCARGAR MALLAS Y CONTROLAR PERFORACION Y VOLADURA."
     ,"comentario":"\""
-    ,"createdAt":"03/12/2015"
-    ,"updatedAt":"03/12/2015"
+    ,"createdAt":"2015-12-03"
+    ,"updatedAt":"2015-12-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17208,8 +17208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03/12/15 00:00"
+ {
+     "fecha":"2015-12-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 756"
     ,"rocaRocaid":2
@@ -17228,8 +17228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO Y MALLAS CARGADAS DEL TOPE A 8 MTS. SE RECOMIENDA REALIZAR VOLADURA CONTROLADA Y COLOCAR MALLA DE SACRIFICIO EN EL FRENTE A DISPARAR"
     ,"comentario":"\""
-    ,"createdAt":"03/12/2015"
-    ,"updatedAt":"03/12/2015"
+    ,"createdAt":"2015-12-03"
+    ,"updatedAt":"2015-12-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17248,8 +17248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE. Y COMPLETAR BARRETILLA DE 8'"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03/12/15 00:00"
+ {
+     "fecha":"2015-12-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 816"
     ,"rocaRocaid":12
@@ -17268,8 +17268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Hastial izquierdo presencia de mallas rotas, se recomienda completar con resane inmediato, corte de mallas que sobrepasan el rasante."
     ,"comentario":"MALLAS ROTAS, CONTROL DE SECCION SEGÚN PROGRAMA DE PALNEAMIENTO."
-    ,"createdAt":"03/12/2015"
-    ,"updatedAt":"03/12/2015"
+    ,"createdAt":"2015-12-03"
+    ,"updatedAt":"2015-12-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17288,8 +17288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03/12/15 00:00"
+ {
+     "fecha":"2015-12-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -17308,8 +17308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PENDIENTE SOSTENIMIENTO DEL ULTIMO DISPARO REALIZADO, ELIMINAR BANCOS SUELTOS EN LOS HASTIALES."
     ,"comentario":"PRESENCIA DE BANCOS SUELTOS EN LOS HASTIALES, MALLAS ROTAS DELTOPE A 7m."
-    ,"createdAt":"03/12/2015"
-    ,"updatedAt":"03/12/2015"
+    ,"createdAt":"2015-12-03"
+    ,"updatedAt":"2015-12-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17328,8 +17328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03/12/15 00:00"
+ {
+     "fecha":"2015-12-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 S"
     ,"rocaRocaid":12
@@ -17348,8 +17348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MALLAS ENBOLSONADAS EN LOS HASTIALES DEL TOPE A 12 m. SE RECOMIENDA REFORZAR CON PERNO SPLIT SET."
     ,"comentario":"MALLAS ENBOLSONADA EN EL HASTIAL DERECHO DEL TOPE A 12 m."
-    ,"createdAt":"03/12/2015"
-    ,"updatedAt":"03/12/2015"
+    ,"createdAt":"2015-12-03"
+    ,"updatedAt":"2015-12-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17368,8 +17368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"03/12/15 00:00"
+ {
+     "fecha":"2015-12-03"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 910 S"
     ,"rocaRocaid":9
@@ -17388,8 +17388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE UN INTRUCIVO CON POTENCIA DE 4.5 m. QUE CORTA PERPENDICULAR AL EJE DE LA ALBOR."
     ,"comentario":"PRESENCIA DE INTRUCION (DIQUE) QUE CORTA PERPENDICULAR AL EJE DE LA Rpa 91\" S."
-    ,"createdAt":"03/12/2015"
-    ,"updatedAt":"03/12/2015"
+    ,"createdAt":"2015-12-03"
+    ,"updatedAt":"2015-12-03"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17408,8 +17408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"ESPERA DE LANZAMIENTO DE SHOT CRETE."
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"04/12/15 00:00"
+ {
+     "fecha":"2015-12-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp 160 N"
     ,"rocaRocaid":12
@@ -17428,8 +17428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Controlar la seccion, conpresencia de filtracion en el HI, completar el sostenimiento hasta el tope delultimo diaparo "
     ,"comentario":"\""
-    ,"createdAt":"04/12/2015"
-    ,"updatedAt":"04/12/2015"
+    ,"createdAt":"2015-12-04"
+    ,"updatedAt":"2015-12-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -17448,8 +17448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se coordino con mina controlar la seccion del tajo y levantar las observaciones "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04/12/15 00:00"
+ {
+     "fecha":"2015-12-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp 116"
     ,"rocaRocaid":12
@@ -17468,8 +17468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"el acceso esta inindado, por el piso inferior se realizara desquinches en retirada  y se rellanara "
     ,"comentario":"\""
-    ,"createdAt":"04/12/2015"
-    ,"updatedAt":"04/12/2015"
+    ,"createdAt":"2015-12-04"
+    ,"updatedAt":"2015-12-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17488,8 +17488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04/12/15 00:00"
+ {
+     "fecha":"2015-12-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp 175"
     ,"rocaRocaid":12
@@ -17508,8 +17508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"controlar la voladura uy no generar inestabilidad en la labor por sobrerotura, completar el sostenimiento del ultimo disparo. "
     ,"comentario":"\""
-    ,"createdAt":"04/12/2015"
-    ,"updatedAt":"04/12/2015"
+    ,"createdAt":"2015-12-04"
+    ,"updatedAt":"2015-12-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17528,8 +17528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se coordino con mina para controlar la voladura "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04/12/15 00:00"
+ {
+     "fecha":"2015-12-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp 440 W"
     ,"rocaRocaid":12
@@ -17548,8 +17548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"falta completar el sostenimiento del ultimo diapro, las mallas se estan remanagando por un deficiente traslape "
     ,"comentario":"\""
-    ,"createdAt":"04/12/2015"
-    ,"updatedAt":"04/12/2015"
+    ,"createdAt":"2015-12-04"
+    ,"updatedAt":"2015-12-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -17568,8 +17568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"ANCHO POR RADIO DE GIRO "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04/12/15 00:00"
+ {
+     "fecha":"2015-12-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 387"
     ,"rocaRocaid":2
@@ -17588,8 +17588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"falta completar el sostenimiento del ultimo disparo. Controlar la seccion de la labor, realizar desate constante de rocas sueltas y realizar descargue de mallas cargadas."
     ,"comentario":"\""
-    ,"createdAt":"04/12/2015"
-    ,"updatedAt":"04/12/2015"
+    ,"createdAt":"2015-12-04"
+    ,"updatedAt":"2015-12-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17608,8 +17608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04/12/15 00:00"
+ {
+     "fecha":"2015-12-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 403"
     ,"rocaRocaid":2
@@ -17628,8 +17628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Labor con deficiencia de ventilacion, alcanzando 120 ppm CO, se realizo el descargue de malla, queda pendiente el resane de las mismas."
     ,"comentario":"\""
-    ,"createdAt":"04/12/2015"
-    ,"updatedAt":"04/12/2015"
+    ,"createdAt":"2015-12-04"
+    ,"updatedAt":"2015-12-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17648,8 +17648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04/12/15 00:00"
+ {
+     "fecha":"2015-12-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 726"
     ,"rocaRocaid":12
@@ -17668,8 +17668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se observa mallas cargadas desde el ingreso asi como mallas rotas. se levantaron las observaciones en algunos ptos. Falta completar juego de barretillas de 8 y cambiar las de 6"
     ,"comentario":"\""
-    ,"createdAt":"04/12/2015"
-    ,"updatedAt":"04/12/2015"
+    ,"createdAt":"2015-12-04"
+    ,"updatedAt":"2015-12-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17688,8 +17688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"falta cambiar juego de barretillas y completar la de 8"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04/12/15 00:00"
+ {
+     "fecha":"2015-12-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 350"
     ,"rocaRocaid":2
@@ -17708,8 +17708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Existe mallas cargadas del tope a 5 mts y falta sostenimiento del ultimo disparo. Mejorar altura de sostenimiento a 1.50"
     ,"comentario":"\""
-    ,"createdAt":"04/12/2015"
-    ,"updatedAt":"04/12/2015"
+    ,"createdAt":"2015-12-04"
+    ,"updatedAt":"2015-12-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17728,8 +17728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04/12/15 00:00"
+ {
+     "fecha":"2015-12-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -17748,8 +17748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA COMPLETRA SOSTENIMIENTO AL TOPE, AJUSTAR LAS TUERCAS EN AVANZADA."
     ,"comentario":"PENDIENTE SOSTENIMIENTOAL TOPE, FALTA AJUSTAR TUERCAS DE LOS PERNOS DEL TOPE A 15 m. atrás."
-    ,"createdAt":"04/12/2015"
-    ,"updatedAt":"04/12/2015"
+    ,"createdAt":"2015-12-04"
+    ,"updatedAt":"2015-12-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17768,8 +17768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"proceos de sosteniemiento."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04/12/15 00:00"
+ {
+     "fecha":"2015-12-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 S"
     ,"rocaRocaid":6
@@ -17788,8 +17788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR VOLADURA CONTROLADA, TALADOS DE ALIVIOCORONA Y HASTIALES, SOSTENIEMINTO AL TOPE  MAS MALLA DE SACRIFICIO."
     ,"comentario":"PROCESO DE SOSTENIMIENTO Y DISPARO CON VOLADURA CONTROLADA."
-    ,"createdAt":"04/12/2015"
-    ,"updatedAt":"04/12/2015"
+    ,"createdAt":"2015-12-04"
+    ,"updatedAt":"2015-12-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17808,8 +17808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE PERFORACION CON LOS TALADROS DE ALIVIO EN LOS HASTILAES."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"04/12/15 00:00"
+ {
+     "fecha":"2015-12-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 910 S"
     ,"rocaRocaid":6
@@ -17828,8 +17828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SOSTENIMIENTO CON SHOT CRETE AL TOPE Y REFORZAR COPN PERNO Y MALLA INMEDIATAMENTE DESPUES DE SHOT CRETE."
     ,"comentario":"PRESENCIA DE UN DIQUE, INTRUSIVO, PERPENDICULAR AL EJE DE LA ALBOR."
-    ,"createdAt":"04/12/2015"
-    ,"updatedAt":"04/12/2015"
+    ,"createdAt":"2015-12-04"
+    ,"updatedAt":"2015-12-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -17848,8 +17848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"HASTA SOSTENER CON SHOT CRETE"
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"04/12/15 00:00"
+ {
+     "fecha":"2015-12-04"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 816 N"
     ,"rocaRocaid":12
@@ -17868,8 +17868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SOSTENIMIENTO CON SHOT CRETE AL TOPE Y REFORZAR COPN PERNO Y MALLA INMEDIATAMENTE DESPUES DE SHOT CRETE."
     ,"comentario":"CORTE MALLAS EN LOS HASTIALES, COMPLETAR LA MALLA DE SACRIFICIO."
-    ,"createdAt":"04/12/2015"
-    ,"updatedAt":"04/12/2015"
+    ,"createdAt":"2015-12-04"
+    ,"updatedAt":"2015-12-04"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17888,8 +17888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05/12/15 00:00"
+ {
+     "fecha":"2015-12-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -17908,8 +17908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REOCMIENDA REALIZAR EL ARRANQUE CON PATADA AL PISO MAS VOLADURA CONTROLADA EN TODO EL CONTORNO."
     ,"comentario":"PRESENCIA DE MALLAS ROTAS, PENDIENTE SOSTENIMIENTO AL TOPE."
-    ,"createdAt":"05/12/2015"
-    ,"updatedAt":"05/12/2015"
+    ,"createdAt":"2015-12-05"
+    ,"updatedAt":"2015-12-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17928,8 +17928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE LIMPIEZA Y SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05/12/15 00:00"
+ {
+     "fecha":"2015-12-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 816 N"
     ,"rocaRocaid":12
@@ -17948,8 +17948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA, MANTENER LA SECCION SEGUN PLANEAMIENTO."
     ,"comentario":"PRESENCIA DE MALLAS ROTAS, PENDIENTE SOSTENIMIENTO AL TOPE."
-    ,"createdAt":"05/12/2015"
-    ,"updatedAt":"05/12/2015"
+    ,"createdAt":"2015-12-05"
+    ,"updatedAt":"2015-12-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -17968,8 +17968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05/12/15 00:00"
+ {
+     "fecha":"2015-12-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 S"
     ,"rocaRocaid":6
@@ -17988,8 +17988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR  SOSTENIMIENTO DE TODA LAINTERSECCION, REALIZAR VOLADURA CONTROLADA."
     ,"comentario":"PRERSENCIA DE BANCOS SUELTOS SOBRE LA MALLA, PENDIENTE SOSTENIMIENTO DESDE LAINTERSECCION."
-    ,"createdAt":"05/12/2015"
-    ,"updatedAt":"05/12/2015"
+    ,"createdAt":"2015-12-05"
+    ,"updatedAt":"2015-12-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18008,8 +18008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMIENTO Y RESANE."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"05/12/15 00:00"
+ {
+     "fecha":"2015-12-05"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 910 S"
     ,"rocaRocaid":9
@@ -18028,8 +18028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SOSTENIMIENTO CON SHOT CRETE ANTES DE REALIZAR EL DISPARO."
     ,"comentario":"PRESENCIA DE UN DIQUE, QUE CORTA PERPENDICULAR AL EJE DE LA LABOR CON UN ANCHO DE 4.5 m."
-    ,"createdAt":"05/12/2015"
-    ,"updatedAt":"05/12/2015"
+    ,"createdAt":"2015-12-05"
+    ,"updatedAt":"2015-12-05"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -18048,8 +18048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"HASTA SOSTENER CON SHOT CRETE."
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"06/12/15 00:00"
+ {
+     "fecha":"2015-12-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 910 S"
     ,"rocaRocaid":9
@@ -18068,8 +18068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SOSTENIMIENTO CON SHOT CRETE ANTES DE REALIZAR EL DISPARO."
     ,"comentario":"´RESENCIA DE UN DIQUE, QUE CORTA PERPENDICULAR AL EJE DE LA LABOR."
-    ,"createdAt":"06/12/2015"
-    ,"updatedAt":"06/12/2015"
+    ,"createdAt":"2015-12-06"
+    ,"updatedAt":"2015-12-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -18088,8 +18088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE PARALIZA, POR FALTA DE SHOT CRETE, EN EL DIQUE DE 4.5 m DE POTENCIA."
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"06/12/15 00:00"
+ {
+     "fecha":"2015-12-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 734 N"
     ,"rocaRocaid":12
@@ -18108,8 +18108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTROLAR LA SECCION SEGUN PLANEAMIENTO, REALIZAR VOLADURA CONTROLADA Y EL ARCO DE AUTOSOPORTE."
     ,"comentario":"SE OBSERVA QUE FALTA SECCION SEGÚN EL PROGRAMA, PRESENCIA DE GOTERA DE LA CORONA."
-    ,"createdAt":"06/12/2015"
-    ,"updatedAt":"06/12/2015"
+    ,"createdAt":"2015-12-06"
+    ,"updatedAt":"2015-12-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18128,8 +18128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06/12/15 00:00"
+ {
+     "fecha":"2015-12-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 602 E"
     ,"rocaRocaid":12
@@ -18148,8 +18148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA NO REALIZAR NINGUN DISPARO HASTA HABILITAR TODO EL TRAMO, CORTAS SPLIT SET SOBRESALIDOS, MALLAS CARGADOS DE BANCOS SUELTOS."
     ,"comentario":"PRESENCIA DE ROCAS SUELTAS SOBRE LA MALLA, MALLASROTAS."
-    ,"createdAt":"06/12/2015"
-    ,"updatedAt":"06/12/2015"
+    ,"createdAt":"2015-12-06"
+    ,"updatedAt":"2015-12-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18168,8 +18168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"DESCARGUE DE MALLAS CARGADAS DE BANCOS SUELTOS, RESANE DE MALLAS ROTAS."
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"06/12/15 00:00"
+ {
+     "fecha":"2015-12-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 S"
     ,"rocaRocaid":12
@@ -18188,8 +18188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA COMPLETAR SOSTENIMIENTO EN LA INTERSECCION MAS DESATE MECANIZADO DEL HASTIAL IZQUIERDO."
     ,"comentario":"\""
-    ,"createdAt":"06/12/2015"
-    ,"updatedAt":"06/12/2015"
+    ,"createdAt":"2015-12-06"
+    ,"updatedAt":"2015-12-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18208,8 +18208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06/12/15 00:00"
+ {
+     "fecha":"2015-12-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 S"
     ,"rocaRocaid":12
@@ -18228,8 +18228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"TERRENO DE MEDIANA RESISTENCIA, SE REALIZA COMPAÑA DE  DESATE DE ROCAS SUELTAS, SE HA DESCARGADO LAS MALLAS CARGADAS Y SE REALIZA VOLADURA CONTROLADA."
     ,"comentario":"\""
-    ,"createdAt":"06/12/2015"
-    ,"updatedAt":"06/12/2015"
+    ,"createdAt":"2015-12-06"
+    ,"updatedAt":"2015-12-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18248,8 +18248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06/12/15 00:00"
+ {
+     "fecha":"2015-12-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 389 (-)"
     ,"rocaRocaid":2
@@ -18268,8 +18268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS Y MALLAS ROTAS. SE HA DESCARGADO LAS MALLAS CARGADAS, SE REFORZO EL SOSTENIMIENTO Y CONTINUAR EN LA GUARDIA NOCHE. SE ESTA REALIZANDO VOLADURA CONTROLADA."
     ,"comentario":"\""
-    ,"createdAt":"06/12/2015"
-    ,"updatedAt":"06/12/2015"
+    ,"createdAt":"2015-12-06"
+    ,"updatedAt":"2015-12-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18288,8 +18288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06/12/15 00:00"
+ {
+     "fecha":"2015-12-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - 12"
     ,"rocaRocaid":2
@@ -18308,8 +18308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REFORZO SOSTENIMIENTO Y COMPLETO EL SOSTENIMIENTO"
     ,"comentario":"\""
-    ,"createdAt":"06/12/2015"
-    ,"updatedAt":"06/12/2015"
+    ,"createdAt":"2015-12-06"
+    ,"updatedAt":"2015-12-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18328,8 +18328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06/12/15 00:00"
+ {
+     "fecha":"2015-12-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 756"
     ,"rocaRocaid":2
@@ -18348,8 +18348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO Y FALTA BARRETILLAS DE 8. MEJORAR ALTURA DE SOSTENIMIENTO A 1.50 DEL PISO"
     ,"comentario":"\""
-    ,"createdAt":"06/12/2015"
-    ,"updatedAt":"06/12/2015"
+    ,"createdAt":"2015-12-06"
+    ,"updatedAt":"2015-12-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18368,8 +18368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06/12/15 00:00"
+ {
+     "fecha":"2015-12-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 N"
     ,"rocaRocaid":12
@@ -18388,8 +18388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"EXISTE MALLAS CARGADAS DEL TOPE A 7 MTS Y DESATAR EL HASTIAL IZQUIERDO. REALIZAR DESATE DE ROCAS CONSTANTEMENTE"
     ,"comentario":"\""
-    ,"createdAt":"06/12/2015"
-    ,"updatedAt":"06/12/2015"
+    ,"createdAt":"2015-12-06"
+    ,"updatedAt":"2015-12-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18408,8 +18408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"06/12/15 00:00"
+ {
+     "fecha":"2015-12-06"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 350"
     ,"rocaRocaid":2
@@ -18428,8 +18428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR DISTRIBUCION DE ELEMENTOS DE SOSTENIMEINTO A 1.20 X 1.20 Y REALIZAR VOLADURA CONTROLADA"
     ,"comentario":"\""
-    ,"createdAt":"06/12/2015"
-    ,"updatedAt":"06/12/2015"
+    ,"createdAt":"2015-12-06"
+    ,"updatedAt":"2015-12-06"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18448,8 +18448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07/12/15 00:00"
+ {
+     "fecha":"2015-12-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 S"
     ,"rocaRocaid":12
@@ -18468,8 +18468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Descargar malla sobrecargadas de la labor, controlar la perforacion y voladura"
     ,"comentario":"\""
-    ,"createdAt":"07/12/2015"
-    ,"updatedAt":"07/12/2015"
+    ,"createdAt":"2015-12-07"
+    ,"updatedAt":"2015-12-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -18488,8 +18488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"LABOR SIN PERSONAL"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07/12/15 00:00"
+ {
+     "fecha":"2015-12-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 N"
     ,"rocaRocaid":12
@@ -18508,8 +18508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Controlar la seccion. Mejorar la perforacion y voladura"
     ,"comentario":"\""
-    ,"createdAt":"07/12/2015"
-    ,"updatedAt":"07/12/2015"
+    ,"createdAt":"2015-12-07"
+    ,"updatedAt":"2015-12-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18528,8 +18528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07/12/15 00:00"
+ {
+     "fecha":"2015-12-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 403"
     ,"rocaRocaid":2
@@ -18548,8 +18548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Falta reforzar mallas por el descargue de malla que se realizo, continuar con el resane y descargue de malla. Se realiza voladura controlada."
     ,"comentario":"\""
-    ,"createdAt":"07/12/2015"
-    ,"updatedAt":"07/12/2015"
+    ,"createdAt":"2015-12-07"
+    ,"updatedAt":"2015-12-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18568,8 +18568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07/12/15 00:00"
+ {
+     "fecha":"2015-12-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 387"
     ,"rocaRocaid":2
@@ -18588,8 +18588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se observa mallas cargadas. Se ha descargado las mallas cargadas"
     ,"comentario":"\""
-    ,"createdAt":"07/12/2015"
-    ,"updatedAt":"07/12/2015"
+    ,"createdAt":"2015-12-07"
+    ,"updatedAt":"2015-12-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18608,8 +18608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07/12/15 00:00"
+ {
+     "fecha":"2015-12-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 765 S"
     ,"rocaRocaid":12
@@ -18628,8 +18628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA MAS INSTALACION DE MALLA DE SACRIFICIO."
     ,"comentario":"MALLAS SUSPENDIDAS EN EL HASTIAL DERECHO, CORTE DE MALLA MAS REFORZAMIENTO."
-    ,"createdAt":"07/12/2015"
-    ,"updatedAt":"07/12/2015"
+    ,"createdAt":"2015-12-07"
+    ,"updatedAt":"2015-12-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18648,8 +18648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07/12/15 00:00"
+ {
+     "fecha":"2015-12-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 602 "
     ,"rocaRocaid":12
@@ -18668,8 +18668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA COMPLETAR RESANE DE MALLAS ROTAS, COMPLETAR SOSTENIMIENTO AL TOPE."
     ,"comentario":"PRESENCIA DE MALLAS ROTAS, BANCOS SUELTOS SOBRE LA MALLA."
-    ,"createdAt":"07/12/2015"
-    ,"updatedAt":"07/12/2015"
+    ,"createdAt":"2015-12-07"
+    ,"updatedAt":"2015-12-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18688,8 +18688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE SOSTENIMIENTO Y RESANE."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07/12/15 00:00"
+ {
+     "fecha":"2015-12-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 857 N"
     ,"rocaRocaid":12
@@ -18708,8 +18708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CORTAR MALLAS ENBOLSONADAS, REFORZAR CON SPLIT SET."
     ,"comentario":"PRESENCIA DE MALLAS ROTAS,  PENDIENTE SOSTENIMIENTO AL TOPE."
-    ,"createdAt":"07/12/2015"
-    ,"updatedAt":"07/12/2015"
+    ,"createdAt":"2015-12-07"
+    ,"updatedAt":"2015-12-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18728,8 +18728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"07/12/15 00:00"
+ {
+     "fecha":"2015-12-07"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -18748,8 +18748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SOSTENER CON PERNO HELICOIDAL, PERPENDICULAR A LA DIRECCION DE LAS DIACLASAS, RESANE DE MALLAS ROTAS."
     ,"comentario":"PRESENCIA DE BANCOS SUELTOS EN EL HASTIAL IZQUIERDO, MALLAS ROTAS EN EL HASTIAL DERECHO."
-    ,"createdAt":"07/12/2015"
-    ,"updatedAt":"07/12/2015"
+    ,"createdAt":"2015-12-07"
+    ,"updatedAt":"2015-12-07"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18768,8 +18768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE RESANE Y DESATE DE ROCAS SUELTAS."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp 440 E"
     ,"rocaRocaid":12
@@ -18788,8 +18788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Sedebe completar el sostenimiento del ultimo disparo, controlar la seccion para no debilitar el macizo rocoso, resanar las areas con cinta roja "
     ,"comentario":"\""
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -18808,8 +18808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se coordino con el jefe de guardia para un mejor control de la voladura "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp 440 W"
     ,"rocaRocaid":12
@@ -18828,8 +18828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"aun falta completar el sostenimiento del ultimo disparo realizado hace dos dias, hacia el acceso se tiene rocas sueltas en una malla abierta "
     ,"comentario":"\""
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -18848,8 +18848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se bloquea la labor hasta el levantamiento de las observacione stnato en el acceso como el sostenimiento del tope. "
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"S/N 160 S "
     ,"rocaRocaid":12
@@ -18868,8 +18868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"completar el sostenimiento del frente, realizar el desate y refuerzo de las mallas en el acceso "
     ,"comentario":"\""
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -18888,8 +18888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se realizara un mayor control en la seccion de la labor "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp 160 S"
     ,"rocaRocaid":12
@@ -18908,8 +18908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"falta completar el sostenimiento del ultimo disparo "
     ,"comentario":"\""
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18928,8 +18928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se debe controlar la seccion de la labor "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp 175"
     ,"rocaRocaid":12
@@ -18948,8 +18948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"completar el sostenimiento del ultimo disparo, el avance se realizara con control estructural pegados a la falla del hastila izquierdo "
     ,"comentario":"\""
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -18968,8 +18968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se coordino con operaciones mina para llevar la labor segun contacto con la falla "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp 996"
     ,"rocaRocaid":6
@@ -18988,8 +18988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"en la zona donde se realizara la comuniaccion para la ventilacion el macizo esta inestable, HD presencia de bloques abiertos. en la zona de comunicacion se debe completar el sostenimiento antes de iniciar el breasting. "
     ,"comentario":"\""
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -19008,8 +19008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se realizara el lanzado de shotcrete en la comunicacion para la ventilacion "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 S"
     ,"rocaRocaid":12
@@ -19028,8 +19028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Mejorar distribucion de elementos de sostenimiento a 1.20 x 1.20"
     ,"comentario":"\""
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19048,8 +19048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"RESANAR TRAMOS CON MALLAS ROTAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 756"
     ,"rocaRocaid":2
@@ -19068,8 +19068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Falta sostenimiento del ultimo disparo y descargar malla del tope a 5 mts. Mejorar altura de sostenimiento a 1.50 del piso"
     ,"comentario":"\""
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19088,8 +19088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 15"
     ,"rocaRocaid":12
@@ -19108,8 +19108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se observa mallas cargadas en la corona y hastiales. Se descarga las mallas cargadas y se desata los hastiales"
     ,"comentario":"\""
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19128,8 +19128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"SN 289"
     ,"rocaRocaid":2
@@ -19148,8 +19148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se observa una cuña al lado derecho. Se realiza el desate de roca y se percuta la cuña. Se realiza sostenimiento al tope y se realiza voladura controlada."
     ,"comentario":"\""
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19168,8 +19168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854"
     ,"rocaRocaid":12
@@ -19188,8 +19188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se programa descargue de malla para la semana en el nivel, falta completar sostenimiento. Controlar ancho de seccion"
     ,"comentario":"\""
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -19208,8 +19208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NO HAY PERSONAL EN EL FRENTE DE TRABAJO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cx 544 E"
     ,"rocaRocaid":12
@@ -19228,8 +19228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA MANTENER LA SECCION PROGRAMADA, REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA SOSTENER EL ULTIMO DISPARO"
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19248,8 +19248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE DE ROCAS SUELTAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 765 S"
     ,"rocaRocaid":6
@@ -19268,8 +19268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA PARA MANTENER LA SECCION PROGRAMADA, REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA REFORZAR ESAPCIOS ABIERTOS DE MALLA"
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19288,8 +19288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 859 N"
     ,"rocaRocaid":12
@@ -19308,8 +19308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA PARA EVITAR LA SOBRE ROTURA EN EL TECHO Y HASTIALES."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19328,8 +19328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"08/12/15 00:00"
+ {
+     "fecha":"2015-12-08"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cx 456 S"
     ,"rocaRocaid":12
@@ -19348,8 +19348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"ESTRUCTURA MINERALIZADA, INTERSECCION CON LABOR ANTIGUA, SE RECOMIENDA REALIZAR VOLADURA CONTROLADA, REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"08/12/2015"
-    ,"updatedAt":"08/12/2015"
+    ,"createdAt":"2015-12-08"
+    ,"updatedAt":"2015-12-08"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19368,8 +19368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE DE ROCAS SUELTAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09/12/15 00:00"
+ {
+     "fecha":"2015-12-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cx 746 N"
     ,"rocaRocaid":12
@@ -19388,8 +19388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE AGUA POR GOTEO SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA NO REMANGAR MALLA DE SOSTENIMIENTO."
     ,"comentario":"SE OBSERVA PRESENCIA DE ESPACIOS ABIERTOS DE MALLA, ROCAS SUELTAS SOBRECARGADAS EN LA MALLA."
-    ,"createdAt":"09/12/2015"
-    ,"updatedAt":"09/12/2015"
+    ,"createdAt":"2015-12-09"
+    ,"updatedAt":"2015-12-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19408,8 +19408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO LIMPIEZA DE LA LABOR."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09/12/15 00:00"
+ {
+     "fecha":"2015-12-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cx 544 E"
     ,"rocaRocaid":12
@@ -19428,8 +19428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA 2 PAÑOS DE MALLA REMANGADA, SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA NO REMANGAR MALLA DE SOSTENIMIENTO."
     ,"comentario":"SE OBSERVA DOS PAÑOS DE MALLA REMANGADA, FALTA LIMPIEZA DE CUNETA."
-    ,"createdAt":"09/12/2015"
-    ,"updatedAt":"09/12/2015"
+    ,"createdAt":"2015-12-09"
+    ,"updatedAt":"2015-12-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19448,8 +19448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09/12/15 00:00"
+ {
+     "fecha":"2015-12-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cx 857 N"
     ,"rocaRocaid":12
@@ -19468,8 +19468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ESPACIOS ABIERTOS DE MALLA Y ROCAS SUELTAS SOBRECARGADAS EN LA MALLA SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS."
     ,"comentario":"PRESENCIA DE ROCAS SUELTAS SOBRECARGADAS EN LA MALLA, FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"09/12/2015"
-    ,"updatedAt":"09/12/2015"
+    ,"createdAt":"2015-12-09"
+    ,"updatedAt":"2015-12-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19488,8 +19488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09/12/15 00:00"
+ {
+     "fecha":"2015-12-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 W"
     ,"rocaRocaid":12
@@ -19508,8 +19508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ROCAS SUELTAS SOBRECARGADAS EN LA MALLA SE RECOMIENDA DESATE DE ROCAS SUELTAS Y CONTINUAR CON LA VOLADURA CONTROLADA."
     ,"comentario":"SE OBSERVA PRESENCIA DE ROCAS SUELTAS SOBRECARGADAS EN LA MALLA."
-    ,"createdAt":"09/12/2015"
-    ,"updatedAt":"09/12/2015"
+    ,"createdAt":"2015-12-09"
+    ,"updatedAt":"2015-12-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -19528,8 +19528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09/12/15 00:00"
+ {
+     "fecha":"2015-12-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 12"
     ,"rocaRocaid":12
@@ -19548,8 +19548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"DESCARGAR MALLA SOBRECARGADA. A LOS HASTIALES DESDE LA INTERSECCION"
     ,"comentario":"\""
-    ,"createdAt":"09/12/2015"
-    ,"updatedAt":"09/12/2015"
+    ,"createdAt":"2015-12-09"
+    ,"updatedAt":"2015-12-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -19568,8 +19568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09/12/15 00:00"
+ {
+     "fecha":"2015-12-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 350"
     ,"rocaRocaid":2
@@ -19588,8 +19588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS A 7 Y 9 MTS DEL TOPE AL HASTIAL DERECHO Y AL HASTIAL IZQUIERDO MALLAS ROTAS. SE REALIZO DESCARGUE DE MALLA."
     ,"comentario":"\""
-    ,"createdAt":"09/12/2015"
-    ,"updatedAt":"09/12/2015"
+    ,"createdAt":"2015-12-09"
+    ,"updatedAt":"2015-12-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19608,8 +19608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE Y COLOCAR BARRETILLAS EN BUEN ESTADO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09/12/15 00:00"
+ {
+     "fecha":"2015-12-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 - PISO 15"
     ,"rocaRocaid":2
@@ -19628,8 +19628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS CARGADAS. SE REALIZO EL DESCARGUE. QUEDANDO PENDIENTE EL RESANE."
     ,"comentario":"\""
-    ,"createdAt":"09/12/2015"
-    ,"updatedAt":"09/12/2015"
+    ,"createdAt":"2015-12-09"
+    ,"updatedAt":"2015-12-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19648,8 +19648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"09/12/15 00:00"
+ {
+     "fecha":"2015-12-09"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854"
     ,"rocaRocaid":12
@@ -19668,8 +19668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR CAMPAÑA DE DESATE Y DESCARGUE DE MALLAS SOBRECARGADAS."
     ,"comentario":"\""
-    ,"createdAt":"09/12/2015"
-    ,"updatedAt":"09/12/2015"
+    ,"createdAt":"2015-12-09"
+    ,"updatedAt":"2015-12-09"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19688,8 +19688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"MEJORAR LA ALTURA DE SOSTENIMIENTO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10/12/15 00:00"
+ {
+     "fecha":"2015-12-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 N"
     ,"rocaRocaid":12
@@ -19708,8 +19708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALTA REFORZAR SOSTENIMIENTO, CORTAR MALLA SOBRECARGADA"
     ,"comentario":"\""
-    ,"createdAt":"10/12/2015"
-    ,"updatedAt":"10/12/2015"
+    ,"createdAt":"2015-12-10"
+    ,"updatedAt":"2015-12-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19728,8 +19728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE ESTA REALIZANDO EL DESCARGUE DE MALLA"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10/12/15 00:00"
+ {
+     "fecha":"2015-12-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 782"
     ,"rocaRocaid":2
@@ -19748,8 +19748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"LABOR CON CARGA, EXCESO DE CO 84 PPM, REALIZAR LIMPIEZA Y DESCARGUE DE MALLA"
     ,"comentario":"\""
-    ,"createdAt":"10/12/2015"
-    ,"updatedAt":"10/12/2015"
+    ,"createdAt":"2015-12-10"
+    ,"updatedAt":"2015-12-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -19768,8 +19768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA COLOCAR EL SOSTENIMIENTO AL TOPE"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10/12/15 00:00"
+ {
+     "fecha":"2015-12-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 S"
     ,"rocaRocaid":12
@@ -19788,8 +19788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MALLAS SOBRECARGADAS EN LOS 5 A 10 MTS DEL TOPE"
     ,"comentario":"\""
-    ,"createdAt":"10/12/2015"
-    ,"updatedAt":"10/12/2015"
+    ,"createdAt":"2015-12-10"
+    ,"updatedAt":"2015-12-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -19808,8 +19808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOSTENIMIENTO AL TOPE, Y EL USO DE MALLA DE SACRIFICIO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10/12/15 00:00"
+ {
+     "fecha":"2015-12-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 350"
     ,"rocaRocaid":2
@@ -19828,8 +19828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MALLAS ROTAS DELDE 10 MTS DEL TOPE"
     ,"comentario":"\""
-    ,"createdAt":"10/12/2015"
-    ,"updatedAt":"10/12/2015"
+    ,"createdAt":"2015-12-10"
+    ,"updatedAt":"2015-12-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19848,8 +19848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10/12/15 00:00"
+ {
+     "fecha":"2015-12-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cx 544 E"
     ,"rocaRocaid":12
@@ -19868,8 +19868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE MALLAS REMANGADAS PRODUCTO DE LA VOLADURA, SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA NO REMANGAR MALLA DE SOSTENIMIENTO."
     ,"comentario":"FALTA CONCLUIR EL SOSTENIMIENTO DEL ULTIMO DISPARO."
-    ,"createdAt":"10/12/2015"
-    ,"updatedAt":"10/12/2015"
+    ,"createdAt":"2015-12-10"
+    ,"updatedAt":"2015-12-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19888,8 +19888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE AVANZO EL SOSTENIMIENTO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10/12/15 00:00"
+ {
+     "fecha":"2015-12-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 857 N"
     ,"rocaRocaid":12
@@ -19908,8 +19908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ESPACIOS ABIERTOS DE MALLA Y ROCAS SUELTAS SOBRECARGADAS EN LA MALLA SE RECOMIENDA REALIZAR DESATE MINUCIOSO Y REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"10/12/2015"
-    ,"updatedAt":"10/12/2015"
+    ,"createdAt":"2015-12-10"
+    ,"updatedAt":"2015-12-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19928,8 +19928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10/12/15 00:00"
+ {
+     "fecha":"2015-12-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 815 S"
     ,"rocaRocaid":12
@@ -19948,8 +19948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA PARA MANTENER EL RACO DE AUTOSOPORTE."
     ,"comentario":"FALTA REALIZAR DESATE DE ROCAS SUELTAS A LA ENTRADA DE LA LABOR."
-    ,"createdAt":"10/12/2015"
-    ,"updatedAt":"10/12/2015"
+    ,"createdAt":"2015-12-10"
+    ,"updatedAt":"2015-12-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -19968,8 +19968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"10/12/15 00:00"
+ {
+     "fecha":"2015-12-10"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 624 W"
     ,"rocaRocaid":12
@@ -19988,8 +19988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA PRESENCIA DE ROCAS SOBRECARGADAS EN LA MALLA, SE RECOMIENDA REALIZAR DESTAE DE ROCAS SUELTAS."
     ,"comentario":"FALTA DESATE DE ROCAS SUELTAS."
-    ,"createdAt":"10/12/2015"
-    ,"updatedAt":"10/12/2015"
+    ,"createdAt":"2015-12-10"
+    ,"updatedAt":"2015-12-10"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20008,8 +20008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11/12/15 00:00"
+ {
+     "fecha":"2015-12-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"cro. 671"
     ,"rocaRocaid":12
@@ -20028,8 +20028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":""
     ,"comentario":"REALIZAR SOSTENIMIENTO, PARCHAR MALLAS."
-    ,"createdAt":"11/12/2015"
-    ,"updatedAt":"11/12/2015"
+    ,"createdAt":"2015-12-11"
+    ,"updatedAt":"2015-12-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20048,8 +20048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11/12/15 00:00"
+ {
+     "fecha":"2015-12-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 154 S"
     ,"rocaRocaid":12
@@ -20068,8 +20068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":""
     ,"comentario":"SE ESTA UTILIZANDO MALLAS DE SACRIFICIO."
-    ,"createdAt":"11/12/2015"
-    ,"updatedAt":"11/12/2015"
+    ,"createdAt":"2015-12-11"
+    ,"updatedAt":"2015-12-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20088,8 +20088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"LABOR EN SOSTENIMIENTO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11/12/15 00:00"
+ {
+     "fecha":"2015-12-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa. 782"
     ,"rocaRocaid":2
@@ -20108,8 +20108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE HA REALIZADO EL SOSTENIMIENTO, CONTINUAR CON EL RESANE DE SOSTENIMIENTO"
     ,"comentario":"\""
-    ,"createdAt":"11/12/2015"
-    ,"updatedAt":"11/12/2015"
+    ,"createdAt":"2015-12-11"
+    ,"updatedAt":"2015-12-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20128,8 +20128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11/12/15 00:00"
+ {
+     "fecha":"2015-12-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa: 7854"
     ,"rocaRocaid":2
@@ -20148,8 +20148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE HA REFORZADO EL SOSTENIMIENTO EN 2 TRAMOS A 20 METROS DEL TOPE, FALTA DESCARGUE DE MALLAS CARGADAS Y SE REALIZA VOLADURA CONTROLADA."
     ,"comentario":"\""
-    ,"createdAt":"11/12/2015"
-    ,"updatedAt":"11/12/2015"
+    ,"createdAt":"2015-12-11"
+    ,"updatedAt":"2015-12-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20168,8 +20168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11/12/15 00:00"
+ {
+     "fecha":"2015-12-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro. 350 W"
     ,"rocaRocaid":2
@@ -20188,8 +20188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SEOBSERVA TRAMOS SOBRECARGADOS Y FALTA CORTE DE MALLAS SOBRECARGADAS"
     ,"comentario":"\""
-    ,"createdAt":"11/12/2015"
-    ,"updatedAt":"11/12/2015"
+    ,"createdAt":"2015-12-11"
+    ,"updatedAt":"2015-12-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20208,8 +20208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11/12/15 00:00"
+ {
+     "fecha":"2015-12-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro. 544 E"
     ,"rocaRocaid":12
@@ -20228,8 +20228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS, REFORZAR ESPACIOS ABIERTOS DE MALLA, REALIZAR DESATE DE ROCAS SOBRECARGADAS EN LA MALLA."
     ,"comentario":"SE EVIDENCIA MALLAS REMANGADAS PRODUCTO DE LA VOLADURA."
-    ,"createdAt":"11/12/2015"
-    ,"updatedAt":"11/12/2015"
+    ,"createdAt":"2015-12-11"
+    ,"updatedAt":"2015-12-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20248,8 +20248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE DE ROCAS SUELTAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11/12/15 00:00"
+ {
+     "fecha":"2015-12-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro. 746 N"
     ,"rocaRocaid":12
@@ -20268,8 +20268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE AGUA POR GOTEO, SE EVIDENCIA ESPACIOS ABIERTOS DE LA MALLA, REALIZAR DEASTE DE ROCAS SUELTAS QUE ESTAN SOBRE CARGADAS EN LA MALLA."
     ,"comentario":"SE OBSERVA PRESENCIA DE ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"11/12/2015"
-    ,"updatedAt":"11/12/2015"
+    ,"createdAt":"2015-12-11"
+    ,"updatedAt":"2015-12-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -20288,8 +20288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO"
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"11/12/15 00:00"
+ {
+     "fecha":"2015-12-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 815 S"
     ,"rocaRocaid":12
@@ -20308,8 +20308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA MANTENER LA SECCION PROGRAMADA  PARA EVITAR LA SOBREROTURA."
     ,"comentario":"FALTA SOSTENER EL ULTIMO DISPARO."
-    ,"createdAt":"11/12/2015"
-    ,"updatedAt":"11/12/2015"
+    ,"createdAt":"2015-12-11"
+    ,"updatedAt":"2015-12-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20328,8 +20328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION Y VOLADURA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11/12/15 00:00"
+ {
+     "fecha":"2015-12-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 857 N"
     ,"rocaRocaid":12
@@ -20348,8 +20348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE  RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA NO REMANGAR MALLA DE SOSTENIMINETO , REALIZAR DESATE DE ROCAS SUELTAS."
     ,"comentario":"SE OBSERVA 2 PAÑOS DE MALLA REMANGADA, FALTA DESATE DE ROCAS SOBRECARGADAS EN LA MALLA."
-    ,"createdAt":"11/12/2015"
-    ,"updatedAt":"11/12/2015"
+    ,"createdAt":"2015-12-11"
+    ,"updatedAt":"2015-12-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20368,8 +20368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11/12/15 00:00"
+ {
+     "fecha":"2015-12-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 809"
     ,"rocaRocaid":12
@@ -20388,8 +20388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca fractura pobre, con formaciones cuñas en corona y frente, tramos de roca relajada a la largo de la intersección, malla dañada por voladura, en la intersección se tiene bloque abierto al hastial derecho."
     ,"comentario":"Se tiene que mejorar con el sostenimiento ya que la altura de los últimos elementos está por encima del estándar de 1.5\", se tiene áreas donde falta sostener en los hastiales."
-    ,"createdAt":"11/12/2015"
-    ,"updatedAt":"11/12/2015"
+    ,"createdAt":"2015-12-11"
+    ,"updatedAt":"2015-12-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20408,8 +20408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"control de perforacion y voladura"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11/12/15 00:00"
+ {
+     "fecha":"2015-12-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 996 S/N"
     ,"rocaRocaid":12
@@ -20428,8 +20428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca perturbada y suelta tanto en la corona como en el frente del  ultimo disparo, en la intersección del sellado del ultimo panel se tiene mallas cargadas y bloques abierto, se tiene tramos para rehabilitara desde la intersección con la Rpa.7731 "
     ,"comentario":"Se tiene que mejoran con el estándar de sostenimiento, falta reforzar los tramos de malla dañadas por voladura de las intersecciones, se tiene que controlar y mantener los pilares. Uso obligado de malla de sacrificio"
-    ,"createdAt":"11/12/2015"
-    ,"updatedAt":"11/12/2015"
+    ,"createdAt":"2015-12-11"
+    ,"updatedAt":"2015-12-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20448,8 +20448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"uso de malla de sacrificio"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11/12/15 00:00"
+ {
+     "fecha":"2015-12-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 896"
     ,"rocaRocaid":12
@@ -20468,8 +20468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca relajada en corona y frente producto de los disparos, se tiene tramos de goteo a lo largo del stp.  en la interseccion se tiene malla sobrecargada "
     ,"comentario":"uso de malla de sacrificio"
-    ,"createdAt":"11/12/2015"
-    ,"updatedAt":"11/12/2015"
+    ,"createdAt":"2015-12-11"
+    ,"updatedAt":"2015-12-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20488,8 +20488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11/12/15 00:00"
+ {
+     "fecha":"2015-12-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 440 W"
     ,"rocaRocaid":12
@@ -20508,8 +20508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Fracturas sub horizontal, con el siguiente disparo se ha de tener formación de bloques en corona, se tiene tramos de malla rotas y puntos para rehabilitara en el acceso"
     ,"comentario":"control de perforación y voladura, sostenimiento oportuno"
-    ,"createdAt":"11/12/2015"
-    ,"updatedAt":"11/12/2015"
+    ,"createdAt":"2015-12-11"
+    ,"updatedAt":"2015-12-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20528,8 +20528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"11/12/15 00:00"
+ {
+     "fecha":"2015-12-11"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 995"
     ,"rocaRocaid":12
@@ -20548,8 +20548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca pobre, cuñas abiertas en la intersección de los dos últimos breasting, malla dañada u rota a lo largo del Stp. Goteo constante a de agua en la intersección al tope, se nota perturbación por parte de las voladuras cercanas se recomendó solo seguir un breasting a la vez . corregir la malla dañada a lo largo del stp_x000D_\n"
     ,"comentario":"Control de perforación y voladura, uso de malla de sacrificio, corregir el sostenimiento dañado, disparar un breasthing a la vez"
-    ,"createdAt":"11/12/2015"
-    ,"updatedAt":"11/12/2015"
+    ,"createdAt":"2015-12-11"
+    ,"updatedAt":"2015-12-11"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20568,8 +20568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"corregir el sostenimiento dañado"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 643 E"
     ,"rocaRocaid":12
@@ -20588,8 +20588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA QUE FALTA DESQUINCHE DEL HASTIAL IZQUIERDO , SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA NO TENER ESTOS INCONVENIENTES."
     ,"comentario":"SE OBSERVA QUE LA ANCHO DEL LABOR FALTA."
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20608,8 +20608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 815 S (+)"
     ,"rocaRocaid":12
@@ -20628,8 +20628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA NO REMANGAR MALLA DE SOSTENIMIENTO."
     ,"comentario":"SE OBSERVA MALLA REMANGADA EN EL HASTIAL IZQUIERDO."
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20648,8 +20648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -20668,8 +20668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA, REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA REALIZAR CUNETA."
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20688,8 +20688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 857 N"
     ,"rocaRocaid":12
@@ -20708,8 +20708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA NO REMANGAR MALLA DE SOSTENIMIENTO, REALIZAR DESATE DE ROCAS SUELTAS."
     ,"comentario":"SE OBSERVA PRESENCIA DE ROCAS SOBRECARGADAS EN LA MALLA"
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -20728,8 +20728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 756"
     ,"rocaRocaid":2
@@ -20748,8 +20748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":""
     ,"comentario":"ACTUALIZAR PLANOS TOPOGARFICOS Y GEOMECANICOS."
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20768,8 +20768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 782 (+)"
     ,"rocaRocaid":12
@@ -20788,8 +20788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":""
     ,"comentario":"SE REALIZO DESCARGA DE MALLA, REFORZAR SOSTENIMIENTO."
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20808,8 +20808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE DE ROCAS SUELTAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp 154 N"
     ,"rocaRocaid":12
@@ -20828,8 +20828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"CONTROLAR VOLADURA"
     ,"comentario":"REFORZAR SOSTENIMIENTO , DESCARGAR MALLAS SOBRECARGADAS EN LA INTERSECCION, CONTROLAR SECCION"
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20848,8 +20848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE DE ROCAS SUELTAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp 896"
     ,"rocaRocaid":12
@@ -20868,8 +20868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca muy fracturada pobre , tramos de goteo de agua, malla dañada producto de la voladura, falta descargar y completar el sostenimiento de la intersección."
     ,"comentario":"Mantener el control de voladura, uso de malla de sacrificio, "
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20888,8 +20888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 369-Piso 12"
     ,"rocaRocaid":12
@@ -20908,8 +20908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REFORZAR EL SOSTENIMIENTO EN LAS ZONAS QUE EVIDENCIA MALLAS ROTAS"
     ,"comentario":"\""
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20928,8 +20928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro. 350"
     ,"rocaRocaid":2
@@ -20948,8 +20948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"DESCARGAR MALLAS CON BANCOS SUSPENDIDOS"
     ,"comentario":"\""
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -20968,8 +20968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 441"
     ,"rocaRocaid":12
@@ -20988,8 +20988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Formación de cuñas en corona, roca relajada por la voladura,  tramos de malla dañada y con fragmentos de roca."
     ,"comentario":"sostenimineto al tope, contrl de perforacion y voladura, uso demalla de sacrifico"
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21008,8 +21008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 440 - Com"
     ,"rocaRocaid":12
@@ -21028,8 +21028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Tramos sin sostener se tiene desprendimiento en la corona del último sellado del lado izquierdo, falta completar relleno antes de apertura el ultimo breasting."
     ,"comentario":"Se tiene que completar todo el sostenimiento y relleno martes de disparar"
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21048,8 +21048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"completar el sostenimineto antes de rellenar"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 440  W"
     ,"rocaRocaid":12
@@ -21068,8 +21068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se tiene área disparada hace  guardias, falta completar sostenimiento previa eliminación de bloques, en la comunicación se tiene 9mk de abertura en la intersección"
     ,"comentario":"Sostener la comunicación como prioridad."
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21088,8 +21088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"sostener los frentes "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 160 S"
     ,"rocaRocaid":12
@@ -21108,8 +21108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Rocas sueltas en corona y hastiales producto de la voladura, tramos de malla dañadas, se tiene malla sobrecargada entre el lado derecho y la corona"
     ,"comentario":"control de la perforacion, dscargar las mallas y reforzar los puntos observados."
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21128,8 +21128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"uso de malla de sacrificio"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"12/12/15 00:00"
+ {
+     "fecha":"2015-12-12"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 928"
     ,"rocaRocaid":12
@@ -21148,8 +21148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Fracturas sub horizontales con formación de bloques en corona,  labor disparada hace una semana, te tiene tramos de malla rotas donde se presentan desprendimiento"
     ,"comentario":"programar la campaña de desate y rehabilitación antes de retomar el frente."
-    ,"createdAt":"12/12/2015"
-    ,"updatedAt":"12/12/2015"
+    ,"createdAt":"2015-12-12"
+    ,"updatedAt":"2015-12-12"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21168,8 +21168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"rehabilitara el ingreso antes de retomar el frente"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13/12/15 00:00"
+ {
+     "fecha":"2015-12-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"CX 671"
     ,"rocaRocaid":2
@@ -21188,8 +21188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Reforzar el sostenimiento en las zonas que se descargó bancos."
     ,"comentario":"\""
-    ,"createdAt":"13/12/2015"
-    ,"updatedAt":"13/12/2015"
+    ,"createdAt":"2015-12-13"
+    ,"updatedAt":"2015-12-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21208,8 +21208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13/12/15 00:00"
+ {
+     "fecha":"2015-12-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"CX 350"
     ,"rocaRocaid":12
@@ -21228,8 +21228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Descargar bancos suspendidos en la malla."
     ,"comentario":"\""
-    ,"createdAt":"13/12/2015"
-    ,"updatedAt":"13/12/2015"
+    ,"createdAt":"2015-12-13"
+    ,"updatedAt":"2015-12-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21248,8 +21248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13/12/15 00:00"
+ {
+     "fecha":"2015-12-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 154 S"
     ,"rocaRocaid":2
@@ -21268,8 +21268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Descargar bancos suspendidos en la malla y reforzar en los tramos que amerita."
     ,"comentario":"\""
-    ,"createdAt":"13/12/2015"
-    ,"updatedAt":"13/12/2015"
+    ,"createdAt":"2015-12-13"
+    ,"updatedAt":"2015-12-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21288,8 +21288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13/12/15 00:00"
+ {
+     "fecha":"2015-12-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 815 S"
     ,"rocaRocaid":12
@@ -21308,8 +21308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR RESANE DE MALLAS ROTAS, DESATE MINUCIOSO DE BANCOS SUELTOS SOBRE LA MALLA, CONTINUAR CON VOLADURA CONTROLADA."
     ,"comentario":"SE OBSERVA MALLAS ROTAS, DEL TOPE A 6 m EN EL HASTIAL IZQUIERDO."
-    ,"createdAt":"13/12/2015"
-    ,"updatedAt":"13/12/2015"
+    ,"createdAt":"2015-12-13"
+    ,"updatedAt":"2015-12-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21328,8 +21328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13/12/15 00:00"
+ {
+     "fecha":"2015-12-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -21348,8 +21348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MALLAS ROTAS EN LOS HASTIALES DE AMBOS LADOS, SE RECOMIENDA RESANE DE INMEDIATO."
     ,"comentario":"MALLAS ROTAS EN LOS HASTIALES."
-    ,"createdAt":"13/12/2015"
-    ,"updatedAt":"13/12/2015"
+    ,"createdAt":"2015-12-13"
+    ,"updatedAt":"2015-12-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21368,8 +21368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESOD E SOTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13/12/15 00:00"
+ {
+     "fecha":"2015-12-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"857 N"
     ,"rocaRocaid":12
@@ -21388,8 +21388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE  RECOMIENDA REALIZAR DESTE DE BANCOS SUELTOS Y RESANE DE MALLAS ROTAS."
     ,"comentario":"PENDIENTE COMPLETAR DESATE DE ROCAS SUELTAS MAS RESANE DE MALLAS ROTAS."
-    ,"createdAt":"13/12/2015"
-    ,"updatedAt":"13/12/2015"
+    ,"createdAt":"2015-12-13"
+    ,"updatedAt":"2015-12-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -21408,8 +21408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE LIMPIEZA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13/12/15 00:00"
+ {
+     "fecha":"2015-12-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 642 E"
     ,"rocaRocaid":12
@@ -21428,8 +21428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA, CONTROLDE SECCION."
     ,"comentario":"DESTE MINUCIOSO DE ROCAS SUELTAS."
-    ,"createdAt":"13/12/2015"
-    ,"updatedAt":"13/12/2015"
+    ,"createdAt":"2015-12-13"
+    ,"updatedAt":"2015-12-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21448,8 +21448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13/12/15 00:00"
+ {
+     "fecha":"2015-12-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp 995"
     ,"rocaRocaid":12
@@ -21468,8 +21468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Goteo en la intersección de los breasting del tope, carga suspendida en malla con riesgo a desprendimiento en corona de este punto, se tiene tramos de mallas dañadas y sobrecargadas por voladura desde el acceso, _x000D_\n"
     ,"comentario":"Se tiene que dar prioridad a la rehabilitación de los tramos identificados con cita roja para su rehabilitación\n"
-    ,"createdAt":"13/12/2015"
-    ,"updatedAt":"13/12/2015"
+    ,"createdAt":"2015-12-13"
+    ,"updatedAt":"2015-12-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21488,8 +21488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"sostenimineto al tope , uso de malla de sacrificio"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13/12/15 00:00"
+ {
+     "fecha":"2015-12-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp 996"
     ,"rocaRocaid":12
@@ -21508,8 +21508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Roca perturbada por voladura, formación de bloques en corona y hastiales, tramos de malla colgada y dañada por voladura"
     ,"comentario":"Corregir la malla dañada por la voladura, eliminara los tramos de malla sobrecargada desde el acceso, control de perforación y voladura."
-    ,"createdAt":"13/12/2015"
-    ,"updatedAt":"13/12/2015"
+    ,"createdAt":"2015-12-13"
+    ,"updatedAt":"2015-12-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21528,8 +21528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"corregir las mallas dañadas o sobrecargadas de todo el Stp."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13/12/15 00:00"
+ {
+     "fecha":"2015-12-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 440 E"
     ,"rocaRocaid":12
@@ -21548,8 +21548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Por el buzamiento, condicion estructural y la cara libre del corte anterior se tiene el lado izquierdo con corona formación de bloques con alta probabilidad de desprendimiento, bloques sueltos en corona producto condición estructural y la voladura"
     ,"comentario":"Después de la limpieza se debe de eliminar toda la zona inestable del lado izquierdo y corona antes de sostener."
-    ,"createdAt":"13/12/2015"
-    ,"updatedAt":"13/12/2015"
+    ,"createdAt":"2015-12-13"
+    ,"updatedAt":"2015-12-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21568,8 +21568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"coordinación e identificaron de los riesgos por desprendimiento al momento de sostener"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"13/12/15 00:00"
+ {
+     "fecha":"2015-12-13"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 160 S"
     ,"rocaRocaid":12
@@ -21588,8 +21588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"La estructura se está inclinando más ala derecha y la cara libre está dejándose a la izquierda, formación de voladizo con formación de bloques, alteración en contacto de la estructura, rocas relajadas en toda la sección del frente disparado_x000D_\n"
     ,"comentario":"Eliminara as rocas sueltas y bloques que se lleguen a formar a lo largo del voladizo, control de la perforacion y voladura uso de malla de sacrificio"
-    ,"createdAt":"13/12/2015"
-    ,"updatedAt":"13/12/2015"
+    ,"createdAt":"2015-12-13"
+    ,"updatedAt":"2015-12-13"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21608,8 +21608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"redesate constante de lado izquierdo del stp. durante el sostenimiento"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16/12/15 00:00"
+ {
+     "fecha":"2015-12-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"SN 154 N"
     ,"rocaRocaid":12
@@ -21628,8 +21628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR VOLADURA CONTROLADA USO DE LAS CAÑAS EN LA CORONA_x000D_\n"
     ,"comentario":"FALTA SOSTENIMIENTO DEL ULTIMO  DISPARO"
-    ,"createdAt":"16/12/2015"
-    ,"updatedAt":"16/12/2015"
+    ,"createdAt":"2015-12-16"
+    ,"updatedAt":"2015-12-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21648,8 +21648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOST. DEL ULTIMO DISPARO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16/12/15 00:00"
+ {
+     "fecha":"2015-12-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 403"
     ,"rocaRocaid":12
@@ -21668,8 +21668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"COLOCAR MALLA DE SACRIFICIO EN EL FRENTE A DISPARAR_x000D_\n"
     ,"comentario":"IMPLEMENTAR BARRETILAS DE 6 Y 8 Y DESCARGAR MALLAS DEL TOPE A 5 MTS"
-    ,"createdAt":"16/12/2015"
-    ,"updatedAt":"16/12/2015"
+    ,"createdAt":"2015-12-16"
+    ,"updatedAt":"2015-12-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21688,8 +21688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16/12/15 00:00"
+ {
+     "fecha":"2015-12-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"CX 761"
     ,"rocaRocaid":2
@@ -21708,8 +21708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR DISTRIBUCION DE  ELEMENTOS DE SOSTENIMIENTO A 1.2 X 1.2 Y REALIZAR VOLADURA CONTROLADA_x000D_\n"
     ,"comentario":"BARRETILLAS DE 6 Y 8 CON LAS PUNTAS DESGASTADAS Y MALLAS CARGADAS DEL TOPE A 7 MTS"
-    ,"createdAt":"16/12/2015"
-    ,"updatedAt":"16/12/2015"
+    ,"createdAt":"2015-12-16"
+    ,"updatedAt":"2015-12-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21728,8 +21728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"16/12/15 00:00"
+ {
+     "fecha":"2015-12-16"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369 (12)"
     ,"rocaRocaid":12
@@ -21748,8 +21748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR VOLADURA CONTROLADA Y USAR CAÑAS EN LA CORONA Y MEJORAR ALTURA DE SOSTENIMIENTO MAXIMO A 1.5 _x000D_\n"
     ,"comentario":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO Y EXISTE MALLAS CARGADAS EN LOS HASTIALES "
-    ,"createdAt":"16/12/2015"
-    ,"updatedAt":"16/12/2015"
+    ,"createdAt":"2015-12-16"
+    ,"updatedAt":"2015-12-16"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21768,8 +21768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOST DEL ULTIMO DISPARO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17/12/15 00:00"
+ {
+     "fecha":"2015-12-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa (-) 815 S"
     ,"rocaRocaid":12
@@ -21788,8 +21788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA SOBRE ROTURA DEL ANCHO DE LA LABOR SE RECOMIENDA REDUCIR LA SECCION, REALIZAR VOLADURA CONTROLADA PARA MANTENER LA SECION PROGRAMADA._x000D_\n"
     ,"comentario":"FALTA REDUCIR LA SECCION "
-    ,"createdAt":"17/12/2015"
-    ,"updatedAt":"17/12/2015"
+    ,"createdAt":"2015-12-17"
+    ,"updatedAt":"2015-12-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21808,8 +21808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17/12/15 00:00"
+ {
+     "fecha":"2015-12-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -21828,8 +21828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA PRESENCIA DE ESPACIOS ABIERTOS DE MALLA SE RECOMIENDA REALIZAR ESPACIOS ABIERTOS DE MALLA Y REALIZAR VOLADURA CONTROLADA._x000D_\n"
     ,"comentario":"PRESENCIA DE ESPACIOS ABIERTOS."
-    ,"createdAt":"17/12/2015"
-    ,"updatedAt":"17/12/2015"
+    ,"createdAt":"2015-12-17"
+    ,"updatedAt":"2015-12-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21848,8 +21848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17/12/15 00:00"
+ {
+     "fecha":"2015-12-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 765 N"
     ,"rocaRocaid":7
@@ -21868,8 +21868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ROCAS SUELTAS SOBRECARGADAS EN LA MALLA SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS Y REDUCIR LA SECCION PARA MANTENER LA SECION PROGRAMADA._x000D_\n"
     ,"comentario":"FALTA REALIZAR DESATE DE ROCAS SUELTAS."
-    ,"createdAt":"17/12/2015"
-    ,"updatedAt":"17/12/2015"
+    ,"createdAt":"2015-12-17"
+    ,"updatedAt":"2015-12-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -21888,8 +21888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17/12/15 00:00"
+ {
+     "fecha":"2015-12-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa (+)815 S"
     ,"rocaRocaid":12
@@ -21908,8 +21908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MALLA SUSPENDIDAS EN LA RADIO CURVATURA, CORTAR MALLAS SUSPENDIADAS,CONTINUAR REFORZANDO ESPACIOS ABIERTOS DE MALLA._x000D_\n"
     ,"comentario":"FALTA CONTAR MALLA SUSPENDIDAS."
-    ,"createdAt":"17/12/2015"
-    ,"updatedAt":"17/12/2015"
+    ,"createdAt":"2015-12-17"
+    ,"updatedAt":"2015-12-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21928,8 +21928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17/12/15 00:00"
+ {
+     "fecha":"2015-12-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"SN 154"
     ,"rocaRocaid":12
@@ -21948,8 +21948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR VOLADURA CONTROLADA Y COLOCAR MALLA DE SACRIFICIO EN EL FRENTE A DISPARAR_x000D_\n"
     ,"comentario":"FALA IMPLEMENTAR LA BARRETILLA DE 6 Y DESCARGAR MALLAS CARGADAS QUE SE OBSERVO DEL TOPE A 5 MTS"
-    ,"createdAt":"17/12/2015"
-    ,"updatedAt":"17/12/2015"
+    ,"createdAt":"2015-12-17"
+    ,"updatedAt":"2015-12-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -21968,8 +21968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17/12/15 00:00"
+ {
+     "fecha":"2015-12-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854"
     ,"rocaRocaid":2
@@ -21988,8 +21988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR LA DISTRIBUCION DE ELEMENTOS DE SOTENIMIENTO A 1.2 X1.2_x000D_\n"
     ,"comentario":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO"
-    ,"createdAt":"17/12/2015"
-    ,"updatedAt":"17/12/2015"
+    ,"createdAt":"2015-12-17"
+    ,"updatedAt":"2015-12-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22008,8 +22008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOST DEL ULTIMO DISPARO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17/12/15 00:00"
+ {
+     "fecha":"2015-12-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"CX 761"
     ,"rocaRocaid":12
@@ -22028,8 +22028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR ALTURA DE SOSTENIMIENTO 1.5 DEL PISO_x000D_\n"
     ,"comentario":"REALIZAR DESCARGUE DE MALLA Y FALTA SOST DEL ULTIMO DISPARO"
-    ,"createdAt":"17/12/2015"
-    ,"updatedAt":"17/12/2015"
+    ,"createdAt":"2015-12-17"
+    ,"updatedAt":"2015-12-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22048,8 +22048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOST DEL ULTIMO DISPARO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"17/12/15 00:00"
+ {
+     "fecha":"2015-12-17"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 403"
     ,"rocaRocaid":12
@@ -22068,8 +22068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR LA DISTRIBUCION DE ELEMENTOS DE SOTENIMIENTO _x000D_\n"
     ,"comentario":"REALIZAR DESCARGUE DE MALLAS DEL TOPE A 1\" MTS EN EL TECHO"
-    ,"createdAt":"17/12/2015"
-    ,"updatedAt":"17/12/2015"
+    ,"createdAt":"2015-12-17"
+    ,"updatedAt":"2015-12-17"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22088,8 +22088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18/12/15 00:00"
+ {
+     "fecha":"2015-12-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa(-)815 S"
     ,"rocaRocaid":12
@@ -22108,8 +22108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA NO REALIZAR REBAJE DE PISO._x000D_\n"
     ,"comentario":"FALTA CANTONEO DE LA VIA"
-    ,"createdAt":"18/12/2015"
-    ,"updatedAt":"18/12/2015"
+    ,"createdAt":"2015-12-18"
+    ,"updatedAt":"2015-12-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22128,8 +22128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18/12/15 00:00"
+ {
+     "fecha":"2015-12-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa(+) 815 S"
     ,"rocaRocaid":12
@@ -22148,8 +22148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALTA SOSTENER EL ULTIMO DISPARO SE RECOMIENDA REALIZAR VOLADURA, REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA, REALIZAR DESATE DE ROCAS SUELTAS."
     ,"comentario":"FALTA DESATE DE ROCAS SUELTAS."
-    ,"createdAt":"18/12/2015"
-    ,"updatedAt":"18/12/2015"
+    ,"createdAt":"2015-12-18"
+    ,"updatedAt":"2015-12-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -22168,8 +22168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18/12/15 00:00"
+ {
+     "fecha":"2015-12-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 765 N"
     ,"rocaRocaid":7
@@ -22188,8 +22188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ROCAS SOBRECARGADAS EN LA MALLA SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS, REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA DESATE DE ROCAS SUELTAS."
-    ,"createdAt":"18/12/2015"
-    ,"updatedAt":"18/12/2015"
+    ,"createdAt":"2015-12-18"
+    ,"updatedAt":"2015-12-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22208,8 +22208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE DE ROCAS SUELTAS."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18/12/15 00:00"
+ {
+     "fecha":"2015-12-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -22228,8 +22228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR REFUERZO DE ESPACIOS ABIERTOS DE MALLA, SOSTENER EL ULTIMO DISPARO, REALIZAR VOLADURA CONTROLADA."
     ,"comentario":"FALTA REFORZAR SOSTENIMEINTO DE ESPACIOS ABIERTOS."
-    ,"createdAt":"18/12/2015"
-    ,"updatedAt":"18/12/2015"
+    ,"createdAt":"2015-12-18"
+    ,"updatedAt":"2015-12-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22248,8 +22248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18/12/15 00:00"
+ {
+     "fecha":"2015-12-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 404"
     ,"rocaRocaid":12
@@ -22268,8 +22268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR REFUERZO DE ESPACIOS ABIERTOS DE MALLA, MEJORAR DISTRIBUCION DE ELEMENTOS DE SOSTENIMIENTO."
     ,"comentario":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO Y REALIZAR DESCARGUE DE MALLAS"
-    ,"createdAt":"18/12/2015"
-    ,"updatedAt":"18/12/2015"
+    ,"createdAt":"2015-12-18"
+    ,"updatedAt":"2015-12-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22288,8 +22288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18/12/15 00:00"
+ {
+     "fecha":"2015-12-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"SN 154 S"
     ,"rocaRocaid":12
@@ -22308,8 +22308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR VOLADURA CONTROLADA Y USAR CALAS EN LA CORONA Y COLOCAR MALLA DE SACRIFICIO EN EL FRENTE A DISPARAR"
     ,"comentario":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO "
-    ,"createdAt":"18/12/2015"
-    ,"updatedAt":"18/12/2015"
+    ,"createdAt":"2015-12-18"
+    ,"updatedAt":"2015-12-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22328,8 +22328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOST DEL ULTIMO DISPARO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18/12/15 00:00"
+ {
+     "fecha":"2015-12-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"SN 154 N"
     ,"rocaRocaid":12
@@ -22348,8 +22348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR VOLADURA CONTROLADA Y USAR CALAS EN LA CORONA Y COLOCAR MALLA DE SACRIFICIO EN EL FRENTE A DISPARAR"
     ,"comentario":"FALTA REFORZAR SOST DEL TOPE A 9 MTS EN EL HASTIAL DERECHO"
-    ,"createdAt":"18/12/2015"
-    ,"updatedAt":"18/12/2015"
+    ,"createdAt":"2015-12-18"
+    ,"updatedAt":"2015-12-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22368,8 +22368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA REZANAR EL HASTIAL IZQUIERDO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"18/12/15 00:00"
+ {
+     "fecha":"2015-12-18"
     ,"guardia":"DIA"
     ,"laborCodigo":"CX 761"
     ,"rocaRocaid":2
@@ -22388,8 +22388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR DISTRIBUCION DE ELEMNTOS DE SOTENIMIENTO REALIZAR VOLADURA CONTROLADA Y USAR CALAS EN LA CORONA Y COLOCAR MALLA DE SACRIFICIO EN EL FRENTE A DISPARAR"
     ,"comentario":"REALIZAR DESCARGUE DE MALLAS Y REFORZAR SOST DEL TOPE A 1\" MTS EN EL HASTIAL DERECHO"
-    ,"createdAt":"18/12/2015"
-    ,"updatedAt":"18/12/2015"
+    ,"createdAt":"2015-12-18"
+    ,"updatedAt":"2015-12-18"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22408,8 +22408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19/12/15 00:00"
+ {
+     "fecha":"2015-12-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 815 S"
     ,"rocaRocaid":12
@@ -22428,8 +22428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA PEGAR MALLAS ENBOLSONADAS EN LOS HASTIALES, REALIZAR VOLADURA CONTROLADA GENERANDO EL ARCO DE AUTOSOPORTE."
     ,"comentario":"MALLAS ROTAS, MALLAS ENBOLSONADAS, PENDIENTE SOSTENIMIENTO DEL ULTIMO DISPARO."
-    ,"createdAt":"19/12/2015"
-    ,"updatedAt":"19/12/2015"
+    ,"createdAt":"2015-12-19"
+    ,"updatedAt":"2015-12-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -22448,8 +22448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE LIMPIEZA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19/12/15 00:00"
+ {
+     "fecha":"2015-12-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -22468,8 +22468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA COMPLETAR RESANE DE MALLAS ROTAS, REALIZAR VOLADURA CONTROLADA CON LOS RESPECTIVOS TALADROS DE ALIVIO EN TODO EL CONTORNO."
     ,"comentario":"MALLA ROTA DEL TOPE A 12 m EN EL HASTIAL IZQUIERDO A UNA ALTURA DE 3 m."
-    ,"createdAt":"19/12/2015"
-    ,"updatedAt":"19/12/2015"
+    ,"createdAt":"2015-12-19"
+    ,"updatedAt":"2015-12-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22488,8 +22488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19/12/15 00:00"
+ {
+     "fecha":"2015-12-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 642 E"
     ,"rocaRocaid":12
@@ -22508,8 +22508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA COMPLETAR RESANE DE MALLAS ROTAS DESDE LA INTERSECCION EN AMBOS HASTIALES."
     ,"comentario":"MALLAS ROTAS EN AMBOS HASTIALES, MALLAS SUSPENDIDAS."
-    ,"createdAt":"19/12/2015"
-    ,"updatedAt":"19/12/2015"
+    ,"createdAt":"2015-12-19"
+    ,"updatedAt":"2015-12-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22528,8 +22528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19/12/15 00:00"
+ {
+     "fecha":"2015-12-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 602 W"
     ,"rocaRocaid":12
@@ -22548,8 +22548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA COMPLETAR CONTROL DE SECCION DE ACUERDO AL PROGRAMA, COMPLETAR SOSTENIMIENTO AL TOPE."
     ,"comentario":"PENDIENTE SOSTENIMIENTO AL TOPE, COMPLETAR SOSTENIMIENTO EN LOS HASTIALES."
-    ,"createdAt":"19/12/2015"
-    ,"updatedAt":"19/12/2015"
+    ,"createdAt":"2015-12-19"
+    ,"updatedAt":"2015-12-19"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22568,8 +22568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE LIMPIEZA Y SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19/12/15 00:00"
+ {
+     "fecha":"2015-12-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"S/N 154"
     ,"rocaRocaid":12
@@ -22588,8 +22588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR ALTURA DE SOSTENIMIENTO Y DISTRIBUCION DE LELMENTOS DE SOSTENIMIENTO A 1.20"
     ,"comentario":"FALTA SOSTENIMIENTO DEL ULTIMO DISAPRO"
-    ,"createdAt":"20/12/2015"
-    ,"updatedAt":"20/12/2015"
+    ,"createdAt":"2015-12-20"
+    ,"updatedAt":"2015-12-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22608,8 +22608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE LIMPIEZA"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19/12/15 00:00"
+ {
+     "fecha":"2015-12-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 404"
     ,"rocaRocaid":2
@@ -22628,8 +22628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR ALTURA DE SOSTENIMIENTO Y DISTRIBUCION DE LELMENTOS DE SOSTENIMIENTO A 1.20"
     ,"comentario":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO Y REALIZAR DESCARGUE DE MALLA EN EL HASTIAL DERECHO DEL TOPE A 7M."
-    ,"createdAt":"20/12/2015"
-    ,"updatedAt":"20/12/2015"
+    ,"createdAt":"2015-12-20"
+    ,"updatedAt":"2015-12-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22648,8 +22648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19/12/15 00:00"
+ {
+     "fecha":"2015-12-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"CRO 761"
     ,"rocaRocaid":2
@@ -22668,8 +22668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR VOLADURA CONTROLADA Y COLOCAR MALLA DE SACRIFICIO EN EL FRENTE DISPARAR Y USAR CAÑAS EN LA CORONA"
     ,"comentario":"CAMBIAR BARRETILLAS CON LAS PUNTAS DESGASTADAS Y REALAIZAR DESCARGUE DE MALLAS CARGADAS DE BANCOS."
-    ,"createdAt":"20/12/2015"
-    ,"updatedAt":"20/12/2015"
+    ,"createdAt":"2015-12-20"
+    ,"updatedAt":"2015-12-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22688,8 +22688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"19/12/15 00:00"
+ {
+     "fecha":"2015-12-19"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA 7854"
     ,"rocaRocaid":2
@@ -22708,8 +22708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR VOLADURA CONTROLADA Y COLOCAR MALLA DE SACRIFICIO EN EL FRENTE DISPARAR Y USAR CAÑAS EN LA CORONA FALTA SOSTENIMIENTO DEL ULTIMO DISPARO"
     ,"comentario":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO."
-    ,"createdAt":"20/12/2015"
-    ,"updatedAt":"20/12/2015"
+    ,"createdAt":"2015-12-20"
+    ,"updatedAt":"2015-12-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22728,8 +22728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"PROCESO DE DESATE Y LIMPIEZA"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20/12/15 00:00"
+ {
+     "fecha":"2015-12-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 765 N"
     ,"rocaRocaid":7
@@ -22748,8 +22748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA PRESENCIA DE ESPACIOS ABIERTOS DE MALLA, SE EVIDENCIA SOBREROTURA DE LA LABOR, SE RECOMIENDA REDUCIR LA SECCION PARA MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"FALTA CANTONEO DE LA VIA"
-    ,"createdAt":"20/12/2015"
-    ,"updatedAt":"20/12/2015"
+    ,"createdAt":"2015-12-20"
+    ,"updatedAt":"2015-12-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22768,8 +22768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION Y VOLADURA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20/12/15 00:00"
+ {
+     "fecha":"2015-12-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -22788,8 +22788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ESPACIOS ABIERTOS DE MALLA, SE RECOMIENDA REALIZAR DESATE DE ROCAS , REFORZAR ESPACIOS ABIERTOS DE MALLA, CONTINUAR CON LA VOLADURA CONTROLADA."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"20/12/2015"
-    ,"updatedAt":"20/12/2015"
+    ,"createdAt":"2015-12-20"
+    ,"updatedAt":"2015-12-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22808,8 +22808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20/12/15 00:00"
+ {
+     "fecha":"2015-12-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa(+)815 S"
     ,"rocaRocaid":12
@@ -22828,8 +22828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR DE4SATE DE ROCAS SUELTAS, CONTINUAR CON LA VOLADURA CONTROLADA PARA MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"20/12/2015"
-    ,"updatedAt":"20/12/2015"
+    ,"createdAt":"2015-12-20"
+    ,"updatedAt":"2015-12-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22848,8 +22848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20/12/15 00:00"
+ {
+     "fecha":"2015-12-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa(-)815 S"
     ,"rocaRocaid":12
@@ -22868,8 +22868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ESPACIOS ABIERTOS DE MALLA, ROCAS SOBRECARGADAS EN LA MALLA, SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS Y REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA REFORZAR ESAPCIOS ABIERTOS DE MALLA."
-    ,"createdAt":"20/12/2015"
-    ,"updatedAt":"20/12/2015"
+    ,"createdAt":"2015-12-20"
+    ,"updatedAt":"2015-12-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22888,8 +22888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE DE ROCAS."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20/12/15 00:00"
+ {
+     "fecha":"2015-12-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"RPA782"
     ,"rocaRocaid":2
@@ -22908,8 +22908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ESPACIOS ABIERTOS DE MALLA, ROCAS SOBRECARGADAS EN LA MALLA, SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS Y REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA REFORZAR SOST DEL HASTIAL IZQUIERDO"
-    ,"createdAt":"20/12/2015"
-    ,"updatedAt":"20/12/2015"
+    ,"createdAt":"2015-12-20"
+    ,"updatedAt":"2015-12-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22928,8 +22928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20/12/15 00:00"
+ {
+     "fecha":"2015-12-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"SN 154"
     ,"rocaRocaid":12
@@ -22948,8 +22948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR VOLADURA CONTROLADA Y USO DE CAÑAS EN LA CORONA Y COLOCAR  MALLA DE SACRIFICIO EN EL FRENTE A DISPARAR "
     ,"comentario":"FALTA SOST DEL ULTIMO DISPARO"
-    ,"createdAt":"20/12/2015"
-    ,"updatedAt":"20/12/2015"
+    ,"createdAt":"2015-12-20"
+    ,"updatedAt":"2015-12-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -22968,8 +22968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"FALTA SOST DEL ULTIMO DISPARO"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20/12/15 00:00"
+ {
+     "fecha":"2015-12-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"CX 761"
     ,"rocaRocaid":2
@@ -22988,8 +22988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR DISTRIBUCION DE ELEMENTOS DE SOSTENIMIENTO  A 1.2 X 1.2"
     ,"comentario":"FALTA SOST DEL ULTIMO DISPARO Y REALIZAR DESCARGUE DE MALLAS CARGADAS"
-    ,"createdAt":"20/12/2015"
-    ,"updatedAt":"20/12/2015"
+    ,"createdAt":"2015-12-20"
+    ,"updatedAt":"2015-12-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23008,8 +23008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20/12/15 00:00"
+ {
+     "fecha":"2015-12-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 369"
     ,"rocaRocaid":12
@@ -23028,8 +23028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR DISTRIBUCION DE ELEMENTOS DE SOSTENIMIENTO  A 1.2 X 1.2 Y REALIZAR VOLADURA CONTROLADA Y USAR CAÑAS EN LA CORONA Y COLOCARA MALLA DE SACRIFICIO EN EL FRENTE "
     ,"comentario":"FALTADESCARGAR MALLA EN LA LABOR"
-    ,"createdAt":"20/12/2015"
-    ,"updatedAt":"20/12/2015"
+    ,"createdAt":"2015-12-20"
+    ,"updatedAt":"2015-12-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23048,8 +23048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20/12/15 00:00"
+ {
+     "fecha":"2015-12-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 996 S/N"
     ,"rocaRocaid":12
@@ -23068,8 +23068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE TIENE ZONA DE CONTACTO CON INTRUSIVO, ROCA POBRE, ALTERACIÓN ENTRE FRACTURAS, FORMACIÓN DE CUÑAS EN CORONA Y HASTIALES, DESPRENDIMIENTOS EN EVENTUALES DE LA CORONA"
     ,"comentario":"SE TIENEN TRAMOS MARCADOS DESDE LA INTERSECCIÓN CON LA RPA DE ACCESO PARA DESCARGAR4A LA MALLA Y SOSTENER"
-    ,"createdAt":"20/12/2015"
-    ,"updatedAt":"20/12/2015"
+    ,"createdAt":"2015-12-20"
+    ,"updatedAt":"2015-12-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23088,8 +23088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"ACELERAR LOS TRABAJOS DE REHABILITACION"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"20/12/15 00:00"
+ {
+     "fecha":"2015-12-20"
     ,"guardia":"DIA"
     ,"laborCodigo":"CX 809 E"
     ,"rocaRocaid":12
@@ -23108,8 +23108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"_x000D_\nFALLA SUB VERTICARA EN LA INTERSECCION QUE CON LÑA VOLÑADURA DEL POZO A TIERRA SE HA DE LIBERARA CUÑAS Y BLOQUES EN LA INTERSECCION."
     ,"comentario":"DESCARGAR LAS MALLA Y RE SOSTENER"
-    ,"createdAt":"20/12/2015 00:00:00"
-    ,"updatedAt":"20/12/2015 00:00:00"
+    ,"createdAt":"2015-12-20"
+    ,"updatedAt":"2015-12-20"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23128,8 +23128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"RE SOSTENER LAS ZONAS AFECTADAS"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21/12/15 00:00"
+ {
+     "fecha":"2015-12-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"cro  761"
     ,"rocaRocaid":2
@@ -23148,8 +23148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"_x000D_\nREALIZAR VOLADURA CONTROLADA Y COLOCAR MALLA DE SACRIFICIO EN LE FRENTE A DISPARAR"
     ,"comentario":"FALTA SOATENIMIENTO DEL ULTIMO DISPARO Y REALIZAR DESCARGUE DE MALLAS."
-    ,"createdAt":"21/12/2015 00:00:00"
-    ,"updatedAt":"21/12/2015 00:00:00"
+    ,"createdAt":"2015-12-21"
+    ,"updatedAt":"2015-12-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23168,8 +23168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"LABOR EN LIMPIEZA"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21/12/15 00:00"
+ {
+     "fecha":"2015-12-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"cro  727"
     ,"rocaRocaid":2
@@ -23188,8 +23188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"_x000D_\nMEJORAR LA DISTRIBUCION DEL LOS ELEMENTOS DE SOSTENIMIENTO 1.20 X 1.20."
     ,"comentario":"SOLO EXISTE UN JUEGO DE BARRETILLAS"
-    ,"createdAt":"21/12/2015 00:00:00"
-    ,"updatedAt":"21/12/2015 00:00:00"
+    ,"createdAt":"2015-12-21"
+    ,"updatedAt":"2015-12-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23208,8 +23208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21/12/15 00:00"
+ {
+     "fecha":"2015-12-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 369(piso 12)"
     ,"rocaRocaid":12
@@ -23228,8 +23228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"_x000D_\nColocar malla de sacrificio en le frente a disparar."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO EN LE HASTIAL IZQUIERDO A 9 METROS DEL TOPE Y REALIZAR DESCARGUE DE LOS MISMOS."
-    ,"createdAt":"21/12/2015 00:00:00"
-    ,"updatedAt":"21/12/2015 00:00:00"
+    ,"createdAt":"2015-12-21"
+    ,"updatedAt":"2015-12-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23248,8 +23248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21/12/15 00:00"
+ {
+     "fecha":"2015-12-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"S/N 154S"
     ,"rocaRocaid":12
@@ -23268,8 +23268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"_x000D_\n.REALIZAR VOLADURA  CONTROLADA Y UTILIZAR CAÑAS EN LA CORONA."
     ,"comentario":"PRESENCIA DE MALLAS ABIERTAS, CORTAR Y REZANAR LAS MALLAS"
-    ,"createdAt":"21/12/2015 00:00:00"
-    ,"updatedAt":"21/12/2015 00:00:00"
+    ,"createdAt":"2015-12-21"
+    ,"updatedAt":"2015-12-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23288,8 +23288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21/12/15 00:00"
+ {
+     "fecha":"2015-12-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa(-)815 S"
     ,"rocaRocaid":12
@@ -23308,8 +23308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA MALLAS SOBRESALIDAS SE RECOMIENDA REALIZAR CORTE DE MALLAS SOBRESALIDAS, CONTINUAR CON LA VOLADURA CONTROLADA."
     ,"comentario":"FALTA RASPAR LA VIA"
-    ,"createdAt":"21/12/2015 00:00:00"
-    ,"updatedAt":"21/12/2015 00:00:00"
+    ,"createdAt":"2015-12-21"
+    ,"updatedAt":"2015-12-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23328,8 +23328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21/12/15 00:00"
+ {
+     "fecha":"2015-12-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa(+)815 S"
     ,"rocaRocaid":12
@@ -23348,8 +23348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MALLA REMANGADA EN EL HASTIAL IZQUIERDO SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA NO REMANGAR MALLA DE SOSTENIMIENTO."
     ,"comentario":"FALTA CANTONEO DE LA VIA"
-    ,"createdAt":"21/12/2015 00:00:00"
-    ,"updatedAt":"21/12/2015 00:00:00"
+    ,"createdAt":"2015-12-21"
+    ,"updatedAt":"2015-12-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23368,8 +23368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21/12/15 00:00"
+ {
+     "fecha":"2015-12-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 765 N"
     ,"rocaRocaid":7
@@ -23388,8 +23388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA SOBREROTURA,  FALTA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA EN EL HASTIAL DERECHO , SE RECOMIENDA REDUCIR LA SECCION PARA EVITAR LA SOBREROTURA DE LA LABOR."
     ,"comentario":"FALTA CANTONEO DE VIA"
-    ,"createdAt":"21/12/2015 00:00:00"
-    ,"updatedAt":"21/12/2015 00:00:00"
+    ,"createdAt":"2015-12-21"
+    ,"updatedAt":"2015-12-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23408,8 +23408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"21/12/15 00:00"
+ {
+     "fecha":"2015-12-21"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -23428,8 +23428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ESPACIOS ABIERTOS DE MALLA, SE RECOMIENDA REALIZAR REFUERZO DE ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA"
-    ,"createdAt":"21/12/2015 00:00:00"
-    ,"updatedAt":"21/12/2015 00:00:00"
+    ,"createdAt":"2015-12-21"
+    ,"updatedAt":"2015-12-21"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23448,8 +23448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22/12/15 00:00"
+ {
+     "fecha":"2015-12-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa. 404"
     ,"rocaRocaid":12
@@ -23468,8 +23468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR VOLADURA CONTROLADA Y COLOCAR MALLAS DE SACRIFICIO, MEJORAR DISTRIBUCION DE ELENTOS DE SOSTENIMIENTO"
     ,"comentario":"REALIZAR DESCARGA DE MALLAS"
-    ,"createdAt":"22/12/2015 00:00:00"
-    ,"updatedAt":"22/12/2015 00:00:00"
+    ,"createdAt":"2015-12-22"
+    ,"updatedAt":"2015-12-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23488,8 +23488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22/12/15 00:00"
+ {
+     "fecha":"2015-12-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro. 727"
     ,"rocaRocaid":2
@@ -23508,8 +23508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"COLOCAR MALLAS DE SACRIFICIO EN EL FRENTE A DISPARAR"
     ,"comentario":"FALTA SOSTENIMIENTO DEL ULTIMO DISPARO Y REALIZAR DESCARGUE DE MALLAS."
-    ,"createdAt":"22/12/2015 00:00:00"
-    ,"updatedAt":"22/12/2015 00:00:00"
+    ,"createdAt":"2015-12-22"
+    ,"updatedAt":"2015-12-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23528,8 +23528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22/12/15 00:00"
+ {
+     "fecha":"2015-12-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro. 7838 w"
     ,"rocaRocaid":2
@@ -23548,8 +23548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MEJORAR LA LATURA DEL SOSTENIMIENTO Y REALIZAR VOLADURA CONTROLADA"
     ,"comentario":"REALIZAR DESCARGUE DE MALLA Y REZANAR LA MALLAS ABIERTA DEL TOPE A 7 METROS."
-    ,"createdAt":"22/12/2015 00:00:00"
-    ,"updatedAt":"22/12/2015 00:00:00"
+    ,"createdAt":"2015-12-22"
+    ,"updatedAt":"2015-12-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23568,8 +23568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22/12/15 00:00"
+ {
+     "fecha":"2015-12-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa(-)815 S"
     ,"rocaRocaid":12
@@ -23588,8 +23588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA."
     ,"comentario":"FALTA CANTONEO DE LA VIA O ACCESO"
-    ,"createdAt":"22/12/2015 00:00:00"
-    ,"updatedAt":"22/12/2015 00:00:00"
+    ,"createdAt":"2015-12-22"
+    ,"updatedAt":"2015-12-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23608,8 +23608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22/12/15 00:00"
+ {
+     "fecha":"2015-12-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa(+)815 S"
     ,"rocaRocaid":12
@@ -23628,8 +23628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REDUCIR LA SECCION DE LA LABOR PARA EVITAR LA SOBREROTURA"
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"22/12/2015 00:00:00"
-    ,"updatedAt":"22/12/2015 00:00:00"
+    ,"createdAt":"2015-12-22"
+    ,"updatedAt":"2015-12-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23648,8 +23648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22/12/15 00:00"
+ {
+     "fecha":"2015-12-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 642 E"
     ,"rocaRocaid":12
@@ -23668,8 +23668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ESPACIOS ABIERTOS DE MALLA SE RECOMIENDA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA Y REDUCIR LA SECCION DE ANCHO."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"22/12/2015 00:00:00"
-    ,"updatedAt":"22/12/2015 00:00:00"
+    ,"createdAt":"2015-12-22"
+    ,"updatedAt":"2015-12-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23688,8 +23688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION Y VOLADURA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22/12/15 00:00"
+ {
+     "fecha":"2015-12-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -23708,8 +23708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ESPACIOS ABIERTOS DE MALLA SE RECOMIENDA REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"22/12/2015 00:00:00"
-    ,"updatedAt":"22/12/2015 00:00:00"
+    ,"createdAt":"2015-12-22"
+    ,"updatedAt":"2015-12-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23728,8 +23728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22/12/15 00:00"
+ {
+     "fecha":"2015-12-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 896"
     ,"rocaRocaid":12
@@ -23748,8 +23748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Hacia el acceso se tienen mallas abiertas y remangadas por un mal traslape, se tiene una faslla transversal, controlar la corona y cuadrar la zona mineralizada, completar el sostenimiento en ambos lados tanto norte como sur "
     ,"comentario":"\""
-    ,"createdAt":"22/12/2015 00:00:00"
-    ,"updatedAt":"22/12/2015 00:00:00"
+    ,"createdAt":"2015-12-22"
+    ,"updatedAt":"2015-12-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -23768,8 +23768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se realizo el reporte a media guardia para el levantamiento inmediato "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22/12/15 00:00"
+ {
+     "fecha":"2015-12-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 W"
     ,"rocaRocaid":12
@@ -23788,8 +23788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Hacia el tope se debe completar el relleno de la zona de realce, antes que se siga elevando, se evidenció que aún no levantan las observaciones realizadas hace días, hacia el tope las mallas están cargadas en el hastial derecho, todas las zonas de observación presentan la cinta roja."
     ,"comentario":"\""
-    ,"createdAt":"22/12/2015 00:00:00"
-    ,"updatedAt":"22/12/2015 00:00:00"
+    ,"createdAt":"2015-12-22"
+    ,"updatedAt":"2015-12-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -23808,8 +23808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se paralizo la labor hasta el levantamiento de observaciones "
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"22/12/15 00:00"
+ {
+     "fecha":"2015-12-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 440 E"
     ,"rocaRocaid":12
@@ -23828,8 +23828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se debe completar el RH hacia el tope, el acceso del lado izquierdo presenta hacia el hastial izquierdo una comunicación de un área no rellenada de un corte anterior, presencia de bloques abiertos en esta zona se debe completar el relleno con RH "
     ,"comentario":"\""
-    ,"createdAt":"22/12/2015 00:00:00"
-    ,"updatedAt":"22/12/2015 00:00:00"
+    ,"createdAt":"2015-12-22"
+    ,"updatedAt":"2015-12-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23848,8 +23848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se debe realizqar el relleno d ela comunicacion, caso contrario se paralizara la labor "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22/12/15 00:00"
+ {
+     "fecha":"2015-12-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 116 "
     ,"rocaRocaid":12
@@ -23868,8 +23868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Hacia el acceso del lado norte se presenta una falla transversal a la labor, se abrirá hacia el HD por lo que se debe tener una voladura controlada ya que la falla estará paralela al avance. El acceso del sur  completar sostenimiento se presenta una falla paralela al HD "
     ,"comentario":"\""
-    ,"createdAt":"22/12/2015 00:00:00"
-    ,"updatedAt":"22/12/2015 00:00:00"
+    ,"createdAt":"2015-12-22"
+    ,"updatedAt":"2015-12-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23888,8 +23888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se controlara la seccion con voladura controlada por la presencia de fallamiento"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"22/12/15 00:00"
+ {
+     "fecha":"2015-12-22"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP 175"
     ,"rocaRocaid":12
@@ -23908,8 +23908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se debe controlar la sección de la labor, hacia el tope se presentan bancos abiertos, realizar voladura controlada. Se debe completar el sostenimiento d ela zona de insterseccion "
     ,"comentario":"\""
-    ,"createdAt":"22/12/2015 00:00:00"
-    ,"updatedAt":"22/12/2015 00:00:00"
+    ,"createdAt":"2015-12-22"
+    ,"updatedAt":"2015-12-22"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23928,8 +23928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se coordino con mina para el levantamiento i9nmediato de los desvios"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23/12/15 00:00"
+ {
+     "fecha":"2015-12-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"STOP 765 N"
     ,"rocaRocaid":7
@@ -23948,8 +23948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS, SE EVIDENCIA QUE SE REDUCIO EL ANCHO /ALTO DE LA LABOR, CONTINUAR CON LA VOLADURA CONTROLADA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"23/12/2015"
-    ,"updatedAt":"23/12/2015"
+    ,"createdAt":"2015-12-23"
+    ,"updatedAt":"2015-12-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -23968,8 +23968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION Y VOLADURA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23/12/15 00:00"
+ {
+     "fecha":"2015-12-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal 602 W"
     ,"rocaRocaid":12
@@ -23988,8 +23988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA QUE FALTA PEGAR MALLA EN RADIO CURVATURA, FALTA SOSTENER EL ULTIMO DISPARO, SE RECOMIENDA PEGAR MALLA DE SOSTENIMIENTO EN RADIO CURVATURA."
     ,"comentario":"FALTA PEGAR MALLA EN RADIO CURVATURA."
-    ,"createdAt":"23/12/2015"
-    ,"updatedAt":"23/12/2015"
+    ,"createdAt":"2015-12-23"
+    ,"updatedAt":"2015-12-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -24008,8 +24008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"23/12/15 00:00"
+ {
+     "fecha":"2015-12-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa(+)815 S"
     ,"rocaRocaid":12
@@ -24028,8 +24028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA PARA MANTENER LA SECCION PROGRAMADA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"23/12/2015"
-    ,"updatedAt":"23/12/2015"
+    ,"createdAt":"2015-12-23"
+    ,"updatedAt":"2015-12-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24048,8 +24048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23/12/15 00:00"
+ {
+     "fecha":"2015-12-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa(-)815 S"
     ,"rocaRocaid":12
@@ -24068,8 +24068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ROCAS SUELTAS SOBRECARGADAS EN LA MALLA, SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS SOBRECARGADAS EN LA MALLA, CORTAR MALLAS SOBRESALIDAS."
     ,"comentario":"FALTA DESATE DE ROCAS SUELTAS."
-    ,"createdAt":"23/12/2015"
-    ,"updatedAt":"23/12/2015"
+    ,"createdAt":"2015-12-23"
+    ,"updatedAt":"2015-12-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -24088,8 +24088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"23/12/15 00:00"
+ {
+     "fecha":"2015-12-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":5
@@ -24108,8 +24108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR REFUERZO DE DESATE DE ROCAS SUELTAS, REFORZAR SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA, CONTINUAR CON LA VOLADURA CONTROLADA."
     ,"comentario":"FALTA LIMPIEZA DE CUNETA."
-    ,"createdAt":"23/12/2015"
-    ,"updatedAt":"23/12/2015"
+    ,"createdAt":"2015-12-23"
+    ,"updatedAt":"2015-12-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24128,8 +24128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE DE ROCAS SUELTAS."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23/12/15 00:00"
+ {
+     "fecha":"2015-12-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 642 E"
     ,"rocaRocaid":12
@@ -24148,8 +24148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ESAPCIOS ABIERTOS DE MALLA EN RADIO CURVATURA TAMBIEN EN EL PUNTO TOPOGRAFICO F26 ESPACIO ABIERTO SE RECOMIENDA REFORZAR ESPACIOS ABIERTOS DE MALLA, DESATE DE ROCAS SUELTAS."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"23/12/2015"
-    ,"updatedAt":"23/12/2015"
+    ,"createdAt":"2015-12-23"
+    ,"updatedAt":"2015-12-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24168,8 +24168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"EN PROCESO DE LIMPIEZA."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23/12/15 00:00"
+ {
+     "fecha":"2015-12-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 154 S"
     ,"rocaRocaid":6
@@ -24188,8 +24188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REFORZAR  EL SOSTENIMIENTO  DE LOS HASTIALES"
     ,"comentario":"\""
-    ,"createdAt":"23/12/2015"
-    ,"updatedAt":"23/12/2015"
+    ,"createdAt":"2015-12-23"
+    ,"updatedAt":"2015-12-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -24208,8 +24208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NO SE ENCONTRO PERSONAL EN LA LABOR"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23/12/15 00:00"
+ {
+     "fecha":"2015-12-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa. 404"
     ,"rocaRocaid":2
@@ -24228,8 +24228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR DESCARGA DE MALLAS Y REFORZAR EL SOSTENIMIENTO"
     ,"comentario":"\""
-    ,"createdAt":"23/12/2015"
-    ,"updatedAt":"23/12/2015"
+    ,"createdAt":"2015-12-23"
+    ,"updatedAt":"2015-12-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24248,8 +24248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"LA LABOR SE ENCONTO EN LIMPIEZA"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23/12/15 00:00"
+ {
+     "fecha":"2015-12-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 369(PISO 12)"
     ,"rocaRocaid":12
@@ -24268,8 +24268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR UN ABUENA DISTRIBUCION DE LOS ELEMENTO DE SOSTENIMIENTO"
     ,"comentario":"\""
-    ,"createdAt":"23/12/2015"
-    ,"updatedAt":"23/12/2015"
+    ,"createdAt":"2015-12-23"
+    ,"updatedAt":"2015-12-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24288,8 +24288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"23/12/15 00:00"
+ {
+     "fecha":"2015-12-23"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro. 761"
     ,"rocaRocaid":2
@@ -24308,8 +24308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR VOLADURA CONTROLADA Y DESCARGAR LAS MALLAS"
     ,"comentario":"\""
-    ,"createdAt":"23/12/2015"
-    ,"updatedAt":"23/12/2015"
+    ,"createdAt":"2015-12-23"
+    ,"updatedAt":"2015-12-23"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24328,8 +24328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24/12/15 00:00"
+ {
+     "fecha":"2015-12-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 154 S"
     ,"rocaRocaid":2
@@ -24348,8 +24348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR VOLADURA CONTROLADA Y DESCARGAR LAS MALLAS. MANTENER ALTURA DE SOSTENIMIENTO  EN LOS HASTIALES A 1.50M."
     ,"comentario":"Actualizar planos geomecanicos y topográficos. Se realiza descargue de malla a 1\"m del frente. No se realiza sostenimiento porque no hubo agua en todo el Nv. 36\"\"."
-    ,"createdAt":"24/12/2015"
-    ,"updatedAt":"24/12/2015"
+    ,"createdAt":"2015-12-24"
+    ,"updatedAt":"2015-12-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24368,8 +24368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24/12/15 00:00"
+ {
+     "fecha":"2015-12-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"CX. 727"
     ,"rocaRocaid":2
@@ -24388,8 +24388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR VOLADURA CONTROLADA Y MANTENER ALTURA DE SOSTENIMIENTO  EN LOS HASTIALES A 1.50M. DESCARGUE DE MALLAS CONSTANTE ANTES DE INICIAR CUALQUIER TRABAJO EN EL FRENTE DE LA LABOR."
     ,"comentario":"Actualizar planos geomecánicos y topográficos."
-    ,"createdAt":"24/12/2015"
-    ,"updatedAt":"24/12/2015"
+    ,"createdAt":"2015-12-24"
+    ,"updatedAt":"2015-12-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24408,8 +24408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24/12/15 00:00"
+ {
+     "fecha":"2015-12-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 369"
     ,"rocaRocaid":2
@@ -24428,8 +24428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"MANTENER ALTURA DE SOSTENIMIENTO EN LOS HASTIALES A 1.50M. REALIZAR VOLADURA CONTROLADA PARA CONTROLAR LA SECCION PROGRAMADA. CONTINUAR CON EL DESCARGUE DE MALLA Y REFORZAMIENTO. CORTAR MALLAS Y SPLIT SET SOBRESALIDOS."
     ,"comentario":"Actualizar planos topograficos y geomecanicos. Cambiar barretillas en mal estado (de 1\" pies y de 12 pies)."
-    ,"createdAt":"24/12/2015"
-    ,"updatedAt":"24/12/2015"
+    ,"createdAt":"2015-12-24"
+    ,"updatedAt":"2015-12-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24448,8 +24448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24/12/15 00:00"
+ {
+     "fecha":"2015-12-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"RP. 389"
     ,"rocaRocaid":2
@@ -24468,8 +24468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REALIZA REFORZAMIENTO DESDE LA INTERSECCION CON LA CAMARA 404W Y SOSTENIMIENTO AL TOPE DE LA CAMARA 404W."
     ,"comentario":"Actualizar planos topograficos y geomecanicos. Cambiar barretillas desgastadas (de 12 pies)."
-    ,"createdAt":"24/12/2015"
-    ,"updatedAt":"24/12/2015"
+    ,"createdAt":"2015-12-24"
+    ,"updatedAt":"2015-12-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24488,8 +24488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24/12/15 00:00"
+ {
+     "fecha":"2015-12-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 642 E"
     ,"rocaRocaid":2
@@ -24508,8 +24508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ESPACIOS ABIERTOS DE MALLA, SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA NO GENERAR  ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA REFORZAR SOSTENIMIENTO DE ESAPCIOS ABIERTOS DE MALLA."
-    ,"createdAt":"24/12/2015"
-    ,"updatedAt":"24/12/2015"
+    ,"createdAt":"2015-12-24"
+    ,"updatedAt":"2015-12-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24528,8 +24528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24/12/15 00:00"
+ {
+     "fecha":"2015-12-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa(+)815 S"
     ,"rocaRocaid":12
@@ -24548,8 +24548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ESPACIOS ABIERTOS DE MALLA, FALTA SOSTENER LA COMUNICACION SE RECOMIENDA REFORZAR SOSTENIMINETO DE ESPACIOS ABIERTOS DE MALLA Y SOSTENER LA COMUNICACION."
     ,"comentario":"FALTA SOSTENER LA COMUNICACIÓN."
-    ,"createdAt":"24/12/2015"
-    ,"updatedAt":"24/12/2015"
+    ,"createdAt":"2015-12-24"
+    ,"updatedAt":"2015-12-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24568,8 +24568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO LIMPIEZA DE MATERIAL."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24/12/15 00:00"
+ {
+     "fecha":"2015-12-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro. 544 E"
     ,"rocaRocaid":12
@@ -24588,8 +24588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REFORZO SOSTENIMIENTO DE ESPACIOS ABIERTOS DE MALLA, SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA MANTER LA SECCION."
     ,"comentario":"FALTA LIMPIEZA DE CUNETA."
-    ,"createdAt":"24/12/2015"
-    ,"updatedAt":"24/12/2015"
+    ,"createdAt":"2015-12-24"
+    ,"updatedAt":"2015-12-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24608,8 +24608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24/12/15 00:00"
+ {
+     "fecha":"2015-12-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 765 S"
     ,"rocaRocaid":12
@@ -24628,8 +24628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REALIZAR VOLADURA CONTROLADA PARA MANTENER LA SECCION."
     ,"comentario":"\""
-    ,"createdAt":"24/12/2015"
-    ,"updatedAt":"24/12/2015"
+    ,"createdAt":"2015-12-24"
+    ,"updatedAt":"2015-12-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24648,8 +24648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"24/12/15 00:00"
+ {
+     "fecha":"2015-12-24"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 816 "
     ,"rocaRocaid":12
@@ -24668,8 +24668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ESPACIOS ABIERTOS DE MALLA, ROCAS SOBRECARGADAS EN LA MALLA SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS, REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA REFUERZO DE ESPACIOS ABIERTOS DE MALLA."
-    ,"createdAt":"24/12/2015"
-    ,"updatedAt":"24/12/2015"
+    ,"createdAt":"2015-12-24"
+    ,"updatedAt":"2015-12-24"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24688,8 +24688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"stp 996"
     ,"rocaRocaid":6
@@ -24708,8 +24708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"El breasting seguir controlando la sección y no generar sobre rotura, zona brechada con fracturas con relleno arcilloso < a 5mm. Hacia el acceso se tienen mallas cargadas y abiertas. la zona del proyecto sostener y descarga las mallas en la intersección para el lanzado de shotcrete. "
     ,"comentario":"\""
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24728,8 +24728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se coordino con el jefe de guardia el realizar el levantamiento de las observaciones "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"stp 896 S"
     ,"rocaRocaid":12
@@ -24748,8 +24748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"se debe controlar la sección con voladura controlada principalmente en la corona y así evitar que se realce a la hora de realizar el desate.  el breasting del lado derecho completar el sostenimiento y controlar la sección "
     ,"comentario":"\""
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24768,8 +24768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se coordino con el jefe de guardia para un mejor control en la voladura "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"stp 896 N"
     ,"rocaRocaid":12
@@ -24788,8 +24788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"se inició el breasting y aun no se completó el sostenimiento, esta con carga "
     ,"comentario":"\""
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -24808,8 +24808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"limpiar y sostener el breasting "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"stp 175 W"
     ,"rocaRocaid":12
@@ -24828,8 +24828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"se está corriendo dos sub niveles, dejando un pilar de 5m, este pilar debe presenta estructuras sub-horizontales teniendo así bloques abiertos por el mismo buzamiento de estas estructuras realizar el desate y reforzamiento de este pilar, entrar en un solo subnivel y alejarse del pilar. "
     ,"comentario":"\""
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -24848,8 +24848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se coordino con jefe de guardia el reforzar el pilar y avanzar el lado derecho alejandose del pilar afectado "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"stp 175 E"
     ,"rocaRocaid":12
@@ -24868,8 +24868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Se evidencia mallas remangadas por un mal traslape, controlar sección y rellenar hacia el lado derecho. "
     ,"comentario":"\""
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -24888,8 +24888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"Se completara el sosteniiento en el nturno noche "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"stp 440W"
     ,"rocaRocaid":12
@@ -24908,8 +24908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"Hacia el acceso y tope en el hastial derecho se evidencia mallas cargadas y un cambio en el tipo de roca presentándose zonas alteradas por la presencia de una falla. Se debe minimizar el tamaño de broca a 35mm y reducir la malla a 1x1 "
     ,"comentario":"\""
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -24928,8 +24928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se debe acortar la malla a 1x1 por cambio en el macizo rocoso "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 456 S"
     ,"rocaRocaid":12
@@ -24948,8 +24948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA SOSTENER LA INTERSECCION DEL Cro 456 S, SE RECOMIENDA CONTINUAR CON LA VOLADURA CONTROLADA."
     ,"comentario":"FALTA TERMINAR SOSTENER LA INTERSECCION."
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -24968,8 +24968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO SOSTENIMIENTO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 816"
     ,"rocaRocaid":6
@@ -24988,8 +24988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ROCAS SUELTAS SOBRECARGADAS EN LA MALLA EN TODO EL ACCESO, SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS SOBRECARGADAS EN LA MALLA."
     ,"comentario":"FALTA DESATE DE ROCAS SUELTAS."
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -25008,8 +25008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop 765 S"
     ,"rocaRocaid":6
@@ -25028,8 +25028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVO UN BANCO COLGADO EN EL HASTIAL DERECHO SE REALIZO DESATE MECANIZADO, SE RECOMIENDA CONTINUAR CON LA VOLDURA CONTROLADA."
     ,"comentario":"FALTA CANTONEO DE LA VIA"
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25048,8 +25048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 910 S"
     ,"rocaRocaid":6
@@ -25068,8 +25068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA UN DIQUE EN TOPE DE LA LABOR, SE EVIDENCIA ESPACIOS ABIERTOS DE MALLA, ROCAS SOBRECARGADAS EN LA MALLA, SE RECOMIENDA REALIZAR DESATE MECANIZADO Y REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA DESATE DE ROCAS SOBRECARGADAS EN LA MALLA."
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -25088,8 +25088,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro642 E"
     ,"rocaRocaid":12
@@ -25108,8 +25108,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ESPACIOS ABIERTOS DE MALLA DE LA INTERSECCION + 13M , OTRO ESPACIO ABIERTO DE LA INTERSECCION +28M SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS Y REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA DESATE DE ROCAS SUELTAS."
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -25128,8 +25128,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":true
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -25148,8 +25148,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ESPACIOS ABIERTOS DE MALLA, SE RECOMIENDA REALIZAR REFUERZO DE SOSTENIMIENTO."
     ,"comentario":"FALTA SOSTENER EL ULTIMO DISPARO."
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25168,8 +25168,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE DE ROCAS SUELTAS."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa(+)815 S"
     ,"rocaRocaid":12
@@ -25188,8 +25188,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALTA SOSTENER EL DESCHINCHE SE RECOMIENDA SOSTENER EL DESCHINCHE."
     ,"comentario":"FALTA SOSTENER EL DESCHINCHE."
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25208,8 +25208,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa 727 w"
     ,"rocaRocaid":2
@@ -25228,8 +25228,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REALIZA  EL DEESATE DE ROCAS SUELTAS EN LOS HASTIALES Y SE HA DESCARGADO LAS MALLAS CARGADAS."
     ,"comentario":"\""
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25248,8 +25248,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp.369 PISO 12"
     ,"rocaRocaid":12
@@ -25268,8 +25268,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE HA COMPLETADO CON EL DESCARGUE DE MALLAS CARGADAS Y SE HA RESANADO LAS MALLAS ROTAS, SE REALIZA VOLADURA CONTROLADA."
     ,"comentario":"\""
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25288,8 +25288,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp.154 S"
     ,"rocaRocaid":2
@@ -25308,8 +25308,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE OBSERVA MALLAS SOBRESALIDAS, SE HA CORTADO LAS MALLAS SOBRESALIDAS Y SE REALIZO EL DESATE DE ROCAS SUELTAS."
     ,"comentario":"\""
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25328,8 +25328,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"25/12/15 00:00"
+ {
+     "fecha":"2015-12-25"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro. 350"
     ,"rocaRocaid":6
@@ -25348,8 +25348,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR LA DESCARGA DE MALLAS Y REFORZAR EL SOSTENIMIENTO."
     ,"comentario":"\""
-    ,"createdAt":"25/12/2015"
-    ,"updatedAt":"25/12/2015"
+    ,"createdAt":"2015-12-25"
+    ,"updatedAt":"2015-12-25"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -25368,8 +25368,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"LABOR SIN PERSONAL"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 154 S"
     ,"rocaRocaid":2
@@ -25388,8 +25388,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"REALIZAR SOSTENIMIENTO AL TOPE MAS MALLA DE SACRIFICIO. MANTENER ALTURA DE SOSTENIMIENTO EN LOS HASTIALES A 1.50M"
     ,"comentario":"SE REALIZO DESCARGUE DE MALLA A 1\"M DEL TOPE. SE COLOCA MALLA DE SACRIFICIO EN EL MISMO FRENTE."
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25408,8 +25408,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 154 N"
     ,"rocaRocaid":2
@@ -25428,8 +25428,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REALIZA SOSTENIMIENTO AL TOPE MAS MALLA DE SACRIFICIO. MANTENER ALTURA DE SOSTENIMIENTO EN LOS HASTIALES A 1.50M. CONTROLAR SECCION PROGRAMADA Y EVITAR SOBREROTURA."
     ,"comentario":"SE REALIZA DESCARGUE DE MALLA Y SE ACTUALIZAN PLANOS TOPOGRAFICOS."
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25448,8 +25448,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"STP. 369  (PISO12)"
     ,"rocaRocaid":2
@@ -25468,8 +25468,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REALIZA SOSTENIMIENTO AL TOPE MAS MALLA DE SACRIFICIO. MANTENER ALTURA DE RAZANTE A 1.60M RESPECTO DEL PISO. CONTROLAR SECCION PROGRAMADA Y EVITAR SOBREROTURA."
     ,"comentario":"SE REALIZA DESCARGUE DE MALLA A 2\"M DEL TOPE. SE ACTUALIZAN PLANOS TOPOGRAFICOS. Y SE CAMBIAN BARRETILLAS EN MAL ESTADO ( 1 DE 1\" PIES Y 1 DE 12 PIES)"
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25488,8 +25488,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 456 S"
     ,"rocaRocaid":12
@@ -25508,8 +25508,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"FALTA TERMINAR LA INTERSECION DE LA LABOR SE RECOMIENDA SOSTENER LA INTERSECCION DE LA LABOR , FALTA SOSTENER EL ULTIMO DISAPRO."
     ,"comentario":"FALTA SOTENER EL ULTIMO DISPARO."
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25528,8 +25528,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO DESATE DE ROCAS SUELTAS."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro 544 E"
     ,"rocaRocaid":12
@@ -25548,8 +25548,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ESPACIOS ABIERTOS DE MALLA, SE RECOMIENDA REALIZAR REFUERZO DE ESPACIOS ABIERTOS DE MALLA, REDUCIR LA SECCION."
     ,"comentario":"FALTA REFORZAR ESPACIOS ABIERTOS DE MALLA"
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25568,8 +25568,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"Rpa. 910 S"
     ,"rocaRocaid":6
@@ -25588,8 +25588,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA ESPACIOS ABIERTOS DE MALLA, ROCAS SUELTAS SOBRECARGADAS EN AL MALLA SE RECOMIENDA REALIZAR DESATE MACANIZADO Y REFORZAR ESPACIOS ABIERTOS DE MALLA."
     ,"comentario":"FALTA DESATE DE ROCAS SUELTAS."
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -25608,8 +25608,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"Gal. 602 W"
     ,"rocaRocaid":12
@@ -25628,8 +25628,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE EVIDENCIA QUE FALTA PEGAR MALLA EN RADIO CURVATURA, SE RECOMIENDA REALIZAR REFUERZO DE MALLA DE SOSTENIMIENTO Y PEGAR MALLA DE SOSTENIMIENTO EN RADIO CURVATURA."
     ,"comentario":"FALTA SOSTENER EL ULTIMO DISPARO."
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -25648,8 +25648,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"NOSE REALIZO NINGUN TRABAJO."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro.642 E"
     ,"rocaRocaid":12
@@ -25668,8 +25668,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"PRESENCIA DE ESPACIOS ABIERTOS DE MALLA, ROCAS SUELTAS SOBRE CARGADAS EN LA MALLA,SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS."
     ,"comentario":"FALTA DESATE DE ROCAS SUELTAS."
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25688,8 +25688,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"Cro. 816"
     ,"rocaRocaid":6
@@ -25708,8 +25708,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"ROCAS SUELTAS SOBRE CARGADAS EN LA MALLA,SE RECOMIENDA REALIZAR DESATE DE ROCAS SUELTAS EN TODO EL ACCESO."
     ,"comentario":"FALTA DESATE DE ROCAS SUELTAS."
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25728,8 +25728,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stop. 765 S"
     ,"rocaRocaid":6
@@ -25748,8 +25748,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE RECOMIENDA REDUCIR LA SECION PARA MEJOR CONTROL DE LA LABOR Y MANTENER LA SECION PROGRAMADA."
     ,"comentario":"FALTA CANTONEO DE LA VIA."
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25768,8 +25768,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"SE REALIZO PERFORACION."
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 996"
     ,"rocaRocaid":6
@@ -25788,8 +25788,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"la zona de breasting se abrira solo el lado derecho, hacia el acceso la altura de sostenimiento noesta deacuerdo a estandar, en el paneleo la zona de interseccion se reforzara con shotcrete "
     ,"comentario":"\""
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"PERFORACIÓN"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25808,8 +25808,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se levantara la observacion en el acceso y se programara el lanzado de shotcrete"
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 660"
     ,"rocaRocaid":12
@@ -25828,8 +25828,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"falta completar la zona de interseccion en el brazo derecho, presenta una falla transversal a la labor y un voladizo en la corona. "
     ,"comentario":"\""
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -25848,8 +25848,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"se coordino para el levantamiento en guardia noche "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 440 W"
     ,"rocaRocaid":12
@@ -25868,8 +25868,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"hacia el hastial derecho se completo el sostenimiento, controlar la seccion para no inestabilizar el HD "
     ,"comentario":"\""
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -25888,8 +25888,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"controlar la seccion con voladura controlada "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 440 E (Rpa. 175)"
     ,"rocaRocaid":12
@@ -25908,8 +25908,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"realizar voladura controlada para controlar la seccion de la labor, topear con carga el acceso del lado derecho, en el S/N se debe realizar el sostenimeinto y refuerzo del pilar "
     ,"comentario":"\""
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"SIN PERSONAL"   },
      { "preguntaid":"2","tipo":"Check","value":false  },
@@ -25928,8 +25928,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"controlar la seccion con la voladura "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"26/12/15 00:00"
+ {
+     "fecha":"2015-12-26"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 160 S"
     ,"rocaRocaid":12
@@ -25948,8 +25948,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"se observa mallas cargadas hacia el acceso, completar el sostenimiento y rellenar la zona de derrumbe. "
     ,"comentario":"\""
-    ,"createdAt":"26/12/2015"
-    ,"updatedAt":"26/12/2015"
+    ,"createdAt":"2015-12-26"
+    ,"updatedAt":"2015-12-26"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"LIMPIEZA"   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -25968,8 +25968,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":"voladura controlada "
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27/12/15 00:00"
+ {
+     "fecha":"2015-12-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 154 N"
     ,"rocaRocaid":2
@@ -25988,8 +25988,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":""
     ,"comentario":"SE REALIZA DESCARGA DE MALLAS A 2 METROS DEL FRENTE."
-    ,"createdAt":"27/12/2015"
-    ,"updatedAt":"27/12/2015"
+    ,"createdAt":"2015-12-27"
+    ,"updatedAt":"2015-12-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -26008,8 +26008,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27/12/15 00:00"
+ {
+     "fecha":"2015-12-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 369 (PISO 12)"
     ,"rocaRocaid":12
@@ -26028,8 +26028,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REALIZA DESCARGA, CONTROLAR SECCION PROGRAMADA, TERRENO INESTABLE."
     ,"comentario":"\""
-    ,"createdAt":"27/12/2015"
-    ,"updatedAt":"27/12/2015"
+    ,"createdAt":"2015-12-27"
+    ,"updatedAt":"2015-12-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -26048,8 +26048,8 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   },
-  {
-     "fecha":"27/12/15 00:00"
+ {
+     "fecha":"2015-12-27"
     ,"guardia":"DIA"
     ,"laborCodigo":"Stp. 154 S"
     ,"rocaRocaid":2
@@ -26068,8 +26068,8 @@ client.sync().then(function() {
     ,"RegistroUid":"administrador"
     ,"recomendacion":"SE REALIZA DESCARGA DE MALLAS , CONTROLAR SECCIOBN Y ALTURA DE SOSTENIMIENTO EN LOS HASTIALES."
     ,"comentario":"\""
-    ,"createdAt":"27/12/2015"
-    ,"updatedAt":"27/12/2015"
+    ,"createdAt":"2015-12-27"
+    ,"updatedAt":"2015-12-27"
     ,"respuesta":[
      {  "preguntaid":"1","tipo":"Opciones","value":"DESATE-SOST."   },
      { "preguntaid":"2","tipo":"Check","value":true  },
@@ -26088,7 +26088,6 @@ client.sync().then(function() {
     ,"comentario_sostenimiento":""
     ,"labor_paralizada":false
   }]
- 
 
 
 
