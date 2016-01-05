@@ -8,24 +8,32 @@ Esta versión esta contruida en [Node.js]() y [Express]().
 
 ## Ejecutando en un servidor local
 
-1. Asegúrese de tener instalado Nodejs, si no lo tiene puede descargarlo de [aquí](http://nodejs.org/).
+1. Asegúrese de tener instalado el gestor de base de datos postgresql (ha sido probado
+  con la versión 9.4.5), también debera tener cargada la base de datos que utilizará
+  el sistema.
 
-2. Clone el repositorio.
+2. Asegúrese de tener instalado Nodejs, si no lo tiene puede descargarlo de [aquí](http://nodejs.org/).
 
-3. En la terminal, ingrese (cd) al directorio geomecanica-backend.
+3. Clone el repositorio y ubiquelo en el directorio que crea conveniente.
 
-4. Instale las dependencias del servidor:
+4. En la terminal, ubiquese hasta dentro del directorio geomecanica-backend.
+
+5. Instale las dependencias que utiliza la aplicación ejecutando la siguiente línea en la
+terminal:
 
   ```
   npm install
   ```
 
-5. Configure el archivo config.json con los datos de su servidor local.
+6. Configure el archivo config.json con los datos de su servidor local, como las cuentas
+de la base de datos y del correo electrónico.
 
-6. Ejecute el servidor:
+7. Si a seguido los pasos, ya tiene correctamente instalada la aplicación, para ejecutarla
+debera ingresar la siguiente línea en la terminal:
 
   ```
   npm start
   ```
 
-7. Abra el navegador e ingrese a: [https://localhost:3000](https://localhost:3000)
+8. Abra el navegador e ingrese a: [http://localhost:3000](https://localhost:3000) o la ruta
+que haya configurado, podra visualizar un mensaje de bienvenida.
