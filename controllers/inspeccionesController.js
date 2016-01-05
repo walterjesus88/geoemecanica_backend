@@ -14,6 +14,7 @@ exports.index = function(req, res, next) {
 
   var condicion = {};
   var condicionLabor = {};
+  var condicionRespuesta = {};
 
   if (req.query.nivel) condicion.nivel_riesgo = req.query.nivel;
   if (req.query.desde && req.query.hasta) condicion.fecha = {$between: [req.query.desde, req.query.hasta]};
@@ -25,6 +26,21 @@ exports.index = function(req, res, next) {
   if (typeof(req.query.sostenimiento) !== 'undefined') condicion.estado_sostenimiento = req.query.sostenimiento;
   if (req.query.empresaid) condicionLabor.empresaEmpresaid = req.query.empresaid;
   if (req.query.tipo) condicionLabor.tipoTipoId = req.query.tipo;
+  if (req.query.criterio) {
+    if (req.query.criterio === '8') {
+
+    } else if (req.query.criterio === '9') {
+
+    } else if (req.query.criterio === '11') {
+
+    } else if (req.query.criterio === '12') {
+
+    } else if (req.query.criterio === 'SobreExcavacion') {
+
+    } else if (req.query.criterio === 'GSI') {
+
+    }
+  }
 
   Inspeccion.findAll(
     {
@@ -33,7 +49,7 @@ exports.index = function(req, res, next) {
         {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro', 'empresaEmpresaid'], where: condicionLabor},
         {model: Roca, attributes: ['codigo', 'porcentaje']},
         {model: Sostenimiento, attributes: ['codigo', 'descripcion']},
-        {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta']}
+        {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta'], where: condicionRespuesta}
       ]
     }
   )
