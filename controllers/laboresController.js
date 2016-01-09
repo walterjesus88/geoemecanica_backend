@@ -26,7 +26,8 @@ exports.store = function(req, res, next) {
     nivel: req.body.nivel,
     ancho_pro: req.body.ancho_pro,
     alto_pro: req.body.alto_pro,
-    tipoTipoId: req.body.tipoTipoId
+    tipoTipoId: req.body.tipoTipoId,
+    empresaEmpresaid: req.body.empresaEmpresaid
   })
   .then(function(labor) {
     res.status(201).jsonp(labor);
@@ -40,21 +41,12 @@ exports.update = function(req, res, next) {
   Labor.findById(req.params.id)
   .then(function(labor) {
     if(!labor) return res.send(400, 'usuario no existe');
-    if (req.body.nombre) {
-      labor.nombre = req.body.nombre;
-    }
-    if (req.body.nivel) {
-      labor.nivel = req.body.nivel;
-    }
-    if (req.body.alto_pro) {
-      labor.alto_pro = req.body.alto_pro;
-    }
-    if (req.body.ancho_pro) {
-      labor.ancho_pro = req.body.ancho_pro;
-    }
-    if (req.body.tipoTipoId) {
-      labor.tipoTipoId = req.body.tipoTipoId;
-    }
+    if (req.body.nombre) labor.nombre = req.body.nombre;
+    if (req.body.nivel) labor.nivel = req.body.nivel;
+    if (req.body.alto_pro) labor.alto_pro = req.body.alto_pro;
+    if (req.body.ancho_pro) labor.ancho_pro = req.body.ancho_pro;
+    if (req.body.tipoTipoId) labor.tipoTipoId = req.body.tipoTipoId;
+    if (req.body.empresaEmpresaid) labor.empresaEmpresaid = req.body.empresaEmpresaid;
     labor.save().then(function() {
       res.send('actualizado');
     });
