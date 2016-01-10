@@ -2,8 +2,8 @@ var Inspeccion = require('../models/Inspeccion');
 var Respuesta = require('../models/Respuesta');
 var Pregunta = require('../models/Pregunta');
 
-var Observacion = require('../models/Observacion');
-
+var Empresa = require('../models/Empresa');
+var User = require('../models/User');
 var Labor = require('../models/Labor');
 var Roca = require('../models/Roca');
 var Sostenimiento = require('../models/Sostenimiento');
@@ -46,10 +46,19 @@ exports.index = function(req, res, next) {
     {
       where: condicion,
       include: [
-        {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro', 'empresaEmpresaid'], where: condicionLabor},
+        {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro', 'empresaEmpresaid'], where: condicionLabor,
+          include: [{model: Empresa, attributes: ['nombre']}]
+        },
         {model: Roca, attributes: ['codigo', 'porcentaje']},
         {model: Sostenimiento, attributes: ['codigo', 'descripcion']},
-        {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta'], where: condicionRespuesta}
+        {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta'], where: condicionRespuesta},
+        {model: User, as: 'Responsable', attributes: ['nombre']},
+        {model: User, as: 'Geomecanico', attributes: ['nombre']},
+        {model: User, as: 'Seguridad', attributes: ['nombre']},
+        {model: User, as: 'Operaciones', attributes: ['nombre']},
+        {model: User, as: 'Superintendente', attributes: ['nombre']},
+        {model: User, as: 'Gerencia', attributes: ['nombre']},
+        {model: User, as: 'Registro', attributes: ['nombre']}
       ]
     }
   )
@@ -108,6 +117,7 @@ exports.store = function(req, res, next) {
     estado_sostenimiento: req.body.sostenimiento_estado,
     comentario_sostenimiento: req.body.sostenimiento_comentario,
     instalacion: req.body.instalacion,
+    tiempo_ejecucion: req.body.tiempo_ejecucion,
     laborCodigo: req.body.labor,
     rocaRocaid: req.body.RocaId,
     sostenimientoSostenimientoid: req.body.SostenimientoId,
