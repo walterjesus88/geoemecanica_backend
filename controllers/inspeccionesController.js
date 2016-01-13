@@ -8,6 +8,7 @@ var Labor = require('../models/Labor');
 var Roca = require('../models/Roca');
 var Sostenimiento = require('../models/Sostenimiento');
 var Respuesta = require('../models/Respuesta');
+var Tipo = require('../models/Tipo');
 
 
 exports.index = function(req, res, next) {
@@ -44,10 +45,10 @@ exports.index = function(req, res, next) {
 
   Inspeccion.findAll(
     {
-      where: condicion,
+      where: condicion, order: 'fecha DESC',
       include: [
-        {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro', 'empresaEmpresaid'], where: condicionLabor,
-          include: [{model: Empresa, attributes: ['nombre']}]
+        {model: Labor, attributes: ['codigo', 'nivel', 'alto_pro', 'ancho_pro', 'empresaEmpresaid', 'tipoTipoId'], where: condicionLabor,
+          include: [{model: Empresa, attributes: ['nombre']}, {model: Tipo, attributes: ['nombre']}]
         },
         {model: Roca, attributes: ['codigo', 'porcentaje']},
         {model: Sostenimiento, attributes: ['codigo', 'descripcion']},
@@ -155,17 +156,7 @@ exports.store = function(req, res, next) {
       }
       Respuesta.bulkCreate(array)
       .then(function() {
-        Observacion.create({
-          inspeccionInspeccionId: inspeccion.inspeccion_id,
-          userUid: req.user.uid
-        })
-        .then(function(observacion) {
-          res.status(201).jsonp(inspeccion);
-        })
-        .catch(function(err){
-          res.status(200).send(err);
-        });
-
+        res.status(201).jsonp(inspeccion);
       })
       .catch(function(err) {
         res.status(500).send(err);
