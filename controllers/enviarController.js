@@ -266,18 +266,12 @@ exports.store = function(req, res, next) {
 	.then(function(inspecciones) {
 
   		var  inspeccionjson=JSON.stringify(inspecciones);
-<<<<<<< HEAD
-  		//console.log(inspeccionjson);  	
-		var a = 0;  			
-  		
-		var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';  
-		var user='req.user.uid';
-=======
+
 		var a = 0;
 
 		var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';
 		var user=req.user.uid;
->>>>>>> 2f0f26471b4c89c5eaa224013aec372f3aa5ae36
+
 		doc.text(titulo, 10,60,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 		doc.text(user, 600,80,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 
@@ -384,13 +378,10 @@ exports.store = function(req, res, next) {
 				});
 
 				doc.fontSize(12)
-<<<<<<< HEAD
-				var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';  
-				var user= 'req.user.uid';
-=======
+
 				var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';
 				var user= req.user.uid;
->>>>>>> 2f0f26471b4c89c5eaa224013aec372f3aa5ae36
+
 
 				doc.fillColor('black')
 				doc.text(titulo, 10,60,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
@@ -430,13 +421,7 @@ exports.store = function(req, res, next) {
 
 	doc.pipe( res );
 	doc.end();
-<<<<<<< HEAD
-	
-	//name='2015-12-27T05:00:00.000Z';
-	//res.sendfile('pdf/'+name+'.pdf'); 
-=======
 
->>>>>>> 2f0f26471b4c89c5eaa224013aec372f3aa5ae36
 	})
     .catch(function(err) {
     	res.status(500).send(err);
@@ -471,10 +456,7 @@ exports.store = function(req, res, next) {
 		});
 	}
 
-	//res.sendfile('pdf/2015-12-27T05:00:00.000Z.pdf');
 
-<<<<<<< HEAD
-=======
 	smtpTransport.sendMail({
 	    from: req.body.from, // sender address
 	    to: req.body.email, // comma separated list of receivers
@@ -498,5 +480,5 @@ exports.store = function(req, res, next) {
 	       console.log(path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf"));
 	   }
 	});
->>>>>>> 2f0f26471b4c89c5eaa224013aec372f3aa5ae36
+
 }
