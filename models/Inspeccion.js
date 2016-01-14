@@ -49,7 +49,8 @@ var Inspeccion = client.define('inspeccion', {
   estandar_labor: Sequelize.TEXT,
   comentario_sostenimiento: Sequelize.TEXT,
   labor_paralizada: Sequelize.BOOLEAN,
-  instalacion: Sequelize.BOOLEAN
+  instalacion: Sequelize.BOOLEAN,
+  tiempo_ejecucion: Sequelize.INTEGER
 }, {
   instanceMethods: {
     validarRiesgo: function(respuestas) {

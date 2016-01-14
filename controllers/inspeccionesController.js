@@ -2,18 +2,20 @@ var Inspeccion = require('../models/Inspeccion');
 var Respuesta = require('../models/Respuesta');
 var Pregunta = require('../models/Pregunta');
 
-var Observacion = require('../models/Observacion');
-
+var Empresa = require('../models/Empresa');
+var User = require('../models/User');
 var Labor = require('../models/Labor');
 var Roca = require('../models/Roca');
 var Sostenimiento = require('../models/Sostenimiento');
 var Respuesta = require('../models/Respuesta');
+var Tipo = require('../models/Tipo');
 
 
 exports.index = function(req, res, next) {
 
   var condicion = {};
   var condicionLabor = {};
+  var condicionRespuesta = {};
 
   if (req.query.nivel) condicion.nivel_riesgo = req.query.nivel;
   if (req.query.desde && req.query.hasta) condicion.fecha = {$between: [req.query.desde, req.query.hasta]};
@@ -25,15 +27,39 @@ exports.index = function(req, res, next) {
   if (typeof(req.query.sostenimiento) !== 'undefined') condicion.estado_sostenimiento = req.query.sostenimiento;
   if (req.query.empresaid) condicionLabor.empresaEmpresaid = req.query.empresaid;
   if (req.query.tipo) condicionLabor.tipoTipoId = req.query.tipo;
+  if (req.query.criterio) {
+    if (req.query.criterio === '8') {
+
+    } else if (req.query.criterio === '9') {
+
+    } else if (req.query.criterio === '11') {
+
+    } else if (req.query.criterio === '12') {
+
+    } else if (req.query.criterio === 'SobreExcavacion') {
+
+    } else if (req.query.criterio === 'GSI') {
+
+    }
+  }
 
   Inspeccion.findAll(
     {
-      where: condicion,
+      where: condicion, order: 'fecha DESC',
       include: [
-        {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro', 'empresaEmpresaid'], where: condicionLabor},
+        {model: Labor, attributes: ['codigo', 'nivel', 'alto_pro', 'ancho_pro', 'empresaEmpresaid', 'tipoTipoId'], where: condicionLabor,
+          include: [{model: Empresa, attributes: ['nombre']}, {model: Tipo, attributes: ['nombre']}]
+        },
         {model: Roca, attributes: ['codigo', 'porcentaje']},
         {model: Sostenimiento, attributes: ['codigo', 'descripcion']},
-        {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta']}
+        {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta'], where: condicionRespuesta},
+        {model: User, as: 'Responsable', attributes: ['nombre']},
+        {model: User, as: 'Geomecanico', attributes: ['nombre']},
+        {model: User, as: 'Seguridad', attributes: ['nombre']},
+        {model: User, as: 'Operaciones', attributes: ['nombre']},
+        {model: User, as: 'Superintendente', attributes: ['nombre']},
+        {model: User, as: 'Gerencia', attributes: ['nombre']},
+        {model: User, as: 'Registro', attributes: ['nombre']}
       ]
     }
   )
@@ -43,7 +69,7 @@ exports.index = function(req, res, next) {
 }
 
 exports.show = function(req, res, next) {
-  Inspeccion.findById(req.params.id)
+  Inspeccion.findOne({where: {inspeccion_id: req.params.id}, include: [{ all: true }]})
   .then(function(inspeccion) {
     res.status(200).jsonp(inspeccion);
   });
@@ -92,6 +118,7 @@ exports.store = function(req, res, next) {
     estado_sostenimiento: req.body.sostenimiento_estado,
     comentario_sostenimiento: req.body.sostenimiento_comentario,
     instalacion: req.body.instalacion,
+    tiempo_ejecucion: req.body.tiempo_ejecucion,
     laborCodigo: req.body.labor,
     rocaRocaid: req.body.RocaId,
     sostenimientoSostenimientoid: req.body.SostenimientoId,
@@ -129,17 +156,7 @@ exports.store = function(req, res, next) {
       }
       Respuesta.bulkCreate(array)
       .then(function() {
-        Observacion.create({
-          inspeccionInspeccionId: inspeccion.inspeccion_id,
-          userUid: req.user.uid
-        })
-        .then(function(observacion) {
-          res.status(201).jsonp(inspeccion);
-        })
-        .catch(function(err){
-          res.status(200).send(err);
-        });
-
+        res.status(201).jsonp(inspeccion);
       })
       .catch(function(err) {
         res.status(500).send(err);

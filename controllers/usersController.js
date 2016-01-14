@@ -2,7 +2,7 @@ var User = require('../models/User');
 var Rol = require('../models/Rol');
 
 exports.index = function(req, res, next) {
-    User.findAll({attributes: ['uid', 'dni', 'nombre', 'estado', 'rolRolId', 'correo'],
+    User.findAll({attributes: ['uid', 'dni', 'nombre', 'estado', 'rolRolId', 'correo', 'cargo', 'empresaEmpresaid'],
     include: [{model: Rol, attributes: ['nombre_rol']}]})
     .then(function(users) {
       res.status(200).jsonp(users);
@@ -25,7 +25,9 @@ exports.store = function(req, res, next) {
       rolRolId: req.body.rol_id,
       estado: 'Activo',
       uid_registro: req.user.uid,
-      correo: req.body.correo
+      correo: req.body.correo,
+      cargo: req.body.cargo,
+      empresaEmpresaid: req.body.empresaid
     })
     .then(function(user){
       res.status(200).jsonp({type: true, data: user, token: user.token});
@@ -39,24 +41,14 @@ exports.update = function(req, res, next) {
     User.findById(req.params.id)
     .then(function(user) {
       if(!user) return res.send(400, 'usuario no existe');
-      if (req.body.nombre) {
-        user.nombre = req.body.nombre;
-      }
-      if (req.body.dni) {
-        user.dni = req.body.dni;
-      }
-      if (req.body.estado) {
-        user.estado = req.body.estado;
-      }
-      if (req.body.rolRolId) {
-        user.rolRolId = req.body.rolRolId;
-      }
-      if (req.body.correo) {
-        user.correo = req.body.correo;
-      }
-      if (req.body.password) {
-        user.password = req.body.password;
-      }
+      if (req.body.nombre) user.nombre = req.body.nombre;
+      if (req.body.dni) user.dni = req.body.dni;
+      if (req.body.estado) user.estado = req.body.estado;
+      if (req.body.rolRolId) user.rolRolId = req.body.rolRolId;
+      if (req.body.correo) user.correo = req.body.correo;
+      if (req.body.password) user.password = req.body.password;
+      if (req.body.cargo) user.cargo = req.body.cargo;
+      if (req.body.empresaEmpresaid) user.empresaEmpresaid = req.body.empresaEmpresaid;
       user.save().then(function() {
         res.send('actualizado');
       });
