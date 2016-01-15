@@ -15,6 +15,7 @@ var Roca = require('../models/Roca');
 var Sostenimiento = require('../models/Sostenimiento');
 var Respuesta = require('../models/Respuesta');
 
+var User = require('../models/User');
 
 
 //console.log(path.join(process.cwd(), 'static', /hola.txt));
@@ -224,7 +225,8 @@ exports.index = function(req, res) {
 
 exports.store = function(req, res, next) {
 
-	console.log(req.body.condicion);
+	//console.log(req.user.uid);
+
 
 	var smtpTransport = nodemailer.createTransport("SMTP",{
 	   service: "Gmail",
@@ -442,9 +444,7 @@ exports.store = function(req, res, next) {
 	            filePath: path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf")       
 	        }
 	        ]
-	        //console.log(__dirname+"./inspecciones_pdf/hola.txt");
-		    // html:'<p><b>Hello</b> to myself <img src="cid:note@node"/></p>'+text+
-		    //      '<p>Here\'s a nyan cat for you as an embedded attachment:<br/></p>'
+
 		}, function(error, response){
 		   if(error){
 		       console.log(error);
@@ -468,9 +468,7 @@ exports.store = function(req, res, next) {
             filePath: path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf")
         }
         ]
-        //console.log(__dirname+"./inspecciones_pdf/hola.txt");
-	    // html:'<p><b>Hello</b> to myself <img src="cid:note@node"/></p>'+text+
-	    //      '<p>Here\'s a nyan cat for you as an embedded attachment:<br/></p>'
+      
 	}, function(error, response){
 	   if(error){
 	       console.log(error);

@@ -7,7 +7,7 @@ var User = require('../models/User');
 var Labor = require('../models/Labor');
 var Roca = require('../models/Roca');
 var Sostenimiento = require('../models/Sostenimiento');
-var Respuesta = require('../models/Respuesta');
+/*var Respuesta = require('../models/Respuesta');*/
 var Tipo = require('../models/Tipo');
 
 
@@ -131,6 +131,8 @@ exports.store = function(req, res, next) {
     RegistroUid: req.user.uid
 
   });
+  
+
 
   //ins.validarRiesgo(req.body.respuestas).then(function(valido){
     ins.save().then(function(inspeccion) {

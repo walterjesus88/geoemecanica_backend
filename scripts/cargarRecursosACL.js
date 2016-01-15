@@ -69,6 +69,7 @@ client.sync().then(function() {
     {rolRolId: '103', RecursoId: '/empresas', metodo: 'GET', acceso: true},
     {rolRolId: '103', RecursoId: '/porcentajes', metodo: 'GET', acceso: true},
     {rolRolId: '103', RecursoId: '/preguntas', metodo: 'GET', acceso: true},
+    {rolRolId: '103', RecursoId: '/mensajes', metodo: 'POST', acceso: true},
 
 		{rolRolId: '104', RecursoId: '/labores', metodo: 'GET', acceso: true},
     {rolRolId: '104', RecursoId: '/users', metodo: 'GET', acceso: true},

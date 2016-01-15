@@ -1,9 +1,9 @@
 var express = require('express');
 var routes = express.Router();
-var enviarCtrl = require('../controllers/enviarController');
+var mensajesCtrl = require('../controllers/mensajesController');
 
-routes.get('/', enviarCtrl.index);
-routes.post('/', enviarCtrl.store);
+routes.get('/', mensajesCtrl.index);
+routes.post('/', mensajesCtrl.store);
 
 // routes.get('/', function(req, res, next) {
 //   res.status(200).send('mail');
