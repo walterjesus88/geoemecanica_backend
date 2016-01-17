@@ -4,9 +4,6 @@ var enviarCtrl = require('../controllers/enviarController');
 
 routes.get('/', enviarCtrl.index);
 routes.post('/', enviarCtrl.store);
-
-// routes.get('/', function(req, res, next) {
-//   res.status(200).send('mail');
-// })
+routes.get('/csv', enviarCtrl.getCSV);
 
 module.exports = routes;
