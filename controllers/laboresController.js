@@ -3,7 +3,7 @@ var Tipo = require('../models/Tipo');
 var Empresa = require('../models/Empresa');
 
 exports.index = function(req, res, next) {
-  Labor.findAll({include: [{model: Tipo, attributes: ['nombre']}, {model:Empresa, attributes: ['nombre']}]})
+  Labor.findAll({where: {estado: 'A'}, include: [{model: Tipo, attributes: ['nombre']}, {model:Empresa, attributes: ['nombre']}]})
   .then(function(labores) {
     res.status(200).jsonp(labores);
   });

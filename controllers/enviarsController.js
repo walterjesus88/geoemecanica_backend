@@ -6,6 +6,7 @@ var PDFDocument = require('pdfkit');
 var blobStream = require('blob-stream');
 var fs = require('fs');
 var config = require('../config.json');
+var json2csv = require('json2csv');
 
 var Labor = require('../models/Labor');
 var Tipo = require('../models/Tipo');
@@ -14,6 +15,7 @@ var Inspeccion = require('../models/Inspeccion');
 var Roca = require('../models/Roca');
 var Sostenimiento = require('../models/Sostenimiento');
 var Respuesta = require('../models/Respuesta');
+var User = require('../models/User');
 
 var User = require('../models/User');
 
@@ -494,4 +496,115 @@ exports.store = function(req, res, next) {
 
 
 
+}
+
+
+
+exports.getCSV = function(req, res, next) {
+	var insps = [];
+	var fields = ['Labor', 'Nivel', 'AnchoPro', 'AltoPro', 'Empresa', 'Tipo',
+	'Fecha', 'Guardia', 'AnchoReal', 'AltoReal', 'CumplimientoRecomendacion',
+	'NivelRiesgo', 'Condicion', 'Recomendacion', 'Sostenimiento', 'GSI', 'PorcentajeTabla',
+	'TipoSostenimiento', 'Responsable', 'Operaciones', 'Seguridad', 'Geomecanico', 'Registro',
+	'ProcesoMinado', 'SostenimientoTope', 'HastialDerecho', 'HastialIzquierdo', 'MallasTraslapadas',
+	'MallasRotas'];
+	Inspeccion.findAll(
+		{
+			include: [
+				{model: Labor, attributes: ['codigo', 'nivel', 'ancho_pro', 'alto_pro'], include: [
+					{model: Empresa, attributes: ['nombre']},
+					{model: Tipo, attributes: ['nombre']},
+				]},
+				{model: Roca, attributes: ['codigo', 'porcentaje']},
+				{model: Sostenimiento, attributes: ['codigo', 'descripcion']},
+				{model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta']},
+				{model: User, as: 'Responsable', attributes: ['nombre']},
+				{model: User, as: 'Operaciones', attributes: ['nombre']},
+				{model: User, as: 'Seguridad', attributes: ['nombre']},
+				{model: User, as: 'Geomecanico', attributes: ['nombre']},
+				{model: User, as: 'Registro', attributes: ['nombre']}
+			]
+		}
+	).then(function(inspecciones) {
+		console.log(inspecciones[0]);
+		for (var i = 0; i < inspecciones.length; i++) {
+			var json = {
+				Labor: inspecciones[i].labor.codigo,
+				Nivel: inspecciones[i].labor.nivel,
+				AnchoPro: inspecciones[i].labor.ancho_pro,
+				AltoPro: inspecciones[i].labor.alto_pro,
+				Empresa: inspecciones[i].labor.empresa.nombre,
+				Tipo: inspecciones[i].labor.tipo.nombre,
+				Fecha: inspecciones[i].fecha,
+				Guardia: inspecciones[i].guardia,
+				AnchoReal: inspecciones[i].ancho_real,
+				AltoReal: inspecciones[i].alto_real,
+				CumplimientoRecomendacion: inspecciones[i].estado_recomendacion,
+				NivelRiesgo: inspecciones[i].nivel_riesgo,
+				Condicion: inspecciones[i].condicion_geomecanica,
+				Recomendacion: inspecciones[i].recomendacion,
+				Sostenimiento: inspecciones[i].estado_sostenimiento,
+				GSI: inspecciones[i].roca.codigo,
+				PorcentajeTabla: inspecciones[i].roca.porcentaje,
+				TipoSostenimiento: inspecciones[i].sostenimiento.descripcion
+			};
+			if (!inspecciones[i].Responsable) inspecciones[i].Responsable = {};
+			json.Responsable = inspecciones[i].Responsable.nombre;
+			if (!inspecciones[i].Operaciones) inspecciones[i].Operaciones = {};
+			json.Operaciones = inspecciones[i].Operaciones.nombre;
+			if (!inspecciones[i].Seguridad) inspecciones[i].Seguridad = {};
+			json.Seguridad = inspecciones[i].Seguridad.nombre;
+			if (!inspecciones[i].Geomecanico) inspecciones[i].Geomecanico = {};
+			json.Geomecanico = inspecciones[i].Geomecanico.nombre;
+			if (!inspecciones[i].Registro) inspecciones[i].Registro = {};
+			json.Registro = inspecciones[i].Registro.nombre;
+			for (var key in inspecciones[i].respuesta) {
+				if (inspecciones[i].respuesta[key].preguntumPreguntaid === 1) {
+					json.ProcesoMinado = inspecciones[i].respuesta[key].respuesta.opcion;
+				}
+				if (inspecciones[i].respuesta[key].preguntumPreguntaid === 8) {
+					if (inspecciones[i].respuesta[key].respuesta.check) {
+						json.SostenimientoTope = 'Si';
+					} else {
+						json.SostenimientoTope = 'No';
+					}
+				}
+				if (inspecciones[i].respuesta[key].preguntumPreguntaid === 9) {
+					json.HastialDerecho = inspecciones[i].respuesta[key].respuesta['HASTIAL DERECHO'];
+					json.HastialIzquierdo = inspecciones[i].respuesta[key].respuesta['HASTIAL IZQUIERDO'];
+				}
+				if (inspecciones[i].respuesta[key].preguntumPreguntaid === 11) {
+					if (inspecciones[i].respuesta[key].respuesta.check) {
+						json.MallasTraslapadas = 'Si';
+					} else {
+						json.MallasTraslapadas = 'No';
+					}
+				}
+				if (inspecciones[i].respuesta[key].preguntumPreguntaid === 12) {
+					if (inspecciones[i].respuesta[key].respuesta.check) {
+						json.MallasRotas = 'Si';
+					} else {
+						json.MallasRotas = 'No';
+					}
+				}
+			}
+			if (!json.ProcesoMinado) json.ProcesoMinado = 'S/D';
+			if (!json.SostenimientoTope) json.SostenimientoTope = 'S/D';
+			if (!json.HastialDerecho) json.HastialDerecho = 'S/D';
+			if (!json.HastialIzquierdo) json.HastialIzquierdo = 'S/D';
+			if (!json.MallasTraslapadas) json.MallasTraslapadas = 'S/D';
+			if (!json.MallasRotas) json.MallasRotas = 'S/D';
+			insps.push(json);
+		}
+		json2csv({data: insps, fields: fields}, function(err, csv) {
+			if (err) res.status(500).send(err);
+			fs.writeFile('pdf/datos.csv', csv, function(err) {
+				if (err) res.status(500).send(err);
+				res.download('pdf/datos.csv');
+			})
+		});
+	})
+	.catch(function(err) {
+		res.status(500).send(err);
+	});
 }

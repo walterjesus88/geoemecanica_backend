@@ -2,7 +2,7 @@ var client = require('../dbConnection').getInstance().getClient();
 var Recurso = require('../models/Recurso');
 var ACL = require('../models/ACL');
 
-client.sync().then(function() {
+Recurso.sync({force: true}).then(function() {
 
 	var recursos = [
     {id: '/labores', ruta: '/labores'},
@@ -15,7 +15,8 @@ client.sync().then(function() {
     {id: '/empresas', ruta: '/empresas'},
     {id: '/observaciones', ruta: '/observaciones'},
     {id: '/porcentajes', ruta: '/porcentajes'},
-    {id: '/preguntas', ruta: '/preguntas'}
+    {id: '/preguntas', ruta: '/preguntas'},
+		{id: '/enviar', ruta: '/enviar'}
 	];
 
   var acls = [
@@ -39,6 +40,8 @@ client.sync().then(function() {
 		{rolRolId: '001', RecursoId: '/observaciones', metodo: 'GET', acceso: true},
     {rolRolId: '001', RecursoId: '/observaciones', metodo: 'POST', acceso: true},
     {rolRolId: '001', RecursoId: '/observaciones', metodo: 'PUT', acceso: true},
+		{rolRolId: '001', RecursoId: '/enviar', metodo: 'GET', acceso: true},
+		{rolRolId: '001', RecursoId: '/enviar', metodo: 'POST', acceso: true},
 
 		{rolRolId: '101', RecursoId: '/labores', metodo: 'GET', acceso: true},
     {rolRolId: '101', RecursoId: '/users', metodo: 'GET', acceso: true},
@@ -113,18 +116,25 @@ client.sync().then(function() {
 
   ];
 
-  Recurso.bulkCreate(recursos).then(function() {
-    console.log('Creado los recursos');
-    ACL.bulkCreate(acls).then(function() {
-      console.log('Creado la lista de control de acceso');
-    })
-    .catch(function(err) {
-      console.log(err);
-    });
-  })
-  .catch(function(err) {
-    console.log(err);
-  });
+	ACL.sync({force: true}).then(function() {
+		Recurso.bulkCreate(recursos).then(function() {
+	    console.log('Creado los recursos');
+	    ACL.bulkCreate(acls).then(function() {
+	      console.log('Creado la lista de control de acceso');
+	    })
+	    .catch(function(err) {
+	      console.log(err);
+	    });
+	  })
+	  .catch(function(err) {
+	    console.log(err);
+	  });
+	})
+	.catch(function(err) {
+		console.log(err);
+	})
+
+
 })
 .catch(function(err) {
   console.log(err);
