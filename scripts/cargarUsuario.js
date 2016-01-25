@@ -7,7 +7,7 @@ client.sync().then(function() {
   
 var usuarios = [
   {
-        uid: 'walle',
+        uid: 'administrador',
         dni: '0000000',
         nombre: 'Root',
         password: 'root',
@@ -15,8 +15,7 @@ var usuarios = [
         estado: 'Activo',
         uid_registro: 'administrador',
         correo: 'administrador@atacocha.com.pe'
-  },
-
+  }
 ];
 
   usuarios.forEach(function(item) {
