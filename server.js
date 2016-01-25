@@ -39,7 +39,7 @@ var sostenimientosRoutes = require('./routes/sostenimientos');
 var rocasRoutes = require('./routes/rocas');
 var porcentajesRoutes = require('./routes/porcentajes');
 var	observacionesRoutes = require('./routes/observaciones');
-var enviarsRoutes = require('./routes/enviars');
+var enviarRoutes = require('./routes/enviars');
 
 
 app.use('/', indexRoutes);
@@ -56,7 +56,7 @@ app.use('/sostenimientos', sostenimientosRoutes);
 app.use('/rocas', rocasRoutes);
 app.use('/porcentajes', porcentajesRoutes);
 app.use('/observaciones', observacionesRoutes);
-app.use('/enviars', enviarsRoutes);
+app.use('/enviar', enviarRoutes);
 
 //ejecucion del servidor con los datos necesarios
 var server = app.listen(PORT, function () {
