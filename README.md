@@ -37,3 +37,4 @@ debera ingresar la siguiente línea en la terminal:
 
 8. Abra el navegador e ingrese a: [http://localhost:3000](https://localhost:3000) o la ruta
 que haya configurado, podra visualizar un mensaje de bienvenida.
+# geoemecanica_backend

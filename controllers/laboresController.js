@@ -38,6 +38,7 @@ exports.store = function(req, res, next) {
 }
 
 exports.update = function(req, res, next) {
+  console.log(req.body);
   Labor.findById(req.params.id)
   .then(function(labor) {
     if(!labor) return res.send(400, 'usuario no existe');

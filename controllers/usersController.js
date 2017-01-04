@@ -3,7 +3,8 @@ var Rol = require('../models/Rol');
 
 exports.index = function(req, res, next) {
     User.findAll({attributes: ['uid', 'dni', 'nombre', 'estado', 'rolRolId', 'correo', 'cargo', 'empresaEmpresaid'],
-    include: [{model: Rol, attributes: ['nombre_rol']}]})
+    include: [{model: Rol, attributes: ['nombre_rol']}]
+    })
     .then(function(users) {
       res.status(200).jsonp(users);
     });

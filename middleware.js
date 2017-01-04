@@ -14,8 +14,7 @@ exports.ensureAuthorized = function(req, res, next) {
       bearerToken = bearer[1];
       req.token = bearerToken;
       User.findOne({where: {token: req.token}, attributes: ['uid', 'estado', 'rolRolId']})
-      .then(function(user) {
-        console.log('user');
+      .then(function(user) {        
         if(user == null) return res.sendStatus(403);
         var rol = user.rolRolId;
         var recurso = getRecurso(req.path);

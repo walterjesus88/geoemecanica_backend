@@ -17,6 +17,9 @@ exports.index = function(req, res, next) {
   var condicionLabor = {};
   var condicionRespuesta = {};
 
+  console.log(req);
+  console.log('***********************');
+
   if (req.query.nivel) condicion.nivel_riesgo = req.query.nivel;
   if (req.query.desde && req.query.hasta) condicion.fecha = {$between: [req.query.desde, req.query.hasta]};
   if (req.query.labor) condicion.laborCodigo = req.query.labor;
@@ -42,6 +45,8 @@ exports.index = function(req, res, next) {
 
     }
   }
+
+  
 
   Inspeccion.findAll(
     {

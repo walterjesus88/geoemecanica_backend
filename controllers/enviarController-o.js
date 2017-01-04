@@ -17,7 +17,7 @@ var Sostenimiento = require('../models/Sostenimiento');
 var Respuesta = require('../models/Respuesta');
 var User = require('../models/User');
 
-
+var User = require('../models/User');
 
 
 //console.log(path.join(process.cwd(), 'static', /hola.txt));
@@ -26,10 +26,10 @@ exports.index = function(req, res) {
 
 	name=req.query.nom;
 	fIni=req.query.fIni;
-	console.log('***zzzz****');
+	console.log('*******');
 	console.log(name);
 	console.log(fIni);
-	console.log('****zzzzz***');
+	console.log('*******');
 
 	var condicion = {};
 	if (req.query.nivel) {
@@ -260,7 +260,7 @@ exports.index = function(req, res) {
 }
 
 exports.store = function(req, res, next) {
-	
+
 	var smtpTransport = nodemailer.createTransport("SMTP",{
 	   service: "Gmail",
 	   auth: {
@@ -270,26 +270,12 @@ exports.store = function(req, res, next) {
 	});
 
 	var condicion = {};
-	var condicionEmpresa = {};
 	if (req.body.nivel) {
 		condicion.nivel_riesgo = req.body.nivel;
 	}
 	if (req.body.fIni && req.body.fFin) {
 		condicion.fecha = {$between: [req.body.fIni, req.body.fFin]};
 	}
-
-	if (req.body.usuario ) {
-		condicion.RegistroUid = req.body.usuario;
-		usuar=req.body.usuario;
-	}
-	else
-		{ usuar='Todos'; }
-
-
-	if (req.body.empresa ) {
-		condicionEmpresa.empresaEmpresaid = req.body.empresa;
-	}
-
 
 	//generacion del PDF//
 	var doc = new PDFDocument( {
@@ -298,60 +284,68 @@ exports.store = function(req, res, next) {
 	});
 
 	var stream = doc.pipe(blobStream());
-	var str =req.body.fecha;
-	var rest = str.replace(/:/g, "_");
-	writeStream=fs.createWriteStream( path.join(process.cwd(), 'pdf',"/"+rest+".pdf"));
-	doc.pipe(writeStream);
-	
+	doc.pipe(fs.createWriteStream( path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf")));
+
+
 	Inspeccion.findAll(
 		{
 	      where: condicion,
 	      include: [
-	        {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro'],where: condicionEmpresa},
+	        {model: Labor, attributes: ['nivel', 'alto_pro', 'ancho_pro']},
 	        {model: Roca, attributes: ['codigo', 'porcentaje']},
 	        {model: Sostenimiento, attributes: ['codigo', 'descripcion']},
-	        //{model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta']}
+	        {model: Respuesta, attributes: ['preguntumPreguntaid', 'respuesta']}
 	      ]
 	    }
 	)
-	.then(function(inspecciones) {	
+	.then(function(inspecciones) {
+
+  		var  inspeccionjson=JSON.stringify(inspecciones);
 
 		var a = 0;
+
 		var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';
-		var user=usuar;
+		var user=req.user.uid;
+
 		doc.text(titulo, 10,60,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 		doc.text(user, 600,80,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+
 		var desde = req.body.fIni;
 		var hasta = req.body.fFin;
+
 		d=desde.split('T');
-		h=hasta.split('T');	
+		h=hasta.split('T');
+		//doc.y = 320;
 		doc.fillColor('black')
 		doc.text('Desde', -710,85,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 		doc.text(d[0],-580,85,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 		doc.text('Hasta',-710,105,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 		doc.text(h[0], -580,105,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
+
 		doc.text('Geomecanica', -690,570,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 		doc.text('Jefe de Guardia', -300,570,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 		doc.text('Seguridad', 100,570,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 		doc.text('Spte Mina', 500,570,{ paragraphGap: 10,indent: 40,align: 'center',columns: 1,lineGap:5,height:5	});
 
-		doc.fillColor('black')
-		doc.fontSize(10)
-		doc.text('LABOR',-940,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
-		doc.text('PROG.',-840,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
-		doc.text('Anch/Alt',-840,180, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
-		doc.text('NIVEL',-740,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
-		doc.text('PROGRES.',-660,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
-		doc.text('Inicio/Fin',-660,180, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
-		doc.text('GSI',-540,160, { paragraphGap: -190,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
-		doc.text('COND GEOMECANICA',-465,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
-		doc.text('RECOMENDACION GEOMECANICA',-220,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
-		doc.text('SOSTENIMIENTO',180,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 });
-		doc.text('TURNO',370,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 });
-		doc.text('%_EXCAV', 450,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 });
-		doc.text('Ancho/Alto', 450,180,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 });
-		doc.text('RIESGO', 570,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
-		doc.text('COMENTARIO', 700,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
+			doc.fillColor('black')
+			doc.fontSize(10)
+			doc.text('LABOR',-940,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+			doc.text('PROG.',-840,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+				doc.text('Anch/Alt',-840,180, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
+			doc.text('NIVEL',-740,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
+			doc.text('PROGRES.',-660,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
+			doc.text('Inicio/Fin',-660,180, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
+			doc.text('GSI',-540,160, { paragraphGap: -190,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
+			doc.text('COND GEOMECANICA',-465,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
+			doc.text('RECOMENDACION GEOMECANICA',-220,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
+			doc.text('SOSTENIMIENTO',180,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 });
+			doc.text('TURNO',370,160, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 });
+			doc.text('%_EXCAV', 450,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 });
+				doc.text('Ancho/Alto', 450,180,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5 });
+			doc.text('RIESGO', 570,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
+			doc.text('COMENTARIO', 700,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
+
+
 
 	    inspecciones.forEach(function(inspeccion) {
 
@@ -400,17 +394,17 @@ exports.store = function(req, res, next) {
 			doc.text(alto_pro,-810,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5});
 			doc.text(nivel,-740,a+200, { paragraphGap: 100,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
 			doc.text(inspeccion.progresiva_inicio,-660,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
-			doc.text(inspeccion.progresiva_fin,-660,a+210, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
+			doc.text(inspeccion.progresiva_fin,-620,a+200, { paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
 			doc.text(gsi,-540,a+200, { paragraphGap: -660,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
 			doc.text(inspeccion.condicion_geomecanica,282,a+200,{ paragraphGap: 10,indent: 40,align: 'justify',columns: 1,lineGap:5,height:110,width:110});
-			doc.text(inspeccion.recomendacion,405,a+200,{ paragraphGap: 10,indent: 40,align: 'justify',columns: 1,lineGap:5,height:210,width:150	});
-			doc.text(descripcion_sosten,585,a+200, { paragraphGap: 10,indent:40,align: 'justify',columns: 1,lineGap:5,height:110,width:110});
+			doc.text(inspeccion.recomendacion,405,a+200,{ paragraphGap: 10,indent: 40,align: 'justify',columns: 1,lineGap:5,height:110,width:150	});
+			doc.text(descripcion_sosten,580,a+200, { paragraphGap: 10,indent:40,align: 'justify',columns: 1,lineGap:5,height:110,width:110});
 			doc.text(inspeccion.guardia,390,a+200, { paragraphGap: 10,indent:40,align: 'justify',columns: 2,lineGap:5,height:5});
 			doc.text(porc_exc_ancho, 460,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
 				doc.text(porc_exc_alto, 510,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
 			doc.text(nivel_riesgo, 570,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
-			doc.text(inspeccion.comentario, 860,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 1,lineGap:5,height:110,width:125	});
-			a = a + 200;
+			doc.text(inspeccion.comentario, 820,a+200,{ paragraphGap: 10,indent: 40,align: 'left',columns: 1,lineGap:5,height:110,width:150	});
+			a = a + 40;
 			if (a > 200) {
 		        a = 0;
 		        doc.addPage({
@@ -418,10 +412,10 @@ exports.store = function(req, res, next) {
 				    layout: 'landscape'
 				});
 
-				doc.fontSize(11)
+				doc.fontSize(12)
 
 				var titulo = 'REPORTE GEOMECANICA DE ESTAB DE LABORES';
-				var user= usuar;
+				var user= req.user.uid;
 
 
 				doc.fillColor('black')
@@ -457,17 +451,15 @@ exports.store = function(req, res, next) {
 				doc.text('COMENTARIO', 700,160,{ paragraphGap: 10,indent: 40,align: 'left',columns: 2,lineGap:5,height:5	});
 
 		    }
+
 	    })
 
-		doc.end();
-		writeStream.on('finish', function () {
-			var thisPath = path.join(process.cwd(), 'pdf',"/"+rest+".pdf");		 
-			res.attachment(thisPath)
-			res.setHeader('Content-Type', 'application/pdf');
-			res.setHeader("Content-Disposition", "attachment");
-			res.download('pdf/'+rest+'.pdf');		
-		});
+	doc.pipe( res );
+	doc.end();
 
+	//res.setHeader('content-type','application/pdf');
+	//res.sendfile('pdf/'+name+'.pdf');	
+	//res.sendfile('pdf/2016-01-15T05:00:00.000Z.pdf');	
 
 	})
     .catch(function(err) {
@@ -476,32 +468,33 @@ exports.store = function(req, res, next) {
 
 	//FIN DE GENERAR EL PDF//
 
+	if(req.body.condicion!=1)
+	{
+		smtpTransport.sendMail({
+		    from: req.body.from, // sender address
+		    to: req.body.email, // comma separated list of receivers
+		    subject: req.body.asunto, // Subject line
+		    text: req.body.texto,
+		    attachments: [
+	        {   // utf-8 string as an attachment
+	            fileName: "Inspeccion"+req.body.fecha,
+	            filePath: path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf")       
+	        }
+	        ]
 
-	// if(req.body.condicion!=1)
-	// {		
-	// 	var str =req.body.fecha;
-	// 	var rest = str.replace(/:/g, "_");
-	// 	smtpTransport.sendMail({
-	// 	    from: req.body.from, // sender address
-	// 	    to: req.body.email, // comma separated list of receivers
-	// 	    subject: req.body.asunto, // Subject line
-	// 	    text: req.body.texto,
-	// 	    attachments: [
-	//         {   // utf-8 string as an attachment	        	
-	//             fileName: "Inspeccion"+rest,
-	//             filePath: path.join(process.cwd(), 'pdf',"/"+rest+".pdf")       
-	//         }
-	//         ]
+		}, function(error, response){
+		   if(error){
+		       console.log(error);
+		   }else{
+		       console.log("Mail sent: " + response.message);
+		       //console.log("../"+__dirname+"/pdf/hola.txt");
+		       console.log(path.join(process.cwd(), 'pdf',"/"+req.body.fecha+".pdf"));
+		   }
+		});
+	}
 
-	// 	}, function(error, response){
-	// 	   if(error){
-	// 	    	console.log(error);
-	// 	   }else{
-	// 	        console.log("Mail sent: " + response.message);
-		 				
-	// 	   }
-	// 	});
-	// }
+
+
 
 }
 
